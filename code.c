@@ -1,43 +1,39 @@
-#include <stdio.h>
-#include <windows.h>
-#include "vector.h"
+#include "vector-list.h"
 
-int main(int argc, char **argv)
-{
+int main() {
+    LinkedList* list = createLinkedList();
 
-    vector *my_vector = new_vector(10, sizeof(int));
-    print_vector_info(my_vector);
-    puts("=========");
+    element_def_asg(int, n1, 10)
+    element_def_asg(int, n2, 20)
+    element_def_asg(int, n3, 30)
+    element_def_asg(int, n4, 50)
+    element_def_asg(int, n5, 60)
 
-    resize(my_vector, 5);
-    print_vector_info(my_vector);
-    puts("=========");
+    insertNode(list, n1);
+    insertNode(list, n2);
+    insertNode(list, n3);
+    insertNode(list, n4);
+    insertNode(list, n5);
 
-    size_t posicion1;
-    for (int i = 0; i < 30; i++)
-    {
-        element_def_asg(int, n1, i)
-        posicion1 = push_back(my_vector, n1) - 1;
-        printf("%zu, %d\n", posicion1, get_elment(int, my_vector, posicion1));
-        // print_vector_info(my_vector);
-    }
-    element_def_asg(float, n2, 10.5)
-    posicion1 = push_back(my_vector, n2) - 1;
-    
-    printf("%zu, %f\n", posicion1, get_elment(float, my_vector, posicion1));
-    print_vector_info(my_vector);
+    printf("%d\n", get_elment(int, list, 1));
 
-    posicion1 = pop_back(my_vector) -1;
-    printf("%zu, %d\n", posicion1, get_elment(int, my_vector, posicion1));
+    printf("Lista enlazada: ");
+    printLinkedList(list);
 
-    printf("vectores sin usar: %d\n", vectores_sin_usar());
-    printf("vectores reserbados: %d\n", vectores_reserbados());
-    printf("vectores ocupados: %d\n", vectores_ocupados());
-    printf("size de my_vector: %d\n", size(my_vector));
-    printf("max_size de my_vector: %d\n", max_size(my_vector));
-    printf("empty de my_vector: %d\n", empty(my_vector));
+    deleteNode(list, 1);
+    deleteNode(list, 4);
 
-    clear(my_vector);
+    printf("Lista enlazada despues de eliminar nodos: ");
+    printLinkedList(list);
+
+    printf("pop_back: %d\n", pop_back(list));
+    printLinkedList(list);
+
+    printf("push_back: %d\n", push_back(list, n1));
+    printLinkedList(list);
+
+    printf("size del vector: %d", size(list));
+    freeLinkedList(list);
 
     return 0;
 }
