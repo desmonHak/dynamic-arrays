@@ -1,6 +1,7 @@
 #include "vector-list.h"
 
-int main() {
+int main()
+{
 
     // Crear una matriz 3x3 utilizando la lista enlazada
     int rows = 3;
@@ -10,15 +11,18 @@ int main() {
     LinkedList *matrix = createLinkedList();
 
     // Inicializar cada fila de la matriz como una lista enlazada
-    for (int i = 0; i < rows; i++) {
+    for (int i = 0; i < rows; i++)
+    {
         LinkedList *row = createLinkedList();
         insertNode(matrix, row);
     }
 
     // Rellenar la matriz con algunos datos de ejemplo
-    for (int i = 0; i < rows; i++) {
+    for (int i = 0; i < rows; i++)
+    {
         LinkedList *row = (LinkedList *)get_element_v(matrix, i);
-        for (int j = 0; j < columns; j++) {
+        for (int j = 0; j < columns; j++)
+        {
             int *data = (int *)malloc(sizeof(int));
             *data = i * columns + j; // Valor de ejemplo
             insertNode(row, data);
@@ -26,10 +30,12 @@ int main() {
     }
 
     // Acceder a los elementos de la matriz y mostrar su contenido
-    for (int i = 0; i < rows; i++) {
+    for (int i = 0; i < rows; i++)
+    {
         LinkedList *row = (LinkedList *)get_element_v(matrix, i);
         Node *current = row->head;
-        while (current != NULL) {
+        while (current != NULL)
+        {
             int *data = (int *)current->data;
             printf("%d ", *data);
             current = current->next;
@@ -38,30 +44,30 @@ int main() {
     }
 
     // Liberar la memoria de la matriz y sus elementos
-    for (int i = 0; i < rows; i++) {
+    for (int i = 0; i < rows; i++)
+    {
         LinkedList *row = (LinkedList *)get_element_v(matrix, i);
         Node *current = row->head;
-        while (current != NULL) {
+        while (current != NULL)
+        {
             Node *temp = current;
             current = current->next;
             free(temp->data); // Liberar memoria del elemento
-            //free(temp);
+            // free(temp);
         }
         freeLinkedList(row); // Liberar memoria de la lista enlazada
     }
     freeLinkedList(matrix); // Liberar memoria del vector de listas enlazadas
 
-
-
-    LinkedList* list = createLinkedList();
+    LinkedList *list = createLinkedList();
 
     element_def_asg(int, n1, 10)
-    element_def_asg(float, n2, 20.2)
-    element_def_asg(char, n3, 'l')
-    element_def_asg(int, n4, 50)
-    element_def_asg(int, n5, 60)
+        element_def_asg(float, n2, 20.2)
+            element_def_asg(char, n3, 'l')
+                element_def_asg(int, n4, 50)
+                    element_def_asg(int, n5, 60)
 
-    insertNode(list, n1);
+                        insertNode(list, n1);
     insertNode(list, n2);
     insertNode(list, n3);
     insertNode(list, n4);
@@ -74,8 +80,8 @@ int main() {
     printf("Lista enlazada: ");
     printLinkedList(list);
 
-    deleteNode(list, 1);
-    deleteNode(list, 4);
+    deleteNodeID(list, 1);
+    deleteNodeID(list, 4);
 
     printf("Lista enlazada despues de eliminar nodos: ");
     printLinkedList(list);
@@ -85,17 +91,20 @@ int main() {
 
     printf("push_back: %d\n", push_back(list, n1));
     printLinkedList(list);
-    
-    printf("push_back: %d\n", push_back(list, n1));
+
+    position na = push_back(list, n1);
+    printf("push_back: %d\n", na);
     printLinkedList(list);
-    
+
+    printf("posicion: %d\n", get_position(get_node(list, na)));
+
     printf("push_back: %d\n", push_back(list, n1));
     printLinkedList(list);
 
-    deleteNode(list, 4);
+    deleteNodeID(list, 4);
     printLinkedList(list);
 
-    printf("size del vector: %d", size(list));
+    printf("size del vector: %d\n", size(list));
     freeLinkedList(list);
 
     return 0;
