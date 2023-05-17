@@ -11,7 +11,7 @@ LinkedList *createLinkedList()
     return list;
 }
 
-void *get_elment_v(LinkedList *list, const position ID)
+void *get_element_v(LinkedList *list, const position ID)
 {
     Node *current = list->head;
     while (current != NULL)
