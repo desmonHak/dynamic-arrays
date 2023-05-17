@@ -9,7 +9,6 @@
 #define element_def(type, name) \
     type *name = (type *)malloc(sizeof(type));
 
-
 // asignacion
 #define element_asg(name, value) \
     *name = value;
@@ -24,30 +23,41 @@
 
 typedef size_t position;
 
-typedef struct Node {
+typedef struct Node
+{
     position id;
     void *data;
-    struct Node* next;
+    struct Node *next;
 } Node;
 
-typedef struct {
-    Node* head; 
+typedef struct
+{
+    Node *head;
     position lastId;
 } LinkedList;
 
+static LinkedList *table_matriz_ = NULL;
 
-LinkedList* createLinkedList();
-position size(LinkedList *list);
-void insertNode(LinkedList* list, void *data);
-void deleteNode(LinkedList* list, const position ID);
-void *get_element_v(LinkedList *list, const position ID);
-void printLinkedList(LinkedList* list);
-void freeLinkedList(LinkedList* list);
-position push_back(LinkedList *list, void *data);
-bool empty(LinkedList *list);
+void __attribute__((constructor)) __constructor_array_dinamic__();
+void __attribute__((destructor)) __destructor_array_dinamic__();
+
+LinkedList *createLinkedList();
+Node *get_node(LinkedList *list, position pos);
 void clear(LinkedList *list);
-position pop_back(LinkedList *list);
+void insertNode(LinkedList *list, void *data);
+void deleteNode(LinkedList *list, Node *node);
+void deleteNodeID(LinkedList *list, const position ID);
 void updateIds(LinkedList *list);
+void printLinkedList(LinkedList *list);
+void freeLinkedList(LinkedList *list);
+void *get_element_v(LinkedList *list, const position ID);
+bool exists(LinkedList *list, Node *node);
+bool existsID(LinkedList *list, const position ID);
+bool empty(LinkedList *list);
+position push_back(LinkedList *list, void *data);
+position pop_back(LinkedList *list);
+position size(LinkedList *list);
+position get_position(Node *node);
 
 #include "vector-list.c"
 #endif
