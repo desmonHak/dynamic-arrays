@@ -9,6 +9,7 @@
 #define element_def(type, name) \
     type *name = (type *)malloc(sizeof(type));
 
+
 // asignacion
 #define element_asg(name, value) \
     *name = value;
@@ -18,8 +19,8 @@
     type *name = (type *)malloc(sizeof(type)); \
     *name = value;
 
-#define get_elment(type, name, posicion) \
-    *((type *)(get_elment_v(name, posicion)))
+#define get_element(type, name, posicion) \
+    *((type *)(get_element_v(name, posicion)))
 
 typedef size_t position;
 
@@ -39,7 +40,7 @@ LinkedList* createLinkedList();
 position size(LinkedList *list);
 void insertNode(LinkedList* list, void *data);
 void deleteNode(LinkedList* list, const position ID);
-void *get_elment_v(LinkedList *list, const position ID);
+void *get_element_v(LinkedList *list, const position ID);
 void printLinkedList(LinkedList* list);
 void freeLinkedList(LinkedList* list);
 position push_back(LinkedList *list, void *data);
