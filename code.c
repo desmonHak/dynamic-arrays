@@ -31,6 +31,15 @@ int main() {
 
     printf("push_back: %d\n", push_back(list, n1));
     printLinkedList(list);
+    
+    printf("push_back: %d\n", push_back(list, n1));
+    printLinkedList(list);
+    
+    printf("push_back: %d\n", push_back(list, n1));
+    printLinkedList(list);
+
+    deleteNode(list, 4);
+    printLinkedList(list);
 
     printf("size del vector: %d", size(list));
     freeLinkedList(list);
