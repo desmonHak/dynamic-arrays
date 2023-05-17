@@ -121,6 +121,7 @@ position pop_back(LinkedList *list)
         position id = current->next->id;
         free(current->next);
         current->next = NULL;
+        updateIds(list); // Actualizar los campos id después de eliminar el nodo
         return id;
     }
 }
