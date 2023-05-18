@@ -44,7 +44,7 @@ void __attribute__((destructor)) __destructor_array_dinamic__()
 #endif
 }
 
-Node *get_node(LinkedList *list, position pos)
+Node *get_node(LinkedList *list, const position pos)
 {
     if (list == NULL || pos < 0)
     {
@@ -55,13 +55,12 @@ Node *get_node(LinkedList *list, position pos)
     while (current != NULL && pos > 0)
     {
         current = current->next;
-        pos--;
     }
 
     return current;
 }
 
-position get_position(Node *node)
+const position get_position(Node *node)
 {
     if (node == NULL)
     {
@@ -199,6 +198,7 @@ void deleteNodeID(LinkedList *list, const position ID)
     {
         Node *temp = list->head;
         list->head = list->head->next;
+        // free(temp->data);  // Liberar el contenido del nodo
         free(temp);
         updateIds(list);
         return;
@@ -216,6 +216,7 @@ void deleteNodeID(LinkedList *list, const position ID)
     if (current != NULL)
     {
         prev->next = current->next;
+        // free(current->data);  // Liberar el contenido del nodo
         free(current);
         updateIds(list);
     }
@@ -238,7 +239,7 @@ void updateIds(LinkedList *list)
     }
 }
 
-position pop_back(LinkedList *list)
+const position pop_back(LinkedList *list)
 {
     if (list->head == NULL)
     {
@@ -267,7 +268,7 @@ position pop_back(LinkedList *list)
     }
 }
 
-position push_back(LinkedList *list, void *data)
+const position push_back(LinkedList *list, void *data)
 {
     Node *newNode = (Node *)malloc(sizeof(Node));
     newNode->id = list->lastId++;
@@ -309,7 +310,7 @@ void clear(LinkedList *list)
     list->lastId = 0;
 }
 
-position size(LinkedList *list)
+const position size(LinkedList *list)
 {
     size_t count = 0;
     Node *current = list->head;
@@ -350,11 +351,53 @@ void freeLinkedList(LinkedList *list)
 #endif
         Node *temp = current;
         current = current->next;
-        temp->data = NULL;
-        temp->next = NULL;
+        // temp->data = NULL;
+        // temp->next = NULL;
         deleteNodeID(table_matriz_, temp->id); // Eliminar el nodo de table_matriz_
         free(temp);
     }
     free(list);
 }
+Node *get_last_node(LinkedList *list)
+{
+    if (list == NULL || list->head == NULL)
+    {
+        return NULL; // Lista vacía
+    }
+
+    Node *current = list->head;
+    while (current->next != NULL)
+    {
+        current = current->next;
+    }
+
+    return current;
+}
+
+void *get_last(LinkedList *list)
+{
+    Node *lastNode = get_last_node(list);
+    if (lastNode != NULL)
+    {
+        return lastNode->data;
+    }
+    else
+    {
+        return NULL;
+    }
+}
+
+const position get_last_position(LinkedList *list)
+{
+    Node *lastNode = get_last_node(list);
+    if (lastNode != NULL)
+    {
+        return lastNode->id;
+    }
+    else
+    {
+        return -1; // Lista vacía
+    }
+}
+
 #endif

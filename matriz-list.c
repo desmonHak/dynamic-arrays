@@ -119,13 +119,20 @@ void freeMatriz(Matriz* matriz)
     if (matriz == NULL) return;
     Node* current = matriz->list->head;
 
-    while (current != NULL)
+    for (position i = 0; i < get_last_position(matriz->list); i++)
     {
-        LinkedList* column = (LinkedList*)current->data;
-        freeLinkedList(column); // Libera la columna
-        current = current->next;
+        LinkedList *row = (LinkedList *)get_element_v(matriz->list, i);
+        Node *current = row->head;
+        while (current != NULL)
+        {
+            Node *temp = current;
+            current = current->next;
+            free(temp->data); // Liberar memoria del elemento
+            // free(temp);
+        }
+        freeLinkedList(row); // Liberar memoria de la lista enlazada
     }
-
+    
     freeLinkedList(matriz->list); // Libera la lista principal
     freeLinkedList(matriz->dimensiones_matriz); // Libera la lista de dimensiones
     free(matriz); // Libera la estructura Matriz

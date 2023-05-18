@@ -42,7 +42,8 @@ void __attribute__((constructor)) __constructor_array_dinamic__();
 void __attribute__((destructor)) __destructor_array_dinamic__();
 
 LinkedList *createLinkedList();
-Node *get_node(LinkedList *list, position pos);
+Node *get_node(LinkedList *list, const position pos);
+Node *get_last_node(LinkedList *list);
 void clear(LinkedList *list);
 void insertNode(LinkedList *list, void *data);
 void deleteNode(LinkedList *list, Node *node);
@@ -51,13 +52,15 @@ void updateIds(LinkedList *list);
 void printLinkedList(LinkedList *list);
 void freeLinkedList(LinkedList *list);
 void *get_element_v(LinkedList *list, const position ID);
+void *get_last(LinkedList *list);
+const position get_last_position(LinkedList *list);
 bool exists(LinkedList *list, Node *node);
 bool existsID(LinkedList *list, const position ID);
 bool empty(LinkedList *list);
-position push_back(LinkedList *list, void *data);
-position pop_back(LinkedList *list);
-position size(LinkedList *list);
-position get_position(Node *node);
+const position push_back(LinkedList *list, void *data);
+const position pop_back(LinkedList *list);
+const position size(LinkedList *list);
+const position get_position(Node *node);
 
 #include "vector-list.c"
 #endif
