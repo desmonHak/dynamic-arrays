@@ -7,6 +7,8 @@ int main()
     Matriz* my_matriz = createMatriz(3, 5, 5, 5);
 
     printf("size: %d\n", get_size_size_total(3, 5, 5, 5));
+    freeMatriz(my_matriz);
+    puts("memoria liberada");
 
     return 0;
 }
