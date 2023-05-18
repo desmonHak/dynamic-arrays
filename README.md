@@ -47,29 +47,9 @@ void __attribute__((destructor)) __destructor_array_dinamic__();
 - print_vector_info: Esta funcion muestra informacion de un vector y de sus posiciones:
 
 ```C
-0 1 2
-3 4 5
-6 7 8
-10
-20.200001
-l
-Lista enlazada: 0 1 2 3 4
-Lista enlazada despues de eliminar nodos: 0 1 2 3
-pop_back: 3
-0 1 2
-push_back: 3
-0 1 2 3
-push_back: 4
-0 1 2 3 4
-posicion: -1
-push_back: 5
-0 1 2 3 4 5
-0 1 2 3 4
-size del vector: 5
-
 C:\Users\Diurno\Desktop\dynamic-arrays>gcc code_vector-list.c -o code_vector-list.exe -D__VECTOR_LIST_DEBBUG__
 
-C:\Users\Diurno\Desktop\dynamic-arrays>code_vector-list.exe -D__VECTOR_LIST_DEBBUG__
+C:\Users\Diurno\Desktop\dynamic-arrays>code_vector-list.exe
 Registro de vectores reservados en run time (table_matriz_): 0
 Registro de vectores reservados en run time (table_matriz_): 0 1
 Registro de vectores reservados en run time (table_matriz_): 0 1 2
