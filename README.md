@@ -9,9 +9,6 @@ El archivo `code.c` contiene un ejemplo usando la mayoria de las funciones imple
 Las funciones implementadas son las siguientes:
 
 ```C
-void __attribute__((constructor)) __constructor_array_dinamic__();
-void __attribute__((destructor)) __destructor_array_dinamic__();
-
 LinkedList *createLinkedList();
 Node *get_node(LinkedList *list, const position pos);
 Node *get_last_node(LinkedList *list);
@@ -32,6 +29,7 @@ const position push_back(LinkedList *list, void *data);
 const position pop_back(LinkedList *list);
 const position size(LinkedList *list);
 const position get_position(Node *node);
+void free_all_vector();
 ```
 
 Adicionalmente hay dos funciones que se ejecutan antes del `main` y al finalizar este. Su funcionalidad como constructores y destructores es liberar memoria reservada en el caso del destructor e inicializar y llevar un conteo de los vectores en el caso del constructor:

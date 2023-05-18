@@ -61,6 +61,7 @@ const position push_back(LinkedList *list, void *data);
 const position pop_back(LinkedList *list);
 const position size(LinkedList *list);
 const position get_position(Node *node);
+void free_all_vector();
 
 #include "vector-list.c"
 #endif

@@ -11,6 +11,47 @@ void __attribute__((constructor)) __constructor_array_dinamic__()
 }
 void __attribute__((destructor)) __destructor_array_dinamic__()
 {
+    /*#ifdef __VECTOR_LIST_DEBBUG__
+        puts("liberando");
+    #endif
+
+        // Liberar los vectores almacenados en table_matriz_
+        Node *current = table_matriz_->head;
+        while (current != NULL && !empty(table_matriz_))
+        {
+            Node *next = current->next;
+            LinkedList *vector = (LinkedList *)current->data;
+
+            if (vector != NULL)
+            {
+                deleteNodeID(table_matriz_, current->id); // Eliminar el nodo de la tabla de vectores
+
+                if (vector->head != NULL)
+                {
+                    freeLinkedList(vector); // Liberar el vector
+                }
+            }
+
+            current = next;
+        }
+    #ifdef __VECTOR_LIST_DEBBUG__
+        puts("vectores liberados");
+    #endif
+        // Liberar table_matriz_ en sí
+        freeLinkedList(table_matriz_); // Liberar la tabla de vectores
+    #ifdef __VECTOR_LIST_DEBBUG__
+        puts("Tabla de vectores liberada exitosamente");
+    #endif*/
+    free_all_vector();
+    // Liberar table_matriz_ en sí
+    freeLinkedList(table_matriz_); // Liberar la tabla de vectores
+#ifdef __VECTOR_LIST_DEBBUG__
+    puts("Tabla de vectores liberada exitosamente");
+#endif
+}
+
+void free_all_vector()
+{
 #ifdef __VECTOR_LIST_DEBBUG__
     puts("liberando");
 #endif
@@ -36,11 +77,6 @@ void __attribute__((destructor)) __destructor_array_dinamic__()
     }
 #ifdef __VECTOR_LIST_DEBBUG__
     puts("vectores liberados");
-#endif
-    // Liberar table_matriz_ en sí
-    freeLinkedList(table_matriz_); // Liberar la tabla de vectores
-#ifdef __VECTOR_LIST_DEBBUG__
-    puts("Tabla de vectores liberada exitosamente");
 #endif
 }
 

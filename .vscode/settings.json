@@ -165,6 +165,7 @@
     "unistd.h": "c",
     "cstdio": "cpp",
     "matriz-list.h": "c",
-    "stdarg.h": "c"
+    "stdarg.h": "c",
+    "vector-list.h": "c"
   }
 }
