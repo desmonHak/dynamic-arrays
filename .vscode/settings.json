@@ -166,6 +166,8 @@
     "cstdio": "cpp",
     "matriz-list.h": "c",
     "stdarg.h": "c",
-    "vector-list.h": "c"
+    "vector-list.h": "c",
+    "hash-table.h": "c",
+    "stdint.h": "c"
   }
 }
