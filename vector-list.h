@@ -21,7 +21,6 @@
 #define get_element(type, name, posicion) \
     *((type *)(get_element_v(name, posicion)))
 
-typedef size_t position;
 
 typedef struct Node
 {
