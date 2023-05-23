@@ -34,7 +34,7 @@ hash_t hash_(void *data, size_t size_data); // crear un hash sin nodo
     default: hash_ \
 )(__VA_ARGS__)
 
-inline void printHash(hash_t my_hash);
+static inline void printHash(hash_t my_hash);
 inline void printNode(NodeHash my_node);
 void printHashTable(HashTable my_table);
 void printUint8Hex(unsigned char *string, size_t size);

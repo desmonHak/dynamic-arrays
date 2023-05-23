@@ -20,8 +20,10 @@ void insertNode(HashTable *hash_table, NodeHash node)
     hash_t hash_value = hashNode(node);
     size_t index = (size_t)hash_value % hash_table->size;
     hash_table->nodes[index] = node;
+    hash_table->nodes[index].hash = hash_value;
     free(hash_value);
 }
+
 
 NodeHash* getNode(HashTable *hash_table, void *data, size_t size_data)
 {
@@ -76,14 +78,33 @@ void printNode(NodeHash my_node){
     printUint8Hex((unsigned char *)my_node.data, my_node.size_data);
     putchar('\n');
 }
-void printHashTable(HashTable my_table){
-    for (size_t i = 0; i < my_table.size; i++){
-        /*if(my_table.nodes[i] == NULL){
-            printf("\t%i\t---");
-        } else {
-            printf("\t%i\t%s\n", my_table.nodes[i].data);
-        }*/
+void printHashTable(HashTable my_table)
+{
+    for (size_t i = 0; i < my_table.size; i++)
+    {
+        NodeHash node = my_table.nodes[i];
+        printf("Node %zu:\n", i);
+        printf("Data: ");
+        if (node.data == NULL)
+        {
+            printf("---\n");
+        }
+        else
+        {
+            printNode(node);
+        }
+        printf("Hash: ");
+        if (node.hash == NULL)
+        {
+            printf("---\n");
+        }
+        else
+        {
+            printHash(node.hash);
+        }
+        printf("\n");
     }
 }
+
 
 #endif

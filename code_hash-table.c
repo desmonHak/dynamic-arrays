@@ -24,11 +24,11 @@ int main(){
     printHash(my_hash);
     
     puts("");
-    /*
+
     HashTable hash_table = createHashTable(5);
     insertNode(&hash_table, my_node);
     printf("Hash Table:\n");
-    printHashTable(hash_table);*/
+    printHashTable(hash_table);
 
     //strcpy((char*)data, "Hola mundo\n");
 
