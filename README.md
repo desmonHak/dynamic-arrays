@@ -25,9 +25,9 @@ const position get_last_position(LinkedList *list);
 bool exists(LinkedList *list, Node *node);
 bool existsID(LinkedList *list, const position ID);
 bool empty(LinkedList *list);
-const position push_back(LinkedList *list, void *data);
-const position pop_back(LinkedList *list);
-const position size(LinkedList *list);
+const position push_back_v(LinkedList *list, void *data);
+const position pop_back_v(LinkedList *list);
+const position size_v(LinkedList *list);
 const position get_position(Node *node);
 void free_all_vector();
 ```

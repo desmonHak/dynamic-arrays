@@ -1,26 +1,13 @@
 #ifndef __VECTOR_LIST_H__
 #define __VECTOR_LIST_H__
 
-#include <stdio.h>
-#include <stdlib.h>
 #include <stdbool.h>
+#include "array-list.h"
 
-// definicion:
-#define element_def(type, name) \
-    type *name = (type *)malloc(sizeof(type));
-
-// asignacion
-#define element_asg(name, value) \
-    *name = value;
-
-// definicion y asignacion:
-#define element_def_asg(type, name, value)     \
-    type *name = (type *)malloc(sizeof(type)); \
-    *name = value;
 
 #define get_element(type, name, posicion) \
-    *((type *)(get_element_v(name, posicion)))
-
+    get_val(type, get_element_v(name, posicion))
+    
 
 typedef struct Node
 {
@@ -34,6 +21,25 @@ typedef struct
     Node *head;
     position lastId;
 } LinkedList;
+
+#ifdef push_back
+#undef push_back
+#define push_back(list, data) _Generic((list), \
+    ArrayList*: push_back_a,                      \
+    LinkedList*: push_back_v)(list, data)
+#endif
+#ifdef pop_back
+#undef pop_back
+#define pop_back(list) _Generic((list), \
+    ArrayList*: pop_back_a,                      \
+    LinkedList*: pop_back_v)(list)
+#endif
+#ifdef size
+#undef size
+#define size(list) _Generic((list), \
+    ArrayList*: size_a,                      \
+    LinkedList*: size_v)(list)
+#endif
 
 static LinkedList *table_matriz_ = NULL;
 
@@ -56,9 +62,9 @@ const position get_last_position(LinkedList *list);
 bool exists(LinkedList *list, Node *node);
 bool existsID(LinkedList *list, const position ID);
 bool empty(LinkedList *list);
-const position push_back(LinkedList *list, void *data);
-const position pop_back(LinkedList *list);
-const position size(LinkedList *list);
+const position push_back_v(LinkedList *list, void *data);
+const position pop_back_v(LinkedList *list);
+const position size_v(LinkedList *list);
 const position get_position(Node *node);
 void free_all_vector();
 

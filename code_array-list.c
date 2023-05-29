@@ -5,12 +5,19 @@ int main(){
     ArrayList array;
     Constructor(&array, 0, 0);
 
-    push_back(&array, 10LL);
-    push_back(&array, 11LL);
-    push_back(&array, 12LL);
-    push_back(&array, 14LL);
-    push_back(&array, 189LL);
-    push_back(&array, 19LL);
+    element_def_asg(char*, n1, "hola mundo")
+    element_def_asg(long long, n2, 11LL)
+    element_def_asg(long long, n3, 12LL)
+    element_def_asg(long long, n4, 14LL)
+    element_def_asg(long long, n5, 189LL)
+    element_def_asg(long long, n6, 19LL)
+
+    push_back(&array, n1);
+    push_back(&array, n2);
+    push_back(&array, n3);
+    push_back(&array, n4);
+    push_back(&array, n5);
+    push_back(&array, n6);
     //push_back(&array, 15LL);
     //push_back(&array, 105LL);
     //push_back(&array, 13355LL);
@@ -23,8 +30,8 @@ int main(){
 
     
 
-    printf("El front del vector es %ld\n", front(&array));
-    printf("El back del vector es %ld\n", back(&array));
+    printf("El front del vector es %s\n", get_val(char*, front(&array)));
+    printf("El back del vector es %ld\n", get_val(char*, back(&array)));
 
     printf("Antes del shrinking\n");
     printf("El size del vector es %ld\n", size(&array));
@@ -36,12 +43,15 @@ int main(){
     printf("El size del vector es %ld\n", size(&array));
     printf("El capacity del vector es %ld\n", capacity(&array));
 
-    push_back(&array, 89);
+    element_def_asg(long long, n7, 89LL)
+    push_back(&array, n7);
     printf("Despues del push_back\n");
     printf("El size del vector es %ld\n", size(&array));
     printf("El capacity del vector es %ld\n", capacity(&array));
     
-    Destroy(&array)
+    forEach(&array);
+
+    Destroy(&array);
 
     printf("\n");
 

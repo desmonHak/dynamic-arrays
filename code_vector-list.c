@@ -104,7 +104,7 @@ int main()
     deleteNodeID(list, 4);
     printLinkedList(list);
 
-    printf("size del vector: %d\n", size(list));
+    printf("size del vector: %d\n", size_v(list));
     freeLinkedList(list);
 
     return 0;

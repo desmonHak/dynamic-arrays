@@ -275,7 +275,7 @@ void updateIds(LinkedList *list)
     }
 }
 
-const position pop_back(LinkedList *list)
+const position pop_back_v(LinkedList *list)
 {
     if (list->head == NULL)
     {
@@ -304,7 +304,7 @@ const position pop_back(LinkedList *list)
     }
 }
 
-const position push_back(LinkedList *list, void *data)
+const position push_back_v(LinkedList *list, void *data)
 {
     Node *newNode = (Node *)malloc(sizeof(Node));
     newNode->id = list->lastId++;
@@ -346,7 +346,7 @@ void clear(LinkedList *list)
     list->lastId = 0;
 }
 
-const position size(LinkedList *list)
+const position size_v(LinkedList *list)
 {
     size_t count = 0;
     Node *current = list->head;
