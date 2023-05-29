@@ -1,6 +1,7 @@
 @echo off
 
 git add .
+git push -m "changes"
 git config advice.addIgnoredFile false
 git add -f .gitignore
 echo code.bat ^>> .gitignore

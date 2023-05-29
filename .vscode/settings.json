@@ -169,5 +169,6 @@
     "vector-list.h": "c",
     "hash-table.h": "c",
     "stdint.h": "c"
-  }
+  },
+  "zowe.settings.version": 2
 }
