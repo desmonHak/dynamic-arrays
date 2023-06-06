@@ -4,7 +4,6 @@
 #include <stdbool.h>
 #include "array-list.h"
 
-
 #define get_element(type, name, posicion) \
     get_val(type, get_element_v(name, posicion))
     
@@ -40,6 +39,13 @@ typedef struct
     ArrayList*: size_a,                      \
     LinkedList*: size_v)(list)
 #endif
+
+#ifndef back
+#define back(list) _Generic((list), \
+    ArrayList*: back_a,                      \
+    LinkedList*: back_v)(list)
+#endif
+
 
 static LinkedList *table_matriz_ = NULL;
 

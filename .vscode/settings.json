@@ -180,7 +180,10 @@
     "time.h": "c",
     "hash-table.h": "c",
     "stdint.h": "c",
-    "array-list.h": "c"
+    "array-list.h": "c",
+    "time_code.h": "c",
+    "error_c.h": "c",
+    "debug_c.h": "c"
   },
   "zowe.settings.version": 2
 }

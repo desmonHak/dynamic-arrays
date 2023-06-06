@@ -15,13 +15,16 @@ ArrayList *createArrayList(position _size, void * _value){
      *  Esta funcion devuelve un puntero al objeto ArrayList construido.
      *  
      */
-
+    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}ArrayList #{FG:white}*#{FG:cyan}createArrayList#{FG:white}(#{FG:lyellow}position #{FG:white}_size = %p, #{FG:lyellow}void#{FG:white} *_value = %p)", _size, _value);
     self->Size = self->Capacity = _size;
-    self->Array = (void**)malloc(sizeof(void*) * self->Capacity);
+    //self->Array = (void**)malloc(sizeof(void*) * self->Capacity);
+    debug_malloc(void*, self->Array, sizeof(void*) * self->Capacity);
+
     for(position i = 0; i < _size; i++){
 
         self->Array[i] = _value;
     }
+    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}ArrayList #{FG:white}*#{FG:cyan}createArrayList#{FG:white}(#{FG:lyellow}position #{FG:white}_size, #{FG:lyellow}void#{FG:white} *_value) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;", self);
     return self;
 }
 
@@ -34,14 +37,20 @@ void push_back_a(ArrayList *self, void * _data){
      *  y el dato a agregar (_data).
      *  
      */
-
+    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:cyan}push_back_a#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p, #{FG:lyellow}void#{FG:white} *_data = %p)", self->Array, _data);
     if (!self->Size){
         self->Size = self->Capacity = 1;
-        self->Array = (void **)malloc(sizeof(void*) * self->Capacity);
+        //self->Array = (void **)malloc(sizeof(void*) * self->Capacity);
+        debug_malloc(void*, self->Array, sizeof(void*) * self->Capacity);
+        //DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}push_back_a#{FG:red}] #{FG:white}Capacity update to: #{FG:lgreen}%zu#{FG:white}.", self->Capacity);
         self->Array[0] = _data;
     } else if (self->Size == self->Capacity){
         self->Capacity *= __ADD_CAPACITY__;
-        void **ptr_new = (void **)malloc(sizeof(void*) * self->Capacity);
+        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}push_back_a#{FG:red}] #{FG:white}Capacity update to: #{FG:lgreen}%zu#{FG:white}.", self->Capacity);
+        //void **ptr_new = (void **)malloc(sizeof(void*) * self->Capacity);
+        void **ptr_new;
+        debug_malloc(void*, ptr_new, sizeof(void*) * self->Capacity);
+
         for(register position i = 0; i < self->Size; i++) ptr_new[i] = self->Array[i];
 
         free(self->Array);
@@ -77,8 +86,10 @@ void pop_back_a(ArrayList *self){
      *  pop_back_a(self): Elimina el ultimo elemento del array.
      * 
      */
+    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:cyan}pop_back_a#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p)", self->Array);
     if(!self->Size) return;
     self->Array[--self->Size] = 0; 
+    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}pop_back_a#{FG:red}] #{FG:white}Delete element: #{FG:lgreen}%zu#{FG:white}.", self->Size);
 }
 
 void *front(ArrayList *self){
@@ -88,17 +99,21 @@ void *front(ArrayList *self){
      *  elemento del array.
      * 
      */
+    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*front#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p)", self->Array);
+    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*#{FG:cyan}front#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;", (self->Size != 0) ? self->Array[0] : NULL);
     if(self->Size) return self->Array[0];
     else return NULL; // el vector esta vacio
 }
 
-void *back(ArrayList *self){
+void *back_a(ArrayList *self){
     /*
      *  
-     *  back(self): Devuelve el ultimo elemento 
+     *  back_a(self): Devuelve el ultimo elemento 
      *  del array.
      * 
      */
+    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*#{FG:cyan}back_a#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p)", self->Array);
+    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*#{FG:cyan}back_a#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;", (self->Size != 0) ? self->Array[self->Size -1] : NULL);
     if(self->Size) return self->Array[self->Size -1];
     else return NULL; // el vector esta vacio
 }
@@ -111,14 +126,20 @@ void shrink_to_fit(ArrayList *self){
      *  cantidad de elementos almacenados.
      * 
      */
+    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*#{FG:cyan}shrink_to_fit#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p)", self->Array);
     if (!self->Size && self->Size == self->Capacity) return;
 
-    void **ptr_new = (void **)malloc(sizeof(void *) * self->Size);
+    //void **ptr_new = (void **)malloc(sizeof(void *) * self->Size);
+    void **ptr_new;
+    debug_malloc(void*, ptr_new, sizeof(void*) * self->Size);
     for(position i = 0; i < self->Size; i++) ptr_new[i] = self->Array[i];
+
+    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}shrink_to_fit#{FG:red}] #{FG:white}old capacity: #{FG:lgreen}%zu#{FG:white}, new capacity: #{FG:lgreen}%zu#{FG:white}.", self->Capacity, self->Size);
     
     free(self->Array);
     self->Array = ptr_new;
     self->Capacity = self->Size;
+    
 }
 
 void *Destroy(ArrayList *self){
@@ -129,8 +150,10 @@ void *Destroy(ArrayList *self){
      *  Devuelve un puntero nulo.
      * 
      */
+    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*#{FG:cyan}Destroy#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p)", self->Array);
     free(self->Array);
     self->Array = NULL;
+    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*#{FG:cyan}Destroy#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;", self->Array);
     return self->Array;
 }
 
@@ -141,10 +164,11 @@ void forEach(ArrayList *self){
      *  del arreglo, mostrando cada elemento y su posicion.
      * 
      */
+    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:cyan}forEach#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p)", self->Array);
     if(!self->Size) return;
     printf("Vector info\n\n");
     for (position i = 0; i < self->Size; i++){
-        printf("\t %ld. %zu", i + 1, get_val(size_t, self->Array[i]));
+        printf_color("\t #{FG:lred}%ld#{FG:lwhite}. #{FG:lcyan}%zu\n", i , get_val(size_t, self->Array[i]));
     }
     printf("\n-----\n");
 }

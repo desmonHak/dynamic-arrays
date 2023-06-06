@@ -1,3 +1,5 @@
+#define DEBUG_ENABLE 
+#define __VECTOR_LIST_DEBBUG__
 #include "vector-list.h"
 
 int main(){
@@ -30,6 +32,8 @@ int main(){
     pop_back(array);
     printf("size vector-list: %zu\n", size(list));
     printf("size array-list: %zu\n", size(array));
+
+    Destroy(array);
 
     return 0;
 }

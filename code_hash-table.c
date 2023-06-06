@@ -1,46 +1,48 @@
-#include <string.h>
-
+#define DEBUG_ENABLE 
+#include "time_code.h"
 #include "hash-table.h"
 
-int main(){
+int main() {
 
-    //void *data = malloc(sizeof(char) * 13);
-    hash_t my_hash;
-    //char my_string[] = "Hola mundoHola mundoHola mundoHola mundoHola mundo\n";
-    unsigned int my_string[] = {
-        0x0000aaaa, 0x00bbbbbb, 0x0000aaaa, 0x00bbbbbb, 0xcccccccc, 0x000000ff, 0x00bbbbbb, 0x0000aaaa,
-        0x00bbbbbb, 0xcccccccc, 0x0000aaaa, 0x000000ff, 0x0000aaaa, 0x00bbbbbb, 0xcccccccc, 0x000000ff,
-        0xcccccccc, 0x00bbbbbb, 0x000000ff, 0x0000aaaa, 0x000000ff, 0x00bbbbbb, 0x0000aaaa, 0xcccccccc,
-        0x00bbbbbb, 0x0000aaaa, 0xcccccccc, 0x000000ff, 0x00bbbbbb, 0x0000aaaa, 0xcccccccc, 0x000000ff,
-        0xcccccccc, 0x00bbbbbb, 0x000000ff, 0x0000aaaa, 0x00bbbbbb, 0xcccccccc, 0x000000ff, 0x0000aaaa,
-        0xcccccccc, 0x000000ff, 0x00bbbbbb, 0x0000aaaa, 0x0000aaaa, 0xcccccccc, 0x00bbbbbb, 0x000000ff,
-    };
+    HashTable* hashTable = createHashTable(100);
 
-    NodeHash my_node = createNode(my_string, sizeof(my_string));
-    printNode(my_node);
+    // Insert values
+    int value1 = 10;
+    int value2 = 20;
+    int value3 = 30;
+    put(hashTable, "key1", &value1);
+    put(hashTable, "key2", &value2);
+    put(hashTable, "key3", &value3);
 
-    my_hash = hash(my_node);
-    printf("my_hash: ");
-    printHash(my_hash);
-    
-    puts("");
+    for (size_t i = 0; i < 200; i++) {
+        int* val = malloc(sizeof(int));
+        *val = i;
+        unsigned char key[2];
+        key[0] = 'A' + i% 'Z'; // Assuming the keys are 'A' to 'J'
+        key[1] = '\0';
+        //printf("%s\n", key);
 
-    HashTable hash_table = createHashTable(5);
-    insertNode(&hash_table, my_node);
+        put(hashTable, key, val);
+        debug_set_level(DEBUG_LEVEL_INFO);
+        DEBUG_PRINT(DEBUG_LEVEL_INFO, "Value for key '%s': %d\n",key, *(unsigned char*)get(hashTable, key));
+    }
+
+    // Get values
+    printf("Value for key 'key1': %d\n", *(int*)get(hashTable, "key1"));
+    printf("Value for key 'key2': %d\n", *(int*)get(hashTable, "key2"));
+    printf("Value for key 'key3': %d\n", *(int*)get(hashTable, "key3"));
+
+    // Print hash table
     printf("Hash Table:\n");
-    printHashTable(hash_table);
+    printHashTable(hashTable);
 
-    //strcpy((char*)data, "Hola mundo\n");
+    // Print size and capacity
+    printf("Size: %zu\n", hashTable->size);
+    printf("Capacity: %zu\n", hashTable->capacity);
 
-    /*printUint8Hex((unsigned char *)data, 20);
-    puts("");
-    my_hash = hash(data, sizeof(char) * 13);
-    printUint8Hex(my_hash, 20);
-    puts("");
-    printUint8Hex("Hola mundo\n", 20);
-
-
-    free(my_hash);*/
+    // Free memory
+    freeHashTable(hashTable);
+    puts("memoria liberada");
 
     return 0;
 }

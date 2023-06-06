@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
+#include "debug_c.h"
 
 #ifndef push_back
 #define push_back(...) _Generic((__VA_ARGS__), \
@@ -13,14 +14,17 @@
 
 #ifndef pop_back
 #define pop_back(list) _Generic((list), \
-    ArrayList*: pop_back_a,                      \
-    LinkedList*: pop_back_v)(list)
+    ArrayList*: pop_back_a)(list)               
 #endif
 
 #ifndef size
 #define size(list) _Generic((list), \
-    ArrayList*: size_a,                      \
-    LinkedList*: size_v)(list)
+    ArrayList*: size_a)(list)                  
+#endif
+
+#ifndef back
+#define back(list) _Generic((list), \
+    ArrayList*: back_a)(list)               
 #endif
 
 // definicion:
@@ -36,8 +40,7 @@
     type *name = (type *)malloc(sizeof(type)); \
     *name = value;
 
-#define get_val(type, name) \
-    *((type *)(name))
+#define get_val(type, name) *((type *)(name))
 
 typedef size_t position;
 typedef struct {
@@ -55,7 +58,7 @@ void pop_back_a(ArrayList *self);
 void shrink_to_fit(ArrayList *self);
 static inline position size_a(ArrayList *self);
 static inline position capacity(ArrayList *self);
-void *back(ArrayList *self);
+void *back_a(ArrayList *self);
 void *front(ArrayList *self);
 void *Destroy(ArrayList *self);
 

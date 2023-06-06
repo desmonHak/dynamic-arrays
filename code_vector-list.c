@@ -1,3 +1,5 @@
+#define DEBUG_ENABLE 
+#define __VECTOR_LIST_DEBBUG__
 #include "vector-list.h"
 
 int main()
@@ -101,11 +103,38 @@ int main()
     printf("push_back: %d\n", push_back(list, n1));
     printLinkedList(list);
 
+    Node *my_last_node = get_last_node(list);
+    exists(list,my_last_node);
+    printf("last position: %zu\n", get_last_position(list));
+    void *my_data = get_last(list);
+    deleteNode(list, my_last_node);
+
     deleteNodeID(list, 4);
     printLinkedList(list);
+    if(existsID(list, 4)){
+        puts("ID 4 existe");
+        if(exists(list, get_node(list, 4))){
+            puts("Nodo con ID 4 existe");
+        }else {
+        puts("Nodo con ID no 4 existe");
+        deleteNode(list,get_node(list, 4));
+    }
+    } else {
+        puts("ID no 4 existe");
+    }
 
+    if(empty(list)){
+        puts("lista no vacia");
+    }else{
+        puts("lista vacia");
+    }
+
+    insertNode(list, n5);
+    insertNode(list, n5);
+    insertNode(list, n5);
     printf("size del vector: %d\n", size_v(list));
     freeLinkedList(list);
+    printLinkedList(list);
 
     return 0;
 }

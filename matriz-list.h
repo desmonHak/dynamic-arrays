@@ -1,6 +1,7 @@
 #ifndef __MATRIZ_LIST_H__
 #define __MATRIZ_LIST_H__
 
+#include "debug_c.h"
 #include "vector-list.h"
 #include <stdarg.h>
 
