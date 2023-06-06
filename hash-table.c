@@ -3,61 +3,73 @@
 
 #include "hash-table.h"
 
-unsigned long hash(const char* str, size_t size) {
+unsigned long hash(const char *str, size_t size)
+{
     size_t hash = 0x1505;
     int c;
-    while ((c = *str++)) { 
+    while ((c = *str++))
+    {
         hash = ((hash << 5) + hash) + c; /* hash * 33 + c  djb2 hash algorithm */
     }
 
     return hash % size;
 }
 
-HashTable* createHashTable(size_t size) {
-    //HashTable* hashTable = (HashTable*)malloc(sizeof(HashTable));
-    HashTable* hashTable;
+HashTable *createHashTable(size_t size)
+{
+    // HashTable* hashTable = (HashTable*)malloc(sizeof(HashTable));
+    HashTable *hashTable;
     debug_malloc(HashTable, hashTable, sizeof(HashTable));
     hashTable->size = 0;
     hashTable->capacity = size;
-    //hashTable->table = (Entry**)calloc(size, sizeof(Entry*));
-    debug_calloc(Entry*, hashTable->table, size);
+    // hashTable->table = (Entry**)calloc(size, sizeof(Entry*));
+    debug_calloc(Entry *, hashTable->table, size);
     return hashTable;
 }
 
-void put(HashTable* hashTable, const char* key, void* value) {
-    #ifdef __ERROR_H__ 
-    if (hashTable == NULL){
+void put(HashTable *hashTable, const char *key, void *value)
+{
+#ifdef __ERROR_H__
+    if (hashTable == NULL)
+    {
         debug_set_level(DEBUG_LEVEL_WARNING);
         DEBUG_PRINT(DEBUG_LEVEL_WARNING, "#{FG:cyan}put#{FG:white}(#{FG:lred}HashTable#{FG:white}* hashTable = NULL(%p), const char* key = %s, void* value = %p)\n", hashTable, key, value);
     }
-    if (key == (const char*)NULL){
+    if (key == (const char *)NULL)
+    {
         debug_set_level(DEBUG_LEVEL_WARNING);
         DEBUG_PRINT(DEBUG_LEVEL_WARNING, "#{FG:cyan}put#{FG:white}(#{FG:lred}HashTable#{FG:white}* hashTable = %p, const char* key = NULL(%s), void* value = %p)\n", hashTable, key, value);
-    }    
-    if (key == value){
+    }
+    if (key == value)
+    {
         debug_set_level(DEBUG_LEVEL_WARNING);
         DEBUG_PRINT(DEBUG_LEVEL_WARNING, "#{FG:cyan}put#{FG:white}(#{FG:lred}HashTable#{FG:white}* hashTable = %p, const char* key = %s, void* value = NULL(%p))\n", hashTable, key, value);
     }
-    #endif
+#endif
 
     size_t index = hash(key, hashTable->capacity);
-    //printf("put: %zu\n", index);
+    // printf("put: %zu\n", index);
 
-    //Entry* entry = (Entry*)malloc(sizeof(Entry));
-    Entry* entry;
+    // Entry* entry = (Entry*)malloc(sizeof(Entry));
+    Entry *entry;
     debug_malloc(Entry, entry, sizeof(Entry));
 
     entry->key = strdup(key);
     entry->value = value;
     entry->next = NULL;
 
-    if (hashTable->table[index] == NULL) {
+    if (hashTable->table[index] == NULL)
+    {
         hashTable->table[index] = entry;
         hashTable->size++;
-    } else {
-        Entry* current = hashTable->table[index];
-        while (current->next != NULL) {
-            if (strcmp(current->key, key) == 0) {
+    }
+    else
+    {
+        Entry *current = hashTable->table[index];
+        while (current->next != NULL)
+        {
+            if (strcmp(current->key, key) == 0)
+            {
                 current->value = value;
                 free(entry->key);
                 free(entry);
@@ -69,17 +81,20 @@ void put(HashTable* hashTable, const char* key, void* value) {
     }
 
     // Check if table needs to be resized
-    if (hashTable->size >= hashTable->capacity) {
+    if (hashTable->size >= hashTable->capacity)
+    {
         size_t newSize = hashTable->capacity * 2;
-        //Entry** newTable = (Entry**)calloc(newSize, sizeof(Entry*));
-        Entry** newTable;
-        debug_calloc(Entry*, newTable, sizeof(Entry*));
+        // Entry** newTable = (Entry**)calloc(newSize, sizeof(Entry*));
+        Entry **newTable;
+        debug_calloc(Entry *, newTable, sizeof(Entry *));
 
         // Rehash and reinsert existing elements
-        for (size_t i = 0; i < hashTable->capacity; i++) {
-            Entry* entry = hashTable->table[i];
-            while (entry != NULL) {
-                Entry* next = entry->next;
+        for (size_t i = 0; i < hashTable->capacity; i++)
+        {
+            Entry *entry = hashTable->table[i];
+            while (entry != NULL)
+            {
+                Entry *next = entry->next;
                 size_t newIndex = hash(entry->key, newSize);
                 entry->next = newTable[newIndex];
                 newTable[newIndex] = entry;
@@ -93,20 +108,23 @@ void put(HashTable* hashTable, const char* key, void* value) {
     }
 }
 
-
-void* get(HashTable* hashTable, const char* key) {
-    #ifdef __ERROR_H__ 
-    if (hashTable == NULL){
+void *get(HashTable *hashTable, const char *key)
+{
+#ifdef __ERROR_H__
+    if (hashTable == NULL)
+    {
         debug_set_level(DEBUG_LEVEL_WARNING);
         DEBUG_PRINT(DEBUG_LEVEL_WARNING, "get(HashTable* hashTable = %p, const char* key = NULL(%p))\n", hashTable, key);
     }
-    #endif
+#endif
 
     size_t index = hash(key, hashTable->capacity);
 
-    Entry* entry = hashTable->table[index];
-    while (entry != NULL) {
-        if (strcmp(entry->key, key) == 0) {
+    Entry *entry = hashTable->table[index];
+    while (entry != NULL)
+    {
+        if (strcmp(entry->key, key) == 0)
+        {
             return entry->value;
         }
         entry = entry->next;
@@ -115,33 +133,41 @@ void* get(HashTable* hashTable, const char* key) {
     return NULL; // Key not found
 }
 
-void printHashTable(HashTable* hashTable) {
-    #ifdef DEBUG_ENABLE
-    if (hashTable == NULL){
+void printHashTable(HashTable *hashTable)
+{
+#ifdef DEBUG_ENABLE
+    if (hashTable == NULL)
+    {
         debug_set_level(DEBUG_LEVEL_INFO);
         DEBUG_PRINT(DEBUG_LEVEL_INFO, "printHashTable: NULL(%p)\n", hashTable);
     }
-    #endif
-    for (size_t i = 0; i < hashTable->capacity; i++) {
-        Entry* entry = hashTable->table[i];
-        while (entry != NULL) {
+#endif
+    for (size_t i = 0; i < hashTable->capacity; i++)
+    {
+        Entry *entry = hashTable->table[i];
+        while (entry != NULL)
+        {
             printf("Key: %s, Value: %p\n", entry->key, entry->value);
             entry = entry->next;
         }
     }
 }
 
-void freeHashTable(HashTable* hashTable) {
-    #ifdef DEBUG_ENABLE
-    if (hashTable == NULL){
+void freeHashTable(HashTable *hashTable)
+{
+#ifdef DEBUG_ENABLE
+    if (hashTable == NULL)
+    {
         debug_set_level(DEBUG_LEVEL_INFO);
         DEBUG_PRINT(DEBUG_LEVEL_INFO, "freeHashTable: NULL(%p)\n", hashTable);
     }
-    #endif
-    for (size_t i = 0; i < hashTable->size; i++) {
-        Entry* entry = hashTable->table[i];
-        while (entry != NULL) {
-            Entry* temp = entry;
+#endif
+    for (size_t i = 0; i < hashTable->size; i++)
+    {
+        Entry *entry = hashTable->table[i];
+        while (entry != NULL)
+        {
+            Entry *temp = entry;
             entry = entry->next;
             free(temp->key);
             free(temp);
@@ -149,6 +175,5 @@ void freeHashTable(HashTable* hashTable) {
         hashTable->table[i] = NULL; // Set the table slot to NULL after freeing entries
     }
 }
-
 
 #endif
