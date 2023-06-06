@@ -99,4 +99,6 @@ void forEach(ArrayList *self);
 
 Puedes situar un ejemplo del uso de esta implementacion en `code_array-list.c`
 
+![code_array-list](./img/array-list.png)
+
 ----

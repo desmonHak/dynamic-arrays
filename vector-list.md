@@ -178,5 +178,7 @@ void free_all_vector();
 
 Recuerde que puede situar un ejemplo de uso de esta cabecera en `code_vector-list.c` y en `code-array-list_vector-list.c`
 
+![code_vector-list](./img/vector-list.png)
+![code-array-list_vector-list](./img/array-list_vector-list.png)
 
 ----

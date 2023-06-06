@@ -49,6 +49,8 @@ Liberar el contenido de la tabla hash
 
 ----
 
-Recuerde liberar la memoria de forma adecuada de los datos ingresador mediante put, pues freeHashTable no se encarga de esto. Esta implementacion hasce uso de `debug_c.h` por lo que puede usar la macro `DEBUG_ENABLE` y usar `time_code.h` si usted precisa.
+Recuerde liberar la memoria de forma adecuada de los datos ingresador mediante put, pues freeHashTable no se encarga de esto. Esta implementacion hasce uso de `debug_c.h` por lo que puede usar la macro `DEBUG_ENABLE` y usar `time_code.h` si usted precisa. Puede encontrar un ejemplo de uso de esta implememtacion en `code_hash-table.c`:
+
+![code_hash-table](./img/hash-table.png)
 
 ----
