@@ -13,7 +13,7 @@ void __attribute__((constructor)) __constructor_array_dinamic__()
      *
      */
     // table_matriz_ = (LinkedList *)malloc(sizeof(LinkedList));
-    debug_malloc(LinkedList, table_matriz_, sizeof(LinkedList));
+    debug_malloc(LinkedList, table_matriz_, 1);
     table_matriz_->head = NULL;
     table_matriz_->lastId = 0; // al crearse la lista la posicion incial es 0
 }
@@ -132,7 +132,7 @@ LinkedList *createLinkedList()
     // Crear una nueva lista enlazada
     // LinkedList *list = (LinkedList *)malloc(sizeof(LinkedList));
     LinkedList *list;
-    debug_malloc(LinkedList, list, sizeof(LinkedList)); // Asignar memoria para la lista
+    debug_malloc(LinkedList, list, 1); // Asignar memoria para la lista
     list->head = NULL;                                  // Establecer el puntero de inicio de la lista como nulo
     list->lastId = 0;                                   // Establecer la posición inicial en 0
 
@@ -173,7 +173,7 @@ void insertNode(LinkedList *list, void *data)
     // Crear un nuevo nodo
     // Node *newNode = (Node *)malloc(sizeof(Node));
     Node *newNode;
-    debug_malloc(Node, newNode, sizeof(Node));
+    debug_malloc(Node, newNode, 1);
 
     // Asignar un ID único al nodo
     newNode->id = list->lastId++;
@@ -494,7 +494,7 @@ const position push_back_v(LinkedList *list, void *data)
     // Crear un nuevo nodo
     // Node *newNode = (Node *)malloc(sizeof(Node));
     Node *newNode;
-    debug_malloc(Node, newNode, sizeof(Node));
+    debug_malloc(Node, newNode, 1);
     newNode->id = list->lastId++; // Asignar un ID al nuevo nodo
     newNode->data = data; // Establecer los datos del nuevo nodo
     newNode->next = NULL; // Establecer el siguiente del nuevo nodo como NULL

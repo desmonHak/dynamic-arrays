@@ -14,9 +14,12 @@ void __destructor_time_contador__(){
     QueryPerformanceCounter(&fin);
     // Calcula el tiempo total de ejecución en segundos
     tiempo_total = (double)(fin.QuadPart - inicio.QuadPart) / frecuencia.QuadPart;
+    #ifdef DEBUG_ENABLE
     debug_set_level(DEBUG_LEVEL_INFO);
-    LETTER_LIGHTYELLOW_EX;
-    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:white} El programa tardo #{FG:red}%.6f#{FG:white} segundos en ejecutarse.\n", tiempo_total);
+    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:white} El programa tardo #{FG:red}%.6f#{FG:white} segundos en ejecutarse.\n#{FG:reset}", tiempo_total);
+    #else
+    printf_color("#{FG:white} El programa tardo #{FG:red}%.6f#{FG:white} segundos en ejecutarse.\n#{FG:reset}", tiempo_total);
+    #endif
     
 }
 #else
@@ -32,9 +35,12 @@ void __destructor_time_contador__(){
     // Calcula el tiempo total de ejecución en segundos
     tiempo_total = (fin.tv_sec - inicio.tv_sec) + (fin.tv_nsec - inicio.tv_nsec) / 1e9;
     //debug_set_log_file("debug_log.txt");
+    #ifdef DEBUG_ENABLE
     debug_set_level(DEBUG_LEVEL_INFO);
-    DEBUG_PRINT(DEBUG_LEVEL_INFO, "El programa tardo #{FG:red}%.6f#{FG:white} segundos en ejecutarse.\n", tiempo_total);
-}
+    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:white} El programa tardo #{FG:red}%.6f#{FG:white} segundos en ejecutarse.\n#{FG:reset}", tiempo_total);
+    #else
+    printf_color("#{FG:white} El programa tardo #{FG:red}%.6f#{FG:white} segundos en ejecutarse.\n#{FG:reset}", tiempo_total);
+    #endif}
 #endif
 
 #endif

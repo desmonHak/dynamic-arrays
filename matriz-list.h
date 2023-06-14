@@ -2,12 +2,13 @@
 #define __MATRIZ_LIST_H__
 
 #include "debug_c.h"
-#include "vector-list.h"
+#include "array-list.h"
 #include <stdarg.h>
+#include <math.h>
 
 typedef struct Matriz {
-    LinkedList *list;
-    LinkedList *dimensiones_matriz;
+    ArrayList *list;
+    ArrayList *dimensiones_matriz;
 } Matriz;
 
 typedef position dimensiones;
@@ -19,8 +20,8 @@ void createColumns(Matriz* matriz, position columns);
 void createRow(Matriz* matriz, position row);
 dimensiones get_size_va_list(dimensiones dimensionesMatriz, va_list args);
 dimensiones get_size_size_total(dimensiones dimensionesMatriz, ...);
-LinkedList* dimensiones_matriz(dimensiones dimensionesMatriz, ...);
-LinkedList* dimensiones_matriz_va_list(dimensiones dimensionesMatriz, va_list args);
+ArrayList* dimensiones_matriz(dimensiones dimensionesMatriz, ...);
+ArrayList* dimensiones_matriz_va_list(dimensiones dimensionesMatriz, va_list args);
 
 #include "matriz-list.c"
 #endif

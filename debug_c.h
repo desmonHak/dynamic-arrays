@@ -50,7 +50,7 @@ typedef struct {
 #define debug_malloc(type, name_var, size) \
     do { \
         name_var = (type*)malloc(size * sizeof(type)); \
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}MALLOC#{FG:red}]#{FG:lred}  #{FG:white}(#{FG:lred}%s#{FG:white}*)#{FG:cyan}malloc#{FG:white}(%d) #{FG:lgreen}Variable#{FG:white}: %s, #{FG:lgreen}Tipo#{FG:white}: %s, #{FG:lgreen}Puntero#{FG:white}: %p", #type, size, #name_var, #type, name_var); \
+        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}MALLOC#{FG:red}]#{FG:lred}  #{FG:white}(#{FG:lred}%s#{FG:white}*)#{FG:cyan}malloc#{FG:white}(%d) #{FG:lgreen}Variable#{FG:white}: %s, #{FG:lgreen}Tipo#{FG:white}: %s, #{FG:lgreen}Puntero#{FG:white}: %p", #type, size * sizeof(type), #name_var, #type, name_var); \
     } while (0)
 #else
 #define debug_malloc(type, name_var, size) name_var = (type*)malloc(size * sizeof(type));

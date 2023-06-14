@@ -1,79 +1,58 @@
+#define DEBUG_ENABLE 
+#include "time_code.h"
 #include "matriz-list.h"
 
-int main()
-{
-
-    // crear una matriz tridimensional de 5x5x5
-    Matriz* my_matriz = createMatriz(3, 5, 5, 5);
-
-    printf("size: %d\n", get_size_size_total(3, 5, 5, 5));
-    freeMatriz(my_matriz);
-    puts("memoria liberada");
-
-    return 0;
-}
-/*
-#include <stdio.h>
-#include <stdarg.h>
-
-void printMultiDimensionalArray(int dimensions, ...)
-{
-    va_list args;
-    va_start(args, dimensions);
-
-    int sizes[dimensions];
-
-    // Obtener los tamaños de cada dimensión
-    for (int i = 0; i < dimensions; i++) {
-        sizes[i] = va_arg(args, int);
-    }
-
-    // Calcular el total de elementos
-    int totalElements = 1;
-    for (int i = 0; i < dimensions; i++) {
-        totalElements *= sizes[i];
-    }
-
-    // Acceder a los elementos del array multidimensional
-    int *array = va_arg(args, int*);
-    for (int i = 0; i < totalElements; i++) {
-        printf("%d ", array[i]);
-    }
-
-    va_end(args);
-}
+// -Wall -Werror -Wpedantic -x c  -time  -save-temps -g
 
 int main()
 {
-    int array[2][2][3][4] = {
+
+    // int arr[2 + 2*4+ 5 *4*5];
+
+    int arr2[2][4][5] = {
         {
-            {
-                {1, 2, 3, 4},
-                {5, 6, 7, 8},
-                {9, 10, 11, 12}
-            },
-            {
-                {13, 14, 15, 16},
-                {17, 18, 19, 20},
-                {21, 22, 23, 24}
-            }
+            {1, 2, 3, 4, 5},
+            {5, 4, 3, 2, 1},
+            {1, 2, 3, 4, 5},
+            {5, 4, 3, 2, 1},
         },
         {
-            {
-                {1, 2, 3, 4},
-                {5, 6, 7, 8},
-                {9, 10, 11, 12}
-            },
-            {
-                {13, 14, 15, 16},
-                {17, 18, 19, 20},
-                {21, 22, 23, 24}
-            }
-        }
-    };
+            {1, 2, 3, 4, 5},
+            {5, 4, 3, 2, 1},
+            {1, 2, 3, 4, 5},
+            {5, 4, 3, 2, 1},
+        }};
+        size_t i = sizeof(arr2)/sizeof(int);
 
-    printMultiDimensionalArray(4, 2, 2, 3, 4, array);
+    //int arr1[2+ 2*4 + (2+2*4)*5] = {
+    char arr1[dimension(2, 4, 5)] = { 
+        1, 2, 3,  4,  5,
+        2, 3, 5,  9,  13,
+        3, 5, 8,  13, 21,
+        4, 9, 14, 22, 35,
+
+        1, 2, 3, 4, 5,
+        5, 4, 3, 2, 1,
+        1, 2, 3, 4, 5,
+        5, 4, 3, 2, 1,
+    };
+    // sizeof(arr1)
+
+    // f(arr1, a, b, c) -> (a * y*x) % (z*y*x) + (b * x) % (y * x) + c % x
+    
+    (void)printf("arr1[%u] = %d; %d\n",((0 * 4*5 ) % (2*4*5) + (3 * 5) % (4*5) + 4 % 5) , *(((0 * 4*5 ) % (2*4*5) + (3 * 5) % (4*5) + 4 % 5) +arr1),0);
+    (void)printf("arr1[%u] = %d; %d\n",((0 * 4*5 ) % (2*4*5) + (3 * 5) % (4*5) + 4 % 5) , arr1[((0 * 4*5 ) % (2*4*5) + (3 * 5) % (4*5) + 4 % 5)],0);
+//% 4*5,% 5, malloc(( (1 * 4*5) + ((3 * 5) ) + 4 ) * sizeof(int))
+    // crear una matriz tridimensional de 5x5x5
+    Matriz *my_matriz = createMatriz(4, 5, 5, 5, 5);
+    //Matriz *my_matriz = createMatriz(3, 5, 5, 5);
+
+
+    (void)printf("get_size_total_calc: %zu\n", get_size_total_calc(4, 5, 5, 5, 5));
+    (void)printf("get_size_matriz: %zu\n", get_size_matriz(my_matriz));
+    
+    my_matriz = freeMatriz(my_matriz);
+    (void)puts("memoria liberada");
 
     return 0;
 }
-*/

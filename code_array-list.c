@@ -29,7 +29,6 @@ int main(){
         printf("\t%zu\n", array.Array[i]);
     }*/
 
-    
 
     printf("El front del vector es %s\n", get_val(char*, front(array)));
     printf("El back del vector es %ld\n", get_val(char*, back(array)));

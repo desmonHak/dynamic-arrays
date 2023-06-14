@@ -2,8 +2,17 @@
 #define __MATRIZ_LIST_C__
 #include "matriz-list.h"
 
-#include <stdarg.h>
-#include "vector-list.h"
+position calcularPosicionVector(const dimensiones *dimensiones_, const position *coordenada, const position numDimensiones) {
+    position posicion = 0;
+    position potencia = 1;
+
+    for (position i = numDimensiones - 1; i > 0; i--) {
+        posicion += coordenada[i] * potencia;
+        potencia *= dimensiones_[i];
+    }
+
+    return posicion;
+}
 
 Matriz *createMatriz(dimensiones dimensionesMatriz, ...)
 {
@@ -12,28 +21,41 @@ Matriz *createMatriz(dimensiones dimensionesMatriz, ...)
     va_start(args, dimensionesMatriz);
 
     Matriz *my_matriz = newMatriz();
-    my_matriz->dimensiones_matriz = dimensiones_matriz_va_list(dimensionesMatriz, args);
-    // la matriz tiene un vector con las dimensiones de la matriz
 
-    position totalElements = get_size_va_list(dimensionesMatriz, args);
+    va_list copy1;
+    va_copy(copy1, args);
+    // calcular la cantidad de elementos para la matriz:
+    position totalElements = get_size_va_list(dimensionesMatriz, copy1);
+    printf("\ntotalElements: %p == %zu\n ", totalElements, totalElements);
 
-    for(position i = 0; i < totalElements; i++){
-        printf("createLinkedList: \n ");
-        LinkedList *a = createLinkedList();
+    va_copy(copy1, args);
+    my_matriz->dimensiones_matriz = dimensiones_matriz_va_list(dimensionesMatriz, copy1);
+    my_matriz->list = createArrayList(totalElements, NULL);
+    
+
+    /*for(position i = 0; i < totalElements; i++){
+        printf("createArrayList: \n ");
+        ArrayList *a = createArrayList(totalElements, NULL);
         printf("totalElements: %p\n ", a);
         
-        insertNode(my_matriz->list, (void*)a);
+        get_element(void*, my_matriz->list, (void*)a);
         printf("s: %p\n ", a);
-    }
+    }*/
 
-    printf("totalElements: %d\n ", totalElements);
+    printf("totalElements: %zu\n ", totalElements);
 
+    va_end(copy1);
     va_end(args);
 
     return my_matriz;
 }
 
-dimensiones get_size_size_total(dimensiones dimensionesMatriz, ...)
+dimensiones get_size_matriz(Matriz* self){
+    if (self == NULL || self->list == NULL) return 0;
+    return size_a(self->list);
+}
+
+dimensiones get_size_total_calc(dimensiones dimensionesMatriz, ...)
 {
     // obtiene la cantidad de elementos totales teoricos que puede tener una matriz:
     va_list args;
@@ -51,31 +73,28 @@ dimensiones get_size_va_list(dimensiones dimensionesMatriz, va_list args)
     {
         position num = va_arg(args, position);
         totalElements *= num;
-        printf("(%d), ", num);
+        printf("(%zu), ", num);
     }
     return totalElements;
 }
 
-LinkedList *dimensiones_matriz_va_list(dimensiones dimensionesMatriz, va_list args)
+ArrayList *dimensiones_matriz_va_list(dimensiones dimensionesMatriz, va_list args)
 {
-    LinkedList *my_dimension = createLinkedList();
+    if (dimensionesMatriz == 0) return NULL;
+    ArrayList *my_dimension = createArrayList(dimensionesMatriz, NULL);
     for (position i = 0; i < dimensionesMatriz; i++)
     {
-        position *size = (position *)malloc(sizeof(position));
-        *size = va_arg(args, position);
-
-        push_back(my_dimension, size);
+        element_def_asg(dimensiones, dimension, va_arg(args, position));
+        push_back(my_dimension, dimension);
     }
     return my_dimension;
 }
 
-LinkedList *dimensiones_matriz(dimensiones dimensionesMatriz, ...)
+ArrayList *dimensiones_matriz(dimensiones dimensionesMatriz, ...)
 {
-    if (dimensionesMatriz == 0)
-        return NULL;
     va_list args;
     va_start(args, dimensionesMatriz);
-    LinkedList *my_dimension = dimensiones_matriz_va_list(dimensionesMatriz, args);
+    ArrayList *my_dimension = dimensiones_matriz_va_list(dimensionesMatriz, args);
     va_end(args);
     return my_dimension;
 }
@@ -84,17 +103,18 @@ Matriz *newMatriz()
 {
     // crea un matrix vacia, vector(fila = row) para almacenar las columnas(columns)
     Matriz *my_matriz = (Matriz *)malloc(sizeof(Matriz));
-    my_matriz->dimensiones_matriz = dimensiones_matriz(0);
+    my_matriz->dimensiones_matriz = dimensiones_matriz_va_list(0, NULL);
+    my_matriz->list = NULL;
     return my_matriz;
 }
-
+/*
 void createColumns(Matriz *matriz, position columns)
 {
     // Crea una nueva columna en la matriz con el número de elementos especificado
 
     for (position i = 0; i < columns; i++)
     {
-        LinkedList *column = createLinkedList();
+        ArrayList *column = createArrayList();
         push_back(matriz->list, column);
     }
 }
@@ -103,41 +123,50 @@ void createRow(Matriz *matriz, position row)
 {
     // Crea una nueva fila en la matriz con el número de elementos especificado
 
-    LinkedList *rowList = createLinkedList();
+    ArrayList *rowList = createArrayList();
 
     for (position i = 0; i < row; i++)
     {
-        LinkedList *column = get_element_v(matriz->list, i);
+        ArrayList *column = get_element_v(matriz->list, i);
         push_back(rowList, column);
     }
 
     push_back(matriz->list, rowList);
-}
+}*/
 
-#include "matriz-list.h"
-
-void freeMatriz(Matriz *matriz)
+Matriz* freeMatriz(Matriz *matriz)
 {
-    if (matriz == NULL)
-        return;
-
-    // Liberar los nodos de la lista de la matriz
-    Node *current = matriz->list->head;
-    for (size_t i = 0; i < size(matriz->list) && current != NULL; i++)
-    {
-        Node *temp = current;
-        current = current->next;
-        puts("a");
+    if (matriz == NULL) return NULL;
+    // liberar el array que contiene todos los elementos de la matriz:
+    if(matriz->list != NULL) {
+        for (position i = matriz->list->Size; i > 0 ; i--){
+            // obtener el ultimo elemento del vector y liberarlo:
+            void *ptr = back_a(matriz->dimensiones_matriz);
+            if (ptr == NULL) {
+                free(ptr); continue;
+            }
+            // eliminar el elemento del vector:
+            pop_back_a(matriz->list);
+        }
+        Destroy(matriz->list); 
     }
-
-    // Liberar la lista de la matriz
-    free(matriz->list);
-
-    // Liberar la lista de dimensiones de la matriz
-    freeLinkedList(matriz->dimensiones_matriz);
-
-    // Liberar la estructura Matriz
+    
+    // liberar el array que guarda las dimensiones de la matriz:
+    if(matriz->dimensiones_matriz != NULL) {
+        for (position i = matriz->list->Size; i > 0 ; i--){
+            // obtener el ultimo elemento del vector y liberarlo:
+            void *ptr = back_a(matriz->dimensiones_matriz);
+            if (ptr == NULL) {
+                free(ptr); continue;
+            }
+            // eliminar el elemento del vector:
+            pop_back_a(matriz->dimensiones_matriz);
+        }
+        Destroy(matriz->dimensiones_matriz);
+    }
+    
     free(matriz);
+    return NULL; // retornar nulo 
 }
 
 #endif

@@ -19,7 +19,7 @@ HashTable *createHashTable(size_t size)
 {
     // HashTable* hashTable = (HashTable*)malloc(sizeof(HashTable));
     HashTable *hashTable;
-    debug_malloc(HashTable, hashTable, sizeof(HashTable));
+    debug_malloc(HashTable, hashTable, 1);
     hashTable->size = 0;
     hashTable->capacity = size;
     // hashTable->table = (Entry**)calloc(size, sizeof(Entry*));
@@ -52,7 +52,7 @@ void put(HashTable *hashTable, const char *key, void *value)
 
     // Entry* entry = (Entry*)malloc(sizeof(Entry));
     Entry *entry;
-    debug_malloc(Entry, entry, sizeof(Entry));
+    debug_malloc(Entry, entry, 1);
 
     entry->key = strdup(key);
     entry->value = value;
