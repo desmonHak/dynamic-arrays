@@ -23,9 +23,10 @@ typedef struct
 
 #ifdef push_back
 #undef push_back
-#define push_back(list, data) _Generic((list), \
+#define push_back(array, ...) _Generic((array), \
     ArrayList*: push_back_a,                      \
-    LinkedList*: push_back_v)(list, data)
+    default: push_back_a)(array,__VA_ARGS__)
+
 #endif
 #ifdef pop_back
 #undef pop_back

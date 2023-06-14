@@ -27,7 +27,7 @@ Matriz *createMatriz(dimensiones dimensionesMatriz, ...)
     va_copy(copy1, args);
     // calcular la cantidad de elementos para la matriz:
     position totalElements = get_size_va_list(dimensionesMatriz, copy1);
-    printf("\ntotalElements: %p == %zu\n ", totalElements, totalElements);
+    printf("\ntotalElements: %p == %zu\n ", (void*)totalElements, totalElements);
 
     va_copy(copy1, args);
     my_matriz->dimensiones_matriz = dimensiones_matriz_va_list(dimensionesMatriz, copy1);

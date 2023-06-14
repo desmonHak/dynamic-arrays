@@ -197,7 +197,7 @@ void vprintf_color(const char *format, va_list args)
     va_copy(args_copy, args);
     size_t size = (vsnprintf(NULL, 0, format, args_copy) + 1) * sizeof(char);
     va_end(args_copy);
-    unsigned char *formatted_buffer = (unsigned char *)malloc(size);
+    char *formatted_buffer = (char *)malloc(size);
     vsprintf(formatted_buffer, format, args);
 
     const char *p = formatted_buffer;
@@ -345,7 +345,7 @@ void vprintf_color(const char *format, va_list args)
                     if (sscanf(color_code, "FG:%hhu;%hhu;%hhu", &red, &green, &blue) == 3)
                     {
                         // Cambiar a color personalizado
-                        foreground_color_custom(red, green, blue);
+                        foreground_color_custom_(red, green, blue);
                     }
                 }
                 else if (strncmp(color_code, "BG:", 3) == 0)
@@ -355,7 +355,7 @@ void vprintf_color(const char *format, va_list args)
                     if (sscanf(color_code, "BG:%hhu;%hhu;%hhu", &red, &green, &blue) == 3)
                     {
                         // Cambiar a color personalizado
-                        background_color_custom(red, green, blue);
+                        background_color_custom_(red, green, blue);
                     }
                 }
                 else if (strncmp(color_code, "i64:", 4) == 0)
@@ -456,40 +456,41 @@ void clear_display()
 {
     printf(CLEAR_DISPLAY);
 }
-void set_title(char *title)
+void set_title(const char *title)
 {
     if (title == NULL) return;
-    printf(SET_TITLE("%d"), title);
+    printf(SET_TITLE("%s"), title);
 }
-void pos(unsigned char x, unsigned char y, char *data)
-{
-    printf(POS("%d", "%d", "%s"), x, y, data);
-}
-void back(char *data, unsigned char number)
+void pos(const unsigned char x, const unsigned char y, const char *data)
 {
     if (data == NULL) return;
-    printf(BACK("%s", "%d"), data, number);
+    printf(POS("%s", "%d", "%d"), x, y, data);
 }
-void forward(char *data, unsigned char number)
+void back(const char *data, const unsigned char number)
 {
     if (data == NULL) return;
-    printf(FORWARD("%s", "%d"), data, number);
+    printf(BACK("%s", "%d"), number, data);
 }
-void down(char *data, unsigned char number)
+void forward(const char *data, const unsigned char number)
 {
     if (data == NULL) return;
-    printf(DOWN("%s", "%d"), data, number);
+    printf(FORWARD("%s", "%d"), number, data);
 }
-void up(char *data, unsigned char number)
+void down(const char *data, const unsigned char number)
 {
     if (data == NULL) return;
-    printf(UP("%s", "%d"), data, number);
+    printf(DOWN("%s", "%d"), number, data);
+}
+void up(const char *data, const unsigned char number)
+{
+    if (data == NULL) return;
+    printf(UP("%s", "%d"), number, data);
 }
 static inline void foreground_color_custom_RGB(RGB_C color)
 {
     foreground_color_custom_(color.r, color.g, color.b);
 }
-static void foreground_color_custom_(unsigned char red, unsigned char green, unsigned char blue)
+static void foreground_color_custom_(const unsigned char red, const unsigned char green, const unsigned char blue)
 {
     printf(FOREGROUND_COLOR_CUSTOM_RGB("%d", "%d", "%d"), red, green, blue);
 }
@@ -497,7 +498,7 @@ static inline void background_color_custom_RGB(RGB_C color)
 {
     background_color_custom_(color.red, color.green, color.blue);
 }
-static void background_color_custom_(unsigned char red, unsigned char green, unsigned char blue)
+static void background_color_custom_(const unsigned char red, const unsigned char green, const unsigned char blue)
 {
     printf(BACKGROUND_COLOR_CUSTOM_RGB("%d", "%d", "%d"), red, green, blue);
 }
@@ -515,8 +516,8 @@ static void back_fore_color_custom_(unsigned char redB, unsigned char greenB,
                                     unsigned char blueB, unsigned char redF,
                                     unsigned char greenF, unsigned char blueF)
 {
-    foreground_color_custom(redF, greenF, blueF);
-    background_color_custom(redB, greenB, blueB);
+    foreground_color_custom_(redF, greenF, blueF);
+    background_color_custom_(redB, greenB, blueB);
 }
 
 void ANSI_fore_color(ANSIColors color)

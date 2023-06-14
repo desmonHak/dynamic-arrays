@@ -1,4 +1,7 @@
-#define DEBUG_ENABLE 
+#ifndef DEBUG_ENABLE
+#define DEBUG_ENABLE
+#endif
+ 
 #include "time_code.h"
 #include "array-list.h"
 
@@ -31,23 +34,23 @@ int main(){
 
 
     printf("El front del vector es %s\n", get_val(char*, front(array)));
-    printf("El back del vector es %ld\n", get_val(char*, back(array)));
+    printf("El back del vector es %s\n", get_val(char*, back(array)));
 
     printf("Antes del shrinking\n");
-    printf("El size del vector es %ld\n", size(array));
-    printf("El capacity del vector es %ld\n", capacity(array));
+    printf("El size del vector es %zu\n", size(array));
+    printf("El capacity del vector es %zu\n", capacity(array));
 
     shrink_to_fit(array);
 
     printf("Despues del shrinking\n");
-    printf("El size del vector es %ld\n", size(array));
-    printf("El capacity del vector es %ld\n", capacity(array));
+    printf("El size del vector es %zu\n", size(array));
+    printf("El capacity del vector es %zu\n", capacity(array));
 
     element_def_asg(long long, n7, 89LL)
     push_back(array, n7);
     printf("Despues del push_back\n");
-    printf("El size del vector es %ld\n", size(array));
-    printf("El capacity del vector es %ld\n", capacity(array));
+    printf("El size del vector es %zu\n", size(array));
+    printf("El capacity del vector es %zu\n", capacity(array));
     
     forEach(array);
 

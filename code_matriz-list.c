@@ -1,4 +1,7 @@
-#define DEBUG_ENABLE 
+#ifndef DEBUG_ENABLE
+#define DEBUG_ENABLE
+#endif
+
 #include "time_code.h"
 #include "matriz-list.h"
 
@@ -9,7 +12,7 @@ int main()
 
     // int arr[2 + 2*4+ 5 *4*5];
 
-    int arr2[2][4][5] = {
+    /*int arr2[2][4][5] = {
         {
             {1, 2, 3, 4, 5},
             {5, 4, 3, 2, 1},
@@ -22,10 +25,10 @@ int main()
             {1, 2, 3, 4, 5},
             {5, 4, 3, 2, 1},
         }};
-        size_t i = sizeof(arr2)/sizeof(int);
+        size_t i = sizeof(arr2)/sizeof(int);*/
 
     //int arr1[2+ 2*4 + (2+2*4)*5] = {
-    char arr1[dimension(2, 4, 5)] = { 
+    char arr1[2+ 2*4 + (2+2*4)*5] = { 
         1, 2, 3,  4,  5,
         2, 3, 5,  9,  13,
         3, 5, 8,  13, 21,

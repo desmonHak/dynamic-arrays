@@ -7,9 +7,9 @@
 #include "debug_c.h"
 
 #ifndef push_back
-#define push_back(...) _Generic((__VA_ARGS__), \
+#define push_back(array, ...) _Generic((array), \
     ArrayList*: push_back_a,                      \
-    default: push_back_a)(__VA_ARGS__)
+    default: push_back_a)(array,__VA_ARGS__)
 #endif
 
 #ifndef pop_back

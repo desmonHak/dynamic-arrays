@@ -15,7 +15,7 @@ typedef position dimensiones;
 
 Matriz* createMatriz(dimensiones dimensionesMatriz, ...);
 Matriz* newMatriz();
-void freeMatriz(Matriz* matriz);
+Matriz* freeMatriz(Matriz* matriz);
 void createColumns(Matriz* matriz, position columns);
 void createRow(Matriz* matriz, position row);
 dimensiones get_size_va_list(dimensiones dimensionesMatriz, va_list args);

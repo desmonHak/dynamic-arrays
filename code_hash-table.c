@@ -1,4 +1,7 @@
-#define DEBUG_ENABLE 
+#ifndef DEBUG_ENABLE
+#define DEBUG_ENABLE
+#endif
+
 #include "time_code.h"
 #include "hash-table.h"
 
@@ -22,15 +25,15 @@ int main() {
         key[1] = '\0';
         //printf("%s\n", key);
 
-        put(hashTable, key, val);
+        put(hashTable, (const char *)key, val);
         debug_set_level(DEBUG_LEVEL_INFO);
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "Value for key '%s': %d\n",key, *(unsigned char*)get(hashTable, key));
+        DEBUG_PRINT(DEBUG_LEVEL_INFO, "Value for key '%s': %d\n",key, *(unsigned char*)get(hashTable, (const char *)key));
     }
 
     // Get values
-    printf("Value for key 'key1': %d\n", *(int*)get(hashTable, "key1"));
-    printf("Value for key 'key2': %d\n", *(int*)get(hashTable, "key2"));
-    printf("Value for key 'key3': %d\n", *(int*)get(hashTable, "key3"));
+    printf("Value for key 'key1': %d\n", *(int*)get(hashTable, (const char *)"key1"));
+    printf("Value for key 'key2': %d\n", *(int*)get(hashTable, (const char *)"key2"));
+    printf("Value for key 'key3': %d\n", *(int*)get(hashTable, (const char *)"key3"));
 
     // Print hash table
     printf("Hash Table:\n");
