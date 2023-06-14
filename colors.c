@@ -183,6 +183,7 @@ void setConsoleColor(ConsoleColor foreground, ConsoleColor background)
 #endif
 void printf_color(const char *format, ...)
 {
+    if (format == NULL) return;
     va_list args;
     va_start(args, format);
     vprintf_color(format, args);
@@ -191,6 +192,7 @@ void printf_color(const char *format, ...)
 
 void vprintf_color(const char *format, va_list args)
 {
+    if (format == NULL) return;
     va_list args_copy;
     va_copy(args_copy, args);
     size_t size = (vsnprintf(NULL, 0, format, args_copy) + 1) * sizeof(char);
@@ -456,6 +458,7 @@ void clear_display()
 }
 void set_title(char *title)
 {
+    if (title == NULL) return;
     printf(SET_TITLE("%d"), title);
 }
 void pos(unsigned char x, unsigned char y, char *data)
@@ -464,18 +467,22 @@ void pos(unsigned char x, unsigned char y, char *data)
 }
 void back(char *data, unsigned char number)
 {
+    if (data == NULL) return;
     printf(BACK("%s", "%d"), data, number);
 }
 void forward(char *data, unsigned char number)
 {
+    if (data == NULL) return;
     printf(FORWARD("%s", "%d"), data, number);
 }
 void down(char *data, unsigned char number)
 {
+    if (data == NULL) return;
     printf(DOWN("%s", "%d"), data, number);
 }
 void up(char *data, unsigned char number)
 {
+    if (data == NULL) return;
     printf(UP("%s", "%d"), data, number);
 }
 static inline void foreground_color_custom_RGB(RGB_C color)
@@ -565,6 +572,7 @@ void print_sizes_num(sizes_num byte, size_t size_word)
 
 void print_bin(const void *data, size_t size)
 {
+    if (data == NULL) return;
     const unsigned char *bytePtr = (const unsigned char *)data;
 
     for (size_t byte = 0; byte < size; byte++)

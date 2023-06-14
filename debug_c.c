@@ -58,6 +58,7 @@ void debug_set_level(DebugLevel level)
 
 void debug_print(DebugLevel level, const char *fmt, ...)
 {
+    if (fmt == (const char *)NULL) return;
     if (level < currentLevel)
     {
         return;

@@ -3,6 +3,7 @@
 #include "matriz-list.h"
 
 position calcularPosicionVector(const dimensiones *dimensiones_, const position *coordenada, const position numDimensiones) {
+    if (dimensiones_ == NULL || coordenada == NULL) return 0;
     position posicion = 0;
     position potencia = 1;
 

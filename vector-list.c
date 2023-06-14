@@ -119,10 +119,7 @@ Node *get_node(LinkedList *list, const position pos)
 
 const position get_position(Node *node)
 {
-    if (node == NULL)
-    {
-        return -1; // Nodo nulo, posición inválida
-    }
+    if (node == NULL) return -1; // Nodo nulo, posición inválida
     return node->id;
 }
 
@@ -152,6 +149,8 @@ void *get_element_v(LinkedList *list, const position ID)
 {
     // Buscar el elemento en la lista enlazada con el ID especificado
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*#{FG:cyan}get_element_v#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list = %p, #{FG:lyellow}const position #{FG:white}ID = %zu#{FG:white})", list, ID);
+    if (list == NULL) return NULL;
+
     Node *current = list->head; // Obtener el primer nodo de la lista
     while (current != NULL)
     {
@@ -169,6 +168,7 @@ void *get_element_v(LinkedList *list, const position ID)
 
 void insertNode(LinkedList *list, void *data)
 {
+    if (list == NULL || data == NULL) return;
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*#{FG:cyan}insertNode#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list = %p, #{FG:lyellow}void* #{FG:white}data = %p#{FG:white})", list, data);
     // Crear un nuevo nodo
     // Node *newNode = (Node *)malloc(sizeof(Node));
@@ -207,6 +207,8 @@ bool existsID(LinkedList *list, const position ID)
      *
      */
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}bool #{FG:cyan}existsID#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list = %p, #{FG:lyellow}const position #{FG:white}ID = %zu#{FG:white})", list, ID);
+    if (list == NULL) return false;
+
     Node *current = list->head; // Inicializar el puntero current al primer nodo de la lista
     while (current != NULL)     // Recorrer la lista para buscar el ID
     {
@@ -227,6 +229,7 @@ bool existsID(LinkedList *list, const position ID)
 bool exists(LinkedList *list, Node *node)
 {
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}bool #{FG:cyan}exists#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list = %p, #{FG:lyellow}Node #{FG:white}node = %p)", list, node);
+    if (list == NULL || node == NULL) return false;
 
     Node *current = list->head; // Inicializar el puntero current al primer nodo de la lista
     // Recorrer la lista para buscar el nodo
@@ -253,7 +256,7 @@ void deleteNode(LinkedList *list, Node *node)
 {
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:cyan}deleteNode#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list = %p, #{FG:lyellow}Node* #{FG:white}node = %p#{FG:white})", list, node);
     // Comprobar si la lista o el nodo son nulos
-    if (list->head == NULL || node == NULL)
+    if (list == NULL || list->head == NULL || node == NULL)
     {
         DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}deleteNode#{FG:red}] #{FG:white} La lista o el nodo son nulos. ");
         // Si la lista o el nodo son nulos, retornar sin hacer nada
@@ -333,7 +336,7 @@ void deleteNode(LinkedList *list, Node *node)
 void deleteNodeID(LinkedList *list, const position ID)
 {
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:cyan}deleteNodeID#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list = %p, #{FG:lyellow}const position #{FG:white}ID = %zu#{FG:white})", list, ID);
-    if (list->head == NULL)
+    if (list == NULL || list->head == NULL)
     {
 #ifdef __VECTOR_LIST_DEBBUG__
         DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}deleteNodeID#{FG:red}] #{FG:white} La lista esta vacia. ");
@@ -403,6 +406,8 @@ void deleteNodeID(LinkedList *list, const position ID)
 void updateIds(LinkedList *list)
 {
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:cyan}deleteNodeID#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list = %p#{FG:white})", list);
+    if (list == NULL) return;
+
     // Establecer el primer nodo como el nodo actual
     Node *current = list->head;
     // Restablecer el valor de lastId a 0
@@ -437,7 +442,7 @@ const position pop_back_v(LinkedList *list)
 {
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}const position #{FG:cyan}pop_back_v#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list = %p)", list);
     // Comprobar si la lista está vacía
-    if (list->head == NULL)
+    if (list == NULL || list->head == NULL)
     {
         DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}pop_back_v#{FG:red}] #{FG:white} La lista esta vacia. ");
         // La lista está vacía, retornar -1
@@ -538,6 +543,7 @@ bool empty(LinkedList *list)
 void clear(LinkedList *list)
 {
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:cyan}clear#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list)");
+    if (list == NULL) return;
     Node *current = list->head;
     while (current != NULL)
     {
@@ -641,6 +647,7 @@ Node *get_last_node(LinkedList *list)
 void *get_last(LinkedList *list)
 {
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*#{FG:cyan}get_last#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list = %p)", list);
+    if (list == NULL) return NULL;
     Node *lastNode = get_last_node(list);
     if (lastNode != NULL)
     {
@@ -657,6 +664,7 @@ void *get_last(LinkedList *list)
 const position get_last_position(LinkedList *list)
 {
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}const position #{FG:cyan}get_last_position#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list = %p)", list);
+    if (list == NULL) return 0;
     Node *lastNode = get_last_node(list);
     if (lastNode != NULL)
     {

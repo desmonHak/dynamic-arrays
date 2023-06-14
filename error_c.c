@@ -5,6 +5,7 @@
 
 void error_print(const Error *err)
 {
+    if (err == NULL) return;
     const char *level_str;
     switch (err->level_c)
     {
@@ -26,6 +27,7 @@ void error_print(const Error *err)
 
 void error_log(const Error *err)
 {
+    if (err == NULL) return;
     FILE *file = fopen(ERROR_LOG_FILE, "a");
     if (file != NULL)
     {

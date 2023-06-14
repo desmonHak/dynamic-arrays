@@ -5,6 +5,8 @@
 
 unsigned long hash(const char *str, size_t size)
 {
+    if (str == (const char *)NULL) return 0;
+    
     size_t hash = 0x1505;
     int c;
     while ((c = *str++))
@@ -34,17 +36,22 @@ void put(HashTable *hashTable, const char *key, void *value)
     {
         debug_set_level(DEBUG_LEVEL_WARNING);
         DEBUG_PRINT(DEBUG_LEVEL_WARNING, "#{FG:cyan}put#{FG:white}(#{FG:lred}HashTable#{FG:white}* hashTable = NULL(%p), const char* key = %s, void* value = %p)\n", hashTable, key, value);
+        return;
     }
     if (key == (const char *)NULL)
     {
         debug_set_level(DEBUG_LEVEL_WARNING);
         DEBUG_PRINT(DEBUG_LEVEL_WARNING, "#{FG:cyan}put#{FG:white}(#{FG:lred}HashTable#{FG:white}* hashTable = %p, const char* key = NULL(%s), void* value = %p)\n", hashTable, key, value);
+        return;
     }
     if (key == value)
     {
         debug_set_level(DEBUG_LEVEL_WARNING);
         DEBUG_PRINT(DEBUG_LEVEL_WARNING, "#{FG:cyan}put#{FG:white}(#{FG:lred}HashTable#{FG:white}* hashTable = %p, const char* key = %s, void* value = NULL(%p))\n", hashTable, key, value);
+        return;
     }
+#else
+    if (hashTable == NULL || key == (const char *)NULL || value == NULL) return;
 #endif
 
     size_t index = hash(key, hashTable->capacity);
@@ -110,13 +117,23 @@ void put(HashTable *hashTable, const char *key, void *value)
 
 void *get(HashTable *hashTable, const char *key)
 {
-#ifdef __ERROR_H__
+
     if (hashTable == NULL)
     {
+        #ifdef __ERROR_H__
+        debug_set_level(DEBUG_LEVEL_WARNING);
+        DEBUG_PRINT(DEBUG_LEVEL_WARNING, "get(HashTable* hashTable = NULL(%p), const char* key = %p)\n", hashTable, key);
+        #endif
+        return NULL;
+    }
+    if (key == NULL)
+    {
+        #ifdef __ERROR_H__
         debug_set_level(DEBUG_LEVEL_WARNING);
         DEBUG_PRINT(DEBUG_LEVEL_WARNING, "get(HashTable* hashTable = %p, const char* key = NULL(%p))\n", hashTable, key);
+        #endif
+        return NULL;
     }
-#endif
 
     size_t index = hash(key, hashTable->capacity);
 
@@ -135,13 +152,16 @@ void *get(HashTable *hashTable, const char *key)
 
 void printHashTable(HashTable *hashTable)
 {
-#ifdef DEBUG_ENABLE
+
     if (hashTable == NULL)
     {
+        #ifdef DEBUG_ENABLE
         debug_set_level(DEBUG_LEVEL_INFO);
         DEBUG_PRINT(DEBUG_LEVEL_INFO, "printHashTable: NULL(%p)\n", hashTable);
+        #endif
+        return;
     }
-#endif
+
     for (size_t i = 0; i < hashTable->capacity; i++)
     {
         Entry *entry = hashTable->table[i];
@@ -155,13 +175,15 @@ void printHashTable(HashTable *hashTable)
 
 void freeHashTable(HashTable *hashTable)
 {
-#ifdef DEBUG_ENABLE
+
     if (hashTable == NULL)
     {
+        #ifdef DEBUG_ENABLE
         debug_set_level(DEBUG_LEVEL_INFO);
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "freeHashTable: NULL(%p)\n", hashTable);
+        DEBUG_PRINT(DEBUG_LEVEL_INFO, "printHashTable: NULL(%p)\n", hashTable);
+        #endif
+        return;
     }
-#endif
     for (size_t i = 0; i < hashTable->size; i++)
     {
         Entry *entry = hashTable->table[i];
