@@ -53,6 +53,15 @@ int main()
 
     (void)printf("get_size_total_calc: %zu\n", get_size_total_calc(4, 5, 5, 5, 5));
     (void)printf("get_size_matriz: %zu\n", get_size_matriz(my_matriz));
+    //forEach(my_matriz->dimensiones_matriz);
+    //forEach(my_matriz->list);
+    void *ptr = front(my_matriz->list);
+    if (!ptr){
+        printf("El front del vector es %zu\n", *((position *)(my_matriz->list->Array)));
+        printf("El front del vector es %zu\n", get_val(position, ptr));
+    } else {
+        printf("El front del vector es NULL, %p\n", (void *)my_matriz->list);
+    }
     
     my_matriz = freeMatriz(my_matriz);
     (void)puts("memoria liberada");

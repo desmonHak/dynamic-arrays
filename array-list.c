@@ -41,7 +41,7 @@ void push_back_a(ArrayList *self, void * _data){
      *  
      */
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:cyan}push_back_a#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p, #{FG:lyellow}void#{FG:white} *_data = %p)", self->Array, _data);
-    if (_data == NULL || self == NULL) return;
+    if (!_data || !self) return;
     if (!self->Size){
         self->Size = self->Capacity = 1;
         //self->Array = (void **)malloc(sizeof(void*) * self->Capacity);
@@ -91,7 +91,7 @@ void pop_back_a(ArrayList *self){
      * 
      */
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:cyan}pop_back_a#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p)", self->Array);
-    if(!self->Size) return;
+    if(!self && !self->Size) return;
     self->Array[--self->Size] = 0; 
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}pop_back_a#{FG:red}] #{FG:white}Delete element: #{FG:lgreen}%zu#{FG:white}.", self->Size);
 }
@@ -105,8 +105,8 @@ void *front(ArrayList *self){
      */
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*front#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p)", self->Array);
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*#{FG:cyan}front#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;", (self->Size != 0) ? self->Array[0] : NULL);
-    if(self->Size) return self->Array[0];
-    else return NULL; // el vector esta vacio
+    if(self && self->Size) return self->Array[0];
+    return NULL; // el vector esta vacio
 }
 
 void *back_a(ArrayList *self){
@@ -118,7 +118,7 @@ void *back_a(ArrayList *self){
      */
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*#{FG:cyan}back_a#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p)", self->Array);
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*#{FG:cyan}back_a#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;", (self->Size != 0) ? self->Array[self->Size -1] : NULL);
-    if(self != NULL && self->Size) return self->Array[self->Size -1];
+    if(self && self->Size) return self->Array[self->Size -1];
     else return NULL; // el vector esta vacio
 }
 
@@ -131,7 +131,7 @@ void shrink_to_fit(ArrayList *self){
      * 
      */
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*#{FG:cyan}shrink_to_fit#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p)", self->Array);
-    if (!self->Size && self->Size == self->Capacity) return;
+    if (!self && !self->Size && self->Size == self->Capacity) return;
 
     //void **ptr_new = (void **)malloc(sizeof(void *) * self->Size);
     void **ptr_new;
@@ -155,10 +155,13 @@ void *Destroy(ArrayList *self){
      * 
      */
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*#{FG:cyan}Destroy#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p)", self->Array);
-    free(self->Array);
-    self->Array = NULL;
-    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*#{FG:cyan}Destroy#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;", self->Array);
-    return self->Array;
+    if (self){
+        free(self->Array);
+        self->Array = NULL;
+        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*#{FG:cyan}Destroy#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;", self->Array);
+        return self->Array;
+    } 
+    return NULL;
 }
 
 void forEach(ArrayList *self){
@@ -169,7 +172,7 @@ void forEach(ArrayList *self){
      * 
      */
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:cyan}forEach#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p)", self->Array);
-    if(!self->Size) return;
+    if(!self && !self->Size) return;
     printf("Vector info\n\n");
     for (position i = 0; i < self->Size; i++){
         printf_color("\t #{FG:lred}%ld#{FG:lwhite}. #{FG:lcyan}%zu\n", i , get_val(size_t, self->Array[i]));

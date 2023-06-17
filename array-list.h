@@ -29,7 +29,9 @@
 
 // definicion:
 #define element_def(type, name) \
-    type *name = (type *)malloc(sizeof(type));
+    type *name; \
+    debug_malloc(type, name, 1);
+    //type *name = (type *)malloc(sizeof(type));
 
 // asignacion
 #define element_asg(name, value) \
@@ -37,8 +39,10 @@
 
 // definicion y asignacion:
 #define element_def_asg(type, name, value)     \
-    type *name = (type *)malloc(sizeof(type)); \
+    type *name; \
+    debug_malloc(type, name, 1); \
     *name = value;
+    //type *name = (type *)malloc(sizeof(type)); 
 
 #define get_val(type, name) *((type *)(name))
 

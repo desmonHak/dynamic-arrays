@@ -40,7 +40,11 @@ Matriz *createMatriz(dimensiones dimensionesMatriz, ...)
     va_copy(copy1, args);
     my_matriz->dimensiones_matriz = dimensiones_matriz_va_list(dimensionesMatriz, copy1);
     my_matriz->list = createArrayList(totalElements, NULL);
-    
+    if (!my_matriz->list || !my_matriz->dimensiones_matriz) {
+        puts("Error creando la matriz!");
+        freeMatriz(my_matriz);
+        return NULL;
+    };
 
     /*for(position i = 0; i < totalElements; i++){
         printf("createArrayList: \n ");
@@ -91,6 +95,7 @@ ArrayList *dimensiones_matriz_va_list(dimensiones dimensionesMatriz, va_list arg
 {
     if (dimensionesMatriz == 0) return NULL;
     ArrayList *my_dimension = createArrayList(dimensionesMatriz, NULL);
+    if (!my_dimension) return NULL;
     for (position i = 0; i < dimensionesMatriz; i++)
     {
         element_def_asg(dimensiones, dimension, va_arg(args, position));
@@ -105,6 +110,7 @@ ArrayList *dimensiones_matriz(dimensiones dimensionesMatriz, ...)
     va_start(args, dimensionesMatriz);
     ArrayList *my_dimension = dimensiones_matriz_va_list(dimensionesMatriz, args);
     va_end(args);
+    if (!my_dimension) return NULL;
     return my_dimension;
 }
 
