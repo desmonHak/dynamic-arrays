@@ -41,6 +41,7 @@ void push_back_a(ArrayList *self, void * _data){
      *  
      */
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:cyan}push_back_a#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p, #{FG:lyellow}void#{FG:white} *_data = %p)", self->Array, _data);
+    if (_data == NULL || self == NULL) return;
     if (!self->Size){
         self->Size = self->Capacity = 1;
         //self->Array = (void **)malloc(sizeof(void*) * self->Capacity);
@@ -117,7 +118,7 @@ void *back_a(ArrayList *self){
      */
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*#{FG:cyan}back_a#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p)", self->Array);
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*#{FG:cyan}back_a#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;", (self->Size != 0) ? self->Array[self->Size -1] : NULL);
-    if(self->Size) return self->Array[self->Size -1];
+    if(self != NULL && self->Size) return self->Array[self->Size -1];
     else return NULL; // el vector esta vacio
 }
 

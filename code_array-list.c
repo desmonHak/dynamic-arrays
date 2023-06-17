@@ -34,7 +34,11 @@ int main(){
 
 
     printf("El front del vector es %s\n", get_val(char*, front(array)));
-    printf("El back del vector es %s\n", get_val(char*, back(array)));
+    void *ptr = back(array);
+    if (ptr != NULL){
+        
+        printf("El back del vector es %zu\n", get_val(size_t, ptr));
+    }
 
     printf("Antes del shrinking\n");
     printf("El size del vector es %zu\n", size(array));

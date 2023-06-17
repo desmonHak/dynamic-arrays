@@ -1,5 +1,5 @@
 # 1 "code-array-list_vector-list.c"
-# 1 "C:\\Users\\Diurno\\Desktop\\dynamic-arrays//"
+# 1 "C:\\Users\\Desmon0x90\\Desktop\\dynamic-arrays//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "code-array-list_vector-list.c"
@@ -12,44 +12,44 @@
 
 
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdbool.h" 1 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdbool.h" 1 3 4
 # 5 "vector-list.h" 2
 # 1 "array-list.h" 1
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt_stdio_config.h" 1 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt_stdio_config.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt.h" 1 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw_mac.h" 1 3
-# 98 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw_mac.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/corecrt_stdio_config.h" 1 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/corecrt_stdio_config.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/corecrt.h" 1 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/corecrt.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw_mac.h" 1 3
+# 98 "C:/tdm64/x86_64-w64-mingw32/include/_mingw_mac.h" 3
              
-# 107 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw_mac.h" 3
+# 107 "C:/tdm64/x86_64-w64-mingw32/include/_mingw_mac.h" 3
              
-# 11 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw_secapi.h" 1 3
-# 12 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 2 3
-# 283 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/vadefs.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/vadefs.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 609 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h" 1 3
-# 610 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 2 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/vadefs.h" 2 3
+# 11 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw_secapi.h" 1 3
+# 12 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 2 3
+# 283 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/vadefs.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/vadefs.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 609 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h" 1 3
+# 610 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 2 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/vadefs.h" 2 3
 
 
 
 
 #pragma pack(push,_CRT_PACKING)
-# 24 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/vadefs.h" 3
+# 24 "C:/tdm64/x86_64-w64-mingw32/include/vadefs.h" 3
   
-# 24 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/vadefs.h" 3
+# 24 "C:/tdm64/x86_64-w64-mingw32/include/vadefs.h" 3
  typedef __builtin_va_list __gnuc_va_list;
 
 
@@ -58,10 +58,10 @@
 
 
   typedef __gnuc_va_list va_list;
-# 103 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/vadefs.h" 3
+# 103 "C:/tdm64/x86_64-w64-mingw32/include/vadefs.h" 3
 #pragma pack(pop)
-# 284 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 2 3
-# 580 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 3
+# 284 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 2 3
+# 580 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 3
 void __attribute__((__cdecl__)) __debugbreak(void);
 extern __inline__ __attribute__((__always_inline__,__gnu_inline__)) void __attribute__((__cdecl__)) __debugbreak(void)
 {
@@ -72,15 +72,15 @@ extern __inline__ __attribute__((__always_inline__,__gnu_inline__)) void __attri
 
 
 const char *__mingw_get_crt_info (void);
-# 11 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt.h" 2 3
+# 11 "C:/tdm64/x86_64-w64-mingw32/include/corecrt.h" 2 3
 
 
 
 
 #pragma pack(push,_CRT_PACKING)
-# 40 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt.h" 3
+# 40 "C:/tdm64/x86_64-w64-mingw32/include/corecrt.h" 3
 __extension__ typedef unsigned long long size_t;
-# 50 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt.h" 3
+# 50 "C:/tdm64/x86_64-w64-mingw32/include/corecrt.h" 3
 __extension__ typedef long long ssize_t;
 
 
@@ -89,13 +89,13 @@ __extension__ typedef long long ssize_t;
 
 
 typedef size_t rsize_t;
-# 67 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt.h" 3
+# 67 "C:/tdm64/x86_64-w64-mingw32/include/corecrt.h" 3
 __extension__ typedef long long intptr_t;
-# 80 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt.h" 3
+# 80 "C:/tdm64/x86_64-w64-mingw32/include/corecrt.h" 3
 __extension__ typedef unsigned long long uintptr_t;
-# 93 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt.h" 3
+# 93 "C:/tdm64/x86_64-w64-mingw32/include/corecrt.h" 3
 __extension__ typedef long long ptrdiff_t;
-# 103 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt.h" 3
+# 103 "C:/tdm64/x86_64-w64-mingw32/include/corecrt.h" 3
 typedef unsigned short wchar_t;
 
 
@@ -122,9 +122,9 @@ typedef long __time32_t;
 
 
 __extension__ typedef long long __time64_t;
-# 143 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt.h" 3
+# 143 "C:/tdm64/x86_64-w64-mingw32/include/corecrt.h" 3
 typedef __time64_t time_t;
-# 435 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt.h" 3
+# 435 "C:/tdm64/x86_64-w64-mingw32/include/corecrt.h" 3
 struct threadlocaleinfostruct;
 struct threadmbcinfostruct;
 typedef struct threadlocaleinfostruct *pthreadlocinfo;
@@ -178,13 +178,13 @@ typedef struct threadlocaleinfostruct {
   struct __lc_time_data *lc_time_curr;
 
 } threadlocinfo;
-# 506 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt.h" 3
+# 506 "C:/tdm64/x86_64-w64-mingw32/include/corecrt.h" 3
 #pragma pack(pop)
-# 11 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt_stdio_config.h" 2 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 2 3
+# 11 "C:/tdm64/x86_64-w64-mingw32/include/corecrt_stdio_config.h" 2 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 2 3
 
 #pragma pack(push,_CRT_PACKING)
-# 24 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
+# 24 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
   struct _iobuf {
     char *_ptr;
     int _cnt;
@@ -196,8 +196,8 @@ typedef struct threadlocaleinfostruct {
     char *_tmpfname;
   };
   typedef struct _iobuf FILE;
-# 78 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw_off_t.h" 1 3
+# 78 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw_off_t.h" 1 3
 
 
 
@@ -213,17 +213,17 @@ typedef struct threadlocaleinfostruct {
   __extension__ typedef long long _off64_t;
 
   __extension__ typedef long long off64_t;
-# 26 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw_off_t.h" 3
+# 26 "C:/tdm64/x86_64-w64-mingw32/include/_mingw_off_t.h" 3
 typedef off32_t off_t;
-# 79 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 2 3
+# 79 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 2 3
 
 __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) __acrt_iob_func(unsigned index);
 
 
   __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) __iob_func(void);
-# 102 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
+# 102 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
   __extension__ typedef long long fpos_t;
-# 142 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
+# 142 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
 extern
   __attribute__((__format__ (gnu_scanf, 2, 3))) __attribute__ ((__nonnull__ (2)))
   int __attribute__((__cdecl__)) __mingw_sscanf(const char * __restrict__ _Src,const char * __restrict__ _Format,...);
@@ -303,7 +303,7 @@ extern
 extern
   __attribute__((__format__ (ms_printf, 2, 0))) __attribute__ ((__nonnull__ (2)))
   int __attribute__((__cdecl__)) __ms_vsprintf (char * __restrict__ , const char * __restrict__ , va_list) __attribute__ ((__nothrow__));
-# 274 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
+# 274 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
 static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
 __attribute__((__format__ (gnu_scanf, 2, 3))) __attribute__ ((__nonnull__ (2)))
 int sscanf(const char *__source, const char *__format, ...)
@@ -392,7 +392,7 @@ int printf (const char *__format, ...)
   __builtin_va_end( __local_argv );
   return __retval;
 }
-# 380 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
+# 380 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
 static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
 __attribute__((__format__ (gnu_printf, 2, 3))) __attribute__ ((__nonnull__ (2)))
 int sprintf (char *__stream, const char *__format, ...)
@@ -424,10 +424,10 @@ static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
 __attribute__((__format__ (gnu_printf, 2, 0))) __attribute__ ((__nonnull__ (2)))
 int vsprintf (char *__stream, const char *__format, __builtin_va_list __local_argv)
 {
-# 419 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
+# 419 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
   return __mingw_vsprintf( __stream, __format, __local_argv );
 }
-# 435 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
+# 435 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
 static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
 __attribute__((__format__ (gnu_printf, 3, 4))) __attribute__ ((__nonnull__ (3)))
 int snprintf (char *__stream, size_t __n, const char *__format, ...)
@@ -450,7 +450,7 @@ int vsnprintf (char *__stream, size_t __n, const char *__format, __builtin_va_li
 
   return __mingw_vsnprintf( __stream, __n, __format, __local_argv );
 }
-# 625 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
+# 625 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _filbuf(FILE *_File);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _flsbuf(int _Ch,FILE *_File);
 
@@ -496,13 +496,13 @@ int vsnprintf (char *__stream, size_t __n, const char *__format, __builtin_va_li
 
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fseeki64(FILE *_File,long long _Offset,int _Origin);
   __attribute__ ((__dllimport__)) long long __attribute__((__cdecl__)) _ftelli64(FILE *_File);
-# 684 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
+# 684 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
   int fseeko64(FILE* stream, _off64_t offset, int whence);
   int fseeko(FILE* stream, _off_t offset, int whence);
 
   _off_t ftello(FILE * stream);
   _off64_t ftello64(FILE * stream);
-# 705 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
+# 705 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
   size_t __attribute__((__cdecl__)) fwrite(const void * __restrict__ _Str,size_t _Size,size_t _Count,FILE * __restrict__ _File);
   int __attribute__((__cdecl__)) getc(FILE *_File);
   int __attribute__((__cdecl__)) getchar(void);
@@ -541,19 +541,19 @@ int vsnprintf (char *__stream, size_t __n, const char *__format, __builtin_va_li
   __attribute__ ((__dllimport__)) unsigned int __attribute__((__cdecl__)) _set_output_format(unsigned int _Format);
   __attribute__ ((__dllimport__)) unsigned int __attribute__((__cdecl__)) _get_output_format(void);
   int __attribute__((__cdecl__)) setvbuf(FILE * __restrict__ _File,char * __restrict__ _Buf,int _Mode,size_t _Size);
-# 765 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
+# 765 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _scprintf(const char * __restrict__ _Format,...);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _snscanf(const char * __restrict__ _Src,size_t _MaxCount,const char * __restrict__ _Format,...) ;
 
   FILE *__attribute__((__cdecl__)) tmpfile(void) ;
   char *__attribute__((__cdecl__)) tmpnam(char *_Buffer);
   int __attribute__((__cdecl__)) ungetc(int _Ch,FILE *_File);
-# 787 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
+# 787 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
   __attribute__((__format__ (ms_printf, 3, 4))) __attribute__ ((__nonnull__ (3)))
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _snprintf(char * __restrict__ _Dest,size_t _Count,const char * __restrict__ _Format,...) ;
   __attribute__((__format__ (ms_printf, 3, 0))) __attribute__ ((__nonnull__ (3)))
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vsnprintf(char * __restrict__ _Dest,size_t _Count,const char * __restrict__ _Format,va_list _Args) ;
-# 952 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
+# 952 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vscprintf(const char * __restrict__ _Format,va_list _ArgList);
 
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _set_printf_count_output(int _Value);
@@ -611,7 +611,7 @@ int vsnprintf (char *__stream, size_t __n, const char *__format, __builtin_va_li
   int __attribute__((__cdecl__)) __ms_swprintf(wchar_t * __restrict__ , const wchar_t * __restrict__ , ...);
                                                      __attribute__ ((__nonnull__ (2)))
   int __attribute__((__cdecl__)) __ms_vswprintf(wchar_t * __restrict__ , const wchar_t * __restrict__ ,va_list);
-# 1022 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
+# 1022 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
 static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
                                                      __attribute__ ((__nonnull__ (2)))
 int swscanf(const wchar_t *__source, const wchar_t *__format, ...)
@@ -705,7 +705,7 @@ int vwprintf (const wchar_t *__format, __builtin_va_list __local_argv)
 {
   return __mingw_vfwprintf( (__acrt_iob_func(1)), __format, __local_argv );
 }
-# 1130 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
+# 1130 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
 static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
                                                       __attribute__ ((__nonnull__ (3)))
 int snwprintf (wchar_t *__stream, size_t __n, const wchar_t *__format, ...)
@@ -728,7 +728,7 @@ int vsnwprintf (wchar_t *__stream, size_t __n, const wchar_t *__format, __builti
 
   return __mingw_vsnwprintf( __stream, __n, __format, __local_argv );
 }
-# 1283 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
+# 1283 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
   __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) _wfsopen(const wchar_t *_Filename,const wchar_t *_Mode,int _ShFlag);
 
 
@@ -745,21 +745,21 @@ int vsnwprintf (wchar_t *__stream, size_t __n, const wchar_t *__format, __builti
   int __attribute__((__cdecl__)) fputws(const wchar_t * __restrict__ _Str,FILE * __restrict__ _File);
   __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _getws(wchar_t *_String) ;
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _putws(const wchar_t *_Str);
-# 1365 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
+# 1365 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _scwprintf(const wchar_t * __restrict__ _Format,...);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _swprintf_c(wchar_t * __restrict__ _DstBuf,size_t _SizeInWords,const wchar_t * __restrict__ _Format,...);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vswprintf_c(wchar_t * __restrict__ _DstBuf,size_t _SizeInWords,const wchar_t * __restrict__ _Format,va_list _ArgList);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _snwprintf(wchar_t * __restrict__ _Dest,size_t _Count,const wchar_t * __restrict__ _Format,...) ;
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vsnwprintf(wchar_t * __restrict__ _Dest,size_t _Count,const wchar_t * __restrict__ _Format,va_list _Args) ;
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vscwprintf(const wchar_t * __restrict__ _Format,va_list _ArgList);
-# 1401 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
+# 1401 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _swprintf(wchar_t * __restrict__ _Dest,const wchar_t * __restrict__ _Format,...);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _vswprintf(wchar_t * __restrict__ _Dest,const wchar_t * __restrict__ _Format,va_list _Args);
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/swprintf.inl" 1 3
-# 25 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/swprintf.inl" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/swprintf.inl" 1 3
+# 25 "C:/tdm64/x86_64-w64-mingw32/include/swprintf.inl" 3
 static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
                                                       __attribute__ ((__nonnull__ (3)))
 int vswprintf (wchar_t *__stream, size_t __count, const wchar_t *__format, __builtin_va_list __local_argv)
@@ -779,8 +779,8 @@ int swprintf (wchar_t *__stream, size_t __count, const wchar_t *__format, ...)
   __builtin_va_end( __local_argv );
   return __retval;
 }
-# 1407 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 2 3
-# 1416 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
+# 1407 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 2 3
+# 1416 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
   __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wtempnam(const wchar_t *_Directory,const wchar_t *_FilePrefix);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _snwscanf(const wchar_t * __restrict__ _Src,size_t _MaxCount,const wchar_t * __restrict__ _Format,...);
   __attribute__ ((__dllimport__)) FILE *__attribute__((__cdecl__)) _wfdopen(int _FileHandle ,const wchar_t *_Mode);
@@ -801,7 +801,7 @@ int swprintf (wchar_t *__stream, size_t __count, const wchar_t *__format, ...)
   __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _fgetwc_nolock(FILE *_File);
   __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _fputwc_nolock(wchar_t _Ch,FILE *_File);
   __attribute__ ((__dllimport__)) wint_t __attribute__((__cdecl__)) _ungetwc_nolock(wint_t _Ch,FILE *_File);
-# 1472 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
+# 1472 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
   __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _lock_file(FILE *_File);
   __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _unlock_file(FILE *_File);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fclose_nolock(FILE *_File);
@@ -828,11 +828,11 @@ int swprintf (wchar_t *__stream, size_t __count, const wchar_t *__format, ...)
   int __attribute__((__cdecl__)) getw(FILE *_File) ;
   int __attribute__((__cdecl__)) putw(int _Ch,FILE *_File) ;
   int __attribute__((__cdecl__)) rmtmp(void) ;
-# 1514 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
+# 1514 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
 int __attribute__((__cdecl__)) __mingw_str_wide_utf8 (const wchar_t * const wptr, char **mbptr, size_t * buflen);
-# 1528 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
+# 1528 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
 int __attribute__((__cdecl__)) __mingw_str_utf8_wide (const char *const mbptr, wchar_t ** wptr, size_t * buflen);
-# 1537 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
+# 1537 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
 void __attribute__((__cdecl__)) __mingw_str_free(void *ptr);
 
 
@@ -848,7 +848,7 @@ void __attribute__((__cdecl__)) __mingw_str_free(void *ptr);
   __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wspawnve(int _Mode,const wchar_t *_Filename,const wchar_t *const *_ArgList,const wchar_t *const *_Env);
   __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wspawnvp(int _Mode,const wchar_t *_Filename,const wchar_t *const *_ArgList);
   __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _wspawnvpe(int _Mode,const wchar_t *_Filename,const wchar_t *const *_ArgList,const wchar_t *const *_Env);
-# 1568 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 3
+# 1568 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 3
   __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _spawnv(int _Mode,const char *_Filename,const char *const *_ArgList);
   __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _spawnve(int _Mode,const char *_Filename,const char *const *_ArgList,const char *const *_Env);
   __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _spawnvp(int _Mode,const char *_Filename,const char *const *_ArgList);
@@ -862,15 +862,15 @@ void __attribute__((__cdecl__)) __mingw_str_free(void *ptr);
 
 #pragma pack(pop)
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/stdio_s.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/stdio_s.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 1 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/stdio_s.h" 2 3
-# 29 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/stdio_s.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/sec_api/stdio_s.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/sec_api/stdio_s.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 1 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/sec_api/stdio_s.h" 2 3
+# 29 "C:/tdm64/x86_64-w64-mingw32/include/sec_api/stdio_s.h" 3
   __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) clearerr_s(FILE *_File);
 
   size_t __attribute__((__cdecl__)) fread_s(void *_DstBuf,size_t _DstSize,size_t _ElementSize,size_t _Count,FILE *_File);
-# 494 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/stdio_s.h" 3
+# 494 "C:/tdm64/x86_64-w64-mingw32/include/sec_api/stdio_s.h" 3
   int __attribute__((__cdecl__)) fprintf_s(FILE *_File,const char *_Format,...);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _fscanf_s_l(FILE *_File,const char *_Format,_locale_t _Locale,...);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) fscanf_s(FILE *_File, const char *_Format, ...);
@@ -959,7 +959,7 @@ void __attribute__((__cdecl__)) __mingw_str_free(void *ptr);
 
   __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _getws_s(wchar_t *_Str,size_t _SizeInWords);
  
-# 786 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/stdio_s.h" 3
+# 786 "C:/tdm64/x86_64-w64-mingw32/include/sec_api/stdio_s.h" 3
   int __attribute__((__cdecl__)) fwprintf_s(FILE *_File,const wchar_t *_Format,...);
   int __attribute__((__cdecl__)) wprintf_s(const wchar_t *_Format,...);
   int __attribute__((__cdecl__)) vfwprintf_s(FILE *_File,const wchar_t *_Format,va_list _ArgList);
@@ -1042,12 +1042,12 @@ void __attribute__((__cdecl__)) __mingw_str_free(void *ptr);
 
 
   __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _fread_nolock_s(void *_DstBuf,size_t _DstSize,size_t _ElementSize,size_t _Count,FILE *_File);
-# 1582 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h" 2 3
+# 1582 "C:/tdm64/x86_64-w64-mingw32/include/stdio.h" 2 3
 # 5 "array-list.h" 2
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdlib.h" 1 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdlib.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt_wstdlib.h" 1 3
-# 15 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt_wstdlib.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/stdlib.h" 1 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/stdlib.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/corecrt_wstdlib.h" 1 3
+# 15 "C:/tdm64/x86_64-w64-mingw32/include/corecrt_wstdlib.h" 3
   __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _itow_s (int _Val,wchar_t *_DstBuf,size_t _SizeInWords,int _Radix);
  
 
@@ -1074,35 +1074,35 @@ void __attribute__((__cdecl__)) __mingw_str_free(void *ptr);
 
   __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wsplitpath_s(const wchar_t *_FullPath,wchar_t *_Drive,size_t _DriveSizeInWords,wchar_t *_Dir,size_t _DirSizeInWords,wchar_t *_Filename,size_t _FilenameSizeInWords,wchar_t *_Ext,size_t _ExtSizeInWords);
  
-# 11 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdlib.h" 2 3
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/limits.h" 1 3 4
-# 34 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/limits.h" 3 4
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/syslimits.h" 1 3 4
+# 11 "C:/tdm64/x86_64-w64-mingw32/include/stdlib.h" 2 3
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/limits.h" 1 3 4
+# 34 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/limits.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/syslimits.h" 1 3 4
 
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/limits.h" 1 3 4
-# 195 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/limits.h" 3 4
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/limits.h" 1 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/limits.h" 1 3 4
+# 195 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/limits.h" 3 4
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/limits.h" 1 3 4
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/crtdefs.h" 1 3 4
-# 7 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/limits.h" 2 3 4
-# 196 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/limits.h" 2 3 4
-# 8 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/syslimits.h" 2 3 4
-# 35 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/limits.h" 2 3 4
-# 12 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdlib.h" 2 3
-# 26 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdlib.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/crtdefs.h" 1 3 4
+# 7 "C:/tdm64/x86_64-w64-mingw32/include/limits.h" 2 3 4
+# 196 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/limits.h" 2 3 4
+# 8 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/syslimits.h" 2 3 4
+# 35 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/limits.h" 2 3 4
+# 12 "C:/tdm64/x86_64-w64-mingw32/include/stdlib.h" 2 3
+# 26 "C:/tdm64/x86_64-w64-mingw32/include/stdlib.h" 3
 #pragma pack(push,_CRT_PACKING)
-# 50 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdlib.h" 3
+# 50 "C:/tdm64/x86_64-w64-mingw32/include/stdlib.h" 3
   typedef int (__attribute__((__cdecl__)) *_onexit_t)(void);
-# 60 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdlib.h" 3
+# 60 "C:/tdm64/x86_64-w64-mingw32/include/stdlib.h" 3
   typedef struct _div_t {
     int quot;
     int rem;
@@ -1147,14 +1147,14 @@ void __attribute__((__cdecl__)) __mingw_str_free(void *ptr);
     unsigned char ld12[12];
   } _LDBL12;
 #pragma pack()
-# 116 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdlib.h" 3
+# 116 "C:/tdm64/x86_64-w64-mingw32/include/stdlib.h" 3
   extern int * __imp___mb_cur_max;
 
 
 
 
 __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) ___mb_cur_max_func(void);
-# 143 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdlib.h" 3
+# 143 "C:/tdm64/x86_64-w64-mingw32/include/stdlib.h" 3
   typedef void (__attribute__((__cdecl__)) *_purecall_handler)(void);
 
   __attribute__ ((__dllimport__)) _purecall_handler __attribute__((__cdecl__)) _set_purecall_handler(_purecall_handler _Handler);
@@ -1175,7 +1175,7 @@ __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) ___mb_cur_max_fun
 
   errno_t __attribute__((__cdecl__)) _set_doserrno(unsigned long _Value);
   errno_t __attribute__((__cdecl__)) _get_doserrno(unsigned long *_Value);
-# 173 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdlib.h" 3
+# 173 "C:/tdm64/x86_64-w64-mingw32/include/stdlib.h" 3
   extern __attribute__((dllimport)) char *_sys_errlist[1];
   extern __attribute__((dllimport)) int _sys_nerr;
 
@@ -1185,12 +1185,12 @@ __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) ___mb_cur_max_fun
 
   __attribute__ ((__dllimport__)) char ***__attribute__((__cdecl__)) __p___argv(void);
   __attribute__ ((__dllimport__)) int *__attribute__((__cdecl__)) __p__fmode(void);
-# 191 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdlib.h" 3
+# 191 "C:/tdm64/x86_64-w64-mingw32/include/stdlib.h" 3
   errno_t __attribute__((__cdecl__)) _get_pgmptr(char **_Value);
   errno_t __attribute__((__cdecl__)) _get_wpgmptr(wchar_t **_Value);
   __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _set_fmode(int _Mode);
   __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _get_fmode(int *_PMode);
-# 282 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdlib.h" 3
+# 282 "C:/tdm64/x86_64-w64-mingw32/include/stdlib.h" 3
   extern int * __imp___argc;
 
 
@@ -1200,7 +1200,7 @@ __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) ___mb_cur_max_fun
 
 
   extern wchar_t *** __imp___wargv;
-# 322 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdlib.h" 3
+# 322 "C:/tdm64/x86_64-w64-mingw32/include/stdlib.h" 3
   extern char *** __imp__environ;
 
 
@@ -1254,7 +1254,7 @@ __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) ___mb_cur_max_fun
   errno_t __attribute__((__cdecl__)) _get_winver(unsigned int *_Value);
   errno_t __attribute__((__cdecl__)) _get_winmajor(unsigned int *_Value);
   errno_t __attribute__((__cdecl__)) _get_winminor(unsigned int *_Value);
-# 388 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdlib.h" 3
+# 388 "C:/tdm64/x86_64-w64-mingw32/include/stdlib.h" 3
   void __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) exit(int _Code) __attribute__ ((__noreturn__));
   void __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) _exit(int _Code) __attribute__ ((__noreturn__));
 
@@ -1334,7 +1334,7 @@ __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) ___mb_cur_max_fun
   int __attribute__((__cdecl__)) rand(void);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _set_error_mode(int _Mode);
   void __attribute__((__cdecl__)) srand(unsigned int _Seed);
-# 477 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdlib.h" 3
+# 477 "C:/tdm64/x86_64-w64-mingw32/include/stdlib.h" 3
 static __attribute__ ((__unused__)) __inline__ __attribute__((__cdecl__))
 double __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) strtod(const char * __restrict__ _Str,char ** __restrict__ _EndPtr)
 {
@@ -1480,7 +1480,7 @@ float __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) strtof(const char
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atodbl_l(_CRT_DOUBLE *_Result,char *_Str,_locale_t _Locale);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atoldbl_l(_LDOUBLE *_Result,char *_Str,_locale_t _Locale);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atoflt_l(_CRT_FLOAT *_Result,char *_Str,_locale_t _Locale);
-# 637 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdlib.h" 3
+# 637 "C:/tdm64/x86_64-w64-mingw32/include/stdlib.h" 3
 unsigned long __attribute__((__cdecl__)) _lrotl(unsigned long,int);
 unsigned long __attribute__((__cdecl__)) _lrotr(unsigned long,int);
 
@@ -1532,7 +1532,7 @@ unsigned long __attribute__((__cdecl__)) _lrotr(unsigned long,int);
 
   __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _seterrormode(int _Mode) __attribute__ ((__deprecated__));
   __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _sleep(unsigned long _Duration) __attribute__ ((__deprecated__));
-# 708 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdlib.h" 3
+# 708 "C:/tdm64/x86_64-w64-mingw32/include/stdlib.h" 3
   char *__attribute__((__cdecl__)) ecvt(double _Val,int _NumOfDigits,int *_PtDec,int *_PtSign) ;
   char *__attribute__((__cdecl__)) fcvt(double _Val,int _NumOfDec,int *_PtDec,int *_PtSign) ;
   char *__attribute__((__cdecl__)) gcvt(double _Val,int _NumOfDigits,char *_DstBuf) ;
@@ -1573,13 +1573,13 @@ unsigned long __attribute__((__cdecl__)) _lrotr(unsigned long,int);
   __extension__ char *__attribute__((__cdecl__)) ulltoa (unsigned long long , char *, int);
   __extension__ wchar_t *__attribute__((__cdecl__)) lltow (long long, wchar_t *, int);
   __extension__ wchar_t *__attribute__((__cdecl__)) ulltow (unsigned long long, wchar_t *, int);
-# 766 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdlib.h" 3
+# 766 "C:/tdm64/x86_64-w64-mingw32/include/stdlib.h" 3
 #pragma pack(pop)
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdlib.h" 1 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/stdlib.h" 1 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h" 2 3
 
 
 
@@ -1612,11 +1612,11 @@ unsigned long __attribute__((__cdecl__)) _lrotr(unsigned long,int);
 
 
   __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) qsort_s(void *_Base,size_t _NumOfElements,size_t _SizeOfElements,int (__attribute__((__cdecl__)) *_PtFuncCompare)(void *,const void *,const void *),void *_Context);
-# 769 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdlib.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/malloc.h" 1 3
-# 11 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/malloc.h" 3
+# 769 "C:/tdm64/x86_64-w64-mingw32/include/stdlib.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/malloc.h" 1 3
+# 11 "C:/tdm64/x86_64-w64-mingw32/include/malloc.h" 3
 #pragma pack(push,_CRT_PACKING)
-# 46 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/malloc.h" 3
+# 46 "C:/tdm64/x86_64-w64-mingw32/include/malloc.h" 3
   typedef struct _heapinfo {
     int *_pentry;
     size_t _size;
@@ -1625,10 +1625,10 @@ unsigned long __attribute__((__cdecl__)) _lrotr(unsigned long,int);
 
 
   extern unsigned int _amblksiz;
-# 65 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/malloc.h" 3
+# 65 "C:/tdm64/x86_64-w64-mingw32/include/malloc.h" 3
        
        
-# 97 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/malloc.h" 3
+# 97 "C:/tdm64/x86_64-w64-mingw32/include/malloc.h" 3
        
        
 
@@ -1666,7 +1666,7 @@ void * __mingw_aligned_realloc (void *_Memory, size_t _Size, size_t _Offset);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _heapwalk(_HEAPINFO *_EntryInfo);
   __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _heapused(size_t *_Used,size_t *_Commit);
   __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _get_heap_handle(void);
-# 146 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/malloc.h" 3
+# 146 "C:/tdm64/x86_64-w64-mingw32/include/malloc.h" 3
   static __inline void *_MarkAllocaS(void *_Ptr,unsigned int _Marker) {
     if(_Ptr) {
       *((unsigned int*)_Ptr) = _Marker;
@@ -1674,7 +1674,7 @@ void * __mingw_aligned_realloc (void *_Memory, size_t _Size, size_t _Offset);
     }
     return _Ptr;
   }
-# 165 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/malloc.h" 3
+# 165 "C:/tdm64/x86_64-w64-mingw32/include/malloc.h" 3
   static __inline void __attribute__((__cdecl__)) _freea(void *_Memory) {
     unsigned int _Marker;
     if(_Memory) {
@@ -1690,28 +1690,28 @@ void * __mingw_aligned_realloc (void *_Memory, size_t _Size, size_t _Offset);
 
     }
   }
-# 211 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/malloc.h" 3
+# 211 "C:/tdm64/x86_64-w64-mingw32/include/malloc.h" 3
 #pragma pack(pop)
-# 770 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdlib.h" 2 3
+# 770 "C:/tdm64/x86_64-w64-mingw32/include/stdlib.h" 2 3
 # 6 "array-list.h" 2
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdint.h" 1 3 4
-# 9 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdint.h" 3 4
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdint.h" 1 3 4
-# 32 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdint.h" 3 4
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stddef.h" 1 3 4
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stddef.h" 1 3 4
-# 24 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stddef.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdint.h" 1 3 4
+# 9 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdint.h" 3 4
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/stdint.h" 1 3 4
+# 32 "C:/tdm64/x86_64-w64-mingw32/include/stdint.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stddef.h" 1 3 4
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/stddef.h" 1 3 4
+# 24 "C:/tdm64/x86_64-w64-mingw32/include/stddef.h" 3 4
   __attribute__ ((__dllimport__)) extern unsigned long __attribute__((__cdecl__)) __threadid(void);
 
   __attribute__ ((__dllimport__)) extern uintptr_t __attribute__((__cdecl__)) __threadhandle(void);
-# 2 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stddef.h" 2 3 4
-# 416 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stddef.h" 3 4
+# 2 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stddef.h" 2 3 4
+# 416 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stddef.h" 3 4
 typedef struct {
   long long __max_align_ll __attribute__((__aligned__(__alignof__(long long))));
   long double __max_align_ld __attribute__((__aligned__(__alignof__(long double))));
-# 427 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stddef.h" 3 4
+# 427 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stddef.h" 3 4
 } max_align_t;
-# 33 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdint.h" 2 3 4
+# 33 "C:/tdm64/x86_64-w64-mingw32/include/stdint.h" 2 3 4
 
 
 typedef signed char int8_t;
@@ -1749,19 +1749,19 @@ __extension__ typedef unsigned long long uint_fast64_t;
 
 __extension__ typedef long long intmax_t;
 __extension__ typedef unsigned long long uintmax_t;
-# 10 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdint.h" 2 3 4
+# 10 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdint.h" 2 3 4
 # 7 "array-list.h" 2
 # 1 "debug_c.h" 1
 
 
 
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdarg.h" 1 3 4
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdarg.h" 1 3 4
-# 140 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdarg.h" 3 4
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw_stdarg.h" 1 3 4
-# 141 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdarg.h" 2 3 4
-# 2 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdarg.h" 2 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdarg.h" 1 3 4
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/stdarg.h" 1 3 4
+# 140 "C:/tdm64/x86_64-w64-mingw32/include/stdarg.h" 3 4
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw_stdarg.h" 1 3 4
+# 141 "C:/tdm64/x86_64-w64-mingw32/include/stdarg.h" 2 3 4
+# 2 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdarg.h" 2 3 4
 # 6 "debug_c.h" 2
 # 1 "colors.h" 1
 
@@ -1770,12 +1770,12 @@ __extension__ typedef unsigned long long uintmax_t;
 
 
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdarg.h" 1 3 4
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdarg.h" 1 3 4
-# 2 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdarg.h" 2 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdarg.h" 1 3 4
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/stdarg.h" 1 3 4
+# 2 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdarg.h" 2 3 4
 # 8 "colors.h" 2
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/string.h" 1 3
-# 45 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/string.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/string.h" 1 3
+# 45 "C:/tdm64/x86_64-w64-mingw32/include/string.h" 3
   __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _memccpy(void *_Dst,const void *_Src,int _Val,size_t _MaxCount);
   void *__attribute__((__cdecl__)) memchr(const void *_Buf ,int _Val,size_t _MaxCount);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _memicmp(const void *_Buf1,const void *_Buf2,size_t _Size);
@@ -1921,11 +1921,11 @@ __extension__ typedef unsigned long long uintmax_t;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/string_s.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/string_s.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/string.h" 1 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/string_s.h" 2 3
-# 24 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/string_s.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/sec_api/string_s.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/sec_api/string_s.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/string.h" 1 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/sec_api/string_s.h" 2 3
+# 24 "C:/tdm64/x86_64-w64-mingw32/include/sec_api/string_s.h" 3
   __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _strset_s(char *_Dst,size_t _DstSize,int _Value);
   __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _strerror_s(char *_Buf,size_t _SizeInBytes,const char *_ErrMsg);
   __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) strerror_s(char *_Buf,size_t _SizeInBytes,int _ErrNum);
@@ -1983,15 +1983,15 @@ __extension__ typedef unsigned long long uintmax_t;
   extern __inline__ __attribute__((__always_inline__,__gnu_inline__)) size_t __attribute__((__cdecl__)) wcsnlen_s(const wchar_t * _src, size_t _count) {
     return _src ? wcsnlen(_src, _count) : 0;
   }
-# 191 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/string.h" 2 3
+# 191 "C:/tdm64/x86_64-w64-mingw32/include/string.h" 2 3
 # 9 "colors.h" 2
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/time.h" 1 3
-# 24 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/time.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/time.h" 1 3
+# 24 "C:/tdm64/x86_64-w64-mingw32/include/time.h" 3
 #pragma pack(push,_CRT_PACKING)
-# 60 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/time.h" 3
+# 60 "C:/tdm64/x86_64-w64-mingw32/include/time.h" 3
   typedef long clock_t;
-# 97 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/time.h" 3
+# 97 "C:/tdm64/x86_64-w64-mingw32/include/time.h" 3
   struct tm {
     int tm_sec;
     int tm_min;
@@ -2003,7 +2003,7 @@ __extension__ typedef unsigned long long uintmax_t;
     int tm_yday;
     int tm_isdst;
   };
-# 122 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/time.h" 3
+# 122 "C:/tdm64/x86_64-w64-mingw32/include/time.h" 3
   extern __attribute__ ((__dllimport__)) int _daylight;
   extern __attribute__ ((__dllimport__)) long _dstbias;
   extern __attribute__ ((__dllimport__)) long _timezone;
@@ -2074,9 +2074,9 @@ __extension__ typedef unsigned long long uintmax_t;
 
 
   wchar_t *__attribute__((__cdecl__)) _wctime(const time_t *) ;
-# 203 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/time.h" 3
+# 203 "C:/tdm64/x86_64-w64-mingw32/include/time.h" 3
   errno_t __attribute__((__cdecl__)) _wctime_s(wchar_t *, size_t, const time_t *);
-# 230 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/time.h" 3
+# 230 "C:/tdm64/x86_64-w64-mingw32/include/time.h" 3
 static __inline time_t __attribute__((__cdecl__)) time(time_t *_Time) { return _time64(_Time); }
 static __inline double __attribute__((__cdecl__)) difftime(time_t _Time1,time_t _Time2) { return _difftime64(_Time1,_Time2); }
 static __inline struct tm *__attribute__((__cdecl__)) localtime(const time_t *_Time) { return _localtime64(_Time); }
@@ -2087,21 +2087,21 @@ static __inline char *__attribute__((__cdecl__)) ctime(const time_t *_Time) { re
 static __inline errno_t __attribute__((__cdecl__)) ctime_s(char *_Buf,size_t _SizeInBytes,const time_t *_Time) { return _ctime64_s(_Buf,_SizeInBytes,_Time); }
 static __inline time_t __attribute__((__cdecl__)) mktime(struct tm *_Tm) { return _mktime64(_Tm); }
 static __inline time_t __attribute__((__cdecl__)) _mkgmtime(struct tm *_Tm) { return _mkgmtime64(_Tm); }
-# 256 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/time.h" 3
+# 256 "C:/tdm64/x86_64-w64-mingw32/include/time.h" 3
   __attribute__ ((__dllimport__)) extern int daylight ;
   __attribute__ ((__dllimport__)) extern long timezone ;
   __attribute__ ((__dllimport__)) extern char *tzname[2] ;
   void __attribute__((__cdecl__)) tzset(void) ;
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_timeval.h" 1 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_timeval.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_timeval.h" 1 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/_timeval.h" 3
 struct timeval
 {
  long tv_sec;
  long tv_usec;
 };
-# 263 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/time.h" 2 3
+# 263 "C:/tdm64/x86_64-w64-mingw32/include/time.h" 2 3
 
 
 
@@ -2114,11 +2114,11 @@ struct timezone {
 
 
 #pragma pack(pop)
-# 300 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/time.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sys/timeb.h" 1 3
-# 15 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sys/timeb.h" 3
+# 300 "C:/tdm64/x86_64-w64-mingw32/include/time.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/sys/timeb.h" 1 3
+# 15 "C:/tdm64/x86_64-w64-mingw32/include/sys/timeb.h" 3
 #pragma pack(push,_CRT_PACKING)
-# 53 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sys/timeb.h" 3
+# 53 "C:/tdm64/x86_64-w64-mingw32/include/sys/timeb.h" 3
   struct __timeb32 {
     __time32_t time;
     unsigned short millitm;
@@ -2146,7 +2146,7 @@ struct timezone {
 
   __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _ftime64(struct __timeb64 *_Time);
   __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _ftime32(struct __timeb32 *_Time);
-# 91 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sys/timeb.h" 3
+# 91 "C:/tdm64/x86_64-w64-mingw32/include/sys/timeb.h" 3
 struct timespec {
   time_t tv_sec;
   long tv_nsec;
@@ -2160,13 +2160,13 @@ struct itimerspec {
 
 
   void __attribute__((__cdecl__)) ftime (struct timeb *);
-# 123 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sys/timeb.h" 3
+# 123 "C:/tdm64/x86_64-w64-mingw32/include/sys/timeb.h" 3
 #pragma pack(pop)
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h" 1 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sys/timeb.h" 1 3
-# 11 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h" 1 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/sys/timeb.h" 1 3
+# 11 "C:/tdm64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h" 2 3
 
 
 
@@ -2174,8 +2174,8 @@ struct itimerspec {
 
   __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _ftime32_s(struct __timeb32 *_Time);
   __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _ftime64_s(struct __timeb64 *_Time);
-# 126 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sys/timeb.h" 2 3
-# 301 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/time.h" 2 3
+# 126 "C:/tdm64/x86_64-w64-mingw32/include/sys/timeb.h" 2 3
+# 301 "C:/tdm64/x86_64-w64-mingw32/include/time.h" 2 3
 
 
 
@@ -2183,15 +2183,15 @@ struct itimerspec {
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pthread_time.h" 1 3
-# 51 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pthread_time.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pthread_time.h" 1 3
+# 51 "C:/tdm64/x86_64-w64-mingw32/include/pthread_time.h" 3
 typedef int __winpthreads_clockid_t;
 
 
 
 
 typedef __winpthreads_clockid_t clockid_t;
-# 100 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pthread_time.h" 3
+# 100 "C:/tdm64/x86_64-w64-mingw32/include/pthread_time.h" 3
        
 
 
@@ -2212,7 +2212,7 @@ inline int clock_settime(__winpthreads_clockid_t clock_id, const struct timespec
 
 
        
-# 309 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/time.h" 2 3
+# 309 "C:/tdm64/x86_64-w64-mingw32/include/time.h" 2 3
 # 11 "colors.h" 2
 
 # 11 "colors.h"
@@ -2239,15 +2239,15 @@ typedef union sizes_num {
 } sizes_num;
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sdkddkver.h" 1 3
-# 11 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
-# 65 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/excpt.h" 1 3
-# 11 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/excpt.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/sdkddkver.h" 1 3
+# 11 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 65 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/excpt.h" 1 3
+# 11 "C:/tdm64/x86_64-w64-mingw32/include/excpt.h" 3
 #pragma pack(push,_CRT_PACKING)
 
 
@@ -2255,15 +2255,15 @@ typedef union sizes_num {
 
 
   
-# 17 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/excpt.h" 3
+# 17 "C:/tdm64/x86_64-w64-mingw32/include/excpt.h" 3
  struct _EXCEPTION_POINTERS;
-# 43 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/excpt.h" 3
+# 43 "C:/tdm64/x86_64-w64-mingw32/include/excpt.h" 3
   struct _EXCEPTION_RECORD;
   struct _CONTEXT;
   struct _DISPATCHER_CONTEXT;
 
   __extension__ __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) __C_specific_handler (struct _EXCEPTION_RECORD *_ExceptionRecord, void *_EstablisherFrame, struct _CONTEXT *_ContextRecord, struct _DISPATCHER_CONTEXT *_DispatcherContext);
-# 57 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/excpt.h" 3
+# 57 "C:/tdm64/x86_64-w64-mingw32/include/excpt.h" 3
   unsigned long __attribute__((__cdecl__)) _exception_code(void);
   void *__attribute__((__cdecl__)) _exception_info(void);
   int __attribute__((__cdecl__)) _abnormal_termination(void);
@@ -2295,47 +2295,47 @@ typedef union sizes_num {
 
 
   typedef int (*PEXCEPTION_HANDLER)(struct _EXCEPTION_RECORD*, void*, struct _CONTEXT*, void*);
-# 131 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/excpt.h" 3
+# 131 "C:/tdm64/x86_64-w64-mingw32/include/excpt.h" 3
 #pragma pack(pop)
-# 66 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdarg.h" 1 3 4
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdarg.h" 1 3 4
-# 2 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdarg.h" 2 3 4
-# 67 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 66 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdarg.h" 1 3 4
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/stdarg.h" 1 3 4
+# 2 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdarg.h" 2 3 4
+# 67 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/windef.h" 1 3
-
-
-
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/windef.h" 1 3
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winapifamily.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/windef.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/minwindef.h" 1 3
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 5 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/minwindef.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/winapifamily.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/windef.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/minwindef.h" 1 3
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/specstrings.h" 1 3
-# 12 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/specstrings.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sal.h" 1 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sal.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/concurrencysal.h" 1 3
-# 11 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sal.h" 2 3
-# 13 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/specstrings.h" 2 3
-# 338 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/specstrings.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/driverspecs.h" 1 3
-# 12 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/driverspecs.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/specstrings.h" 1 3
-# 13 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/driverspecs.h" 2 3
-# 339 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/specstrings.h" 2 3
-# 7 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/minwindef.h" 2 3
-# 24 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/minwindef.h" 3
+
+
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 5 "C:/tdm64/x86_64-w64-mingw32/include/minwindef.h" 2 3
+
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/specstrings.h" 1 3
+# 12 "C:/tdm64/x86_64-w64-mingw32/include/specstrings.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/sal.h" 1 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/sal.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/concurrencysal.h" 1 3
+# 11 "C:/tdm64/x86_64-w64-mingw32/include/sal.h" 2 3
+# 13 "C:/tdm64/x86_64-w64-mingw32/include/specstrings.h" 2 3
+# 338 "C:/tdm64/x86_64-w64-mingw32/include/specstrings.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/driverspecs.h" 1 3
+# 12 "C:/tdm64/x86_64-w64-mingw32/include/driverspecs.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/specstrings.h" 1 3
+# 13 "C:/tdm64/x86_64-w64-mingw32/include/driverspecs.h" 2 3
+# 339 "C:/tdm64/x86_64-w64-mingw32/include/specstrings.h" 2 3
+# 7 "C:/tdm64/x86_64-w64-mingw32/include/minwindef.h" 2 3
+# 24 "C:/tdm64/x86_64-w64-mingw32/include/minwindef.h" 3
   typedef unsigned long ULONG;
   typedef ULONG *PULONG;
   typedef unsigned short USHORT;
@@ -2343,7 +2343,7 @@ typedef union sizes_num {
   typedef unsigned char UCHAR;
   typedef UCHAR *PUCHAR;
   typedef char *PSZ;
-# 127 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/minwindef.h" 3
+# 127 "C:/tdm64/x86_64-w64-mingw32/include/minwindef.h" 3
 typedef int WINBOOL;
        
 
@@ -2380,25 +2380,25 @@ typedef WINBOOL *LPBOOL;
   typedef unsigned int *PUINT;
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw_unicode.h" 1 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw_unicode.h" 1 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 2 3
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 16 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ctype.h" 1 3
-# 43 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ctype.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 16 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ctype.h" 1 3
+# 43 "C:/tdm64/x86_64-w64-mingw32/include/ctype.h" 3
   extern unsigned short ** __imp__pctype;
-# 59 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ctype.h" 3
+# 59 "C:/tdm64/x86_64-w64-mingw32/include/ctype.h" 3
   extern unsigned short ** __imp__wctype;
-# 71 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ctype.h" 3
+# 71 "C:/tdm64/x86_64-w64-mingw32/include/ctype.h" 3
   extern unsigned short ** __imp__pwctype;
-# 80 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ctype.h" 3
+# 80 "C:/tdm64/x86_64-w64-mingw32/include/ctype.h" 3
   extern const unsigned char __newclmap[];
   extern const unsigned char __newcumap[];
   extern pthreadlocinfo __ptlocinfo;
@@ -2409,7 +2409,7 @@ typedef WINBOOL *LPBOOL;
   extern _locale_tstruct __initiallocalestructinfo;
   pthreadlocinfo __attribute__((__cdecl__)) __updatetlocinfo(void);
   pthreadmbcinfo __attribute__((__cdecl__)) __updatetmbcinfo(void);
-# 108 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ctype.h" 3
+# 108 "C:/tdm64/x86_64-w64-mingw32/include/ctype.h" 3
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _isctype(int _C,int _Type);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _isctype_l(int _C,int _Type,_locale_t _Locale);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) isalpha(int _C);
@@ -2496,25 +2496,25 @@ int __attribute__((__cdecl__)) isblank(int _C);
 
 
 int __attribute__((__cdecl__)) iswblank(wint_t _C);
-# 17 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 2 3
+# 17 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 2 3
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/apiset.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/apiset.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/apiset.h" 2 3
-# 20 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 2 3
-
-
-
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/apiset.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/apiset.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/apiset.h" 2 3
+# 20 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 2 3
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h" 1 3
-# 65 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h" 3
+
+
+
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h" 1 3
+# 65 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h" 3
        
-# 613 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h" 3
+# 613 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h" 3
 void __faststorefence(void);
 
 extern __inline__ __attribute__((__always_inline__,__gnu_inline__))
@@ -2783,12 +2783,12 @@ __extension__ unsigned char _bittestandcomplement64(long long *a, long long b);
 
 __extension__ extern __inline__ __attribute__((__always_inline__,__gnu_inline__))
 unsigned char _bittestandcomplement64(long long *Base, long long Offset) { unsigned char old; __asm__ ("btc" "{" "q" " %[Offset],%[Base] | %[Base],%[Offset]}" : [old] "=@ccc" (old), [Base] "+rm" (*Base) : [Offset] "J" "r" (Offset) : ); return old; }
-# 967 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h" 3
+# 967 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h" 3
 __extension__ void __movsq(unsigned long long *Dest, unsigned long long const *Source, size_t Count);
 
 __extension__ extern __inline__ __attribute__((__always_inline__,__gnu_inline__))
 void __movsq(unsigned long long *Destination, unsigned long long const *Source, size_t Count) { __asm__ __volatile__ ( "rep movs" "q" : "=D" (Destination), "=S" (Source), "=c" (Count) : "0" (Destination), "1" (Source), "2" (Count) : "memory"); }
-# 1420 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h" 3
+# 1420 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h" 3
 long _InterlockedAnd(long volatile *, long);
 
 extern __inline__ __attribute__((__always_inline__,__gnu_inline__))
@@ -2954,7 +2954,7 @@ extern __inline__ __attribute__((__always_inline__,__gnu_inline__))
 void *_InterlockedExchangePointer(void *volatile *Target,void *Value) {
     return __sync_lock_test_and_set(Target, Value);
 }
-# 1594 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h" 3
+# 1594 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h" 3
 void __int2c(void);
 
 extern __inline__ __attribute__((__always_inline__,__gnu_inline__))
@@ -3096,7 +3096,7 @@ unsigned char _bittestandcomplement(long *a, long b);
 
 extern __inline__ __attribute__((__always_inline__,__gnu_inline__))
 unsigned char _bittestandcomplement(long *Base, long Offset) { unsigned char old; __asm__ ("btc" "{" "l" " %[Offset],%[Base] | %[Base],%[Offset]}" : [old] "=@ccc" (old), [Base] "+rm" (*Base) : [Offset] "I" "r" (Offset) : ); return old; }
-# 1915 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h" 3
+# 1915 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h" 3
 void __movsb(unsigned char *Destination, unsigned char const *Source, size_t Count);
 
 extern __inline__ __attribute__((__always_inline__,__gnu_inline__))
@@ -3119,24 +3119,24 @@ void __movsd(unsigned long *Dest, unsigned long const *Source, size_t Count);
 
 extern __inline__ __attribute__((__always_inline__,__gnu_inline__))
 void __movsd(unsigned long *Destination, unsigned long const *Source, size_t Count) { __asm__ __volatile__ ( "rep movs" "d" : "=D" (Destination), "=S" (Source), "=c" (Count) : "0" (Destination), "1" (Source), "2" (Count) : "memory"); }
-# 2125 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h" 3
+# 2125 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h" 3
        
-# 28 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 2 3
-# 150 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/basetsd.h" 1 3
+# 28 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 2 3
+# 150 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/basetsd.h" 1 3
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 6 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/basetsd.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 6 "C:/tdm64/x86_64-w64-mingw32/include/basetsd.h" 2 3
 
 
 
 
 
 __extension__ typedef unsigned long long POINTER_64_INT;
-# 29 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/basetsd.h" 3
+# 29 "C:/tdm64/x86_64-w64-mingw32/include/basetsd.h" 3
   typedef signed char INT8,*PINT8;
   typedef signed short INT16,*PINT16;
   typedef signed int INT32,*PINT32;
@@ -3158,7 +3158,7 @@ __extension__ typedef unsigned long long POINTER_64_INT;
   __extension__ typedef unsigned long long UINT_PTR,*PUINT_PTR;
   __extension__ typedef long long LONG_PTR,*PLONG_PTR;
   __extension__ typedef unsigned long long ULONG_PTR,*PULONG_PTR;
-# 62 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/basetsd.h" 3
+# 62 "C:/tdm64/x86_64-w64-mingw32/include/basetsd.h" 3
   __extension__ typedef long long SHANDLE_PTR;
   __extension__ typedef unsigned long long HANDLE_PTR;
   typedef unsigned int UHALF_PTR,*PUHALF_PTR;
@@ -3188,21 +3188,21 @@ __extension__ typedef unsigned long long POINTER_64_INT;
   static __inline void *Ptr32ToPtr (const void * p) { return ((void *) (ULONG_PTR) (unsigned long) (ULONG_PTR) p); }
   static __inline void *Handle32ToHandle (const void * h) { return ((void *) (LONG_PTR) (long) (ULONG_PTR) h); }
   static __inline void * PtrToPtr32 (const void *p) { return ((void *) (ULONG_PTR) (unsigned long) (ULONG_PTR) p); }
-# 147 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/basetsd.h" 3
+# 147 "C:/tdm64/x86_64-w64-mingw32/include/basetsd.h" 3
   __extension__ typedef ULONG_PTR SIZE_T,*PSIZE_T;
   __extension__ typedef LONG_PTR SSIZE_T,*PSSIZE_T;
-# 191 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/basetsd.h" 3
+# 191 "C:/tdm64/x86_64-w64-mingw32/include/basetsd.h" 3
   __extension__ typedef ULONG_PTR DWORD_PTR,*PDWORD_PTR;
   __extension__ typedef long long LONG64,*PLONG64;
   __extension__ typedef unsigned long long ULONG64,*PULONG64;
   __extension__ typedef unsigned long long DWORD64,*PDWORD64;
   __extension__ typedef ULONG_PTR KAFFINITY;
   __extension__ typedef KAFFINITY *PKAFFINITY;
-# 151 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 2 3
-# 257 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 151 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 2 3
+# 257 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
   typedef void *PVOID;
   typedef void *PVOID64;
-# 285 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 285 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
   typedef char CHAR;
   typedef short SHORT;
   typedef long LONG;
@@ -3232,7 +3232,7 @@ __extension__ typedef unsigned long long POINTER_64_INT;
   typedef const WCHAR *PCNZWCH;
   typedef WCHAR *PUNZWCH;
   typedef const WCHAR *PCUNZWCH;
-# 334 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 334 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
   typedef CHAR *PCHAR,*LPCH,*PCH;
   typedef const CHAR *LPCCH,*PCCH;
   typedef CHAR *NPSTR,*LPSTR,*PSTR;
@@ -3244,7 +3244,7 @@ __extension__ typedef unsigned long long POINTER_64_INT;
   typedef const CHAR *PCZZSTR;
   typedef CHAR *PNZCH;
   typedef const CHAR *PCNZCH;
-# 373 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 373 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
   typedef char TCHAR, *PTCHAR;
   typedef unsigned char TBYTE, *PTBYTE;
 
@@ -3292,7 +3292,7 @@ typedef struct _GROUP_AFFINITY {
 
 
   typedef LONG HRESULT;
-# 453 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 453 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
   typedef char CCHAR;
 
 
@@ -3311,7 +3311,7 @@ typedef enum {
   UNSPECIFIED_COMPARTMENT_ID = 0,
   DEFAULT_COMPARTMENT_ID
 } COMPARTMENT_ID,*PCOMPARTMENT_ID;
-# 482 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 482 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _FLOAT128 {
       __extension__ long long LowPart;
       __extension__ long long HighPart;
@@ -3378,7 +3378,7 @@ typedef enum {
 
   typedef ULONGLONG DWORDLONG;
   typedef DWORDLONG *PDWORDLONG;
-# 566 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 566 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     unsigned char __attribute__((__cdecl__)) _rotl8(unsigned char Value,unsigned char Shift);
     unsigned short __attribute__((__cdecl__)) _rotl16(unsigned short Value,unsigned char Shift);
     unsigned char __attribute__((__cdecl__)) _rotr8(unsigned char Value,unsigned char Shift);
@@ -3406,7 +3406,7 @@ typedef enum {
     __extension__ unsigned long long __attribute__((__cdecl__)) _rotr64(unsigned long long Value,int Shift);
        
        
-# 605 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 605 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
   typedef BYTE BOOLEAN;
 
   typedef BOOLEAN *PBOOLEAN;
@@ -3437,18 +3437,18 @@ typedef enum {
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/guiddef.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/guiddef.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/guiddef.h" 2 3
-# 19 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/guiddef.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/guiddef.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/guiddef.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/guiddef.h" 2 3
+# 19 "C:/tdm64/x86_64-w64-mingw32/include/guiddef.h" 3
 typedef struct _GUID {
   unsigned long Data1;
   unsigned short Data2;
   unsigned short Data3;
   unsigned char Data4[8];
 } GUID;
-# 77 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/guiddef.h" 3
+# 77 "C:/tdm64/x86_64-w64-mingw32/include/guiddef.h" 3
 typedef GUID *LPGUID;
 
 
@@ -3477,7 +3477,7 @@ typedef CLSID *LPCLSID;
 
 typedef GUID FMTID;
 typedef FMTID *LPFMTID;
-# 636 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 2 3
+# 636 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 2 3
 
 
 
@@ -3485,12 +3485,12 @@ typedef FMTID *LPFMTID;
     GUID Lineage;
     DWORD Uniquifier;
   } OBJECTID;
-# 706 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 706 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef int EXCEPTION_ROUTINE (struct _EXCEPTION_RECORD *ExceptionRecord, PVOID EstablisherFrame, struct _CONTEXT *ContextRecord, PVOID DispatcherContext);
 
 
     typedef EXCEPTION_ROUTINE *PEXCEPTION_ROUTINE;
-# 1384 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 1384 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
   typedef ULONG_PTR KSPIN_LOCK;
   typedef KSPIN_LOCK *PKSPIN_LOCK;
 
@@ -3557,11 +3557,11 @@ typedef FMTID *LPFMTID;
  DWORD JumpTarget;
       } ScopeRecord[1];
     } SCOPE_TABLE_AMD64,*PSCOPE_TABLE_AMD64;
-# 1555 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/x86intrin.h" 1 3 4
-# 27 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/x86intrin.h" 3 4
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/ia32intrin.h" 1 3 4
-# 29 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/ia32intrin.h" 3 4
+# 1555 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/x86intrin.h" 1 3 4
+# 27 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/x86intrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/ia32intrin.h" 1 3 4
+# 29 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/ia32intrin.h" 3 4
 extern __inline int
 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 __bsfd (int __X)
@@ -3805,15 +3805,15 @@ __writeeflags (unsigned long long __X)
 {
   __builtin_ia32_writeeflags_u64 (__X);
 }
-# 28 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/x86intrin.h" 2 3 4
+# 28 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/x86intrin.h" 2 3 4
 
 
 
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 1 3 4
-# 27 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 3 4
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/mmintrin.h" 1 3 4
-# 44 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/mmintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 1 3 4
+# 27 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/mmintrin.h" 1 3 4
+# 44 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/mmintrin.h" 3 4
 typedef int __m64 __attribute__ ((__vector_size__ (8), __may_alias__));
 
 
@@ -4086,7 +4086,7 @@ _m_paddd (__m64 __m1, __m64 __m2)
 {
   return _mm_add_pi32 (__m1, __m2);
 }
-# 328 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/mmintrin.h" 3 4
+# 328 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/mmintrin.h" 3 4
 extern __inline __m64 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_add_si64 (__m64 __m1, __m64 __m2)
 {
@@ -4191,7 +4191,7 @@ _m_psubd (__m64 __m1, __m64 __m2)
 {
   return _mm_sub_pi32 (__m1, __m2);
 }
-# 444 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/mmintrin.h" 3 4
+# 444 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/mmintrin.h" 3 4
 extern __inline __m64 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_sub_si64 (__m64 __m1, __m64 __m2)
 {
@@ -4702,12 +4702,12 @@ _mm_set1_pi8 (char __b)
 {
   return _mm_set_pi8 (__b, __b, __b, __b, __b, __b, __b, __b);
 }
-# 28 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 28 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xmmintrin.h" 1 3 4
-# 34 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xmmintrin.h" 3 4
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/mm_malloc.h" 1 3 4
-# 35 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xmmintrin.h" 2 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xmmintrin.h" 1 3 4
+# 34 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xmmintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/mm_malloc.h" 1 3 4
+# 35 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xmmintrin.h" 2 3 4
 
 
 
@@ -4724,7 +4724,7 @@ enum _mm_hint
   _MM_HINT_T2 = 1,
   _MM_HINT_NTA = 0
 };
-# 73 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xmmintrin.h" 3 4
+# 73 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xmmintrin.h" 3 4
 typedef float __m128 __attribute__ ((__vector_size__ (16), __may_alias__));
 
 
@@ -4732,7 +4732,7 @@ typedef float __m128_u __attribute__ ((__vector_size__ (16), __may_alias__, __al
 
 
 typedef float __v4sf __attribute__ ((__vector_size__ (16)));
-# 113 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xmmintrin.h" 3 4
+# 113 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xmmintrin.h" 3 4
 extern __inline __m128 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_undefined_ps (void)
 {
@@ -5364,7 +5364,7 @@ _mm_cvtps_pi8(__m128 __A)
   __v4hi __tmp = (__v4hi) _mm_cvtps_pi16 (__A);
   return (__m64) __builtin_ia32_packsswb (__tmp, (__v4hi)0LL);
 }
-# 759 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xmmintrin.h" 3 4
+# 759 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xmmintrin.h" 3 4
 extern __inline __m128 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_unpackhi_ps (__m128 __A, __m128 __B)
 {
@@ -5629,7 +5629,7 @@ _mm_move_ss (__m128 __A, __m128 __B)
                                      (__attribute__((__vector_size__ (16))) int)
                                      {4,1,2,3});
 }
-# 1067 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xmmintrin.h" 3 4
+# 1067 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xmmintrin.h" 3 4
 extern __inline __m64 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_max_pi16 (__m64 __A, __m64 __B)
 {
@@ -5707,7 +5707,7 @@ _m_pmulhuw (__m64 __A, __m64 __B)
 {
   return _mm_mulhi_pu16 (__A, __B);
 }
-# 1169 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xmmintrin.h" 3 4
+# 1169 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xmmintrin.h" 3 4
 extern __inline void __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_maskmove_si64 (__m64 __A, __m64 __N, char *__P)
 {
@@ -5843,12 +5843,12 @@ _mm_sfence (void)
 {
   __builtin_ia32_sfence ();
 }
-# 1324 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xmmintrin.h" 3 4
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/emmintrin.h" 1 3 4
-# 31 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/emmintrin.h" 3 4
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xmmintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/emmintrin.h" 2 3 4
-# 40 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/emmintrin.h" 3 4
+# 1324 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xmmintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/emmintrin.h" 1 3 4
+# 31 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/emmintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xmmintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/emmintrin.h" 2 3 4
+# 40 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/emmintrin.h" 3 4
 typedef double __v2df __attribute__ ((__vector_size__ (16)));
 typedef long long __v2di __attribute__ ((__vector_size__ (16)));
 typedef unsigned long long __v2du __attribute__ ((__vector_size__ (16)));
@@ -6727,7 +6727,7 @@ _mm_cvtss_sd (__m128d __A, __m128 __B)
 {
   return (__m128d)__builtin_ia32_cvtss2sd ((__v2df) __A, (__v4sf)__B);
 }
-# 931 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/emmintrin.h" 3 4
+# 931 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/emmintrin.h" 3 4
 extern __inline __m128d __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_unpackhi_pd (__m128d __A, __m128d __B)
 {
@@ -6979,7 +6979,7 @@ _mm_srai_epi32 (__m128i __A, int __B)
 {
   return (__m128i)__builtin_ia32_psradi128 ((__v4si)__A, __B);
 }
-# 1218 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/emmintrin.h" 3 4
+# 1218 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/emmintrin.h" 3 4
 extern __inline __m128i __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_srli_epi16 (__m128i __A, int __B)
 {
@@ -7123,7 +7123,7 @@ _mm_cmpgt_epi32 (__m128i __A, __m128i __B)
 {
   return (__m128i) ((__v4si)__A > (__v4si)__B);
 }
-# 1382 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/emmintrin.h" 3 4
+# 1382 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/emmintrin.h" 3 4
 extern __inline __m128i __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_max_epi16 (__m128i __A, __m128i __B)
 {
@@ -7159,7 +7159,7 @@ _mm_mulhi_epu16 (__m128i __A, __m128i __B)
 {
   return (__m128i)__builtin_ia32_pmulhuw128 ((__v8hi)__A, (__v8hi)__B);
 }
-# 1445 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/emmintrin.h" 3 4
+# 1445 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/emmintrin.h" 3 4
 extern __inline void __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_maskmoveu_si128 (__m128i __A, __m128i __B, char *__C)
 {
@@ -7287,22 +7287,22 @@ _mm_castsi128_pd(__m128i __A)
 {
   return (__m128d) __A;
 }
-# 1325 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xmmintrin.h" 2 3 4
-# 1336 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xmmintrin.h" 3 4
+# 1325 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xmmintrin.h" 2 3 4
+# 1336 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xmmintrin.h" 3 4
 extern __inline void __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_pause (void)
 {
   __builtin_ia32_pause ();
 }
-# 30 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 30 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
 
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/pmmintrin.h" 1 3 4
-# 34 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/pmmintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/pmmintrin.h" 1 3 4
+# 34 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/pmmintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("sse3")
-# 49 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/pmmintrin.h" 3 4
+# 49 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/pmmintrin.h" 3 4
 extern __inline __m128 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_addsub_ps (__m128 __X, __m128 __Y)
 {
@@ -7384,10 +7384,10 @@ _mm_mwait (unsigned int __E, unsigned int __H)
 
 
 #pragma GCC pop_options
-# 34 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 34 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/tmmintrin.h" 1 3 4
-# 34 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/tmmintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/tmmintrin.h" 1 3 4
+# 34 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/tmmintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("ssse3")
 
@@ -7536,7 +7536,7 @@ _mm_sign_pi32 (__m64 __X, __m64 __Y)
 {
   return (__m64) __builtin_ia32_psignd ((__v2si)__X, (__v2si)__Y);
 }
-# 208 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/tmmintrin.h" 3 4
+# 208 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/tmmintrin.h" 3 4
 extern __inline __m128i __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_abs_epi8 (__m128i __X)
 {
@@ -7576,13 +7576,13 @@ _mm_abs_pi32 (__m64 __X)
 
 
 #pragma GCC pop_options
-# 36 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 36 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/smmintrin.h" 1 3 4
-# 35 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/smmintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/smmintrin.h" 1 3 4
+# 35 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/smmintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("sse4.1")
-# 66 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/smmintrin.h" 3 4
+# 66 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/smmintrin.h" 3 4
 extern __inline int __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_testz_si128 (__m128i __M, __m128i __V)
 {
@@ -7604,7 +7604,7 @@ _mm_testnzc_si128 (__m128i __M, __m128i __V)
 {
   return __builtin_ia32_ptestnzc128 ((__v2di)__M, (__v2di)__V);
 }
-# 178 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/smmintrin.h" 3 4
+# 178 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/smmintrin.h" 3 4
 extern __inline __m128i __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_blendv_epi8 (__m128i __X, __m128i __Y, __m128i __M)
 {
@@ -7612,7 +7612,7 @@ _mm_blendv_epi8 (__m128i __X, __m128i __Y, __m128i __M)
             (__v16qi)__Y,
             (__v16qi)__M);
 }
-# 203 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/smmintrin.h" 3 4
+# 203 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/smmintrin.h" 3 4
 extern __inline __m128 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_blendv_ps (__m128 __X, __m128 __Y, __m128 __M)
 {
@@ -7620,7 +7620,7 @@ _mm_blendv_ps (__m128 __X, __m128 __Y, __m128 __M)
         (__v4sf)__Y,
         (__v4sf)__M);
 }
-# 228 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/smmintrin.h" 3 4
+# 228 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/smmintrin.h" 3 4
 extern __inline __m128d __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_blendv_pd (__m128d __X, __m128d __Y, __m128d __M)
 {
@@ -7628,7 +7628,7 @@ _mm_blendv_pd (__m128d __X, __m128d __Y, __m128d __M)
          (__v2df)__Y,
          (__v2df)__M);
 }
-# 267 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/smmintrin.h" 3 4
+# 267 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/smmintrin.h" 3 4
 extern __inline __m128i __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_cmpeq_epi64 (__m128i __X, __m128i __Y)
 {
@@ -7700,7 +7700,7 @@ _mm_mul_epi32 (__m128i __X, __m128i __Y)
 {
   return (__m128i) __builtin_ia32_pmuldq128 ((__v4si)__X, (__v4si)__Y);
 }
-# 473 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/smmintrin.h" 3 4
+# 473 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/smmintrin.h" 3 4
 extern __inline __m128i __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_minpos_epu16 (__m128i __X)
 {
@@ -7790,7 +7790,7 @@ _mm_packus_epi32 (__m128i __X, __m128i __Y)
 {
   return (__m128i) __builtin_ia32_packusdw128 ((__v4si)__X, (__v4si)__Y);
 }
-# 581 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/smmintrin.h" 3 4
+# 581 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/smmintrin.h" 3 4
 extern __inline __m128i __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_stream_load_si128 (__m128i *__X)
 {
@@ -7800,7 +7800,7 @@ _mm_stream_load_si128 (__m128i *__X)
 
 #pragma GCC push_options
 #pragma GCC target("sse4.2")
-# 795 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/smmintrin.h" 3 4
+# 795 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/smmintrin.h" 3 4
 extern __inline __m128i __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_cmpgt_epi64 (__m128i __X, __m128i __Y)
 {
@@ -7817,8 +7817,8 @@ _mm_cmpgt_epi64 (__m128i __X, __m128i __Y)
 #pragma GCC pop_options
 
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/popcntintrin.h" 1 3 4
-# 28 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/popcntintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/popcntintrin.h" 1 3 4
+# 28 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/popcntintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("popcnt")
 
@@ -7842,7 +7842,7 @@ _mm_popcnt_u64 (unsigned long long __X)
 
 
 #pragma GCC pop_options
-# 812 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/smmintrin.h" 2 3 4
+# 812 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/smmintrin.h" 2 3 4
 
 
 #pragma GCC push_options
@@ -7891,10 +7891,10 @@ _mm_crc32_u64 (unsigned long long __C, unsigned long long __V)
 
 
 #pragma GCC pop_options
-# 38 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 38 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/wmmintrin.h" 1 3 4
-# 36 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/wmmintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/wmmintrin.h" 1 3 4
+# 36 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/wmmintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("aes,sse2")
 
@@ -7940,7 +7940,7 @@ _mm_aesimc_si128 (__m128i __X)
 {
   return (__m128i) __builtin_ia32_aesimc128 ((__v2di)__X);
 }
-# 99 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/wmmintrin.h" 3 4
+# 99 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/wmmintrin.h" 3 4
 #pragma GCC pop_options
 
 
@@ -7949,12 +7949,12 @@ _mm_aesimc_si128 (__m128i __X)
 
 #pragma GCC push_options
 #pragma GCC target("pclmul,sse2")
-# 129 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/wmmintrin.h" 3 4
+# 129 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/wmmintrin.h" 3 4
 #pragma GCC pop_options
-# 40 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 40 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/fxsrintrin.h" 1 3 4
-# 37 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/fxsrintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/fxsrintrin.h" 1 3 4
+# 37 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/fxsrintrin.h" 3 4
 extern __inline void
 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _fxsave (void *__P)
@@ -7983,10 +7983,10 @@ _fxrstor64 (void *__P)
 {
   __builtin_ia32_fxrstor64 (__P);
 }
-# 42 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 42 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xsaveintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xsaveintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xsaveintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xsaveintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("xsave")
 
@@ -8039,10 +8039,10 @@ _xrstor64 (void *__P, long long __M)
 
 
 #pragma GCC pop_options
-# 44 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 44 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xsaveoptintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xsaveoptintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xsaveoptintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xsaveoptintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("xsaveopt")
 
@@ -8067,10 +8067,10 @@ _xsaveopt64 (void *__P, long long __M)
 
 
 #pragma GCC pop_options
-# 46 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 46 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xsavesintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xsavesintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xsavesintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xsavesintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("xsaves")
 
@@ -8109,10 +8109,10 @@ _xsaves64 (void *__P, long long __M)
 
 
 #pragma GCC pop_options
-# 48 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 48 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xsavecintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xsavecintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xsavecintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xsavecintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("xsavec")
 
@@ -8137,10 +8137,10 @@ _xsavec64 (void *__P, long long __M)
 
 
 #pragma GCC pop_options
-# 50 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 50 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avxintrin.h" 1 3 4
-# 35 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avxintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avxintrin.h" 1 3 4
+# 35 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avxintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx")
 
@@ -8178,7 +8178,7 @@ typedef long long __m256i_u __attribute__ ((__vector_size__ (32),
 typedef double __m256d_u __attribute__ ((__vector_size__ (32),
       __may_alias__,
       __aligned__ (1)));
-# 140 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avxintrin.h" 3 4
+# 140 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avxintrin.h" 3 4
 extern __inline __m256d __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm256_add_pd (__m256d __A, __m256d __B)
 {
@@ -8227,7 +8227,7 @@ _mm256_andnot_ps (__m256 __A, __m256 __B)
 {
   return (__m256) __builtin_ia32_andnps256 ((__v8sf)__A, (__v8sf)__B);
 }
-# 218 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avxintrin.h" 3 4
+# 218 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avxintrin.h" 3 4
 extern __inline __m256d __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm256_blendv_pd (__m256d __X, __m256d __Y, __m256d __M)
 {
@@ -8255,7 +8255,7 @@ _mm256_div_ps (__m256 __A, __m256 __B)
 {
   return (__m256) ((__v8sf)__A / (__v8sf)__B);
 }
-# 263 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avxintrin.h" 3 4
+# 263 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avxintrin.h" 3 4
 extern __inline __m256d __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm256_hadd_pd (__m256d __X, __m256d __Y)
 {
@@ -8327,7 +8327,7 @@ _mm256_or_ps (__m256 __A, __m256 __B)
 {
   return (__m256) __builtin_ia32_orps256 ((__v8sf)__A, (__v8sf)__B);
 }
-# 359 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avxintrin.h" 3 4
+# 359 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avxintrin.h" 3 4
 extern __inline __m256d __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm256_sub_pd (__m256d __A, __m256d __B)
 {
@@ -8351,7 +8351,7 @@ _mm256_xor_ps (__m256 __A, __m256 __B)
 {
   return (__m256) __builtin_ia32_xorps256 ((__v8sf)__A, (__v8sf)__B);
 }
-# 447 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avxintrin.h" 3 4
+# 447 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avxintrin.h" 3 4
 extern __inline __m256d __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm256_cvtepi32_pd (__m128i __A)
 {
@@ -8413,7 +8413,7 @@ _mm256_cvtss_f32 (__m256 __A)
 {
   return __A[0];
 }
-# 601 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avxintrin.h" 3 4
+# 601 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avxintrin.h" 3 4
 extern __inline void __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm256_zeroall (void)
 {
@@ -8453,7 +8453,7 @@ _mm256_permutevar_ps (__m256 __A, __m256i __C)
   return (__m256) __builtin_ia32_vpermilvarps256 ((__v8sf)__A,
         (__v8si)__C);
 }
-# 720 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avxintrin.h" 3 4
+# 720 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avxintrin.h" 3 4
 extern __inline __m128 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_broadcast_ss (float const *__X)
 {
@@ -8483,7 +8483,7 @@ _mm256_broadcast_ps (__m128 const *__X)
 {
   return (__m256) __builtin_ia32_vbroadcastf128_ps256 (__X);
 }
-# 859 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avxintrin.h" 3 4
+# 859 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avxintrin.h" 3 4
 extern __inline __m256d __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm256_load_pd (double const *__P)
 {
@@ -8673,7 +8673,7 @@ _mm256_sqrt_ps (__m256 __A)
 {
   return (__m256) __builtin_ia32_sqrtps256 ((__v8sf)__A);
 }
-# 1074 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avxintrin.h" 3 4
+# 1074 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avxintrin.h" 3 4
 extern __inline __m256d __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm256_unpackhi_pd (__m256d __A, __m256d __B)
 {
@@ -9189,13 +9189,13 @@ _mm256_storeu2_m128i (__m128i_u *__PH, __m128i_u *__PL, __m256i __A)
 
 
 #pragma GCC pop_options
-# 52 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 52 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx2intrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx2intrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx2intrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx2intrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx2")
-# 54 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx2intrin.h" 3 4
+# 54 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx2intrin.h" 3 4
 extern __inline __m256i
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm256_abs_epi8 (__m256i __A)
@@ -9300,7 +9300,7 @@ _mm256_adds_epu16 (__m256i __A, __m256i __B)
 {
   return (__m256i)__builtin_ia32_paddusw256 ((__v16hi)__A, (__v16hi)__B);
 }
-# 177 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx2intrin.h" 3 4
+# 177 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx2intrin.h" 3 4
 extern __inline __m256i
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm256_and_si256 (__m256i __A, __m256i __B)
@@ -9337,7 +9337,7 @@ _mm256_blendv_epi8 (__m256i __X, __m256i __Y, __m256i __M)
             (__v32qi)__Y,
             (__v32qi)__M);
 }
-# 229 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx2intrin.h" 3 4
+# 229 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx2intrin.h" 3 4
 extern __inline __m256i
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm256_cmpeq_epi8 (__m256i __A, __m256i __B)
@@ -9702,7 +9702,7 @@ _mm256_shuffle_epi8 (__m256i __X, __m256i __Y)
   return (__m256i) __builtin_ia32_pshufb256 ((__v32qi)__X,
           (__v32qi)__Y);
 }
-# 624 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx2intrin.h" 3 4
+# 624 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx2intrin.h" 3 4
 extern __inline __m256i
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm256_sign_epi8 (__m256i __X, __m256i __Y)
@@ -9723,7 +9723,7 @@ _mm256_sign_epi32 (__m256i __X, __m256i __Y)
 {
   return (__m256i) __builtin_ia32_psignd256 ((__v8si)__X, (__v8si)__Y);
 }
-# 666 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx2intrin.h" 3 4
+# 666 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx2intrin.h" 3 4
 extern __inline __m256i
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm256_slli_epi16 (__m256i __A, int __B)
@@ -9793,7 +9793,7 @@ _mm256_sra_epi32 (__m256i __A, __m128i __B)
 {
   return (__m256i)__builtin_ia32_psrad256 ((__v8si)__A, (__v4si)__B);
 }
-# 757 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx2intrin.h" 3 4
+# 757 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx2intrin.h" 3 4
 extern __inline __m256i
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm256_srli_epi16 (__m256i __A, int __B)
@@ -9989,7 +9989,7 @@ _mm256_broadcastsi128_si256 (__m128i __X)
 {
   return (__m256i) __builtin_ia32_vbroadcastsi256 ((__v2di)__X);
 }
-# 983 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx2intrin.h" 3 4
+# 983 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx2intrin.h" 3 4
 extern __inline __m256i
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm256_broadcastb_epi8 (__m128i __X)
@@ -10052,14 +10052,14 @@ _mm256_permutevar8x32_epi32 (__m256i __X, __m256i __Y)
 {
   return (__m256i) __builtin_ia32_permvarsi256 ((__v8si)__X, (__v8si)__Y);
 }
-# 1058 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx2intrin.h" 3 4
+# 1058 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx2intrin.h" 3 4
 extern __inline __m256
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm256_permutevar8x32_ps (__m256 __X, __m256i __Y)
 {
   return (__m256) __builtin_ia32_permvarsf256 ((__v8sf)__X, (__v8si)__Y);
 }
-# 1116 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx2intrin.h" 3 4
+# 1116 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx2intrin.h" 3 4
 extern __inline __m256i
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm256_maskload_epi32 (int const *__X, __m256i __M )
@@ -10189,12 +10189,12 @@ _mm_srlv_epi64 (__m128i __X, __m128i __Y)
 {
   return (__m128i) __builtin_ia32_psrlv2di ((__v2di)__X, (__v2di)__Y);
 }
-# 1917 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx2intrin.h" 3 4
+# 1917 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx2intrin.h" 3 4
 #pragma GCC pop_options
-# 54 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 54 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx512f")
 
@@ -10333,7 +10333,7 @@ _mm512_set_ps (float __A, float __B, float __C, float __D,
   { __P, __O, __N, __M, __L, __K, __J, __I,
     __H, __G, __F, __E, __D, __C, __B, __A };
 }
-# 184 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 184 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __m512
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_undefined_ps (void)
@@ -10445,7 +10445,7 @@ _mm512_set4_ps (float __A, float __B, float __C, float __D)
   { __D, __C, __B, __A, __D, __C, __B, __A,
     __D, __C, __B, __A, __D, __C, __B, __A };
 }
-# 308 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 308 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __m512
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_setzero_ps (void)
@@ -11142,7 +11142,7 @@ _mm512_maskz_mul_epu32 (__mmask8 __M, __m512i __X, __m512i __Y)
          _mm512_setzero_si512 (),
          __M);
 }
-# 1052 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 1052 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __m512i
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_sll_epi64 (__m512i __A, __m128i __B)
@@ -11174,7 +11174,7 @@ _mm512_maskz_sll_epi64 (__mmask8 __U, __m512i __A, __m128i __B)
        _mm512_setzero_si512 (),
        (__mmask8) __U);
 }
-# 1131 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 1131 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __m512i
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_srl_epi64 (__m512i __A, __m128i __B)
@@ -11206,7 +11206,7 @@ _mm512_maskz_srl_epi64 (__mmask8 __U, __m512i __A, __m128i __B)
        _mm512_setzero_si512 (),
        (__mmask8) __U);
 }
-# 1210 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 1210 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __m512i
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_sra_epi64 (__m512i __A, __m128i __B)
@@ -11238,7 +11238,7 @@ _mm512_maskz_sra_epi64 (__mmask8 __U, __m512i __A, __m128i __B)
        _mm512_setzero_si512 (),
        (__mmask8) __U);
 }
-# 1289 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 1289 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __m512i
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_sll_epi32 (__m512i __A, __m128i __B)
@@ -11270,7 +11270,7 @@ _mm512_maskz_sll_epi32 (__mmask16 __U, __m512i __A, __m128i __B)
        _mm512_setzero_si512 (),
        (__mmask16) __U);
 }
-# 1368 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 1368 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __m512i
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_srl_epi32 (__m512i __A, __m128i __B)
@@ -11302,7 +11302,7 @@ _mm512_maskz_srl_epi32 (__mmask16 __U, __m512i __A, __m128i __B)
        _mm512_setzero_si512 (),
        (__mmask16) __U);
 }
-# 1447 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 1447 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __m512i
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_sra_epi32 (__m512i __A, __m128i __B)
@@ -11334,7 +11334,7 @@ _mm512_maskz_sra_epi32 (__mmask16 __U, __m512i __A, __m128i __B)
        _mm512_setzero_si512 (),
        (__mmask16) __U);
 }
-# 1737 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 1737 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __m512d
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_rcp14_pd (__m512d __A)
@@ -11562,7 +11562,7 @@ _mm_maskz_rsqrt14_ss (__mmask8 __U, __m128 __A, __m128 __B)
       (__v4sf) _mm_setzero_ps (),
       (__mmask8) __U);
 }
-# 2132 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 2132 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __m512i
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_cvtepi8_epi32 (__m128i __A)
@@ -11852,7 +11852,7 @@ _mm512_maskz_cvtepu32_epi64 (__mmask8 __U, __m256i __X)
           _mm512_setzero_si512 (),
           (__mmask8) __U);
 }
-# 3929 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 3929 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __m512i
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_abs_epi64 (__m512i __A)
@@ -12284,7 +12284,7 @@ typedef enum
   _MM_PERM_DDDA = 0xFC, _MM_PERM_DDDB = 0xFD, _MM_PERM_DDDC = 0xFE,
   _MM_PERM_DDDD = 0xFF
 } _MM_PERM_ENUM;
-# 4623 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 4623 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __m512i
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_rolv_epi32 (__m512i __A, __m512i __B)
@@ -12412,14 +12412,14 @@ _mm512_maskz_rorv_epi64 (__mmask8 __U, __m512i __A, __m512i __B)
         _mm512_setzero_si512 (),
         (__mmask8) __U);
 }
-# 5071 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 5071 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __m128d
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm_cvtu32_sd (__m128d __A, unsigned __B)
 {
   return (__m128d) __builtin_ia32_cvtusi2sd32 ((__v2df) __A, __B);
 }
-# 5180 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 5180 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __m128i
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_cvtepi32_epi8 (__m512i __A)
@@ -13005,7 +13005,7 @@ _mm512_maskz_cvtepu32_pd (__mmask8 __U, __m256i __A)
            _mm512_setzero_pd (),
            (__mmask8) __U);
 }
-# 6194 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 6194 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __m512d
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_loadu_pd (void const *__P)
@@ -13511,7 +13511,7 @@ _mm512_maskz_permutex2var_ps (__mmask16 __U, __m512 __A, __m512i __I,
        (__v16sf) __B,
        (__mmask16) __U);
 }
-# 6885 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 6885 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __m512i
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_maskz_permutexvar_epi64 (__mmask8 __M, __m512i __X, __m512i __Y)
@@ -13641,7 +13641,7 @@ _mm512_maskz_permutexvar_ps (__mmask16 __U, __m512i __X, __m512 __Y)
           _mm512_setzero_ps (),
           (__mmask16) __U);
 }
-# 7320 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 7320 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __m512
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_movehdup_ps (__m512 __A)
@@ -13825,7 +13825,7 @@ _mm512_maskz_xor_epi64 (__mmask8 __U, __m512i __A, __m512i __B)
        _mm512_setzero_si512 (),
        (__mmask8) __U);
 }
-# 7685 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 7685 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __m512i
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_and_si512 (__m512i __A, __m512i __B)
@@ -14191,7 +14191,7 @@ _mm512_maskz_unpacklo_epi64 (__mmask8 __U, __m512i __A, __m512i __B)
             _mm512_setzero_si512 (),
             (__mmask8) __U);
 }
-# 8303 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 8303 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __m512d
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_movedup_pd (__m512d __A)
@@ -14316,7 +14316,7 @@ _mm512_maskz_unpackhi_ps (__mmask16 __U, __m512 __A, __m512 __B)
          _mm512_setzero_ps (),
          (__mmask16) __U);
 }
-# 8657 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 8657 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline void
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_stream_si512 (__m512i * __P, __m512i __A)
@@ -14360,7 +14360,7 @@ typedef enum
   _MM_MANT_SIGN_zero,
   _MM_MANT_SIGN_nan
 } _MM_MANTISSA_SIGN_ENUM;
-# 9329 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 9329 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __m512
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_floor_ps (__m512 __A)
@@ -14440,7 +14440,7 @@ _mm512_mask_ceil_pd (__m512d __W, __mmask8 __U, __m512d __A)
          (__v8df) __W, __U,
          0x04);
 }
-# 9508 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 9508 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __mmask16
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_cmpeq_epi32_mask (__m512i __A, __m512i __B)
@@ -14796,7 +14796,7 @@ _mm512_cmpneq_epu64_mask (__m512i __X, __m512i __Y)
           (__v8di) __Y, 4,
           (__mmask8) -1);
 }
-# 10656 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 10656 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __m512d
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_mask_compress_pd (__m512d __W, __mmask8 __U, __m512d __A)
@@ -15057,7 +15057,7 @@ _mm512_maskz_expandloadu_epi32 (__mmask16 __U, void const *__P)
         _mm512_setzero_si512
         (), (__mmask16) __U);
 }
-# 10925 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 10925 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline unsigned char
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _kortest_mask16_u8 (__mmask16 __A, __mmask16 __B, unsigned char *__CF)
@@ -15182,7 +15182,7 @@ _kunpackb_mask16 (__mmask8 __A, __mmask8 __B)
 {
   return (__mmask16) __builtin_ia32_kunpckhi ((__mmask16) __A, (__mmask16) __B);
 }
-# 11120 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 11120 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __m512i
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_max_epi64 (__m512i __A, __m512i __B)
@@ -15462,7 +15462,7 @@ _mm512_maskz_unpacklo_ps (__mmask16 __U, __m512 __A, __m512 __B)
          _mm512_setzero_ps (),
          (__mmask16) __U);
 }
-# 11568 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 11568 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __m512d
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_mask_blend_pd (__mmask8 __U, __m512d __A, __m512d __W)
@@ -15498,7 +15498,7 @@ _mm512_mask_blend_epi32 (__mmask16 __U, __m512i __A, __m512i __W)
           (__v16si) __W,
           (__mmask16) __U);
 }
-# 11710 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 11710 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __m128d
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm_mask_fmadd_sd (__m128d __W, __mmask8 __U, __m128d __A, __m128d __B)
@@ -15762,7 +15762,7 @@ _mm_maskz_fnmsub_ss (__mmask8 __U, __m128 __W, __m128 __A, __m128 __B)
         (__mmask8) __U,
         0x04);
 }
-# 12333 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 12333 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __m512d
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_sqrt_pd (__m512d __A)
@@ -17468,7 +17468,7 @@ _mm512_maskz_cvtepu32_ps (__mmask16 __U, __m512i __A)
           (__mmask16) __U,
           0x04);
 }
-# 14249 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 14249 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline unsigned long long
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm_cvtss_u64 (__m128 __A)
@@ -17667,7 +17667,7 @@ _mm512_maskz_cvtpd_ps (__mmask8 __U, __m512d __A)
          (__mmask8) __U,
          0x04);
 }
-# 15209 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 15209 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline __mmask8
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_cmpeq_pd_mask (__m512d __X, __m512d __Y)
@@ -18230,7 +18230,7 @@ _mm512_cmpgt_epu64_mask (__m512i __A, __m512i __B)
           (__v8di) __B, 6,
           (__mmask8) -1);
 }
-# 15784 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 15784 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline int
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_reduce_add_epi32 (__m512i __A)
@@ -18290,7 +18290,7 @@ _mm512_mask_reduce_or_epi32 (__mmask16 __U, __m512i __A)
   __A = _mm512_maskz_mov_epi32 (__U, __A);
   __v8si __T1 = (__v8si) ((__m256i) __builtin_ia32_extracti64x4_mask ((__v8di)(__m512i) (__A), (int) (1), (__v4di)(__m256i)_mm256_undefined_si256 (), (__mmask8)-1)); __v8si __T2 = (__v8si) ((__m256i) __builtin_ia32_extracti64x4_mask ((__v8di)(__m512i) (__A), (int) (0), (__v4di)(__m256i)_mm256_undefined_si256 (), (__mmask8)-1)); __m256i __T3 = (__m256i) (__T1 | __T2); __v4si __T4 = (__v4si) ((__m128i) __builtin_ia32_extract128i256 ((__v4di)(__m256i)(__T3), (int)(1))); __v4si __T5 = (__v4si) ((__m128i) __builtin_ia32_extract128i256 ((__v4di)(__m256i)(__T3), (int)(0))); __v4si __T6 = __T4 | __T5; __v4si __T7 = __builtin_shuffle (__T6, (__v4si) { 2, 3, 0, 1 }); __v4si __T8 = __T6 | __T7; return __T8[0] | __T8[1];
 }
-# 15860 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 15860 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline int
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_reduce_min_epi32 (__m512i __A)
@@ -18350,7 +18350,7 @@ _mm512_mask_reduce_max_epu32 (__mmask16 __U, __m512i __A)
   __A = _mm512_maskz_mov_epi32 (__U, __A);
   __m256i __T1 = (__m256i) ((__m256i) __builtin_ia32_extracti64x4_mask ((__v8di)(__m512i) (__A), (int) (1), (__v4di)(__m256i)_mm256_undefined_si256 (), (__mmask8)-1)); __m256i __T2 = (__m256i) ((__m256i) __builtin_ia32_extracti64x4_mask ((__v8di)(__m512i) (__A), (int) (0), (__v4di)(__m256i)_mm256_undefined_si256 (), (__mmask8)-1)); __m256i __T3 = _mm256_max_epu32 (__T1, __T2); __m128i __T4 = (__m128i) ((__m128i) __builtin_ia32_extract128i256 ((__v4di)(__m256i)(__T3), (int)(1))); __m128i __T5 = (__m128i) ((__m128i) __builtin_ia32_extract128i256 ((__v4di)(__m256i)(__T3), (int)(0))); __m128i __T6 = _mm_max_epu32 (__T4, __T5); __m128i __T7 = (__m128i) __builtin_shuffle ((__v4si) __T6, (__v4si) { 2, 3, 0, 1 }); __m128i __T8 = _mm_max_epu32 (__T6, __T7); __m128i __T9 = (__m128i) __builtin_shuffle ((__v4si) __T8, (__v4si) { 1, 0, 1, 0 }); __v4si __T10 = (__v4si) _mm_max_epu32 (__T8, __T9); return __T10[0];
 }
-# 15932 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 15932 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline float
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_reduce_add_ps (__m512 __A)
@@ -18380,7 +18380,7 @@ _mm512_mask_reduce_mul_ps (__mmask16 __U, __m512 __A)
   __A = _mm512_mask_mov_ps (_mm512_set1_ps (1.0f), __U, __A);
   __m256 __T1 = (__m256) ((__m256d) __builtin_ia32_extractf64x4_mask ((__v8df)(__m512d) ((__m512d) __A), (int) (1), (__v4df)(__m256d)_mm256_undefined_pd(), (__mmask8)-1)); __m256 __T2 = (__m256) ((__m256d) __builtin_ia32_extractf64x4_mask ((__v8df)(__m512d) ((__m512d) __A), (int) (0), (__v4df)(__m256d)_mm256_undefined_pd(), (__mmask8)-1)); __m256 __T3 = __T1 * __T2; __m128 __T4 = ((__m128) __builtin_ia32_vextractf128_ps256 ((__v8sf)(__m256)(__T3), (int)(1))); __m128 __T5 = ((__m128) __builtin_ia32_vextractf128_ps256 ((__v8sf)(__m256)(__T3), (int)(0))); __m128 __T6 = __T4 * __T5; __m128 __T7 = __builtin_shuffle (__T6, (__v4si) { 2, 3, 0, 1 }); __m128 __T8 = __T6 * __T7; return __T8[0] * __T8[1];
 }
-# 15976 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 15976 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline float
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_reduce_min_ps (__m512 __A)
@@ -18410,7 +18410,7 @@ _mm512_mask_reduce_max_ps (__mmask16 __U, __m512 __A)
   __A = _mm512_mask_mov_ps (_mm512_set1_ps (-__builtin_inff ()), __U, __A);
   __m256 __T1 = (__m256) ((__m256d) __builtin_ia32_extractf64x4_mask ((__v8df)(__m512d) ((__m512d) __A), (int) (1), (__v4df)(__m256d)_mm256_undefined_pd(), (__mmask8)-1)); __m256 __T2 = (__m256) ((__m256d) __builtin_ia32_extractf64x4_mask ((__v8df)(__m512d) ((__m512d) __A), (int) (0), (__v4df)(__m256d)_mm256_undefined_pd(), (__mmask8)-1)); __m256 __T3 = _mm256_max_ps (__T1, __T2); __m128 __T4 = ((__m128) __builtin_ia32_vextractf128_ps256 ((__v8sf)(__m256)(__T3), (int)(1))); __m128 __T5 = ((__m128) __builtin_ia32_vextractf128_ps256 ((__v8sf)(__m256)(__T3), (int)(0))); __m128 __T6 = _mm_max_ps (__T4, __T5); __m128 __T7 = __builtin_shuffle (__T6, (__v4si) { 2, 3, 0, 1 }); __m128 __T8 = _mm_max_ps (__T6, __T7); __m128 __T9 = __builtin_shuffle (__T8, (__v4si) { 1, 0, 1, 0 }); __m128 __T10 = _mm_max_ps (__T8, __T9); return __T10[0];
 }
-# 16016 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 16016 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline long long
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_reduce_add_epi64 (__m512i __A)
@@ -18470,7 +18470,7 @@ _mm512_mask_reduce_or_epi64 (__mmask8 __U, __m512i __A)
   __A = _mm512_maskz_mov_epi64 (__U, __A);
   __v4di __T1 = (__v4di) ((__m256i) __builtin_ia32_extracti64x4_mask ((__v8di)(__m512i) (__A), (int) (1), (__v4di)(__m256i)_mm256_undefined_si256 (), (__mmask8)-1)); __v4di __T2 = (__v4di) ((__m256i) __builtin_ia32_extracti64x4_mask ((__v8di)(__m512i) (__A), (int) (0), (__v4di)(__m256i)_mm256_undefined_si256 (), (__mmask8)-1)); __m256i __T3 = (__m256i) (__T1 | __T2); __v2di __T4 = (__v2di) ((__m128i) __builtin_ia32_extract128i256 ((__v4di)(__m256i)(__T3), (int)(1))); __v2di __T5 = (__v2di) ((__m128i) __builtin_ia32_extract128i256 ((__v4di)(__m256i)(__T3), (int)(0))); __v2di __T6 = __T4 | __T5; return __T6[0] | __T6[1];
 }
-# 16090 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 16090 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline long long
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_reduce_min_epi64 (__m512i __A)
@@ -18532,7 +18532,7 @@ _mm512_mask_reduce_max_epu64 (__mmask8 __U, __m512i __A)
   __A = _mm512_maskz_mov_epi64 (__U, __A);
   __m512i __T1 = ((__m512i) __builtin_ia32_shuf_i64x2_mask ((__v8di)(__m512i)(__A), (__v8di)(__m512i)(__A), (int)(0x4e), (__v8di)(__m512i)_mm512_undefined_epi32 (), (__mmask8)-1)); __m512i __T2 = _mm512_max_epu64 (__A, __T1); __m512i __T3 = (__m512i) __builtin_shuffle ((__v8di) __T2, (__v8di) { 2, 3, 0, 1, 6, 7, 4, 5 }); __m512i __T4 = _mm512_max_epu64 (__T2, __T3); __m512i __T5 = (__m512i) __builtin_shuffle ((__v8di) __T4, (__v8di) { 1, 0, 3, 2, 5, 4, 7, 6 }); __v8di __T6 = (__v8di) _mm512_max_epu64 (__T4, __T5); return __T6[0];
 }
-# 16162 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 16162 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline double
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_reduce_add_pd (__m512d __A)
@@ -18562,7 +18562,7 @@ _mm512_mask_reduce_mul_pd (__mmask8 __U, __m512d __A)
   __A = _mm512_mask_mov_pd (_mm512_set1_pd (1.0), __U, __A);
   __m256d __T1 = (__m256d) ((__m256d) __builtin_ia32_extractf64x4_mask ((__v8df)(__m512d) (__A), (int) (1), (__v4df)(__m256d)_mm256_undefined_pd(), (__mmask8)-1)); __m256d __T2 = (__m256d) ((__m256d) __builtin_ia32_extractf64x4_mask ((__v8df)(__m512d) (__A), (int) (0), (__v4df)(__m256d)_mm256_undefined_pd(), (__mmask8)-1)); __m256d __T3 = __T1 * __T2; __m128d __T4 = ((__m128d) __builtin_ia32_vextractf128_pd256 ((__v4df)(__m256d)(__T3), (int)(1))); __m128d __T5 = ((__m128d) __builtin_ia32_vextractf128_pd256 ((__v4df)(__m256d)(__T3), (int)(0))); __m128d __T6 = __T4 * __T5; return __T6[0] * __T6[1];
 }
-# 16204 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
+# 16204 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512fintrin.h" 3 4
 extern __inline double
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_reduce_min_pd (__m512d __A)
@@ -18598,10 +18598,10 @@ _mm512_mask_reduce_max_pd (__mmask8 __U, __m512d __A)
 
 
 #pragma GCC pop_options
-# 56 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 56 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512erintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512erintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512erintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512erintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx512er")
 
@@ -18618,12 +18618,12 @@ typedef double __m512d __attribute__ ((__vector_size__ (64), __may_alias__));
 
 typedef unsigned char __mmask8;
 typedef unsigned short __mmask16;
-# 391 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512erintrin.h" 3 4
+# 391 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512erintrin.h" 3 4
 #pragma GCC pop_options
-# 58 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 58 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512pfintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512pfintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512pfintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512pfintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx512pf")
 
@@ -18639,12 +18639,12 @@ typedef long long __m512i __attribute__ ((__vector_size__ (64), __may_alias__));
 
 typedef unsigned char __mmask8;
 typedef unsigned short __mmask16;
-# 266 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512pfintrin.h" 3 4
+# 266 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512pfintrin.h" 3 4
 #pragma GCC pop_options
-# 60 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 60 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512cdintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512cdintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512cdintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512cdintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx512cd")
 
@@ -18795,10 +18795,10 @@ _mm512_broadcastmw_epi32 (__mmask16 __A)
 
 
 #pragma GCC pop_options
-# 62 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 62 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vlintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vlintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vlintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vlintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx512vl")
 
@@ -28615,12 +28615,12 @@ _mm_cmple_epi64_mask (__m128i __X, __m128i __Y)
        (__v2di) __Y, 2,
        (__mmask8) -1);
 }
-# 13735 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vlintrin.h" 3 4
+# 13735 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vlintrin.h" 3 4
 #pragma GCC pop_options
-# 64 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 64 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512bwintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512bwintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512bwintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512bwintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx512bw")
 
@@ -31334,12 +31334,12 @@ _mm512_mask_packus_epi32 (__m512i __W, __mmask32 __M, __m512i __A,
           (__v32hi) __W,
           __M);
 }
-# 3298 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512bwintrin.h" 3 4
+# 3298 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512bwintrin.h" 3 4
 #pragma GCC pop_options
-# 66 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 66 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512dqintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512dqintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512dqintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512dqintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx512dq")
 
@@ -32379,12 +32379,12 @@ _mm512_maskz_cvtepu64_pd (__mmask8 __U, __m512i __A)
            (__mmask8) __U,
            0x04);
 }
-# 2702 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512dqintrin.h" 3 4
+# 2702 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512dqintrin.h" 3 4
 #pragma GCC pop_options
-# 68 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 68 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vlbwintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vlbwintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vlbwintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vlbwintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx512vl,avx512bw")
 
@@ -33621,7 +33621,7 @@ _mm_mask_min_epi16 (__m128i __W, __mmask8 __M, __m128i __A,
         (__v8hi) __W,
         (__mmask8) __M);
 }
-# 2039 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vlbwintrin.h" 3 4
+# 2039 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vlbwintrin.h" 3 4
 extern __inline __mmask32
   __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm256_cmpneq_epi8_mask (__m256i __X, __m256i __Y)
@@ -36274,10 +36274,10 @@ _mm256_mask_cmple_epi16_mask (__mmask16 __M, __m256i __X, __m256i __Y)
 
 
 #pragma GCC pop_options
-# 70 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 70 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vldqintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vldqintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vldqintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vldqintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx512vl,avx512dq")
 
@@ -37585,12 +37585,12 @@ _mm256_movepi64_mask (__m256i __A)
 {
   return (__mmask8) __builtin_ia32_cvtq2mask256 ((__v4di) __A);
 }
-# 2013 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vldqintrin.h" 3 4
+# 2013 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vldqintrin.h" 3 4
 #pragma GCC pop_options
-# 72 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 72 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512ifmaintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512ifmaintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512ifmaintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512ifmaintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx512ifma")
 
@@ -37661,10 +37661,10 @@ _mm512_maskz_madd52hi_epu64 (__mmask8 __M, __m512i __X, __m512i __Y, __m512i __Z
 
 
 #pragma GCC pop_options
-# 74 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 74 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512ifmavlintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512ifmavlintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512ifmavlintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512ifmavlintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx512ifma,avx512vl")
 
@@ -37795,10 +37795,10 @@ _mm256_maskz_madd52hi_epu64 (__mmask8 __M, __m256i __X, __m256i __Y, __m256i __Z
 
 
 #pragma GCC pop_options
-# 76 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 76 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vbmiintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vbmiintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vbmiintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vbmiintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx512vbmi")
 
@@ -37923,10 +37923,10 @@ _mm512_maskz_permutex2var_epi8 (__mmask64 __U, __m512i __A,
 
 
 #pragma GCC pop_options
-# 78 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 78 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vbmivlintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vbmivlintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vbmivlintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vbmivlintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx512vbmi,avx512vl")
 
@@ -38166,10 +38166,10 @@ _mm_maskz_permutex2var_epi8 (__mmask16 __U, __m128i __A, __m128i __I,
 
 
 #pragma GCC pop_options
-# 80 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 80 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx5124fmapsintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx5124fmapsintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx5124fmapsintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx5124fmapsintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx5124fmaps")
 
@@ -38352,10 +38352,10 @@ _mm_maskz_4fnmadd_ss (__mmask8 __U, __m128 __A, __m128 __B, __m128 __C,
 
 
 #pragma GCC pop_options
-# 82 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 82 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx5124vnniwintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx5124vnniwintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx5124vnniwintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx5124vnniwintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx5124vnniw")
 
@@ -38454,10 +38454,10 @@ _mm512_maskz_4dpwssds_epi32 (__mmask16 __U, __m512i __A, __m512i __B,
 
 
 #pragma GCC pop_options
-# 84 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 84 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vpopcntdqintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vpopcntdqintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vpopcntdqintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vpopcntdqintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx512vpopcntdq")
 
@@ -38518,13 +38518,13 @@ _mm512_maskz_popcnt_epi64 (__mmask8 __U, __m512i __A)
 
 
 #pragma GCC pop_options
-# 86 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 86 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vbmi2intrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vbmi2intrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vbmi2intrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vbmi2intrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx512vbmi2")
-# 218 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vbmi2intrin.h" 3 4
+# 218 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vbmi2intrin.h" 3 4
 extern __inline __m512i
 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_shrdv_epi16 (__m512i __A, __m512i __B, __m512i __C)
@@ -38763,7 +38763,7 @@ _mm512_maskz_expandloadu_epi16 (__mmask32 __A, const void * __B)
   return (__m512i) __builtin_ia32_expandloadhi512_maskz ((const __v32hi *) __B,
    (__v32hi) _mm512_setzero_si512 (), (__mmask32) __A);
 }
-# 519 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vbmi2intrin.h" 3 4
+# 519 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vbmi2intrin.h" 3 4
 extern __inline __m512i
 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm512_mask_shrdv_epi16 (__m512i __A, __mmask32 __B, __m512i __C, __m512i __D)
@@ -38800,10 +38800,10 @@ _mm512_maskz_shldv_epi16 (__mmask32 __A, __m512i __B, __m512i __C, __m512i __D)
 
 
 #pragma GCC pop_options
-# 88 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 88 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vbmi2vlintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vbmi2vlintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vbmi2vlintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vbmi2vlintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx512vbmi2,avx512vl")
 
@@ -38979,7 +38979,7 @@ _mm256_maskz_expandloadu_epi16 (__mmask16 __A, const void * __B)
   return (__m256i) __builtin_ia32_expandloadhi256_maskz ((const __v16hi *) __B,
    (__v16hi) _mm256_setzero_si256 (), (__mmask16) __A);
 }
-# 672 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vbmi2vlintrin.h" 3 4
+# 672 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vbmi2vlintrin.h" 3 4
 extern __inline __m256i
 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm256_shrdv_epi16 (__m256i __A, __m256i __B, __m256i __C)
@@ -39343,10 +39343,10 @@ _mm256_maskz_expandloadu_epi8 (__mmask32 __A, const void * __B)
 
 
 #pragma GCC pop_options
-# 90 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 90 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vnniintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vnniintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vnniintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vnniintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx512vnni")
 
@@ -39457,10 +39457,10 @@ _mm512_maskz_dpwssds_epi32 (__mmask16 __A, __m512i __B, __m512i __C,
 
 
 #pragma GCC pop_options
-# 92 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 92 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vnnivlintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vnnivlintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vnnivlintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vnnivlintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx512vnni,avx512vl")
 
@@ -39662,10 +39662,10 @@ _mm_maskz_dpwssds_epi32 (__mmask8 __A, __m128i __B, __m128i __C, __m128i __D)
 
 
 #pragma GCC pop_options
-# 94 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 94 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vpopcntdqvlintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vpopcntdqvlintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vpopcntdqvlintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vpopcntdqvlintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx512vpopcntdq,avx512vl")
 
@@ -39778,10 +39778,10 @@ _mm256_maskz_popcnt_epi64 (__mmask8 __U, __m256i __A)
 
 
 #pragma GCC pop_options
-# 96 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 96 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512bitalgintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512bitalgintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512bitalgintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512bitalgintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx512bitalg")
 
@@ -40031,10 +40031,10 @@ _mm_maskz_popcnt_epi16 (__mmask8 __U, __m128i __A)
 
 
 #pragma GCC pop_options
-# 98 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 98 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vp2intersectintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vp2intersectintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vp2intersectintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vp2intersectintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx512vp2intersect")
 
@@ -40059,10 +40059,10 @@ _mm512_2intersect_epi64 (__m512i __A, __m512i __B, __mmask8 *__U,
 
 
 #pragma GCC pop_options
-# 100 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 100 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vp2intersectvlintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vp2intersectvlintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vp2intersectvlintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512vp2intersectvlintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx512vp2intersect,avx512vl")
 
@@ -40101,10 +40101,10 @@ _mm256_2intersect_epi64 (__m256i __A, __m256i __B, __mmask8 *__U,
 
 
 #pragma GCC pop_options
-# 102 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 102 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/shaintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/shaintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/shaintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/shaintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("sha")
 
@@ -40130,7 +40130,7 @@ _mm_sha1nexte_epu32 (__m128i __A, __m128i __B)
 {
   return (__m128i) __builtin_ia32_sha1nexte ((__v4si) __A, (__v4si) __B);
 }
-# 71 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/shaintrin.h" 3 4
+# 71 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/shaintrin.h" 3 4
 extern __inline __m128i
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
 _mm_sha256msg1_epu32 (__m128i __A, __m128i __B)
@@ -40156,10 +40156,10 @@ _mm_sha256rnds2_epu32 (__m128i __A, __m128i __B, __m128i __C)
 
 
 #pragma GCC pop_options
-# 104 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 104 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/lzcntintrin.h" 1 3 4
-# 33 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/lzcntintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/lzcntintrin.h" 1 3 4
+# 33 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/lzcntintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("lzcnt")
 
@@ -40200,10 +40200,10 @@ _lzcnt_u64 (unsigned long long __X)
 
 
 #pragma GCC pop_options
-# 106 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 106 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/bmiintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/bmiintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/bmiintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/bmiintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("bmi")
 
@@ -40354,10 +40354,10 @@ _tzcnt_u64 (unsigned long long __X)
 
 
 #pragma GCC pop_options
-# 108 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 108 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/bmi2intrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/bmi2intrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/bmi2intrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/bmi2intrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("bmi2")
 
@@ -40416,12 +40416,12 @@ _mulx_u64 (unsigned long long __X, unsigned long long __Y,
   *__P = (unsigned long long) (__res >> 64);
   return (unsigned long long) __res;
 }
-# 106 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/bmi2intrin.h" 3 4
+# 106 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/bmi2intrin.h" 3 4
 #pragma GCC pop_options
-# 110 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 110 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/fmaintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/fmaintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/fmaintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/fmaintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("fma")
 
@@ -40690,10 +40690,10 @@ _mm256_fmsubadd_ps (__m256 __A, __m256 __B, __m256 __C)
 
 
 #pragma GCC pop_options
-# 112 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 112 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/f16cintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/f16cintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/f16cintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/f16cintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("f16c")
 
@@ -40718,15 +40718,15 @@ _mm256_cvtph_ps (__m128i __A)
 {
   return (__m256) __builtin_ia32_vcvtph2ps256 ((__v8hi) __A);
 }
-# 95 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/f16cintrin.h" 3 4
+# 95 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/f16cintrin.h" 3 4
 #pragma GCC pop_options
-# 114 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 114 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/rtmintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/rtmintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/rtmintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/rtmintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("rtm")
-# 48 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/rtmintrin.h" 3 4
+# 48 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/rtmintrin.h" 3 4
 extern __inline unsigned int
 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _xbegin (void)
@@ -40744,12 +40744,12 @@ _xend (void)
 {
   __builtin_ia32_xend ();
 }
-# 81 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/rtmintrin.h" 3 4
+# 81 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/rtmintrin.h" 3 4
 #pragma GCC pop_options
-# 116 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 116 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xtestintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xtestintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xtestintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xtestintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("rtm")
 
@@ -40767,10 +40767,10 @@ _xtest (void)
 
 
 #pragma GCC pop_options
-# 118 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 118 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/cetintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/cetintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/cetintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/cetintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target ("shstk")
 
@@ -40783,7 +40783,7 @@ _get_ssp (void)
 {
   return __builtin_ia32_rdsspq ();
 }
-# 53 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/cetintrin.h" 3 4
+# 53 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/cetintrin.h" 3 4
 extern __inline void
 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _inc_ssp (unsigned int __B)
@@ -40858,10 +40858,10 @@ _clrssbsy (void *__B)
 
 
 #pragma GCC pop_options
-# 120 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 120 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/gfniintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/gfniintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/gfniintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/gfniintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("gfni,sse2")
 
@@ -40874,7 +40874,7 @@ _mm_gf2p8mul_epi8 (__m128i __A, __m128i __B)
   return (__m128i) __builtin_ia32_vgf2p8mulb_v16qi((__v16qi) __A,
          (__v16qi) __B);
 }
-# 73 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/gfniintrin.h" 3 4
+# 73 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/gfniintrin.h" 3 4
 #pragma GCC pop_options
 
 
@@ -40891,7 +40891,7 @@ _mm256_gf2p8mul_epi8 (__m256i __A, __m256i __B)
   return (__m256i) __builtin_ia32_vgf2p8mulb_v32qi ((__v32qi) __A,
           (__v32qi) __B);
 }
-# 119 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/gfniintrin.h" 3 4
+# 119 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/gfniintrin.h" 3 4
 #pragma GCC pop_options
 
 
@@ -40917,7 +40917,7 @@ _mm_maskz_gf2p8mul_epi8 (__mmask16 __A, __m128i __B, __m128i __C)
   return (__m128i) __builtin_ia32_vgf2p8mulb_v16qi_mask ((__v16qi) __B,
    (__v16qi) __C, (__v16qi) _mm_setzero_si128 (), __A);
 }
-# 207 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/gfniintrin.h" 3 4
+# 207 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/gfniintrin.h" 3 4
 #pragma GCC pop_options
 
 
@@ -40944,7 +40944,7 @@ _mm256_maskz_gf2p8mul_epi8 (__mmask32 __A, __m256i __B, __m256i __C)
   return (__m256i) __builtin_ia32_vgf2p8mulb_v32qi_mask ((__v32qi) __B,
    (__v32qi) __C, (__v32qi) _mm256_setzero_si256 (), __A);
 }
-# 297 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/gfniintrin.h" 3 4
+# 297 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/gfniintrin.h" 3 4
 #pragma GCC pop_options
 
 
@@ -40977,12 +40977,12 @@ _mm512_gf2p8mul_epi8 (__m512i __A, __m512i __B)
   return (__m512i) __builtin_ia32_vgf2p8mulb_v64qi ((__v64qi) __A,
           (__v64qi) __B);
 }
-# 411 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/gfniintrin.h" 3 4
+# 411 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/gfniintrin.h" 3 4
 #pragma GCC pop_options
-# 122 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 122 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/vaesintrin.h" 1 3 4
-# 28 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/vaesintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/vaesintrin.h" 1 3 4
+# 28 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/vaesintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("vaes,avx")
 
@@ -41064,25 +41064,25 @@ _mm512_aesenclast_epi128 (__m512i __A, __m512i __B)
 
 
 #pragma GCC pop_options
-# 124 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 124 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/vpclmulqdqintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/vpclmulqdqintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/vpclmulqdqintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/vpclmulqdqintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("vpclmulqdq,avx512f")
-# 53 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/vpclmulqdqintrin.h" 3 4
+# 53 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/vpclmulqdqintrin.h" 3 4
 #pragma GCC pop_options
 
 
 
 #pragma GCC push_options
 #pragma GCC target("vpclmulqdq,avx")
-# 78 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/vpclmulqdqintrin.h" 3 4
+# 78 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/vpclmulqdqintrin.h" 3 4
 #pragma GCC pop_options
-# 126 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 126 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/movdirintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/movdirintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/movdirintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/movdirintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target ("movdiri")
 
@@ -41124,13 +41124,13 @@ _movdir64b (void * __P, const void * __Q)
 
 
 #pragma GCC pop_options
-# 128 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 128 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/sgxintrin.h" 1 3 4
-# 28 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/sgxintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/sgxintrin.h" 1 3 4
+# 28 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/sgxintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("sgx")
-# 110 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/sgxintrin.h" 3 4
+# 110 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/sgxintrin.h" 3 4
 extern __inline unsigned int
 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _encls_u32 (const unsigned int __L, size_t __D[])
@@ -41272,13 +41272,13 @@ _enclv_u32 (const unsigned int __L, size_t __D[])
 
 
 #pragma GCC pop_options
-# 130 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 130 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/pconfigintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/pconfigintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/pconfigintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/pconfigintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("pconfig")
-# 49 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/pconfigintrin.h" 3 4
+# 49 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/pconfigintrin.h" 3 4
 extern __inline unsigned int
 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _pconfig_u32 (const unsigned int __L, size_t __D[])
@@ -41306,10 +41306,10 @@ _pconfig_u32 (const unsigned int __L, size_t __D[])
 
 
 #pragma GCC pop_options
-# 132 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 132 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/waitpkgintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/waitpkgintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/waitpkgintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/waitpkgintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("waitpkg")
 
@@ -41339,10 +41339,10 @@ _tpause (unsigned int __A, unsigned long long __B)
 
 
 #pragma GCC pop_options
-# 134 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 134 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/cldemoteintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/cldemoteintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/cldemoteintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/cldemoteintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("cldemote")
 
@@ -41356,10 +41356,10 @@ _cldemote (void *__A)
 
 
 #pragma GCC pop_options
-# 136 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 136 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512bf16vlintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512bf16vlintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512bf16vlintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512bf16vlintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx512bf16,avx512vl")
 
@@ -41509,10 +41509,10 @@ _mm_maskz_dpbf16_ps (__mmask8 __A, __m128 __B, __m128bh __C, __m128bh __D)
 
 
 #pragma GCC pop_options
-# 138 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 138 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512bf16intrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512bf16intrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512bf16intrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/avx512bf16intrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("avx512bf16")
 
@@ -41597,10 +41597,10 @@ _mm512_maskz_dpbf16_ps (__mmask16 __A, __m512 __B, __m512bh __C, __m512bh __D)
 
 
 #pragma GCC pop_options
-# 140 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 140 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/enqcmdintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/enqcmdintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/enqcmdintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/enqcmdintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target ("enqcmd")
 
@@ -41623,10 +41623,10 @@ _enqcmds (void * __P, const void * __Q)
 
 
 #pragma GCC pop_options
-# 142 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 142 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/rdseedintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/rdseedintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/rdseedintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/rdseedintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("rdseed")
 
@@ -41659,19 +41659,19 @@ _rdseed64_step (unsigned long long *__p)
 
 
 #pragma GCC pop_options
-# 144 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 144 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/prfchwintrin.h" 1 3 4
-# 31 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/prfchwintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/prfchwintrin.h" 1 3 4
+# 31 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/prfchwintrin.h" 3 4
 extern __inline void __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _m_prefetchw (void *__P)
 {
   __builtin_prefetch (__P, 1, 3 );
 }
-# 146 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 146 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/adxintrin.h" 1 3 4
-# 31 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/adxintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/adxintrin.h" 1 3 4
+# 31 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/adxintrin.h" 3 4
 extern __inline unsigned char
 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _subborrow_u32 (unsigned char __CF, unsigned int __X,
@@ -41720,10 +41720,10 @@ _addcarryx_u64 (unsigned char __CF, unsigned long long __X,
 {
   return __builtin_ia32_addcarryx_u64 (__CF, __X, __Y, __P);
 }
-# 148 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 148 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/clwbintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/clwbintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/clwbintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/clwbintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("clwb")
 
@@ -41739,10 +41739,10 @@ _mm_clwb (void *__A)
 
 
 #pragma GCC pop_options
-# 150 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 150 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/clflushoptintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/clflushoptintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/clflushoptintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/clflushoptintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("clflushopt")
 
@@ -41758,10 +41758,10 @@ _mm_clflushopt (void *__A)
 
 
 #pragma GCC pop_options
-# 152 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 152 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/wbnoinvdintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/wbnoinvdintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/wbnoinvdintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/wbnoinvdintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("wbnoinvd")
 
@@ -41777,10 +41777,10 @@ _wbnoinvd (void)
 
 
 #pragma GCC pop_options
-# 154 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 154 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/pkuintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/pkuintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/pkuintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/pkuintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("pku")
 
@@ -41803,7 +41803,7 @@ _wrpkru (unsigned int __key)
 
 
 #pragma GCC pop_options
-# 156 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
+# 156 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/immintrin.h" 2 3 4
 
 extern __inline void
 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
@@ -41960,12 +41960,12 @@ _ptwrite32 (unsigned __B)
 
 
 #pragma GCC pop_options
-# 33 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/x86intrin.h" 2 3 4
+# 33 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/x86intrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/mm3dnow.h" 1 3 4
-# 31 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/mm3dnow.h" 3 4
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/prfchwintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/mm3dnow.h" 2 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/mm3dnow.h" 1 3 4
+# 31 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/mm3dnow.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/prfchwintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/mm3dnow.h" 2 3 4
 
 
 #pragma GCC push_options
@@ -42165,12 +42165,12 @@ _m_pswapd (__m64 __A)
 
 
 #pragma GCC pop_options
-# 35 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/x86intrin.h" 2 3 4
+# 35 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/x86intrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/fma4intrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/fma4intrin.h" 3 4
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/ammintrin.h" 1 3 4
-# 34 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/ammintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/fma4intrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/fma4intrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/ammintrin.h" 1 3 4
+# 34 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/ammintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("sse4a")
 
@@ -42193,15 +42193,15 @@ _mm_extract_si64 (__m128i __X, __m128i __Y)
 {
   return (__m128i) __builtin_ia32_extrq ((__v2di) __X, (__v16qi) __Y);
 }
-# 69 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/ammintrin.h" 3 4
+# 69 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/ammintrin.h" 3 4
 extern __inline __m128i __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_insert_si64 (__m128i __X,__m128i __Y)
 {
   return (__m128i) __builtin_ia32_insertq ((__v2di)__X, (__v2di)__Y);
 }
-# 90 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/ammintrin.h" 3 4
+# 90 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/ammintrin.h" 3 4
 #pragma GCC pop_options
-# 33 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/fma4intrin.h" 2 3 4
+# 33 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/fma4intrin.h" 2 3 4
 
 
 #pragma GCC push_options
@@ -42408,12 +42408,12 @@ _mm256_msubadd_pd (__m256d __A, __m256d __B, __m256d __C)
 
 
 #pragma GCC pop_options
-# 37 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/x86intrin.h" 2 3 4
+# 37 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/x86intrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xopintrin.h" 1 3 4
-# 31 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xopintrin.h" 3 4
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/fma4intrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xopintrin.h" 2 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xopintrin.h" 1 3 4
+# 31 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xopintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/fma4intrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xopintrin.h" 2 3 4
 
 
 #pragma GCC push_options
@@ -42631,7 +42631,7 @@ _mm_rot_epi64(__m128i __A, __m128i __B)
 {
   return (__m128i) __builtin_ia32_vprotq ((__v2di)__A, (__v2di)__B);
 }
-# 289 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xopintrin.h" 3 4
+# 289 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xopintrin.h" 3 4
 extern __inline __m128i __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_shl_epi8(__m128i __A, __m128i __B)
 {
@@ -43123,12 +43123,12 @@ _mm256_frcz_pd (__m256d __A)
 {
   return (__m256d) __builtin_ia32_vfrczpd256 ((__v4df)__A);
 }
-# 847 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xopintrin.h" 3 4
+# 847 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/xopintrin.h" 3 4
 #pragma GCC pop_options
-# 39 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/x86intrin.h" 2 3 4
+# 39 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/x86intrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/lwpintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/lwpintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/lwpintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/lwpintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("lwp")
 
@@ -43145,15 +43145,15 @@ __slwpcb (void)
 {
   return __builtin_ia32_slwpcb ();
 }
-# 104 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/lwpintrin.h" 3 4
+# 104 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/lwpintrin.h" 3 4
 #pragma GCC pop_options
-# 41 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/x86intrin.h" 2 3 4
+# 41 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/x86intrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/tbmintrin.h" 1 3 4
-# 32 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/tbmintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/tbmintrin.h" 1 3 4
+# 32 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/tbmintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("tbm")
-# 49 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/tbmintrin.h" 3 4
+# 49 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/tbmintrin.h" 3 4
 extern __inline unsigned int __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 __blcfill_u32 (unsigned int __X)
 {
@@ -43207,7 +43207,7 @@ __tzmsk_u32 (unsigned int __X)
 {
   return ~__X & (__X - 1);
 }
-# 118 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/tbmintrin.h" 3 4
+# 118 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/tbmintrin.h" 3 4
 extern __inline unsigned long long __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 __blcfill_u64 (unsigned long long __X)
 {
@@ -43268,12 +43268,12 @@ __tzmsk_u64 (unsigned long long __X)
 
 
 #pragma GCC pop_options
-# 43 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/x86intrin.h" 2 3 4
+# 43 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/x86intrin.h" 2 3 4
 
 
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/mwaitxintrin.h" 1 3 4
-# 28 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/mwaitxintrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/mwaitxintrin.h" 1 3 4
+# 28 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/mwaitxintrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("mwaitx")
 
@@ -43294,10 +43294,10 @@ _mm_mwaitx (unsigned int __E, unsigned int __H, unsigned int __C)
 
 
 #pragma GCC pop_options
-# 47 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/x86intrin.h" 2 3 4
+# 47 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/x86intrin.h" 2 3 4
 
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/clzerointrin.h" 1 3 4
-# 28 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/clzerointrin.h" 3 4
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/clzerointrin.h" 1 3 4
+# 28 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/clzerointrin.h" 3 4
 #pragma GCC push_options
 #pragma GCC target("clzero")
 
@@ -43312,15 +43312,15 @@ _mm_clzero (void * __I)
 
 
 #pragma GCC pop_options
-# 49 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/x86intrin.h" 2 3 4
-# 1556 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 2 3
-# 1583 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 49 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/x86intrin.h" 2 3 4
+# 1556 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 2 3
+# 1583 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     unsigned int __getcallerseflags(void);
 
 
 
     DWORD __segmentlimit(DWORD Selector);
-# 1599 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 1599 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     LONGLONG __mulh(LONGLONG Multiplier,LONGLONG Multiplicand);
     ULONGLONG __umulh(ULONGLONG Multiplier,ULONGLONG Multiplicand);
 
@@ -43340,7 +43340,7 @@ _mm_clzero (void * __I)
 
     LONG64 MultiplyExtract128(LONG64 Multiplier,LONG64 Multiplicand,BYTE Shift);
     DWORD64 UnsignedMultiplyExtract128(DWORD64 Multiplier,DWORD64 Multiplicand,BYTE Shift);
-# 1679 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 1679 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
   typedef struct _XMM_SAVE_AREA32 {
     WORD ControlWord;
     WORD StatusWord;
@@ -43444,7 +43444,7 @@ _mm_clzero (void * __I)
 
   typedef PRUNTIME_FUNCTION (*PGET_RUNTIME_FUNCTION_CALLBACK)(DWORD64 ControlPc,PVOID Context);
   typedef DWORD (*POUT_OF_PROCESS_FUNCTION_TABLE_CALLBACK)(HANDLE Process,PVOID TableAddress,PDWORD Entries,PRUNTIME_FUNCTION *Functions);
-# 2416 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 2416 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _LDT_ENTRY {
       WORD LimitLow;
       WORD BaseLow;
@@ -43469,7 +43469,7 @@ _mm_clzero (void * __I)
  } Bits;
       } HighWord;
     } LDT_ENTRY,*PLDT_ENTRY;
-# 2777 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 2777 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _EXCEPTION_RECORD {
       DWORD ExceptionCode;
       DWORD ExceptionFlags;
@@ -43504,7 +43504,7 @@ _mm_clzero (void * __I)
       PEXCEPTION_RECORD ExceptionRecord;
       PCONTEXT ContextRecord;
     } EXCEPTION_POINTERS,*PEXCEPTION_POINTERS;
-# 2822 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 2822 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
   typedef struct _UNWIND_HISTORY_TABLE_ENTRY {
     ULONG64 ImageBase;
     PRUNTIME_FUNCTION FunctionEntry;
@@ -43561,7 +43561,7 @@ _mm_clzero (void * __I)
     typedef PVOID PCLAIMS_BLOB;
     typedef DWORD ACCESS_MASK;
     typedef ACCESS_MASK *PACCESS_MASK;
-# 2903 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 2903 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _GENERIC_MAPPING {
       ACCESS_MASK GenericRead;
       ACCESS_MASK GenericWrite;
@@ -43570,7 +43570,7 @@ _mm_clzero (void * __I)
     } GENERIC_MAPPING;
     typedef GENERIC_MAPPING *PGENERIC_MAPPING;
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack4.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack4.h" 1 3
 
 
 
@@ -43578,14 +43578,14 @@ _mm_clzero (void * __I)
 
 
 #pragma pack(push,4)
-# 2912 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 2 3
+# 2912 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 2 3
     typedef struct _LUID_AND_ATTRIBUTES {
       LUID Luid;
       DWORD Attributes;
     } LUID_AND_ATTRIBUTES,*PLUID_AND_ATTRIBUTES;
     typedef LUID_AND_ATTRIBUTES LUID_AND_ATTRIBUTES_ARRAY[1];
     typedef LUID_AND_ATTRIBUTES_ARRAY *PLUID_AND_ATTRIBUTES_ARRAY;
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -43593,7 +43593,7 @@ _mm_clzero (void * __I)
 
 
 #pragma pack(pop)
-# 2919 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 2 3
+# 2919 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 2 3
 
 
 
@@ -43610,7 +43610,7 @@ _mm_clzero (void * __I)
       SID_IDENTIFIER_AUTHORITY IdentifierAuthority;
       DWORD SubAuthority[1];
     } SID,*PISID;
-# 2946 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 2946 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef enum _SID_NAME_USE {
       SidTypeUser = 1,SidTypeGroup,SidTypeDomain,SidTypeAlias,SidTypeWellKnownGroup,SidTypeDeletedAccount,SidTypeInvalid,SidTypeUnknown,SidTypeComputer,SidTypeLabel,SidTypeLogonSession
     } SID_NAME_USE,*PSID_NAME_USE;
@@ -43634,7 +43634,7 @@ _mm_clzero (void * __I)
       PSID_AND_ATTRIBUTES SidAttr;
       SID_HASH_ENTRY Hash[32];
     } SID_AND_ATTRIBUTES_HASH, *PSID_AND_ATTRIBUTES_HASH;
-# 3189 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 3189 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef enum {
       WinNullSid = 0,WinWorldSid = 1,WinLocalSid = 2,WinCreatorOwnerSid = 3,
       WinCreatorGroupSid = 4,WinCreatorOwnerServerSid = 5,
@@ -43703,7 +43703,7 @@ _mm_clzero (void * __I)
       WinAuthenticationKeyPropertyMFASid = 116,
       WinAuthenticationKeyPropertyAttestationSid = 117
 } WELL_KNOWN_SID_TYPE;
-# 3286 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 3286 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _ACL {
       BYTE AclRevision;
       BYTE Sbz1;
@@ -43719,7 +43719,7 @@ _mm_clzero (void * __I)
       WORD AceSize;
     } ACE_HEADER;
     typedef ACE_HEADER *PACE_HEADER;
-# 3346 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 3346 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _ACCESS_ALLOWED_ACE {
       ACE_HEADER Header;
       ACCESS_MASK Mask;
@@ -43896,7 +43896,7 @@ _mm_clzero (void * __I)
 
 
     typedef WORD SECURITY_DESCRIPTOR_CONTROL,*PSECURITY_DESCRIPTOR_CONTROL;
-# 3538 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 3538 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _SECURITY_DESCRIPTOR_RELATIVE {
       BYTE Revision;
       BYTE Sbz1;
@@ -43932,7 +43932,7 @@ _mm_clzero (void * __I)
     typedef enum _AUDIT_EVENT_TYPE {
       AuditEventObjectAccess,AuditEventDirectoryServiceAccess
     } AUDIT_EVENT_TYPE,*PAUDIT_EVENT_TYPE;
-# 3590 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 3590 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _PRIVILEGE_SET {
       DWORD PrivilegeCount;
       DWORD Control;
@@ -43998,11 +43998,11 @@ _mm_clzero (void * __I)
       PACCESS_REASONS AccessReason;
       PPRIVILEGE_SET *Privileges;
     } SE_ACCESS_REPLY,*PSE_ACCESS_REPLY;
-# 3692 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 3692 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef enum _SECURITY_IMPERSONATION_LEVEL {
       SecurityAnonymous,SecurityIdentification,SecurityImpersonation,SecurityDelegation
     } SECURITY_IMPERSONATION_LEVEL,*PSECURITY_IMPERSONATION_LEVEL;
-# 3719 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 3719 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef enum _TOKEN_TYPE {
       TokenPrimary = 1,TokenImpersonation
     } TOKEN_TYPE;
@@ -44195,7 +44195,7 @@ _mm_clzero (void * __I)
     typedef struct _TOKEN_APPCONTAINER_INFORMATION {
       PSID TokenAppContainer;
     } TOKEN_APPCONTAINER_INFORMATION,*PTOKEN_APPCONTAINER_INFORMATION;
-# 3920 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 3920 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE {
       DWORD64 Version;
       PWSTR Name;
@@ -44205,7 +44205,7 @@ _mm_clzero (void * __I)
       PVOID pValue;
       DWORD ValueLength;
     } CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, *PCLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE;
-# 3941 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 3941 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _CLAIM_SECURITY_ATTRIBUTE_V1 {
       PWSTR Name;
       WORD ValueType;
@@ -44274,7 +44274,7 @@ _mm_clzero (void * __I)
 
 
     typedef DWORD SECURITY_INFORMATION,*PSECURITY_INFORMATION;
-# 4024 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 4024 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef enum _SE_LEARNING_MODE_DATA_TYPE {
       SeLearningModeInvalidType = 0,
       SeLearningModeSettings,
@@ -44289,7 +44289,7 @@ _mm_clzero (void * __I)
       DWORD CapabilityCount;
       DWORD Reserved;
     } SECURITY_CAPABILITIES,*PSECURITY_CAPABILITIES,*LPSECURITY_CAPABILITIES;
-# 4092 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 4092 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _JOB_SET_ARRAY {
       HANDLE JobHandle;
       DWORD MemberLevel;
@@ -44359,7 +44359,7 @@ _mm_clzero (void * __I)
       DWORD64 ArbitraryUserPointer;
       DWORD64 Self;
     } NT_TIB64,*PNT_TIB64;
-# 4171 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 4171 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _UMS_CREATE_THREAD_ATTRIBUTES {
       DWORD UmsVersion;
       PVOID UmsContext;
@@ -44664,7 +44664,7 @@ _mm_clzero (void * __I)
  DWORD Weight;
       };
     } JOBOBJECT_CPU_RATE_CONTROL_INFORMATION,*PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION;
-# 4556 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 4556 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef enum _JOBOBJECTINFOCLASS {
       JobObjectBasicAccountingInformation = 1, JobObjectBasicLimitInformation,
       JobObjectBasicProcessIdList, JobObjectBasicUIRestrictions,
@@ -44695,7 +44695,7 @@ _mm_clzero (void * __I)
       FirmwareTypeUefi,
       FirmwareTypeMax
     } FIRMWARE_TYPE,*PFIRMWARE_TYPE;
-# 4605 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 4605 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef enum _LOGICAL_PROCESSOR_RELATIONSHIP {
       RelationProcessorCore,RelationNumaNode,RelationCache,
       RelationProcessorPackage,RelationGroup,RelationAll=0xffff
@@ -44785,7 +44785,7 @@ _mm_clzero (void * __I)
     typedef struct _SYSTEM_PROCESSOR_CYCLE_TIME_INFORMATION {
       DWORD64 CycleTime;
     } SYSTEM_PROCESSOR_CYCLE_TIME_INFORMATION,*PSYSTEM_PROCESSOR_CYCLE_TIME_INFORMATION;
-# 4785 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 4785 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _XSTATE_FEATURE {
       DWORD Offset;
       DWORD Size;
@@ -44839,7 +44839,7 @@ _mm_clzero (void * __I)
     ULONG_PTR Offset;
     ULONG_PTR Flags;
   } CFG_CALL_TARGET_INFO, *PCFG_CALL_TARGET_INFO;
-# 4896 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 4896 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
   typedef struct _MEM_ADDRESS_REQUIREMENTS {
     PVOID LowestStartingAddress;
     PVOID HighestEndingAddress;
@@ -44877,14 +44877,14 @@ _mm_clzero (void * __I)
         DWORD ULong;
     };
   } MEM_EXTENDED_PARAMETER, *PMEM_EXTENDED_PARAMETER;
-# 4946 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 4946 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
   typedef enum MEM_SECTION_EXTENDED_PARAMETER_TYPE {
     MemSectionExtendedParameterInvalidType = 0,
     MemSectionExtendedParameterUserPhysicalFlags,
     MemSectionExtendedParameterNumaNode,
     MemSectionExtendedParameterMax
   } MEM_SECTION_EXTENDED_PARAMETER_TYPE, *PMEM_SECTION_EXTENDED_PARAMETER_TYPE;
-# 5069 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 5069 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct FILE_ID_128 {
       BYTE Identifier[16];
     } FILE_ID_128, *PFILE_ID_128;
@@ -44910,7 +44910,7 @@ _mm_clzero (void * __I)
  BYTE DataBuffer[1];
       } GenericReparseBuffer;
     } REPARSE_GUID_DATA_BUFFER,*PREPARSE_GUID_DATA_BUFFER;
-# 5223 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 5223 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     extern const GUID GUID_MAX_POWER_SAVINGS;
     extern const GUID GUID_MIN_POWER_SAVINGS;
     extern const GUID GUID_TYPICAL_POWER_SAVINGS;
@@ -45074,14 +45074,14 @@ _mm_clzero (void * __I)
   typedef enum {
     LT_DONT_CARE,LT_LOWEST_LATENCY
   } LATENCY_TIME;
-# 5398 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 5398 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
   typedef enum _POWER_REQUEST_TYPE {
     PowerRequestDisplayRequired,
     PowerRequestSystemRequired,
     PowerRequestAwayModeRequired,
     PowerRequestExecutionRequired
   } POWER_REQUEST_TYPE,*PPOWER_REQUEST_TYPE;
-# 5415 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 5415 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct CM_Power_Data_s {
       DWORD PD_Size;
       DEVICE_POWER_STATE PD_MostRecentPowerState;
@@ -45286,7 +45286,7 @@ _mm_clzero (void * __I)
     typedef struct _POWER_PLATFORM_INFORMATION {
       BOOLEAN AoAc;
     } POWER_PLATFORM_INFORMATION,*PPOWER_PLATFORM_INFORMATION;
-# 5634 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 5634 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct {
       DWORD Granularity;
       DWORD Capacity;
@@ -45440,7 +45440,7 @@ _mm_clzero (void * __I)
       DWORD64 StartTime;
       PPM_IDLE_STATE_ACCOUNTING_EX State[1];
     } PPM_IDLE_ACCOUNTING_EX,*PPPM_IDLE_ACCOUNTING_EX;
-# 5824 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 5824 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct {
       DWORD State;
       DWORD Status;
@@ -45487,7 +45487,7 @@ _mm_clzero (void * __I)
       DWORD Flags;
       DWORD EventCode;
     } POWER_ACTION_POLICY,*PPOWER_ACTION_POLICY;
-# 5899 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 5899 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct {
       DWORD TimeCheck;
       BYTE DemotePercent;
@@ -45655,7 +45655,7 @@ _mm_clzero (void * __I)
       DWORD DefaultAlert2;
     } SYSTEM_BATTERY_STATE,*PSYSTEM_BATTERY_STATE;
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack4.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack4.h" 1 3
 
 
 
@@ -45663,7 +45663,7 @@ _mm_clzero (void * __I)
 
 
 #pragma pack(push,4)
-# 6067 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 2 3
+# 6067 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 2 3
 
 
 
@@ -45671,7 +45671,7 @@ _mm_clzero (void * __I)
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack2.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack2.h" 1 3
 
 
 
@@ -45679,7 +45679,7 @@ _mm_clzero (void * __I)
 
 
 #pragma pack(push,2)
-# 6075 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 2 3
+# 6075 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 2 3
 
     typedef struct _IMAGE_DOS_HEADER {
       WORD e_magic;
@@ -45790,7 +45790,7 @@ _mm_clzero (void * __I)
       WORD e32_ddkver;
     } IMAGE_VXD_HEADER,*PIMAGE_VXD_HEADER;
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -45798,7 +45798,7 @@ _mm_clzero (void * __I)
 
 
 #pragma pack(pop)
-# 6186 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 2 3
+# 6186 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 2 3
 
     typedef struct _IMAGE_FILE_HEADER {
       WORD Machine;
@@ -45809,7 +45809,7 @@ _mm_clzero (void * __I)
       WORD SizeOfOptionalHeader;
       WORD Characteristics;
     } IMAGE_FILE_HEADER,*PIMAGE_FILE_HEADER;
-# 6248 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 6248 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _IMAGE_DATA_DIRECTORY {
       DWORD VirtualAddress;
       DWORD Size;
@@ -45900,10 +45900,10 @@ _mm_clzero (void * __I)
       DWORD NumberOfRvaAndSizes;
       IMAGE_DATA_DIRECTORY DataDirectory[16];
     } IMAGE_OPTIONAL_HEADER64,*PIMAGE_OPTIONAL_HEADER64;
-# 6349 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 6349 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef IMAGE_OPTIONAL_HEADER64 IMAGE_OPTIONAL_HEADER;
     typedef PIMAGE_OPTIONAL_HEADER64 PIMAGE_OPTIONAL_HEADER;
-# 6360 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 6360 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _IMAGE_NT_HEADERS64 {
       DWORD Signature;
       IMAGE_FILE_HEADER FileHeader;
@@ -45924,7 +45924,7 @@ _mm_clzero (void * __I)
 
     typedef IMAGE_NT_HEADERS64 IMAGE_NT_HEADERS;
     typedef PIMAGE_NT_HEADERS64 PIMAGE_NT_HEADERS;
-# 6430 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 6430 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct ANON_OBJECT_HEADER {
       WORD Sig1;
       WORD Sig2;
@@ -45981,8 +45981,8 @@ _mm_clzero (void * __I)
       WORD NumberOfLinenumbers;
       DWORD Characteristics;
     } IMAGE_SECTION_HEADER,*PIMAGE_SECTION_HEADER;
-# 6534 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack2.h" 1 3
+# 6534 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack2.h" 1 3
 
 
 
@@ -45990,7 +45990,7 @@ _mm_clzero (void * __I)
 
 
 #pragma pack(push,2)
-# 6535 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 2 3
+# 6535 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 2 3
     typedef struct _IMAGE_SYMBOL {
       union {
  BYTE ShortName[8];
@@ -46025,8 +46025,8 @@ _mm_clzero (void * __I)
       BYTE StorageClass;
       BYTE NumberOfAuxSymbols;
     } IMAGE_SYMBOL_EX, *PIMAGE_SYMBOL_EX;
-# 6660 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack2.h" 1 3
+# 6660 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack2.h" 1 3
 
 
 
@@ -46034,14 +46034,14 @@ _mm_clzero (void * __I)
 
 
 #pragma pack(push,2)
-# 6661 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 2 3
+# 6661 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 2 3
     typedef struct IMAGE_AUX_SYMBOL_TOKEN_DEF {
       BYTE bAuxType;
       BYTE bReserved;
       DWORD SymbolTableIndex;
       BYTE rgbReserved[12];
     } IMAGE_AUX_SYMBOL_TOKEN_DEF, *PIMAGE_AUX_SYMBOL_TOKEN_DEF;
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -46049,7 +46049,7 @@ _mm_clzero (void * __I)
 
 
 #pragma pack(pop)
-# 6668 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 2 3
+# 6668 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 2 3
 
     typedef union _IMAGE_AUX_SYMBOL {
       struct {
@@ -46125,7 +46125,7 @@ _mm_clzero (void * __I)
     typedef enum IMAGE_AUX_SYMBOL_TYPE {
       IMAGE_AUX_SYMBOL_TYPE_TOKEN_DEF = 1
     } IMAGE_AUX_SYMBOL_TYPE;
-# 6756 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 6756 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _IMAGE_RELOCATION {
       __extension__ union {
  DWORD VirtualAddress;
@@ -46135,7 +46135,7 @@ _mm_clzero (void * __I)
       WORD Type;
     } IMAGE_RELOCATION;
     typedef IMAGE_RELOCATION *PIMAGE_RELOCATION;
-# 7094 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 7094 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _IMAGE_LINENUMBER {
       union {
  DWORD SymbolTableIndex;
@@ -46147,7 +46147,7 @@ _mm_clzero (void * __I)
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -46155,14 +46155,14 @@ _mm_clzero (void * __I)
 
 
 #pragma pack(pop)
-# 7106 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 2 3
+# 7106 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 2 3
 
     typedef struct _IMAGE_BASE_RELOCATION {
       DWORD VirtualAddress;
       DWORD SizeOfBlock;
     } IMAGE_BASE_RELOCATION;
     typedef IMAGE_BASE_RELOCATION *PIMAGE_BASE_RELOCATION;
-# 7134 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 7134 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _IMAGE_ARCHIVE_MEMBER_HEADER {
       BYTE Name[16];
       BYTE Date[12];
@@ -46194,7 +46194,7 @@ _mm_clzero (void * __I)
       CHAR Name[1];
     } IMAGE_IMPORT_BY_NAME,*PIMAGE_IMPORT_BY_NAME;
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack8.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack8.h" 1 3
 
 
 
@@ -46202,7 +46202,7 @@ _mm_clzero (void * __I)
 
 
 #pragma pack(push,8)
-# 7166 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 2 3
+# 7166 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 2 3
 
     typedef struct _IMAGE_THUNK_DATA64 {
       union {
@@ -46214,7 +46214,7 @@ _mm_clzero (void * __I)
     } IMAGE_THUNK_DATA64;
     typedef IMAGE_THUNK_DATA64 *PIMAGE_THUNK_DATA64;
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -46222,7 +46222,7 @@ _mm_clzero (void * __I)
 
 
 #pragma pack(pop)
-# 7178 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 2 3
+# 7178 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 2 3
 
     typedef struct _IMAGE_THUNK_DATA32 {
       union {
@@ -46233,7 +46233,7 @@ _mm_clzero (void * __I)
       } u1;
     } IMAGE_THUNK_DATA32;
     typedef IMAGE_THUNK_DATA32 *PIMAGE_THUNK_DATA32;
-# 7196 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 7196 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef void ( *PIMAGE_TLS_CALLBACK)(PVOID DllHandle,DWORD Reason,PVOID Reserved);
 
     typedef struct _IMAGE_TLS_DIRECTORY64 {
@@ -46264,7 +46264,7 @@ _mm_clzero (void * __I)
 
     typedef IMAGE_TLS_DIRECTORY64 IMAGE_TLS_DIRECTORY;
     typedef PIMAGE_TLS_DIRECTORY64 PIMAGE_TLS_DIRECTORY;
-# 7236 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 7236 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _IMAGE_IMPORT_DESCRIPTOR {
       __extension__ union {
  DWORD Characteristics;
@@ -46478,7 +46478,7 @@ _mm_clzero (void * __I)
 
     typedef _IMAGE_RUNTIME_FUNCTION_ENTRY IMAGE_IA64_RUNTIME_FUNCTION_ENTRY;
     typedef _PIMAGE_RUNTIME_FUNCTION_ENTRY PIMAGE_IA64_RUNTIME_FUNCTION_ENTRY;
-# 7462 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 7462 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef _IMAGE_RUNTIME_FUNCTION_ENTRY IMAGE_RUNTIME_FUNCTION_ENTRY;
     typedef _PIMAGE_RUNTIME_FUNCTION_ENTRY PIMAGE_RUNTIME_FUNCTION_ENTRY;
 
@@ -46493,7 +46493,7 @@ _mm_clzero (void * __I)
       DWORD AddressOfRawData;
       DWORD PointerToRawData;
     } IMAGE_DEBUG_DIRECTORY,*PIMAGE_DEBUG_DIRECTORY;
-# 7490 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 7490 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _IMAGE_COFF_SYMBOLS_HEADER {
       DWORD NumberOfSymbols;
       DWORD LvaToFirstSymbol;
@@ -46595,7 +46595,7 @@ _mm_clzero (void * __I)
       DWORD FixupInstRVA;
       DWORD NewInst;
     } IMAGE_ARCHITECTURE_ENTRY,*PIMAGE_ARCHITECTURE_ENTRY;
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -46603,7 +46603,7 @@ _mm_clzero (void * __I)
 
 
 #pragma pack(pop)
-# 7592 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 2 3
+# 7592 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 2 3
 
 
 
@@ -46677,14 +46677,14 @@ _mm_clzero (void * __I)
     __attribute__((dllimport)) BOOLEAN __attribute__((__cdecl__)) RtlDeleteFunctionTable (PRUNTIME_FUNCTION FunctionTable);
     __attribute__((dllimport)) BOOLEAN __attribute__((__cdecl__)) RtlInstallFunctionTableCallback (DWORD64 TableIdentifier, DWORD64 BaseAddress, DWORD Length, PGET_RUNTIME_FUNCTION_CALLBACK Callback, PVOID Context, PCWSTR OutOfProcessCallbackDll);
     __attribute__((dllimport)) void __attribute__((__cdecl__)) RtlRestoreContext (PCONTEXT ContextRecord, struct _EXCEPTION_RECORD *ExceptionRecord);
-# 7696 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 7696 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     __attribute__((dllimport)) void RtlUnwind (PVOID TargetFrame, PVOID TargetIp, PEXCEPTION_RECORD ExceptionRecord, PVOID ReturnValue);
     __attribute__((dllimport)) PVOID RtlPcToFileHeader (PVOID PcValue, PVOID *BaseOfImage);
 
     __attribute__((dllimport)) PRUNTIME_FUNCTION RtlLookupFunctionEntry (DWORD64 ControlPc, PDWORD64 ImageBase, PUNWIND_HISTORY_TABLE HistoryTable);
     __attribute__((dllimport)) void RtlUnwindEx (PVOID TargetFrame, PVOID TargetIp, PEXCEPTION_RECORD ExceptionRecord, PVOID ReturnValue, PCONTEXT ContextRecord, PUNWIND_HISTORY_TABLE HistoryTable);
     __attribute__((dllimport)) PEXCEPTION_ROUTINE RtlVirtualUnwind (DWORD HandlerType, DWORD64 ImageBase, DWORD64 ControlPc, PRUNTIME_FUNCTION FunctionEntry, PCONTEXT ContextRecord, PVOID *HandlerData, PDWORD64 EstablisherFrame, PKNONVOLATILE_CONTEXT_POINTERS ContextPointers);
-# 7726 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 7726 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct __attribute__ ((__aligned__ (16))) _SLIST_ENTRY {
       struct _SLIST_ENTRY *Next;
     } SLIST_ENTRY,*PSLIST_ENTRY;
@@ -46711,7 +46711,7 @@ _mm_clzero (void * __I)
  ULONGLONG NextEntry:60;
       } HeaderX64;
     } SLIST_HEADER,*PSLIST_HEADER;
-# 7768 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 7768 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     __attribute__((dllimport)) void RtlInitializeSListHead (PSLIST_HEADER ListHead);
     __attribute__((dllimport)) PSLIST_ENTRY RtlFirstEntrySList (const SLIST_HEADER *ListHead);
     __attribute__((dllimport)) PSLIST_ENTRY RtlInterlockedPopEntrySList (PSLIST_HEADER ListHead);
@@ -46726,7 +46726,7 @@ _mm_clzero (void * __I)
 
 typedef struct _RTL_RUN_ONCE { PVOID Ptr; } RTL_RUN_ONCE, *PRTL_RUN_ONCE;
 typedef DWORD ( *PRTL_RUN_ONCE_INIT_FN)(PRTL_RUN_ONCE, PVOID, PVOID *);
-# 7790 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 7790 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
   typedef struct _RTL_BARRIER {
     DWORD Reserved1;
     DWORD Reserved2;
@@ -46734,15 +46734,15 @@ typedef DWORD ( *PRTL_RUN_ONCE_INIT_FN)(PRTL_RUN_ONCE, PVOID, PVOID *);
     DWORD Reserved4;
     DWORD Reserved5;
   } RTL_BARRIER,*PRTL_BARRIER;
-# 7882 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 7882 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     PVOID RtlSecureZeroMemory(PVOID ptr,SIZE_T cnt);
-# 7899 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 7899 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _MESSAGE_RESOURCE_ENTRY {
       WORD Length;
       WORD Flags;
       BYTE Text[1];
     } MESSAGE_RESOURCE_ENTRY,*PMESSAGE_RESOURCE_ENTRY;
-# 7921 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 7921 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _MESSAGE_RESOURCE_BLOCK {
       DWORD LowId;
       DWORD HighId;
@@ -46807,9 +46807,9 @@ typedef DWORD ( *PRTL_RUN_ONCE_INIT_FN)(PRTL_RUN_ONCE, PVOID, PVOID *);
     typedef OSVERSIONINFOEXA OSVERSIONINFOEX;
     typedef POSVERSIONINFOEXA POSVERSIONINFOEX;
     typedef LPOSVERSIONINFOEXA LPOSVERSIONINFOEX;
-# 8016 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 8016 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     __attribute__((dllimport)) ULONGLONG VerSetConditionMask (ULONGLONG ConditionMask, DWORD TypeMask, BYTE Condition);
-# 8028 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 8028 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef enum _RTL_UMS_THREAD_INFO_CLASS {
       UmsThreadInvalidInfoClass = 0,
       UmsThreadUserContext,
@@ -46829,7 +46829,7 @@ typedef DWORD ( *PRTL_RUN_ONCE_INIT_FN)(PRTL_RUN_ONCE, PVOID, PVOID *);
 
     typedef void RTL_UMS_SCHEDULER_ENTRY_POINT (RTL_UMS_SCHEDULER_REASON Reason, ULONG_PTR ActivationPayload, PVOID SchedulerParam);
     typedef RTL_UMS_SCHEDULER_ENTRY_POINT *PRTL_UMS_SCHEDULER_ENTRY_POINT;
-# 8066 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 8066 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _RTL_CRITICAL_SECTION_DEBUG {
       WORD Type;
       WORD CreatorBackTraceIndex;
@@ -46841,8 +46841,8 @@ typedef DWORD ( *PRTL_RUN_ONCE_INIT_FN)(PRTL_RUN_ONCE, PVOID, PVOID *);
       WORD CreatorBackTraceIndexHigh;
       WORD SpareWORD;
     } RTL_CRITICAL_SECTION_DEBUG,*PRTL_CRITICAL_SECTION_DEBUG,RTL_RESOURCE_DEBUG,*PRTL_RESOURCE_DEBUG;
-# 8092 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack8.h" 1 3
+# 8092 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack8.h" 1 3
 
 
 
@@ -46850,7 +46850,7 @@ typedef DWORD ( *PRTL_RUN_ONCE_INIT_FN)(PRTL_RUN_ONCE, PVOID, PVOID *);
 
 
 #pragma pack(push,8)
-# 8093 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 2 3
+# 8093 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 2 3
     typedef struct _RTL_CRITICAL_SECTION {
       PRTL_CRITICAL_SECTION_DEBUG DebugInfo;
       LONG LockCount;
@@ -46859,7 +46859,7 @@ typedef DWORD ( *PRTL_RUN_ONCE_INIT_FN)(PRTL_RUN_ONCE, PVOID, PVOID *);
       HANDLE LockSemaphore;
       ULONG_PTR SpinCount;
     } RTL_CRITICAL_SECTION,*PRTL_CRITICAL_SECTION;
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -46867,7 +46867,7 @@ typedef DWORD ( *PRTL_RUN_ONCE_INIT_FN)(PRTL_RUN_ONCE, PVOID, PVOID *);
 
 
 #pragma pack(pop)
-# 8102 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 2 3
+# 8102 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 2 3
 
     typedef struct _RTL_SRWLOCK { PVOID Ptr; } RTL_SRWLOCK,*PRTL_SRWLOCK;
     typedef struct _RTL_CONDITION_VARIABLE { PVOID Ptr; } RTL_CONDITION_VARIABLE,*PRTL_CONDITION_VARIABLE;
@@ -46891,7 +46891,7 @@ typedef DWORD ( *PRTL_RUN_ONCE_INIT_FN)(PRTL_RUN_ONCE, PVOID, PVOID *);
     typedef WAITORTIMERCALLBACKFUNC WAITORTIMERCALLBACK;
     typedef void ( *PFLS_CALLBACK_FUNCTION) (PVOID lpFlsData);
     typedef BOOLEAN ( *PSECURE_MEMORY_CACHE_CALLBACK) (PVOID Addr, SIZE_T Range);
-# 8142 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 8142 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef enum _ACTIVATION_CONTEXT_INFO_CLASS {
       ActivationContextBasicInformation = 1,
       ActivationContextDetailedInformation = 2,
@@ -47002,7 +47002,7 @@ typedef DWORD ( *PRTL_RUN_ONCE_INIT_FN)(PRTL_RUN_ONCE, PVOID, PVOID *);
     typedef const struct _COMPATIBILITY_CONTEXT_ELEMENT *PCCOMPATIBILITY_CONTEXT_ELEMENT;
     typedef const struct _ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION *PCACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION;
     typedef const struct _ACTIVATION_CONTEXT_DETAILED_INFORMATION *PCACTIVATION_CONTEXT_DETAILED_INFORMATION;
-# 8268 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 8268 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef void ( *RTL_VERIFIER_DLL_LOAD_CALLBACK) (PWSTR DllName,PVOID DllBase,SIZE_T DllSize,PVOID Reserved);
     typedef void ( *RTL_VERIFIER_DLL_UNLOAD_CALLBACK) (PWSTR DllName,PVOID DllBase,SIZE_T DllSize,PVOID Reserved);
     typedef void ( *RTL_VERIFIER_NTDLLHEAPFREE_CALLBACK)(PVOID AllocationBase,SIZE_T AllocationSize);
@@ -47033,7 +47033,7 @@ typedef DWORD ( *PRTL_RUN_ONCE_INIT_FN)(PRTL_RUN_ONCE, PVOID, PVOID *);
       PVOID RtlpDebugPageHeapDestroy;
       RTL_VERIFIER_NTDLLHEAPFREE_CALLBACK ProviderNtdllHeapFreeCallback;
     } RTL_VERIFIER_PROVIDER_DESCRIPTOR,*PRTL_VERIFIER_PROVIDER_DESCRIPTOR;
-# 8404 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 8404 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     void RtlApplicationVerifierStop(ULONG_PTR Code,PSTR Message,ULONG_PTR Param1,PSTR Description1,ULONG_PTR Param2,PSTR Description2,ULONG_PTR Param3,PSTR Description3,ULONG_PTR Param4,PSTR Description4);
     __attribute__((dllimport)) DWORD RtlSetHeapInformation(PVOID HeapHandle,HEAP_INFORMATION_CLASS HeapInformationClass,PVOID HeapInformation,SIZE_T HeapInformationLength);
     __attribute__((dllimport)) DWORD RtlQueryHeapInformation(PVOID HeapHandle,HEAP_INFORMATION_CLASS HeapInformationClass,PVOID HeapInformation,SIZE_T HeapInformationLength,PSIZE_T ReturnLength);
@@ -47057,7 +47057,7 @@ typedef DWORD ( *PRTL_RUN_ONCE_INIT_FN)(PRTL_RUN_ONCE, PVOID, PVOID *);
       DWORD Reserved;
       HARDWARE_COUNTER_DATA HwCounters[16];
     } PERFORMANCE_DATA,*PPERFORMANCE_DATA;
-# 8457 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 8457 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _EVENTLOGRECORD {
       DWORD Length;
       DWORD Reserved;
@@ -47091,7 +47091,7 @@ typedef DWORD ( *PRTL_RUN_ONCE_INIT_FN)(PRTL_RUN_ONCE, PVOID, PVOID *);
       DWORD ulNumEventsForLogFile;
       DWORD ulOffsets[];
     } PACKEDEVENTINFO,*PPACKEDEVENTINFO;
-# 8584 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 8584 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef enum _CM_SERVICE_NODE_TYPE {
       DriverType = 0x00000001,FileSystemType = 0x00000002,Win32ServiceOwnProcess = 0x00000010,
       Win32ServiceShareProcess = 0x00000020,AdapterType = 0x00000004,RecognizerType = 0x00000008
@@ -47105,12 +47105,12 @@ typedef DWORD ( *PRTL_RUN_ONCE_INIT_FN)(PRTL_RUN_ONCE, PVOID, PVOID *);
     typedef enum _CM_ERROR_CONTROL_TYPE {
       IgnoreError = 0x00000000,NormalError = 0x00000001,SevereError = 0x00000002,CriticalError = 0x00000003
     } SERVICE_ERROR_TYPE;
-# 8615 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 8615 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _TAPE_ERASE {
       DWORD Type;
       BOOLEAN Immediate;
     } TAPE_ERASE,*PTAPE_ERASE;
-# 8627 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 8627 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _TAPE_PREPARE {
       DWORD Operation;
       BOOLEAN Immediate;
@@ -47136,14 +47136,14 @@ typedef DWORD ( *PRTL_RUN_ONCE_INIT_FN)(PRTL_RUN_ONCE, PVOID, PVOID *);
       DWORD Partition;
       LARGE_INTEGER Offset;
     } TAPE_GET_POSITION,*PTAPE_GET_POSITION;
-# 8664 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 8664 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _TAPE_SET_POSITION {
       DWORD Method;
       DWORD Partition;
       LARGE_INTEGER Offset;
       BOOLEAN Immediate;
     } TAPE_SET_POSITION,*PTAPE_SET_POSITION;
-# 8738 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 8738 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
     typedef struct _TAPE_GET_DRIVE_PARAMETERS {
       BOOLEAN ECC;
       BOOLEAN Compression;
@@ -47225,7 +47225,7 @@ typedef DWORD ( *PRTL_RUN_ONCE_INIT_FN)(PRTL_RUN_ONCE, PVOID, PVOID *);
 
   typedef struct _TP_CLEANUP_GROUP TP_CLEANUP_GROUP,*PTP_CLEANUP_GROUP;
   typedef void ( *PTP_CLEANUP_GROUP_CANCEL_CALLBACK) (PVOID ObjectContext, PVOID CleanupContext);
-# 8842 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 8842 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
   typedef struct _TP_CALLBACK_ENVIRON_V1 {
     TP_VERSION Version;
     PTP_POOL Pool;
@@ -47298,13 +47298,13 @@ typedef DWORD ( *PRTL_RUN_ONCE_INIT_FN)(PRTL_RUN_ONCE, PVOID, PVOID *);
     extern __inline__ __attribute__((__always_inline__,__gnu_inline__)) PVOID GetFiberData(void) {
       return *(PVOID *)GetCurrentFiber();
     }
-# 8945 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ktmtypes.h" 1 3
-# 13 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ktmtypes.h" 3
+# 8945 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ktmtypes.h" 1 3
+# 13 "C:/tdm64/x86_64-w64-mingw32/include/ktmtypes.h" 3
   typedef GUID CRM_PROTOCOL_ID,*PCRM_PROTOCOL_ID;
-# 38 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ktmtypes.h" 3
+# 38 "C:/tdm64/x86_64-w64-mingw32/include/ktmtypes.h" 3
   typedef ULONG NOTIFICATION_MASK;
-# 78 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ktmtypes.h" 3
+# 78 "C:/tdm64/x86_64-w64-mingw32/include/ktmtypes.h" 3
   typedef struct _TRANSACTION_NOTIFICATION {
     PVOID TransactionKey;
     ULONG TransactionNotification;
@@ -47373,8 +47373,8 @@ typedef DWORD ( *PRTL_RUN_ONCE_INIT_FN)(PRTL_RUN_ONCE, PVOID, PVOID *);
     ULONG Unused1;
     ULONG Unused2;
   } KCRM_PROTOCOL_BLOB,*PKCRM_PROTOCOL_BLOB,* PRKCRM_PROTOCOL_BLOB;
-# 8946 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 2 3
-# 8997 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 8946 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 2 3
+# 8997 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
       typedef enum _TRANSACTION_OUTCOME {
  TransactionOutcomeUndetermined = 1,
  TransactionOutcomeCommitted,
@@ -47516,7 +47516,7 @@ typedef DWORD ( *PRTL_RUN_ONCE_INIT_FN)(PRTL_RUN_ONCE, PVOID, PVOID *);
  DWORD ObjectIdCount;
  GUID ObjectIds[1];
       } KTMOBJECT_CURSOR,*PKTMOBJECT_CURSOR;
-# 9174 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 3
+# 9174 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 3
 typedef struct _WOW64_FLOATING_SAVE_AREA {
   DWORD ControlWord;
   DWORD StatusWord;
@@ -47529,7 +47529,7 @@ typedef struct _WOW64_FLOATING_SAVE_AREA {
   DWORD Cr0NpxState;
 } WOW64_FLOATING_SAVE_AREA, *PWOW64_FLOATING_SAVE_AREA;
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack4.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack4.h" 1 3
 
 
 
@@ -47537,7 +47537,7 @@ typedef struct _WOW64_FLOATING_SAVE_AREA {
 
 
 #pragma pack(push,4)
-# 9187 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 2 3
+# 9187 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 2 3
 typedef struct _WOW64_CONTEXT {
   DWORD ContextFlags;
   DWORD Dr0;
@@ -47565,7 +47565,7 @@ typedef struct _WOW64_CONTEXT {
   DWORD SegSs;
   BYTE ExtendedRegisters[512];
 } WOW64_CONTEXT, *PWOW64_CONTEXT;
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -47573,7 +47573,7 @@ typedef struct _WOW64_CONTEXT {
 
 
 #pragma pack(pop)
-# 9215 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnt.h" 2 3
+# 9215 "C:/tdm64/x86_64-w64-mingw32/include/winnt.h" 2 3
 
 typedef struct _WOW64_LDT_ENTRY {
   WORD LimitLow;
@@ -47604,13 +47604,13 @@ typedef struct _WOW64_LDT_ENTRY {
       DWORD Selector;
       WOW64_LDT_ENTRY Descriptor;
     } WOW64_DESCRIPTOR_TABLE_ENTRY,*PWOW64_DESCRIPTOR_TABLE_ENTRY;
-# 164 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/minwindef.h" 2 3
+# 164 "C:/tdm64/x86_64-w64-mingw32/include/minwindef.h" 2 3
 
 
   typedef UINT_PTR WPARAM;
   typedef LONG_PTR LPARAM;
   typedef LONG_PTR LRESULT;
-# 189 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/minwindef.h" 3
+# 189 "C:/tdm64/x86_64-w64-mingw32/include/minwindef.h" 3
   typedef HANDLE *SPHANDLE;
   typedef HANDLE *LPHANDLE;
   typedef HANDLE HGLOBAL;
@@ -47648,11 +47648,11 @@ typedef struct _WOW64_LDT_ENTRY {
     DWORD dwLowDateTime;
     DWORD dwHighDateTime;
   } FILETIME,*PFILETIME,*LPFILETIME;
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/windef.h" 2 3
-# 26 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/windef.h" 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/windef.h" 2 3
+# 26 "C:/tdm64/x86_64-w64-mingw32/include/windef.h" 3
 struct HWND__ { int unused; }; typedef struct HWND__ *HWND;
 struct HHOOK__ { int unused; }; typedef struct HHOOK__ *HHOOK;
-# 38 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/windef.h" 3
+# 38 "C:/tdm64/x86_64-w64-mingw32/include/windef.h" 3
   typedef void *HGDIOBJ;
 
 
@@ -47734,7 +47734,7 @@ typedef struct tagPOINTS {
 typedef struct APP_LOCAL_DEVICE_ID {
   BYTE value[32];
 } APP_LOCAL_DEVICE_ID;
-# 155 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/windef.h" 3
+# 155 "C:/tdm64/x86_64-w64-mingw32/include/windef.h" 3
 struct DPI_AWARENESS_CONTEXT__ { int unused; }; typedef struct DPI_AWARENESS_CONTEXT__ *DPI_AWARENESS_CONTEXT;
 
 typedef enum DPI_AWARENESS {
@@ -47755,15 +47755,15 @@ typedef enum DPI_HOSTING_BEHAVIOR {
   DPI_HOSTING_BEHAVIOR_DEFAULT = 0,
   DPI_HOSTING_BEHAVIOR_MIXED = 1
 } DPI_HOSTING_BEHAVIOR;
-# 70 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 1 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/apisetcconv.h" 1 3
-# 11 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 70 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 1 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/apisetcconv.h" 1 3
+# 11 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/minwinbase.h" 1 3
-# 13 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/minwinbase.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/minwinbase.h" 1 3
+# 13 "C:/tdm64/x86_64-w64-mingw32/include/minwinbase.h" 3
   typedef struct _SECURITY_ATTRIBUTES {
     DWORD nLength;
     LPVOID lpSecurityDescriptor;
@@ -47789,7 +47789,7 @@ typedef enum DPI_HOSTING_BEHAVIOR {
     ULONG_PTR Internal;
     DWORD dwNumberOfBytesTransferred;
   } OVERLAPPED_ENTRY, *LPOVERLAPPED_ENTRY;
-# 49 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/minwinbase.h" 3
+# 49 "C:/tdm64/x86_64-w64-mingw32/include/minwinbase.h" 3
   typedef struct _SYSTEMTIME {
     WORD wYear;
     WORD wMonth;
@@ -47861,12 +47861,12 @@ typedef enum DPI_HOSTING_BEHAVIOR {
     FindExSearchLimitToDevices,
     FindExSearchMaxSearchOp
   } FINDEX_SEARCH_OPS;
-# 131 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/minwinbase.h" 3
+# 131 "C:/tdm64/x86_64-w64-mingw32/include/minwinbase.h" 3
   typedef enum _GET_FILEEX_INFO_LEVELS {
     GetFileExInfoStandard,
     GetFileExMaxInfoLevel
   } GET_FILEEX_INFO_LEVELS;
-# 171 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/minwinbase.h" 3
+# 171 "C:/tdm64/x86_64-w64-mingw32/include/minwinbase.h" 3
   typedef RTL_CRITICAL_SECTION CRITICAL_SECTION;
   typedef PRTL_CRITICAL_SECTION PCRITICAL_SECTION;
   typedef PRTL_CRITICAL_SECTION LPCRITICAL_SECTION;
@@ -47898,7 +47898,7 @@ typedef enum DPI_HOSTING_BEHAVIOR {
         } Region;
     } ;
   } PROCESS_HEAP_ENTRY,*LPPROCESS_HEAP_ENTRY,*PPROCESS_HEAP_ENTRY;
-# 210 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/minwinbase.h" 3
+# 210 "C:/tdm64/x86_64-w64-mingw32/include/minwinbase.h" 3
   typedef struct _REASON_CONTEXT {
     ULONG Version;
     DWORD Flags;
@@ -47912,7 +47912,7 @@ typedef enum DPI_HOSTING_BEHAVIOR {
         LPWSTR SimpleReasonString;
     } Reason;
   } REASON_CONTEXT, *PREASON_CONTEXT;
-# 234 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/minwinbase.h" 3
+# 234 "C:/tdm64/x86_64-w64-mingw32/include/minwinbase.h" 3
   typedef DWORD ( *PTHREAD_START_ROUTINE) (LPVOID lpThreadParameter);
   typedef PTHREAD_START_ROUTINE LPTHREAD_START_ROUTINE;
 
@@ -47994,9 +47994,9 @@ typedef enum DPI_HOSTING_BEHAVIOR {
 
 
   typedef PCONTEXT LPCONTEXT;
-# 14 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/bemapiset.h" 1 3
-# 19 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/bemapiset.h" 3
+# 14 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/bemapiset.h" 1 3
+# 19 "C:/tdm64/x86_64-w64-mingw32/include/bemapiset.h" 3
   typedef struct _CONTRACT_DESCRIPTION CONTRACT_DESCRIPTION;
   typedef struct _BEM_REFERENCE BEM_REFERENCE;
   typedef void ( *BEM_FREE_INTERFACE_CALLBACK) (void *interfaceInstance);
@@ -48006,9 +48006,9 @@ typedef enum DPI_HOSTING_BEHAVIOR {
   HRESULT BemCopyReference (BEM_REFERENCE *reference, BEM_REFERENCE **copiedReference);
   void BemFreeReference (BEM_REFERENCE *reference);
   void BemFreeContract (void *contract);
-# 15 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/debugapi.h" 1 3
-# 18 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/debugapi.h" 3
+# 15 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/debugapi.h" 1 3
+# 18 "C:/tdm64/x86_64-w64-mingw32/include/debugapi.h" 3
   __attribute__((dllimport)) void DebugBreak (void);
   __attribute__((dllimport)) WINBOOL IsDebuggerPresent (void);
   __attribute__((dllimport)) void OutputDebugStringA (LPCSTR lpOutputString);
@@ -48026,9 +48026,9 @@ typedef enum DPI_HOSTING_BEHAVIOR {
   __attribute__((dllimport)) WINBOOL DebugActiveProcess (DWORD dwProcessId);
   __attribute__((dllimport)) WINBOOL DebugActiveProcessStop (DWORD dwProcessId);
   __attribute__((dllimport)) WINBOOL CheckRemoteDebuggerPresent (HANDLE hProcess, PBOOL pbDebuggerPresent);
-# 16 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/errhandlingapi.h" 1 3
-# 17 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/errhandlingapi.h" 3
+# 16 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/errhandlingapi.h" 1 3
+# 17 "C:/tdm64/x86_64-w64-mingw32/include/errhandlingapi.h" 3
 typedef LONG ( *PTOP_LEVEL_EXCEPTION_FILTER) (struct _EXCEPTION_POINTERS *ExceptionInfo);
 typedef PTOP_LEVEL_EXCEPTION_FILTER LPTOP_LEVEL_EXCEPTION_FILTER;
     __attribute__((dllimport)) LPTOP_LEVEL_EXCEPTION_FILTER SetUnhandledExceptionFilter (LPTOP_LEVEL_EXCEPTION_FILTER lpTopLevelExceptionFilter);
@@ -48041,16 +48041,16 @@ typedef PTOP_LEVEL_EXCEPTION_FILTER LPTOP_LEVEL_EXCEPTION_FILTER;
   __attribute__((dllimport)) ULONG RemoveVectoredExceptionHandler (PVOID Handle);
   __attribute__((dllimport)) PVOID AddVectoredContinueHandler (ULONG First, PVECTORED_EXCEPTION_HANDLER Handler);
   __attribute__((dllimport)) ULONG RemoveVectoredContinueHandler (PVOID Handle);
-# 46 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/errhandlingapi.h" 3
+# 46 "C:/tdm64/x86_64-w64-mingw32/include/errhandlingapi.h" 3
   __attribute__((dllimport)) void RaiseException (DWORD dwExceptionCode, DWORD dwExceptionFlags, DWORD nNumberOfArguments, const ULONG_PTR *lpArguments);
   __attribute__((dllimport)) UINT SetErrorMode (UINT uMode);
   __attribute__((dllimport)) DWORD GetLastError (void);
   __attribute__((dllimport)) void SetLastError (DWORD dwErrCode);
-# 17 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/fibersapi.h" 1 3
-# 18 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/fileapi.h" 1 3
-# 31 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/fileapi.h" 3
+# 17 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/fibersapi.h" 1 3
+# 18 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/fileapi.h" 1 3
+# 31 "C:/tdm64/x86_64-w64-mingw32/include/fileapi.h" 3
 __attribute__((dllimport)) DWORD GetFileAttributesW (LPCWSTR lpFileName);
 
 __attribute__((dllimport)) DWORD SetFilePointer (HANDLE hFile, LONG lDistanceToMove, PLONG lpDistanceToMoveHigh, DWORD dwMoveMethod);
@@ -48119,7 +48119,7 @@ __attribute__((dllimport)) DWORD SetFilePointer (HANDLE hFile, LONG lDistanceToM
   __attribute__((dllimport)) WINBOOL WriteFileGather (HANDLE hFile, FILE_SEGMENT_ELEMENT aSegmentArray[], DWORD nNumberOfBytesToWrite, LPDWORD lpReserved, LPOVERLAPPED lpOverlapped);
   __attribute__((dllimport)) WINBOOL GetVolumeNameForVolumeMountPointW (LPCWSTR lpszVolumeMountPoint, LPWSTR lpszVolumeName, DWORD cchBufferLength);
   __attribute__((dllimport)) WINBOOL GetVolumePathNamesForVolumeNameW (LPCWSTR lpszVolumeName, LPWCH lpszVolumePathNames, DWORD cchBufferLength, PDWORD lpcchReturnLength);
-# 124 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/fileapi.h" 3
+# 124 "C:/tdm64/x86_64-w64-mingw32/include/fileapi.h" 3
   __attribute__((dllimport)) DWORD GetLongPathNameA (LPCSTR lpszShortPath, LPSTR lpszLongPath, DWORD cchBuffer);
   __attribute__((dllimport)) DWORD GetLongPathNameW (LPCWSTR lpszShortPath, LPWSTR lpszLongPath, DWORD cchBuffer);
   __attribute__((dllimport)) UINT GetTempFileNameA (LPCSTR lpPathName, LPCSTR lpPrefixString, UINT uUnique, LPSTR lpTempFileName);
@@ -48146,7 +48146,7 @@ __attribute__((dllimport)) DWORD SetFilePointer (HANDLE hFile, LONG lDistanceToM
     DWORD nFileSizeHigh;
     DWORD nFileSizeLow;
   } WIN32_FILE_ATTRIBUTE_DATA, *LPWIN32_FILE_ATTRIBUTE_DATA;
-# 163 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/fileapi.h" 3
+# 163 "C:/tdm64/x86_64-w64-mingw32/include/fileapi.h" 3
   __attribute__((dllimport)) WINBOOL CreateDirectoryA (LPCSTR lpPathName, LPSECURITY_ATTRIBUTES lpSecurityAttributes);
   __attribute__((dllimport)) WINBOOL CreateDirectoryW (LPCWSTR lpPathName, LPSECURITY_ATTRIBUTES lpSecurityAttributes);
   __attribute__((dllimport)) WINBOOL DeleteFileA (LPCSTR lpFileName);
@@ -48173,9 +48173,9 @@ __attribute__((dllimport)) DWORD SetFilePointer (HANDLE hFile, LONG lDistanceToM
   __attribute__((dllimport)) WINBOOL WriteFile (HANDLE hFile, LPCVOID lpBuffer, DWORD nNumberOfBytesToWrite, LPDWORD lpNumberOfBytesWritten, LPOVERLAPPED lpOverlapped);
   __attribute__((dllimport)) DWORD GetTempPathA (DWORD nBufferLength, LPSTR lpBuffer);
   __attribute__((dllimport)) DWORD GetTempPathW (DWORD nBufferLength, LPWSTR lpBuffer);
-# 19 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/handleapi.h" 1 3
-# 19 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/handleapi.h" 3
+# 19 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/handleapi.h" 1 3
+# 19 "C:/tdm64/x86_64-w64-mingw32/include/handleapi.h" 3
   __attribute__((dllimport)) WINBOOL CloseHandle (HANDLE hObject);
   __attribute__((dllimport)) WINBOOL DuplicateHandle (HANDLE hSourceProcessHandle, HANDLE hSourceHandle, HANDLE hTargetProcessHandle, LPHANDLE lpTargetHandle, DWORD dwDesiredAccess, WINBOOL bInheritHandle, DWORD dwOptions);
 
@@ -48183,9 +48183,9 @@ __attribute__((dllimport)) DWORD SetFilePointer (HANDLE hFile, LONG lDistanceToM
 
   __attribute__((dllimport)) WINBOOL GetHandleInformation (HANDLE hObject, LPDWORD lpdwFlags);
   __attribute__((dllimport)) WINBOOL SetHandleInformation (HANDLE hObject, DWORD dwMask, DWORD dwFlags);
-# 20 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/heapapi.h" 1 3
-# 18 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/heapapi.h" 3
+# 20 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/heapapi.h" 1 3
+# 18 "C:/tdm64/x86_64-w64-mingw32/include/heapapi.h" 3
   typedef struct _HEAP_SUMMARY {
     DWORD cb;
     SIZE_T cbAllocated;
@@ -48215,9 +48215,9 @@ __attribute__((dllimport)) DWORD SetFilePointer (HANDLE hFile, LONG lDistanceToM
   __attribute__((dllimport)) SIZE_T HeapSize (HANDLE hHeap, DWORD dwFlags, LPCVOID lpMem);
   __attribute__((dllimport)) HANDLE GetProcessHeap (void);
   __attribute__((dllimport)) WINBOOL HeapSetInformation (HANDLE HeapHandle, HEAP_INFORMATION_CLASS HeapInformationClass, PVOID HeapInformation, SIZE_T HeapInformationLength);
-# 21 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ioapiset.h" 1 3
-# 18 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ioapiset.h" 3
+# 21 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ioapiset.h" 1 3
+# 18 "C:/tdm64/x86_64-w64-mingw32/include/ioapiset.h" 3
   __attribute__((dllimport)) WINBOOL GetOverlappedResult (HANDLE hFile, LPOVERLAPPED lpOverlapped, LPDWORD lpNumberOfBytesTransferred, WINBOOL bWait);
   __attribute__((dllimport)) HANDLE CreateIoCompletionPort (HANDLE FileHandle, HANDLE ExistingCompletionPort, ULONG_PTR CompletionKey, DWORD NumberOfConcurrentThreads);
   __attribute__((dllimport)) WINBOOL GetQueuedCompletionStatus (HANDLE CompletionPort, LPDWORD lpNumberOfBytesTransferred, PULONG_PTR lpCompletionKey, LPOVERLAPPED *lpOverlapped, DWORD dwMilliseconds);
@@ -48225,21 +48225,21 @@ __attribute__((dllimport)) DWORD SetFilePointer (HANDLE hFile, LONG lDistanceToM
   __attribute__((dllimport)) WINBOOL DeviceIoControl (HANDLE hDevice, DWORD dwIoControlCode, LPVOID lpInBuffer, DWORD nInBufferSize, LPVOID lpOutBuffer, DWORD nOutBufferSize, LPDWORD lpBytesReturned, LPOVERLAPPED lpOverlapped);
   __attribute__((dllimport)) WINBOOL CancelIo (HANDLE hFile);
   __attribute__((dllimport)) WINBOOL GetOverlappedResultEx (HANDLE hFile, LPOVERLAPPED lpOverlapped, LPDWORD lpNumberOfBytesTransferred, DWORD dwMilliseconds, WINBOOL bAlertable);
-# 22 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/interlockedapi.h" 1 3
-# 18 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/interlockedapi.h" 3
+# 22 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/interlockedapi.h" 1 3
+# 18 "C:/tdm64/x86_64-w64-mingw32/include/interlockedapi.h" 3
   __attribute__((dllimport)) void InitializeSListHead (PSLIST_HEADER ListHead);
   __attribute__((dllimport)) PSLIST_ENTRY InterlockedPopEntrySList (PSLIST_HEADER ListHead);
   __attribute__((dllimport)) PSLIST_ENTRY InterlockedPushEntrySList (PSLIST_HEADER ListHead, PSLIST_ENTRY ListEntry);
   __attribute__((dllimport)) PSLIST_ENTRY InterlockedFlushSList (PSLIST_HEADER ListHead);
   __attribute__((dllimport)) USHORT QueryDepthSList (PSLIST_HEADER ListHead);
-# 23 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/jobapi.h" 1 3
-# 18 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/jobapi.h" 3
+# 23 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/jobapi.h" 1 3
+# 18 "C:/tdm64/x86_64-w64-mingw32/include/jobapi.h" 3
   __attribute__((dllimport)) WINBOOL IsProcessInJob (HANDLE ProcessHandle, HANDLE JobHandle, PBOOL Result);
-# 24 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/libloaderapi.h" 1 3
-# 18 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/libloaderapi.h" 3
+# 24 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/libloaderapi.h" 1 3
+# 18 "C:/tdm64/x86_64-w64-mingw32/include/libloaderapi.h" 3
   typedef struct tagENUMUILANG {
     ULONG NumOfEnumUILang;
     ULONG SizeOfEnumUIBuffer;
@@ -48253,13 +48253,13 @@ __attribute__((dllimport)) DWORD SetFilePointer (HANDLE hFile, LONG lDistanceToM
   typedef WINBOOL ( *ENUMRESNAMEPROCW) (HMODULE hModule, LPCWSTR lpType, LPWSTR lpName, LONG_PTR lParam);
   typedef WINBOOL ( *ENUMRESTYPEPROCA) (HMODULE hModule, LPSTR lpType, LONG_PTR lParam);
   typedef WINBOOL ( *ENUMRESTYPEPROCW) (HMODULE hModule, LPWSTR lpType, LONG_PTR lParam);
-# 41 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/libloaderapi.h" 3
+# 41 "C:/tdm64/x86_64-w64-mingw32/include/libloaderapi.h" 3
   typedef WINBOOL ( *PGET_MODULE_HANDLE_EXA) (DWORD dwFlags, LPCSTR lpModuleName, HMODULE *phModule);
   typedef WINBOOL ( *PGET_MODULE_HANDLE_EXW) (DWORD dwFlags, LPCWSTR lpModuleName, HMODULE *phModule);
 
 
   typedef PVOID DLL_DIRECTORY_COOKIE, *PDLL_DIRECTORY_COOKIE;
-# 91 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/libloaderapi.h" 3
+# 91 "C:/tdm64/x86_64-w64-mingw32/include/libloaderapi.h" 3
   __attribute__((dllimport)) WINBOOL EnumResourceNamesW(HMODULE hModule, LPCWSTR lpType, ENUMRESNAMEPROCW lpEnumFunc, LONG_PTR lParam);
   __attribute__((dllimport)) HRSRC FindResourceW(HMODULE hModule, LPCWSTR lpName, LPCWSTR lpType);
   __attribute__((dllimport)) HRSRC FindResourceExW (HMODULE hModule, LPCWSTR lpType, LPCWSTR lpName, WORD wLanguage);
@@ -48276,10 +48276,10 @@ __attribute__((dllimport)) DWORD SetFilePointer (HANDLE hFile, LONG lDistanceToM
   __attribute__((dllimport)) WINBOOL SetDefaultDllDirectories (DWORD DirectoryFlags);
   __attribute__((dllimport)) WINBOOL GetModuleHandleExA (DWORD dwFlags, LPCSTR lpModuleName, HMODULE *phModule);
   __attribute__((dllimport)) WINBOOL GetModuleHandleExW (DWORD dwFlags, LPCWSTR lpModuleName, HMODULE *phModule);
-# 120 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/libloaderapi.h" 3
+# 120 "C:/tdm64/x86_64-w64-mingw32/include/libloaderapi.h" 3
   __attribute__((dllimport)) WINBOOL EnumResourceLanguagesA(HMODULE hModule,LPCSTR lpType,LPCSTR lpName,ENUMRESLANGPROCA lpEnumFunc,LONG_PTR lParam);
   __attribute__((dllimport)) WINBOOL EnumResourceLanguagesW(HMODULE hModule,LPCWSTR lpType,LPCWSTR lpName,ENUMRESLANGPROCW lpEnumFunc,LONG_PTR lParam);
-# 139 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/libloaderapi.h" 3
+# 139 "C:/tdm64/x86_64-w64-mingw32/include/libloaderapi.h" 3
 __attribute__((dllimport)) HMODULE GetModuleHandleA (LPCSTR lpModuleName);
 __attribute__((dllimport)) HMODULE GetModuleHandleW (LPCWSTR lpModuleName);
 __attribute__((dllimport)) HMODULE LoadLibraryA(LPCSTR lpLibFileName);
@@ -48314,16 +48314,16 @@ typedef struct _REDIRECTION_DESCRIPTOR {
 } REDIRECTION_DESCRIPTOR, *PREDIRECTION_DESCRIPTOR;
 
 typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
-# 25 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/memoryapi.h" 1 3
-# 18 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/memoryapi.h" 3
+# 25 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/memoryapi.h" 1 3
+# 18 "C:/tdm64/x86_64-w64-mingw32/include/memoryapi.h" 3
   typedef enum _MEMORY_RESOURCE_NOTIFICATION_TYPE {
     LowMemoryResourceNotification,
     HighMemoryResourceNotification
   } MEMORY_RESOURCE_NOTIFICATION_TYPE;
-# 32 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/memoryapi.h" 3
+# 32 "C:/tdm64/x86_64-w64-mingw32/include/memoryapi.h" 3
     __attribute__((dllimport)) WINBOOL VirtualFree (LPVOID lpAddress, SIZE_T dwSize, DWORD dwFreeType);
-# 45 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/memoryapi.h" 3
+# 45 "C:/tdm64/x86_64-w64-mingw32/include/memoryapi.h" 3
   __attribute__((dllimport)) SIZE_T VirtualQuery (LPCVOID lpAddress, PMEMORY_BASIC_INFORMATION lpBuffer, SIZE_T dwLength);
   __attribute__((dllimport)) WINBOOL FlushViewOfFile (LPCVOID lpBaseAddress, SIZE_T dwNumberOfBytesToFlush);
   __attribute__((dllimport)) WINBOOL UnmapViewOfFile (LPCVOID lpBaseAddress);
@@ -48331,9 +48331,9 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) HANDLE CreateFileMappingFromApp (HANDLE hFile, PSECURITY_ATTRIBUTES SecurityAttributes, ULONG PageProtection, ULONG64 MaximumSize, PCWSTR Name);
   __attribute__((dllimport)) PVOID MapViewOfFileFromApp (HANDLE hFileMappingObject, ULONG DesiredAccess, ULONG64 FileOffset, SIZE_T NumberOfBytesToMap);
   __attribute__((dllimport)) WINBOOL VirtualUnlockEx(HANDLE Process, LPVOID Address, SIZE_T Size);
-# 69 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/memoryapi.h" 3
+# 69 "C:/tdm64/x86_64-w64-mingw32/include/memoryapi.h" 3
   __attribute__((dllimport)) WINBOOL VirtualProtect (LPVOID lpAddress, SIZE_T dwSize, DWORD flNewProtect, PDWORD lpflOldProtect);
-# 81 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/memoryapi.h" 3
+# 81 "C:/tdm64/x86_64-w64-mingw32/include/memoryapi.h" 3
   __attribute__((dllimport)) LPVOID VirtualAlloc (LPVOID lpAddress, SIZE_T dwSize, DWORD flAllocationType, DWORD flProtect);
   __attribute__((dllimport)) LPVOID VirtualAllocEx (HANDLE hProcess, LPVOID lpAddress, SIZE_T dwSize, DWORD flAllocationType, DWORD flProtect);
   __attribute__((dllimport)) WINBOOL VirtualProtectEx (HANDLE hProcess, LPVOID lpAddress, SIZE_T dwSize, DWORD flNewProtect, PDWORD lpflOldProtect);
@@ -48360,16 +48360,16 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) WINBOOL AllocateUserPhysicalPages(HANDLE hProcess, PULONG_PTR NumberOfPages, PULONG_PTR PageArray);
   __attribute__((dllimport)) WINBOOL FreeUserPhysicalPages(HANDLE hProcess, PULONG_PTR NumberOfPages, PULONG_PTR PageArray);
   __attribute__((dllimport)) WINBOOL MapUserPhysicalPages(PVOID VirtualAddress, ULONG_PTR NumberOfPages, PULONG_PTR PageArray);
-# 173 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/memoryapi.h" 3
+# 173 "C:/tdm64/x86_64-w64-mingw32/include/memoryapi.h" 3
   __attribute__((dllimport)) SIZE_T GetLargePageMinimum (void);
   __attribute__((dllimport)) WINBOOL GetProcessWorkingSetSizeEx (HANDLE hProcess, PSIZE_T lpMinimumWorkingSetSize, PSIZE_T lpMaximumWorkingSetSize, PDWORD Flags);
   __attribute__((dllimport)) WINBOOL SetProcessWorkingSetSizeEx (HANDLE hProcess, SIZE_T dwMinimumWorkingSetSize, SIZE_T dwMaximumWorkingSetSize, DWORD Flags);
   __attribute__((dllimport)) UINT GetWriteWatch (DWORD dwFlags, PVOID lpBaseAddress, SIZE_T dwRegionSize, PVOID *lpAddresses, ULONG_PTR *lpdwCount, LPDWORD lpdwGranularity);
   __attribute__((dllimport)) UINT ResetWriteWatch (LPVOID lpBaseAddress, SIZE_T dwRegionSize);
   __attribute__((dllimport)) WINBOOL VirtualFreeEx (HANDLE hProcess, LPVOID lpAddress, SIZE_T dwSize, DWORD dwFreeType);
-# 26 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/namedpipeapi.h" 1 3
-# 18 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/namedpipeapi.h" 3
+# 26 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/namedpipeapi.h" 1 3
+# 18 "C:/tdm64/x86_64-w64-mingw32/include/namedpipeapi.h" 3
   __attribute__((dllimport)) WINBOOL ImpersonateNamedPipeClient (HANDLE hNamedPipe);
 
 
@@ -48382,9 +48382,9 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) WINBOOL TransactNamedPipe (HANDLE hNamedPipe, LPVOID lpInBuffer, DWORD nInBufferSize, LPVOID lpOutBuffer, DWORD nOutBufferSize, LPDWORD lpBytesRead, LPOVERLAPPED lpOverlapped);
   __attribute__((dllimport)) HANDLE CreateNamedPipeW (LPCWSTR lpName, DWORD dwOpenMode, DWORD dwPipeMode, DWORD nMaxInstances, DWORD nOutBufferSize, DWORD nInBufferSize, DWORD nDefaultTimeOut, LPSECURITY_ATTRIBUTES lpSecurityAttributes);
   __attribute__((dllimport)) WINBOOL WaitNamedPipeW (LPCWSTR lpNamedPipeName, DWORD nTimeOut);
-# 27 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/namespaceapi.h" 1 3
-# 20 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/namespaceapi.h" 3
+# 27 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/namespaceapi.h" 1 3
+# 20 "C:/tdm64/x86_64-w64-mingw32/include/namespaceapi.h" 3
   __attribute__((dllimport)) HANDLE CreatePrivateNamespaceW (LPSECURITY_ATTRIBUTES lpPrivateNamespaceAttributes, LPVOID lpBoundaryDescriptor, LPCWSTR lpAliasPrefix);
   __attribute__((dllimport)) HANDLE OpenPrivateNamespaceW (LPVOID lpBoundaryDescriptor, LPCWSTR lpAliasPrefix);
 
@@ -48399,9 +48399,9 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
   __attribute__((dllimport)) WINBOOL AddSIDToBoundaryDescriptor (HANDLE *BoundaryDescriptor, PSID RequiredSid);
   __attribute__((dllimport)) void DeleteBoundaryDescriptor (HANDLE BoundaryDescriptor);
-# 28 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/processenv.h" 1 3
-# 18 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/processenv.h" 3
+# 28 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/processenv.h" 1 3
+# 18 "C:/tdm64/x86_64-w64-mingw32/include/processenv.h" 3
   __attribute__((dllimport)) LPSTR GetCommandLineA (void);
   __attribute__((dllimport)) LPWSTR GetCommandLineW (void);
   __attribute__((dllimport)) WINBOOL SetCurrentDirectoryA (LPCSTR lpPathName);
@@ -48421,7 +48421,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) DWORD SearchPathA (LPCSTR lpPath, LPCSTR lpFileName, LPCSTR lpExtension, DWORD nBufferLength, LPSTR lpBuffer, LPSTR *lpFilePart);
   __attribute__((dllimport)) WINBOOL NeedCurrentDirectoryForExePathA (LPCSTR ExeName);
   __attribute__((dllimport)) WINBOOL NeedCurrentDirectoryForExePathW (LPCWSTR ExeName);
-# 48 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/processenv.h" 3
+# 48 "C:/tdm64/x86_64-w64-mingw32/include/processenv.h" 3
   __attribute__((dllimport)) LPCH GetEnvironmentStrings (void);
   __attribute__((dllimport)) LPWCH GetEnvironmentStringsW (void);
 
@@ -48441,9 +48441,9 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) WINBOOL SetEnvironmentVariableA (LPCSTR lpName, LPCSTR lpValue);
   __attribute__((dllimport)) WINBOOL SetEnvironmentVariableW (LPCWSTR lpName, LPCWSTR lpValue);
   __attribute__((dllimport)) WINBOOL SetStdHandle (DWORD nStdHandle, HANDLE hHandle);
-# 29 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/processthreadsapi.h" 1 3
-# 24 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/processthreadsapi.h" 3
+# 29 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/processthreadsapi.h" 1 3
+# 24 "C:/tdm64/x86_64-w64-mingw32/include/processthreadsapi.h" 3
   __attribute__((dllimport)) HANDLE OpenProcess (DWORD dwDesiredAccess, WINBOOL bInheritHandle, DWORD dwProcessId);
 
   __attribute__((dllimport)) DWORD QueueUserAPC (PAPCFUNC pfnAPC, HANDLE hThread, ULONG_PTR dwData);
@@ -48545,10 +48545,10 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
 
   __attribute__((dllimport)) WINBOOL CreateProcessAsUserW (HANDLE hToken, LPCWSTR lpApplicationName, LPWSTR lpCommandLine, LPSECURITY_ATTRIBUTES lpProcessAttributes, LPSECURITY_ATTRIBUTES lpThreadAttributes, WINBOOL bInheritHandles, DWORD dwCreationFlags, LPVOID lpEnvironment, LPCWSTR lpCurrentDirectory, LPSTARTUPINFOW lpStartupInfo, LPPROCESS_INFORMATION lpProcessInformation);
-# 173 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/processthreadsapi.h" 3
+# 173 "C:/tdm64/x86_64-w64-mingw32/include/processthreadsapi.h" 3
   __attribute__((dllimport)) WINBOOL CreateProcessA (LPCSTR lpApplicationName, LPSTR lpCommandLine, LPSECURITY_ATTRIBUTES lpProcessAttributes, LPSECURITY_ATTRIBUTES lpThreadAttributes, WINBOOL bInheritHandles, DWORD dwCreationFlags, LPVOID lpEnvironment, LPCSTR lpCurrentDirectory, LPSTARTUPINFOA lpStartupInfo, LPPROCESS_INFORMATION lpProcessInformation);
   __attribute__((dllimport)) WINBOOL CreateProcessW (LPCWSTR lpApplicationName, LPWSTR lpCommandLine, LPSECURITY_ATTRIBUTES lpProcessAttributes, LPSECURITY_ATTRIBUTES lpThreadAttributes, WINBOOL bInheritHandles, DWORD dwCreationFlags, LPVOID lpEnvironment, LPCWSTR lpCurrentDirectory, LPSTARTUPINFOW lpStartupInfo, LPPROCESS_INFORMATION lpProcessInformation);
-# 187 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/processthreadsapi.h" 3
+# 187 "C:/tdm64/x86_64-w64-mingw32/include/processthreadsapi.h" 3
   __attribute__((dllimport)) HANDLE GetCurrentProcess (void);
   __attribute__((dllimport)) DWORD GetCurrentProcessId (void);
   __attribute__((dllimport)) HANDLE GetCurrentThread (void);
@@ -48572,20 +48572,20 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) LPVOID TlsGetValue (DWORD dwTlsIndex);
   __attribute__((dllimport)) WINBOOL TlsSetValue (DWORD dwTlsIndex, LPVOID lpTlsValue);
   __attribute__((dllimport)) WINBOOL TlsFree (DWORD dwTlsIndex);
-# 30 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/processtopologyapi.h" 1 3
-# 31 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/profileapi.h" 1 3
-# 16 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/profileapi.h" 3
+# 30 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/processtopologyapi.h" 1 3
+# 31 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/profileapi.h" 1 3
+# 16 "C:/tdm64/x86_64-w64-mingw32/include/profileapi.h" 3
   __attribute__((dllimport)) WINBOOL QueryPerformanceCounter (LARGE_INTEGER *lpPerformanceCount);
   __attribute__((dllimport)) WINBOOL QueryPerformanceFrequency (LARGE_INTEGER *lpFrequency);
-# 32 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/realtimeapiset.h" 1 3
-# 33 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/securityappcontainer.h" 1 3
-# 34 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/securitybaseapi.h" 1 3
-# 18 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/securitybaseapi.h" 3
+# 32 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/realtimeapiset.h" 1 3
+# 33 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/securityappcontainer.h" 1 3
+# 34 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/securitybaseapi.h" 1 3
+# 18 "C:/tdm64/x86_64-w64-mingw32/include/securitybaseapi.h" 3
   __attribute__((dllimport)) WINBOOL AccessCheck (PSECURITY_DESCRIPTOR pSecurityDescriptor, HANDLE ClientToken, DWORD DesiredAccess, PGENERIC_MAPPING GenericMapping, PPRIVILEGE_SET PrivilegeSet, LPDWORD PrivilegeSetLength, LPDWORD GrantedAccess, LPBOOL AccessStatus);
   __attribute__((dllimport)) WINBOOL AccessCheckAndAuditAlarmW (LPCWSTR SubsystemName, LPVOID HandleId, LPWSTR ObjectTypeName, LPWSTR ObjectName, PSECURITY_DESCRIPTOR SecurityDescriptor, DWORD DesiredAccess, PGENERIC_MAPPING GenericMapping, WINBOOL ObjectCreation, LPDWORD GrantedAccess, LPBOOL AccessStatus, LPBOOL pfGenerateOnClose);
 
@@ -48673,7 +48673,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
   __attribute__((dllimport)) WINBOOL PrivilegeCheck (HANDLE ClientToken, PPRIVILEGE_SET RequiredPrivileges, LPBOOL pfResult);
   __attribute__((dllimport)) WINBOOL PrivilegedServiceAuditAlarmW (LPCWSTR SubsystemName, LPCWSTR ServiceName, HANDLE ClientToken, PPRIVILEGE_SET Privileges, WINBOOL AccessGranted);
-# 113 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/securitybaseapi.h" 3
+# 113 "C:/tdm64/x86_64-w64-mingw32/include/securitybaseapi.h" 3
   __attribute__((dllimport)) WINBOOL RevertToSelf (void);
   __attribute__((dllimport)) WINBOOL SetAclInformation (PACL pAcl, LPVOID pAclInformation, DWORD nAclInformationLength, ACL_INFORMATION_CLASS dwAclInformationClass);
   __attribute__((dllimport)) WINBOOL SetFileSecurityW (LPCWSTR lpFileName, SECURITY_INFORMATION SecurityInformation, PSECURITY_DESCRIPTOR pSecurityDescriptor);
@@ -48683,7 +48683,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
   __attribute__((dllimport)) WINBOOL SetPrivateObjectSecurity (SECURITY_INFORMATION SecurityInformation, PSECURITY_DESCRIPTOR ModificationDescriptor, PSECURITY_DESCRIPTOR *ObjectsSecurityDescriptor, PGENERIC_MAPPING GenericMapping, HANDLE Token);
   __attribute__((dllimport)) WINBOOL SetPrivateObjectSecurityEx (SECURITY_INFORMATION SecurityInformation, PSECURITY_DESCRIPTOR ModificationDescriptor, PSECURITY_DESCRIPTOR *ObjectsSecurityDescriptor, ULONG AutoInheritFlags, PGENERIC_MAPPING GenericMapping, HANDLE Token);
-# 134 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/securitybaseapi.h" 3
+# 134 "C:/tdm64/x86_64-w64-mingw32/include/securitybaseapi.h" 3
   __attribute__((dllimport)) WINBOOL CheckTokenMembership (HANDLE TokenHandle, PSID SidToCheck, PBOOL IsMember);
 
 
@@ -48736,9 +48736,9 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) DWORD SetSecurityDescriptorRMControl (PSECURITY_DESCRIPTOR SecurityDescriptor, PUCHAR RMControl);
   __attribute__((dllimport)) WINBOOL SetSecurityDescriptorSacl (PSECURITY_DESCRIPTOR pSecurityDescriptor, WINBOOL bSaclPresent, PACL pSacl, WINBOOL bSaclDefaulted);
   __attribute__((dllimport)) WINBOOL SetTokenInformation (HANDLE TokenHandle, TOKEN_INFORMATION_CLASS TokenInformationClass, LPVOID TokenInformation, DWORD TokenInformationLength);
-# 35 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/synchapi.h" 1 3
-# 34 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/synchapi.h" 3
+# 35 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/synchapi.h" 1 3
+# 34 "C:/tdm64/x86_64-w64-mingw32/include/synchapi.h" 3
   typedef RTL_SRWLOCK SRWLOCK, *PSRWLOCK;
 
   typedef RTL_RUN_ONCE INIT_ONCE;
@@ -48765,7 +48765,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   WINBOOL WaitOnAddress (volatile void *Address, PVOID CompareAddress, SIZE_T AddressSize, DWORD dwMilliseconds);
   void WakeByAddressSingle (PVOID Address);
   void WakeByAddressAll (PVOID Address);
-# 102 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/synchapi.h" 3
+# 102 "C:/tdm64/x86_64-w64-mingw32/include/synchapi.h" 3
   typedef void ( *PTIMERAPCROUTINE) (LPVOID lpArgToCompletionRoutine, DWORD dwTimerLowValue, DWORD dwTimerHighValue);
 
   typedef RTL_BARRIER SYNCHRONIZATION_BARRIER;
@@ -48793,9 +48793,9 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   WINBOOL DeleteSynchronizationBarrier (LPSYNCHRONIZATION_BARRIER lpBarrier);
   __attribute__((dllimport)) void Sleep (DWORD dwMilliseconds);
   __attribute__((dllimport)) DWORD SignalObjectAndWait (HANDLE hObjectToSignal, HANDLE hObjectToWaitOn, DWORD dwMilliseconds, WINBOOL bAlertable);
-# 36 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sysinfoapi.h" 1 3
-# 18 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sysinfoapi.h" 3
+# 36 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/sysinfoapi.h" 1 3
+# 18 "C:/tdm64/x86_64-w64-mingw32/include/sysinfoapi.h" 3
   typedef struct _SYSTEM_INFO {
     __extension__ union {
       DWORD dwOemId;
@@ -48873,23 +48873,23 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) WINBOOL SetComputerNameExW (COMPUTER_NAME_FORMAT NameType, LPCWSTR lpBuffer);
   __attribute__((dllimport)) WINBOOL SetSystemTime (const SYSTEMTIME *lpSystemTime);
   __attribute__((dllimport)) ULONGLONG VerSetConditionMask (ULONGLONG ConditionMask, ULONG TypeMask, UCHAR Condition);
-# 113 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sysinfoapi.h" 3
+# 113 "C:/tdm64/x86_64-w64-mingw32/include/sysinfoapi.h" 3
   __attribute__((dllimport)) UINT GetSystemDirectoryA (LPSTR lpBuffer, UINT uSize);
   __attribute__((dllimport)) UINT GetSystemDirectoryW (LPWSTR lpBuffer, UINT uSize);
   __attribute__((dllimport)) WINBOOL GetLogicalProcessorInformation (PSYSTEM_LOGICAL_PROCESSOR_INFORMATION Buffer, PDWORD ReturnedLength);
   __attribute__((dllimport)) UINT EnumSystemFirmwareTables (DWORD FirmwareTableProviderSignature, PVOID pFirmwareTableEnumBuffer, DWORD BufferSize);
   __attribute__((dllimport)) UINT GetSystemFirmwareTable (DWORD FirmwareTableProviderSignature, DWORD FirmwareTableID, PVOID pFirmwareTableBuffer, DWORD BufferSize);
-# 37 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/systemtopologyapi.h" 1 3
-# 18 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/systemtopologyapi.h" 3
+# 37 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/systemtopologyapi.h" 1 3
+# 18 "C:/tdm64/x86_64-w64-mingw32/include/systemtopologyapi.h" 3
   __attribute__((dllimport)) WINBOOL GetNumaHighestNodeNumber (PULONG HighestNodeNumber);
-# 38 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/threadpoolapiset.h" 1 3
-# 18 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/threadpoolapiset.h" 3
+# 38 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/threadpoolapiset.h" 1 3
+# 18 "C:/tdm64/x86_64-w64-mingw32/include/threadpoolapiset.h" 3
   typedef void ( *PTP_WIN32_IO_CALLBACK) (PTP_CALLBACK_INSTANCE Instance, PVOID Context, PVOID Overlapped, ULONG IoResult, ULONG_PTR NumberOfBytesTransferred, PTP_IO Io);
-# 39 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h" 1 3
-# 18 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h" 3
+# 39 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h" 1 3
+# 18 "C:/tdm64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h" 3
   __attribute__((dllimport)) WINBOOL CreateTimerQueueTimer (PHANDLE phNewTimer, HANDLE TimerQueue, WAITORTIMERCALLBACK Callback, PVOID Parameter, DWORD DueTime, DWORD Period, ULONG Flags);
   __attribute__((dllimport)) WINBOOL DeleteTimerQueueTimer (HANDLE TimerQueue, HANDLE Timer, HANDLE CompletionEvent);
 
@@ -48900,9 +48900,9 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) HANDLE CreateTimerQueue (void);
   __attribute__((dllimport)) WINBOOL ChangeTimerQueueTimer (HANDLE TimerQueue, HANDLE Timer, ULONG DueTime, ULONG Period);
   __attribute__((dllimport)) WINBOOL DeleteTimerQueueEx (HANDLE TimerQueue, HANDLE CompletionEvent);
-# 40 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/utilapiset.h" 1 3
-# 17 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/utilapiset.h" 3
+# 40 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/utilapiset.h" 1 3
+# 17 "C:/tdm64/x86_64-w64-mingw32/include/utilapiset.h" 3
   __attribute__((dllimport)) PVOID EncodePointer (PVOID Ptr);
   __attribute__((dllimport)) PVOID DecodePointer (PVOID Ptr);
 
@@ -48913,16 +48913,16 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
 
   __attribute__((dllimport)) WINBOOL Beep (DWORD dwFreq, DWORD dwDuration);
-# 41 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wow64apiset.h" 1 3
-# 18 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wow64apiset.h" 3
+# 41 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/wow64apiset.h" 1 3
+# 18 "C:/tdm64/x86_64-w64-mingw32/include/wow64apiset.h" 3
   __attribute__((dllimport)) WINBOOL Wow64DisableWow64FsRedirection (PVOID *OldValue);
   __attribute__((dllimport)) WINBOOL Wow64RevertWow64FsRedirection (PVOID OlValue);
 
 
 
   __attribute__((dllimport)) WINBOOL IsWow64Process (HANDLE hProcess, PBOOL Wow64Process);
-# 42 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 42 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
 
 
 
@@ -48930,13 +48930,13 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h" 1 3
-# 65 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h" 1 3
+# 65 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h" 3
        
-# 2125 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h" 3
+# 2125 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h" 3
        
-# 50 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 160 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 50 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 160 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   typedef void ( *PFIBER_START_ROUTINE) (LPVOID lpFiberParameter);
   typedef PFIBER_START_ROUTINE LPFIBER_START_ROUTINE;
 
@@ -48944,7 +48944,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
 
   typedef LPVOID LPLDT_ENTRY;
-# 240 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 240 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   typedef struct _COMMPROP {
     WORD wPacketLength;
     WORD wPacketVersion;
@@ -48980,7 +48980,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     DWORD cbInQue;
     DWORD cbOutQue;
   } COMSTAT,*LPCOMSTAT;
-# 285 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 285 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   typedef struct _DCB {
     DWORD DCBlength;
     DWORD BaudRate;
@@ -49030,7 +49030,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     DWORD dwProviderSize;
     WCHAR wcProviderData[1];
   } COMMCONFIG,*LPCOMMCONFIG;
-# 364 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 364 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   typedef struct _MEMORYSTATUS {
     DWORD dwLength;
     DWORD dwMemoryLoad;
@@ -49041,7 +49041,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     SIZE_T dwTotalVirtual;
     SIZE_T dwAvailVirtual;
   } MEMORYSTATUS,*LPMEMORYSTATUS;
-# 431 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 431 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   typedef struct _JIT_DEBUG_INFO {
     DWORD dwSize;
     DWORD dwProcessorArchitecture;
@@ -49058,7 +49058,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
   typedef PEXCEPTION_RECORD LPEXCEPTION_RECORD;
   typedef PEXCEPTION_POINTERS LPEXCEPTION_POINTERS;
-# 620 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 620 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   typedef struct _OFSTRUCT {
     BYTE cBytes;
     BYTE fFixedDisk;
@@ -49067,18 +49067,18 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     WORD Reserved2;
     CHAR szPathName[128];
   } OFSTRUCT, *LPOFSTRUCT,*POFSTRUCT;
-# 908 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 908 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   LONG __attribute__((__cdecl__)) _InterlockedAnd(LONG volatile *Destination, LONG Value);
   LONG __attribute__((__cdecl__)) _InterlockedOr(LONG volatile *Destination, LONG Value);
   LONG __attribute__((__cdecl__)) _InterlockedXor(LONG volatile *Destination, LONG Value);
-# 928 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 928 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   char __attribute__((__cdecl__)) _InterlockedAnd8(char volatile *Destination, char Value);
   char __attribute__((__cdecl__)) _InterlockedOr8(char volatile *Destination, char Value);
   char __attribute__((__cdecl__)) _InterlockedXor8(char volatile *Destination, char Value);
   SHORT __attribute__((__cdecl__)) _InterlockedAnd16(SHORT volatile *Destination, SHORT Value);
   SHORT __attribute__((__cdecl__)) _InterlockedOr16(SHORT volatile *Destination, SHORT Value);
   SHORT __attribute__((__cdecl__)) _InterlockedXor16(SHORT volatile *Destination, SHORT Value);
-# 1094 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 1094 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) HLOCAL LocalAlloc (UINT uFlags, SIZE_T uBytes);
   __attribute__((dllimport)) HLOCAL LocalFree (HLOCAL hMem);
   int WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nShowCmd);
@@ -49100,7 +49100,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) UINT LocalFlags (HLOCAL hMem);
   __attribute__((dllimport)) SIZE_T LocalShrink (HLOCAL hMem, UINT cbNewSize);
   __attribute__((dllimport)) SIZE_T LocalCompact (UINT uMinFree);
-# 1137 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 1137 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) WINBOOL GetBinaryTypeA (LPCSTR lpApplicationName, LPDWORD lpBinaryType);
   __attribute__((dllimport)) WINBOOL GetBinaryTypeW (LPCWSTR lpApplicationName, LPDWORD lpBinaryType);
   __attribute__((dllimport)) DWORD GetShortPathNameA (LPCSTR lpszLongPath, LPSTR lpszShortPath, DWORD cchBuffer);
@@ -49113,7 +49113,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) WINBOOL SetProcessWorkingSetSize (HANDLE hProcess, SIZE_T dwMinimumWorkingSetSize, SIZE_T dwMaximumWorkingSetSize);
   __attribute__((dllimport)) void FatalExit (int ExitCode);
   __attribute__((dllimport)) WINBOOL SetEnvironmentStringsA (LPCH NewEnvironment);
-# 1163 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 1163 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) HGLOBAL GlobalAlloc (UINT uFlags, SIZE_T dwBytes);
   __attribute__((dllimport)) HGLOBAL GlobalReAlloc (HGLOBAL hMem, SIZE_T dwBytes, UINT uFlags);
   __attribute__((dllimport)) SIZE_T GlobalSize (HGLOBAL hMem);
@@ -49147,13 +49147,13 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
   __attribute__((dllimport)) LPVOID CreateFiber (SIZE_T dwStackSize, LPFIBER_START_ROUTINE lpStartAddress, LPVOID lpParameter);
   __attribute__((dllimport)) LPVOID ConvertThreadToFiber (LPVOID lpParameter);
-# 1211 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 1211 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) WINBOOL RequestWakeupLatency (LATENCY_TIME latency);
   __attribute__((dllimport)) WINBOOL IsSystemResumeAutomatic (void);
   __attribute__((dllimport)) WINBOOL GetThreadIOPendingFlag (HANDLE hThread, PBOOL lpIOIsPending);
   __attribute__((dllimport)) WINBOOL GetThreadSelectorEntry (HANDLE hThread, DWORD dwSelector, LPLDT_ENTRY lpSelectorEntry);
   __attribute__((dllimport)) EXECUTION_STATE SetThreadExecutionState (EXECUTION_STATE esFlags);
-# 1266 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 1266 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) WINBOOL DebugSetProcessKillOnExit (WINBOOL KillOnExit);
   __attribute__((dllimport)) WINBOOL DebugBreakProcess (HANDLE Process);
 
@@ -49174,7 +49174,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     DEPPolicyOptOut,
     DEPTotalPolicyCount
   } DEP_SYSTEM_POLICY_TYPE;
-# 1298 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 1298 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) WINBOOL PulseEvent (HANDLE hEvent);
   __attribute__((dllimport)) ATOM GlobalDeleteAtom (ATOM nAtom);
   __attribute__((dllimport)) WINBOOL InitAtomTable (DWORD nSize);
@@ -49202,7 +49202,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) WINBOOL FileTimeToDosDateTime (const FILETIME *lpFileTime, LPWORD lpFatDate, LPWORD lpFatTime);
   __attribute__((dllimport)) WINBOOL DosDateTimeToFileTime (WORD wFatDate, WORD wFatTime, LPFILETIME lpFileTime);
   __attribute__((dllimport)) WINBOOL SetSystemTimeAdjustment (DWORD dwTimeAdjustment, WINBOOL bTimeAdjustmentDisabled);
-# 1336 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 1336 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) DWORD GetThreadErrorMode (void);
   __attribute__((dllimport)) WINBOOL SetThreadErrorMode (DWORD dwNewMode, LPDWORD lpOldMode);
 
@@ -49232,10 +49232,10 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
   __attribute__((dllimport)) DWORD FormatMessageA (DWORD dwFlags, LPCVOID lpSource, DWORD dwMessageId, DWORD dwLanguageId, LPSTR lpBuffer, DWORD nSize, va_list *Arguments);
   __attribute__((dllimport)) DWORD FormatMessageW (DWORD dwFlags, LPCVOID lpSource, DWORD dwMessageId, DWORD dwLanguageId, LPWSTR lpBuffer, DWORD nSize, va_list *Arguments);
-# 1378 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 1378 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   typedef DWORD ( *PFE_EXPORT_FUNC) (PBYTE pbData, PVOID pvCallbackContext, ULONG ulLength);
   typedef DWORD ( *PFE_IMPORT_FUNC) (PBYTE pbData, PVOID pvCallbackContext, PULONG ulLength);
-# 1401 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 1401 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) WINBOOL GetNamedPipeInfo (HANDLE hNamedPipe, LPDWORD lpFlags, LPDWORD lpOutBufferSize, LPDWORD lpInBufferSize, LPDWORD lpMaxInstances);
   __attribute__((dllimport)) HANDLE CreateMailslotA (LPCSTR lpName, DWORD nMaxMessageSize, DWORD lReadTimeout, LPSECURITY_ATTRIBUTES lpSecurityAttributes);
   __attribute__((dllimport)) HANDLE CreateMailslotW (LPCWSTR lpName, DWORD nMaxMessageSize, DWORD lReadTimeout, LPSECURITY_ATTRIBUTES lpSecurityAttributes);
@@ -49278,7 +49278,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) WINBOOL BackupRead (HANDLE hFile, LPBYTE lpBuffer, DWORD nNumberOfBytesToRead, LPDWORD lpNumberOfBytesRead, WINBOOL bAbort, WINBOOL bProcessSecurity, LPVOID *lpContext);
   __attribute__((dllimport)) WINBOOL BackupSeek (HANDLE hFile, DWORD dwLowBytesToSeek, DWORD dwHighBytesToSeek, LPDWORD lpdwLowByteSeeked, LPDWORD lpdwHighByteSeeked, LPVOID *lpContext);
   __attribute__((dllimport)) WINBOOL BackupWrite (HANDLE hFile, LPBYTE lpBuffer, DWORD nNumberOfBytesToWrite, LPDWORD lpNumberOfBytesWritten, WINBOOL bAbort, WINBOOL bProcessSecurity, LPVOID *lpContext);
-# 1456 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 1456 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   typedef struct _WIN32_STREAM_ID {
     DWORD dwStreamId;
     DWORD dwStreamAttributes;
@@ -49286,7 +49286,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     DWORD dwStreamNameSize;
     WCHAR cStreamName[1];
   } WIN32_STREAM_ID,*LPWIN32_STREAM_ID;
-# 1516 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 1516 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   WINBOOL GetSystemTimes (LPFILETIME lpIdleTime, LPFILETIME lpKernelTime, LPFILETIME lpUserTime);
   __attribute__((dllimport)) WINBOOL GetNamedPipeInfo (HANDLE hNamedPipe, LPDWORD lpFlags, LPDWORD lpOutBufferSize, LPDWORD lpInBufferSize, LPDWORD lpMaxInstances);
 
@@ -49310,14 +49310,14 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
   __attribute__((dllimport)) HANDLE OpenFileMappingA (DWORD dwDesiredAccess, WINBOOL bInheritHandle, LPCSTR lpName);
   __attribute__((dllimport)) DWORD GetLogicalDriveStringsA (DWORD nBufferLength, LPSTR lpBuffer);
-# 1560 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 1560 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) HANDLE CreateSemaphoreA (LPSECURITY_ATTRIBUTES lpSemaphoreAttributes, LONG lInitialCount, LONG lMaximumCount, LPCSTR lpName);
-# 1570 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 1570 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   typedef enum _PROCESS_INFORMATION_CLASS {
     ProcessMemoryPriority,
     ProcessInformationClassMax
   } PROCESS_INFORMATION_CLASS;
-# 1774 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 1774 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) WINBOOL GetProcessShutdownParameters (LPDWORD lpdwLevel, LPDWORD lpdwFlags);
   __attribute__((dllimport)) void FatalAppExitA (UINT uAction, LPCSTR lpMessageText);
   __attribute__((dllimport)) void FatalAppExitW (UINT uAction, LPCWSTR lpMessageText);
@@ -49381,7 +49381,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) WINBOOL GetPrivateProfileStructW (LPCWSTR lpszSection, LPCWSTR lpszKey, LPVOID lpStruct, UINT uSizeStruct, LPCWSTR szFile);
   __attribute__((dllimport)) WINBOOL WritePrivateProfileStructA (LPCSTR lpszSection, LPCSTR lpszKey, LPVOID lpStruct, UINT uSizeStruct, LPCSTR szFile);
   __attribute__((dllimport)) WINBOOL WritePrivateProfileStructW (LPCWSTR lpszSection, LPCWSTR lpszKey, LPVOID lpStruct, UINT uSizeStruct, LPCWSTR szFile);
-# 1880 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 1880 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) UINT GetSystemWow64DirectoryA (LPSTR lpBuffer, UINT uSize);
   __attribute__((dllimport)) UINT GetSystemWow64DirectoryW (LPWSTR lpBuffer, UINT uSize);
 
@@ -49391,12 +49391,12 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
   typedef UINT ( *PGET_SYSTEM_WOW64_DIRECTORY_A) (LPSTR lpBuffer, UINT uSize);
   typedef UINT ( *PGET_SYSTEM_WOW64_DIRECTORY_W) (LPWSTR lpBuffer, UINT uSize);
-# 1902 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 1902 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) WINBOOL SetDllDirectoryA (LPCSTR lpPathName);
   __attribute__((dllimport)) WINBOOL SetDllDirectoryW (LPCWSTR lpPathName);
   __attribute__((dllimport)) DWORD GetDllDirectoryA (DWORD nBufferLength, LPSTR lpBuffer);
   __attribute__((dllimport)) DWORD GetDllDirectoryW (DWORD nBufferLength, LPWSTR lpBuffer);
-# 1915 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 1915 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) WINBOOL SetSearchPathMode (DWORD Flags);
 
 
@@ -49405,18 +49405,18 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) DWORD GetFirmwareEnvironmentVariableW (LPCWSTR lpName, LPCWSTR lpGuid, PVOID pBuffer, DWORD nSize);
   __attribute__((dllimport)) WINBOOL SetFirmwareEnvironmentVariableA (LPCSTR lpName, LPCSTR lpGuid, PVOID pValue, DWORD nSize);
   __attribute__((dllimport)) WINBOOL SetFirmwareEnvironmentVariableW (LPCWSTR lpName, LPCWSTR lpGuid, PVOID pValue, DWORD nSize);
-# 1933 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 1933 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) WINBOOL CreateDirectoryExA (LPCSTR lpTemplateDirectory, LPCSTR lpNewDirectory, LPSECURITY_ATTRIBUTES lpSecurityAttributes);
   __attribute__((dllimport)) WINBOOL CreateDirectoryExW (LPCWSTR lpTemplateDirectory, LPCWSTR lpNewDirectory, LPSECURITY_ATTRIBUTES lpSecurityAttributes);
-# 1958 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 1958 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) WINBOOL DefineDosDeviceA (DWORD dwFlags, LPCSTR lpDeviceName, LPCSTR lpTargetPath);
   __attribute__((dllimport)) DWORD QueryDosDeviceA (LPCSTR lpDeviceName, LPSTR lpTargetPath, DWORD ucchMax);
-# 1975 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 1975 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) HANDLE ReOpenFile (HANDLE hOriginalFile, DWORD dwDesiredAccess, DWORD dwShareMode, DWORD dwFlagsAndAttributes);
-# 1987 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 1987 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) DWORD GetCompressedFileSizeA (LPCSTR lpFileName, LPDWORD lpFileSizeHigh);
   __attribute__((dllimport)) DWORD GetCompressedFileSizeW (LPCWSTR lpFileName, LPDWORD lpFileSizeHigh);
-# 2005 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 2005 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   typedef DWORD ( *LPPROGRESS_ROUTINE) (LARGE_INTEGER TotalFileSize, LARGE_INTEGER TotalBytesTransferred, LARGE_INTEGER StreamSize, LARGE_INTEGER StreamBytesTransferred, DWORD dwStreamNumber, DWORD dwCallbackReason, HANDLE hSourceFile, HANDLE hDestinationFile, LPVOID lpData);
 
   __attribute__((dllimport)) WINBOOL CopyFileExA (LPCSTR lpExistingFileName, LPCSTR lpNewFileName, LPPROGRESS_ROUTINE lpProgressRoutine, LPVOID lpData, LPBOOL pbCancel, DWORD dwCopyFlags);
@@ -49428,10 +49428,10 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
   __attribute__((dllimport)) WINBOOL CheckNameLegalDOS8Dot3A (LPCSTR lpName, LPSTR lpOemName, DWORD OemNameSize, PBOOL pbNameContainsSpaces, PBOOL pbNameLegal);
   __attribute__((dllimport)) WINBOOL CheckNameLegalDOS8Dot3W (LPCWSTR lpName, LPSTR lpOemName, DWORD OemNameSize, PBOOL pbNameContainsSpaces, PBOOL pbNameLegal);
-# 2033 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 2033 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) WINBOOL CopyFileA (LPCSTR lpExistingFileName, LPCSTR lpNewFileName, WINBOOL bFailIfExists);
   __attribute__((dllimport)) WINBOOL CopyFileW (LPCWSTR lpExistingFileName, LPCWSTR lpNewFileName, WINBOOL bFailIfExists);
-# 2144 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 2144 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) WINBOOL MoveFileA (LPCSTR lpExistingFileName, LPCSTR lpNewFileName);
   __attribute__((dllimport)) WINBOOL MoveFileW (LPCWSTR lpExistingFileName, LPCWSTR lpNewFileName);
 
@@ -49448,13 +49448,13 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
   __attribute__((dllimport)) WINBOOL MoveFileWithProgressA (LPCSTR lpExistingFileName, LPCSTR lpNewFileName, LPPROGRESS_ROUTINE lpProgressRoutine, LPVOID lpData, DWORD dwFlags);
   __attribute__((dllimport)) WINBOOL MoveFileWithProgressW (LPCWSTR lpExistingFileName, LPCWSTR lpNewFileName, LPPROGRESS_ROUTINE lpProgressRoutine, LPVOID lpData, DWORD dwFlags);
-# 2181 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 2181 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) WINBOOL GetNamedPipeClientComputerNameA (HANDLE Pipe, LPSTR ClientComputerName, ULONG ClientComputerNameLength);
   __attribute__((dllimport)) WINBOOL WaitNamedPipeA (LPCSTR lpNamedPipeName, DWORD nTimeOut);
   __attribute__((dllimport)) WINBOOL CallNamedPipeA (LPCSTR lpNamedPipeName, LPVOID lpInBuffer, DWORD nInBufferSize, LPVOID lpOutBuffer, DWORD nOutBufferSize, LPDWORD lpBytesRead, DWORD nTimeOut);
   __attribute__((dllimport)) WINBOOL CallNamedPipeW (LPCWSTR lpNamedPipeName, LPVOID lpInBuffer, DWORD nInBufferSize, LPVOID lpOutBuffer, DWORD nOutBufferSize, LPDWORD lpBytesRead, DWORD nTimeOut);
   __attribute__((dllimport)) HANDLE CreateNamedPipeA (LPCSTR lpName, DWORD dwOpenMode, DWORD dwPipeMode, DWORD nMaxInstances, DWORD nOutBufferSize, DWORD nInBufferSize, DWORD nDefaultTimeOut, LPSECURITY_ATTRIBUTES lpSecurityAttributes);
-# 2197 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 2197 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) WINBOOL GetNamedPipeHandleStateA (HANDLE hNamedPipe, LPDWORD lpState, LPDWORD lpCurInstances, LPDWORD lpMaxCollectionCount, LPDWORD lpCollectDataTimeout, LPSTR lpUserName, DWORD nMaxUserNameSize);
   __attribute__((dllimport)) WINBOOL GetNamedPipeHandleStateW (HANDLE hNamedPipe, LPDWORD lpState, LPDWORD lpCurInstances, LPDWORD lpMaxCollectionCount, LPDWORD lpCollectDataTimeout, LPWSTR lpUserName, DWORD nMaxUserNameSize);
   __attribute__((dllimport)) WINBOOL ReplaceFileA (LPCSTR lpReplacedFileName, LPCSTR lpReplacementFileName, LPCSTR lpBackupFileName, DWORD dwReplaceFlags, LPVOID lpExclude, LPVOID lpReserved);
@@ -49463,7 +49463,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
   __attribute__((dllimport)) WINBOOL CreateHardLinkA (LPCSTR lpFileName, LPCSTR lpExistingFileName, LPSECURITY_ATTRIBUTES lpSecurityAttributes);
   __attribute__((dllimport)) WINBOOL CreateHardLinkW (LPCWSTR lpFileName, LPCWSTR lpExistingFileName, LPSECURITY_ATTRIBUTES lpSecurityAttributes);
-# 2216 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 2216 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   typedef enum _STREAM_INFO_LEVELS {
     FindStreamInfoStandard,
     FindStreamInfoMaxInfoLevel
@@ -49476,7 +49476,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
   __attribute__((dllimport)) HANDLE FindFirstStreamW (LPCWSTR lpFileName, STREAM_INFO_LEVELS InfoLevel, LPVOID lpFindStreamData, DWORD dwFlags);
   __attribute__((dllimport)) WINBOOL FindNextStreamW (HANDLE hFindStream, LPVOID lpFindStreamData);
-# 2240 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 2240 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) void SetFileApisToOEM (void);
   __attribute__((dllimport)) void SetFileApisToANSI (void);
   __attribute__((dllimport)) WINBOOL AreFileApisANSI (void);
@@ -49499,13 +49499,13 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) WINBOOL ReadEventLogW (HANDLE hEventLog, DWORD dwReadFlags, DWORD dwRecordOffset, LPVOID lpBuffer, DWORD nNumberOfBytesToRead, DWORD *pnBytesRead, DWORD *pnMinNumberOfBytesNeeded);
   __attribute__((dllimport)) WINBOOL ReportEventA (HANDLE hEventLog, WORD wType, WORD wCategory, DWORD dwEventID, PSID lpUserSid, WORD wNumStrings, DWORD dwDataSize, LPCSTR *lpStrings, LPVOID lpRawData);
   __attribute__((dllimport)) WINBOOL ReportEventW (HANDLE hEventLog, WORD wType, WORD wCategory, DWORD dwEventID, PSID lpUserSid, WORD wNumStrings, DWORD dwDataSize, LPCWSTR *lpStrings, LPVOID lpRawData);
-# 2282 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 2282 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   typedef struct _EVENTLOG_FULL_INFORMATION {
     DWORD dwFull;
   } EVENTLOG_FULL_INFORMATION,*LPEVENTLOG_FULL_INFORMATION;
 
   __attribute__((dllimport)) WINBOOL GetEventLogInformation (HANDLE hEventLog, DWORD dwInfoLevel, LPVOID lpBuffer, DWORD cbBufSize, LPDWORD pcbBytesNeeded);
-# 2317 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 2317 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) WINBOOL GetVolumeInformationA (LPCSTR lpRootPathName, LPSTR lpVolumeNameBuffer, DWORD nVolumeNameSize, LPDWORD lpVolumeSerialNumber, LPDWORD lpMaximumComponentLength, LPDWORD lpFileSystemFlags, LPSTR lpFileSystemNameBuffer, DWORD nFileSystemNameSize);
 
 
@@ -49533,7 +49533,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) WINBOOL IsBadCodePtr (FARPROC lpfn);
   __attribute__((dllimport)) WINBOOL IsBadStringPtrA (LPCSTR lpsz, UINT_PTR ucchMax);
   __attribute__((dllimport)) WINBOOL IsBadStringPtrW (LPCWSTR lpsz, UINT_PTR ucchMax);
-# 2387 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 2387 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) WINBOOL BuildCommDCBA (LPCSTR lpDef, LPDCB lpDCB);
   __attribute__((dllimport)) WINBOOL BuildCommDCBW (LPCWSTR lpDef, LPDCB lpDCB);
   __attribute__((dllimport)) WINBOOL BuildCommDCBAndTimeoutsA (LPCSTR lpDef, LPDCB lpDCB, LPCOMMTIMEOUTS lpCommTimeouts);
@@ -49544,19 +49544,19 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) WINBOOL GetDefaultCommConfigW (LPCWSTR lpszName, LPCOMMCONFIG lpCC, LPDWORD lpdwSize);
   __attribute__((dllimport)) WINBOOL SetDefaultCommConfigA (LPCSTR lpszName, LPCOMMCONFIG lpCC, DWORD dwSize);
   __attribute__((dllimport)) WINBOOL SetDefaultCommConfigW (LPCWSTR lpszName, LPCOMMCONFIG lpCC, DWORD dwSize);
-# 2406 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 2406 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) WINBOOL SetComputerNameA (LPCSTR lpComputerName);
   __attribute__((dllimport)) WINBOOL SetComputerNameW (LPCWSTR lpComputerName);
   __attribute__((dllimport)) WINBOOL SetComputerNameExA (COMPUTER_NAME_FORMAT NameType, LPCTSTR lpBuffer);
   __attribute__((dllimport)) WINBOOL DnsHostnameToComputerNameA (LPCSTR Hostname, LPSTR ComputerName, LPDWORD nSize);
   __attribute__((dllimport)) WINBOOL DnsHostnameToComputerNameW (LPCWSTR Hostname, LPWSTR ComputerName, LPDWORD nSize);
-# 2435 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 2435 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) WINBOOL LogonUserA (LPCSTR lpszUsername, LPCSTR lpszDomain, LPCSTR lpszPassword, DWORD dwLogonType, DWORD dwLogonProvider, PHANDLE phToken);
   __attribute__((dllimport)) WINBOOL LogonUserW (LPCWSTR lpszUsername, LPCWSTR lpszDomain, LPCWSTR lpszPassword, DWORD dwLogonType, DWORD dwLogonProvider, PHANDLE phToken);
   __attribute__((dllimport)) WINBOOL LogonUserExA (LPCSTR lpszUsername, LPCSTR lpszDomain, LPCSTR lpszPassword, DWORD dwLogonType, DWORD dwLogonProvider, PHANDLE phToken, PSID *ppLogonSid, PVOID *ppProfileBuffer, LPDWORD pdwProfileLength, PQUOTA_LIMITS pQuotaLimits);
   __attribute__((dllimport)) WINBOOL LogonUserExW (LPCWSTR lpszUsername, LPCWSTR lpszDomain, LPCWSTR lpszPassword, DWORD dwLogonType, DWORD dwLogonProvider, PHANDLE phToken, PSID *ppLogonSid, PVOID *ppProfileBuffer, LPDWORD pdwProfileLength, PQUOTA_LIMITS pQuotaLimits);
   __attribute__((dllimport)) WINBOOL CreateProcessAsUserA (HANDLE hToken, LPCSTR lpApplicationName, LPSTR lpCommandLine, LPSECURITY_ATTRIBUTES lpProcessAttributes, LPSECURITY_ATTRIBUTES lpThreadAttributes, WINBOOL bInheritHandles, DWORD dwCreationFlags, LPVOID lpEnvironment, LPCSTR lpCurrentDirectory, LPSTARTUPINFOA lpStartupInfo, LPPROCESS_INFORMATION lpProcessInformation);
-# 2452 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 2452 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) WINBOOL CreateProcessWithLogonW (LPCWSTR lpUsername, LPCWSTR lpDomain, LPCWSTR lpPassword, DWORD dwLogonFlags, LPCWSTR lpApplicationName, LPWSTR lpCommandLine, DWORD dwCreationFlags, LPVOID lpEnvironment, LPCWSTR lpCurrentDirectory, LPSTARTUPINFOW lpStartupInfo, LPPROCESS_INFORMATION lpProcessInformation);
   __attribute__((dllimport)) WINBOOL CreateProcessWithTokenW (HANDLE hToken, DWORD dwLogonFlags, LPCWSTR lpApplicationName, LPWSTR lpCommandLine, DWORD dwCreationFlags, LPVOID lpEnvironment, LPCWSTR lpCurrentDirectory, LPSTARTUPINFOW lpStartupInfo, LPPROCESS_INFORMATION lpProcessInformation);
   __attribute__((dllimport)) WINBOOL IsTokenUntrusted (HANDLE TokenHandle);
@@ -49571,7 +49571,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
 
   __attribute__((dllimport)) WINBOOL AddIntegrityLabelToBoundaryDescriptor (HANDLE *BoundaryDescriptor, PSID IntegrityLabel);
-# 2478 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 2478 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   typedef struct tagHW_PROFILE_INFOA {
     DWORD dwDockInfo;
     CHAR szHwProfileGuid[39];
@@ -49624,7 +49624,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) HANDLE CreatePrivateNamespaceA (LPSECURITY_ATTRIBUTES lpPrivateNamespaceAttributes, LPVOID lpBoundaryDescriptor, LPCSTR lpAliasPrefix);
   __attribute__((dllimport)) HANDLE OpenPrivateNamespaceA (LPVOID lpBoundaryDescriptor, LPCSTR lpAliasPrefix);
   __attribute__((dllimport)) HANDLE CreateBoundaryDescriptorA (LPCSTR Name, ULONG Flags);
-# 2538 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 2538 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) WINBOOL SetVolumeLabelW (LPCWSTR lpRootPathName, LPCWSTR lpVolumeName);
 
   __attribute__((dllimport)) WINBOOL GetComputerNameA (LPSTR lpBuffer, LPDWORD nSize);
@@ -49632,13 +49632,13 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winerror.h" 1 3
-# 3716 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winerror.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/fltwinerror.h" 1 3
-# 3717 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winerror.h" 2 3
-# 2546 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/timezoneapi.h" 1 3
-# 21 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/timezoneapi.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/winerror.h" 1 3
+# 3716 "C:/tdm64/x86_64-w64-mingw32/include/winerror.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/fltwinerror.h" 1 3
+# 3717 "C:/tdm64/x86_64-w64-mingw32/include/winerror.h" 2 3
+# 2546 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/timezoneapi.h" 1 3
+# 21 "C:/tdm64/x86_64-w64-mingw32/include/timezoneapi.h" 3
   typedef struct _TIME_ZONE_INFORMATION {
     LONG Bias;
     WCHAR StandardName[32];
@@ -49666,10 +49666,10 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) WINBOOL FileTimeToSystemTime (const FILETIME *lpFileTime, LPSYSTEMTIME lpSystemTime);
   __attribute__((dllimport)) WINBOOL SystemTimeToFileTime (const SYSTEMTIME *lpSystemTime, LPFILETIME lpFileTime);
   __attribute__((dllimport)) DWORD GetTimeZoneInformation (LPTIME_ZONE_INFORMATION lpTimeZoneInformation);
-# 64 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/timezoneapi.h" 3
+# 64 "C:/tdm64/x86_64-w64-mingw32/include/timezoneapi.h" 3
   __attribute__((dllimport)) WINBOOL SetTimeZoneInformation (const TIME_ZONE_INFORMATION *lpTimeZoneInformation);
-# 2547 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 2 3
-# 2571 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 2547 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 2 3
+# 2571 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   typedef struct _SYSTEM_POWER_STATUS {
     BYTE ACLineStatus;
     BYTE BatteryFlag;
@@ -49683,7 +49683,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
 
   __attribute__((dllimport)) WINBOOL SetSystemPowerState (WINBOOL fSuspend, WINBOOL fForce);
-# 2597 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 2597 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) WINBOOL AllocateUserPhysicalPages (HANDLE hProcess, PULONG_PTR NumberOfPages, PULONG_PTR PageArray);
   __attribute__((dllimport)) WINBOOL FreeUserPhysicalPages (HANDLE hProcess, PULONG_PTR NumberOfPages, PULONG_PTR PageArray);
   __attribute__((dllimport)) WINBOOL MapUserPhysicalPages (PVOID VirtualAddress, ULONG_PTR NumberOfPages, PULONG_PTR PageArray);
@@ -49709,7 +49709,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) WINBOOL GetVolumeNameForVolumeMountPointA (LPCSTR lpszVolumeMountPoint, LPSTR lpszVolumeName, DWORD cchBufferLength);
   __attribute__((dllimport)) WINBOOL GetVolumePathNameA (LPCSTR lpszFileName, LPSTR lpszVolumePathName, DWORD cchBufferLength);
   __attribute__((dllimport)) WINBOOL GetVolumePathNamesForVolumeNameA (LPCSTR lpszVolumeName, LPCH lpszVolumePathNames, DWORD cchBufferLength, PDWORD lpcchReturnLength);
-# 2649 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 2649 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   typedef struct tagACTCTXA {
     ULONG cbSize;
     DWORD dwFlags;
@@ -49813,7 +49813,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   } ACTIVATION_CONTEXT_BASIC_INFORMATION,*PACTIVATION_CONTEXT_BASIC_INFORMATION;
 
   typedef const struct _ACTIVATION_CONTEXT_BASIC_INFORMATION *PCACTIVATION_CONTEXT_BASIC_INFORMATION;
-# 2761 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 2761 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) WINBOOL QueryActCtxW (DWORD dwFlags, HANDLE hActCtx, PVOID pvSubInstance, ULONG ulInfoClass, PVOID pvBuffer, SIZE_T cbBuffer, SIZE_T *pcbWrittenOrRequired);
 
   typedef WINBOOL ( *PQUERYACTCTXW_FUNC) (DWORD dwFlags, HANDLE hActCtx, PVOID pvSubInstance, ULONG ulInfoClass, PVOID pvBuffer, SIZE_T cbBuffer, SIZE_T *pcbWrittenOrRequired);
@@ -49822,11 +49822,11 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) WINBOOL GetNumaProcessorNode (UCHAR Processor, PUCHAR NodeNumber);
   __attribute__((dllimport)) WINBOOL GetNumaNodeProcessorMask (UCHAR Node, PULONGLONG ProcessorMask);
   __attribute__((dllimport)) WINBOOL GetNumaAvailableMemoryNode (UCHAR Node, PULONGLONG AvailableBytes);
-# 2783 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 2783 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   typedef DWORD ( *APPLICATION_RECOVERY_CALLBACK) (PVOID pvParameter);
-# 2808 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 2808 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) WINBOOL DeleteVolumeMountPointA (LPCSTR lpszVolumeMountPoint);
-# 3069 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winbase.h" 3
+# 3069 "C:/tdm64/x86_64-w64-mingw32/include/winbase.h" 3
   __attribute__((dllimport)) WINBOOL CopyContext (PCONTEXT Destination, DWORD ContextFlags, PCONTEXT Source);
 
 
@@ -49842,22 +49842,22 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
 
   __attribute__((dllimport)) WINBOOL SetXStateFeaturesMask (PCONTEXT Context, DWORD64 FeatureMask);
-# 71 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 1 3
-# 224 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 71 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 1 3
+# 224 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   typedef struct _DRAWPATRECT {
     POINT ptPosition;
     POINT ptSize;
     WORD wStyle;
     WORD wPattern;
   } DRAWPATRECT,*PDRAWPATRECT;
-# 335 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 335 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   typedef struct _PSINJECTDATA {
     DWORD DataBytes;
     WORD InjectionPoint;
     WORD PageNumber;
   } PSINJECTDATA,*PPSINJECTDATA;
-# 393 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 393 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   typedef struct _PSFEATURE_OUTPUT {
     WINBOOL bPageIndependent;
     WINBOOL bSetPageDevice;
@@ -49870,7 +49870,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     LONG lWidthOffset;
     LONG lHeightOffset;
   } PSFEATURE_CUSTPAPER,*PPSFEATURE_CUSTPAPER;
-# 452 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 452 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   typedef struct tagXFORM {
     FLOAT eM11;
     FLOAT eM12;
@@ -49890,7 +49890,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     LPVOID bmBits;
   } BITMAP,*PBITMAP,*NPBITMAP,*LPBITMAP;
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack1.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack1.h" 1 3
 
 
 
@@ -49898,13 +49898,13 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
 
 #pragma pack(push,1)
-# 472 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 2 3
+# 472 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 2 3
   typedef struct tagRGBTRIPLE {
     BYTE rgbtBlue;
     BYTE rgbtGreen;
     BYTE rgbtRed;
   } RGBTRIPLE,*PRGBTRIPLE,*NPRGBTRIPLE,*LPRGBTRIPLE;
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -49912,7 +49912,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
 
 #pragma pack(pop)
-# 478 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 2 3
+# 478 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 2 3
 
   typedef struct tagRGBQUAD {
     BYTE rgbBlue;
@@ -49924,12 +49924,12 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
 
   typedef RGBQUAD *LPRGBQUAD;
-# 501 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 501 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   typedef LONG LCSCSTYPE;
 
 
   typedef LONG LCSGAMUTMATCH;
-# 528 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 528 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   typedef long FXPT16DOT16,*LPFXPT16DOT16;
   typedef long FXPT2DOT30,*LPFXPT2DOT30;
 
@@ -50060,7 +50060,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     DWORD bV5ProfileSize;
     DWORD bV5Reserved;
   } BITMAPV5HEADER,*LPBITMAPV5HEADER,*PBITMAPV5HEADER;
-# 671 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 671 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   typedef struct tagBITMAPINFO {
     BITMAPINFOHEADER bmiHeader;
     RGBQUAD bmiColors[1];
@@ -50073,7 +50073,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     RGBTRIPLE bmciColors[1];
   } BITMAPCOREINFO,*LPBITMAPCOREINFO,*PBITMAPCOREINFO;
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack2.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack2.h" 1 3
 
 
 
@@ -50081,7 +50081,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
 
 #pragma pack(push,2)
-# 684 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 2 3
+# 684 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 2 3
   typedef struct tagBITMAPFILEHEADER {
     WORD bfType;
     DWORD bfSize;
@@ -50089,7 +50089,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     WORD bfReserved2;
     DWORD bfOffBits;
   } BITMAPFILEHEADER,*LPBITMAPFILEHEADER,*PBITMAPFILEHEADER;
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -50097,7 +50097,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
 
 #pragma pack(pop)
-# 692 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 2 3
+# 692 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 2 3
 
 
 
@@ -50115,7 +50115,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     UINT ciACP;
     FONTSIGNATURE fs;
   } CHARSETINFO,*PCHARSETINFO,*NPCHARSETINFO,*LPCHARSETINFO;
-# 717 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 717 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   typedef struct tagLOCALESIGNATURE {
     DWORD lsUsb[4];
     DWORD lsCsbDefault[2];
@@ -50151,7 +50151,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack2.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack2.h" 1 3
 
 
 
@@ -50159,7 +50159,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
 
 #pragma pack(push,2)
-# 753 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 2 3
+# 753 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 2 3
   typedef struct tagMETAHEADER {
     WORD mtType;
     WORD mtHeaderSize;
@@ -50172,7 +50172,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   typedef struct tagMETAHEADER *PMETAHEADER;
   typedef struct tagMETAHEADER *LPMETAHEADER;
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -50180,7 +50180,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
 
 #pragma pack(pop)
-# 766 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 2 3
+# 766 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 2 3
 
 
 
@@ -50211,7 +50211,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     DWORD bOpenGL;
     SIZEL szlMicrometers;
   } ENHMETAHEADER,*PENHMETAHEADER,*LPENHMETAHEADER;
-# 809 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 809 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   typedef BYTE BCHAR;
 
 
@@ -50219,7 +50219,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack4.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack4.h" 1 3
 
 
 
@@ -50227,7 +50227,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
 
 #pragma pack(push,4)
-# 817 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 2 3
+# 817 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 2 3
 
   typedef struct tagTEXTMETRICA {
     LONG tmHeight;
@@ -50279,7 +50279,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   typedef PTEXTMETRICA PTEXTMETRIC;
   typedef NPTEXTMETRICA NPTEXTMETRIC;
   typedef LPTEXTMETRICA LPTEXTMETRIC;
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -50287,9 +50287,9 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
 
 #pragma pack(pop)
-# 869 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 2 3
-# 884 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack4.h" 1 3
+# 869 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 2 3
+# 884 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack4.h" 1 3
 
 
 
@@ -50297,7 +50297,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
 
 #pragma pack(push,4)
-# 885 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 2 3
+# 885 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 2 3
   typedef struct tagNEWTEXTMETRICA {
     LONG tmHeight;
     LONG tmAscent;
@@ -50357,7 +50357,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   typedef NPNEWTEXTMETRICA NPNEWTEXTMETRIC;
   typedef LPNEWTEXTMETRICA LPNEWTEXTMETRIC;
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -50365,7 +50365,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
 
 #pragma pack(pop)
-# 945 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 2 3
+# 945 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 2 3
 
   typedef struct tagNEWTEXTMETRICEXA {
     NEWTEXTMETRICA ntmTm;
@@ -50538,7 +50538,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
   typedef ENUMLOGFONTEXA ENUMLOGFONTEX;
   typedef LPENUMLOGFONTEXA LPENUMLOGFONTEX;
-# 1237 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 1237 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   typedef struct tagPANOSE {
     BYTE bFamilyType;
     BYTE bSerifStyle;
@@ -50551,7 +50551,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     BYTE bMidline;
     BYTE bXHeight;
   } PANOSE,*LPPANOSE;
-# 1358 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 1358 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   typedef struct tagEXTLOGFONTA {
     LOGFONTA elfLogFont;
     BYTE elfFullName[64];
@@ -50582,7 +50582,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   typedef PEXTLOGFONTA PEXTLOGFONT;
   typedef NPEXTLOGFONTA NPEXTLOGFONT;
   typedef LPEXTLOGFONTA LPEXTLOGFONT;
-# 1671 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 1671 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   typedef struct _devicemodeA {
     BYTE dmDeviceName[32];
     WORD dmSpecVersion;
@@ -50685,7 +50685,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   typedef PDEVMODEA PDEVMODE;
   typedef NPDEVMODEA NPDEVMODE;
   typedef LPDEVMODEA LPDEVMODE;
-# 2023 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 2023 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   typedef struct _DISPLAY_DEVICEA {
     DWORD cb;
     CHAR DeviceName[32];
@@ -50707,7 +50707,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   typedef DISPLAY_DEVICEA DISPLAY_DEVICE;
   typedef PDISPLAY_DEVICEA PDISPLAY_DEVICE;
   typedef LPDISPLAY_DEVICEA LPDISPLAY_DEVICE;
-# 2422 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 2422 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   typedef struct _RGNDATAHEADER {
     DWORD dwSize;
     DWORD iType;
@@ -50865,7 +50865,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     short gmCellIncX;
     short gmCellIncY;
   } GLYPHMETRICS,*LPGLYPHMETRICS;
-# 2598 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 2598 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   typedef struct tagPOINTFX {
     FIXED x;
     FIXED y;
@@ -50882,7 +50882,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     DWORD dwType;
     POINTFX pfxStart;
   } TTPOLYGONHEADER,*LPTTPOLYGONHEADER;
-# 2656 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 2656 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   typedef struct tagGCP_RESULTSA {
     DWORD lStructSize;
     LPSTR lpOutString;
@@ -50948,10 +50948,10 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     DWORD dwVisibleMask;
     DWORD dwDamageMask;
   } PIXELFORMATDESCRIPTOR,*PPIXELFORMATDESCRIPTOR,*LPPIXELFORMATDESCRIPTOR;
-# 2753 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 2753 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   typedef int ( *OLDFONTENUMPROCA)(const LOGFONTA *,const TEXTMETRICA *,DWORD,LPARAM);
   typedef int ( *OLDFONTENUMPROCW)(const LOGFONTW *,const TEXTMETRICW *,DWORD,LPARAM);
-# 2764 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 2764 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   typedef OLDFONTENUMPROCA FONTENUMPROCA;
   typedef OLDFONTENUMPROCW FONTENUMPROCW;
 
@@ -50959,7 +50959,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
   typedef int ( *GOBJENUMPROC)(LPVOID,LPARAM);
   typedef void ( *LINEDDAPROC)(int,int,LPARAM);
-# 2782 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 2782 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   __attribute__((dllimport)) int AddFontResourceA(LPCSTR);
   __attribute__((dllimport)) int AddFontResourceW(LPCWSTR);
   __attribute__((dllimport)) WINBOOL AnimatePalette(HPALETTE hPal,UINT iStartIndex,UINT cEntries,const PALETTEENTRY *ppe);
@@ -51012,7 +51012,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
   typedef UINT ( *LPFNDEVMODE)(HWND,HMODULE,LPDEVMODE,LPSTR,LPSTR,LPDEVMODE,LPSTR,UINT);
   typedef DWORD ( *LPFNDEVCAPS)(LPSTR,LPSTR,UINT,LPSTR,LPDEVMODE);
-# 2913 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 2913 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   __attribute__((dllimport)) int DeviceCapabilitiesA(LPCSTR pDevice,LPCSTR pPort,WORD fwCapability,LPSTR pOutput,const DEVMODEA *pDevMode);
   __attribute__((dllimport)) int DeviceCapabilitiesW(LPCWSTR pDevice,LPCWSTR pPort,WORD fwCapability,LPWSTR pOutput,const DEVMODEW *pDevMode);
   __attribute__((dllimport)) int DrawEscape(HDC hdc,int iEscape,int cjIn,LPCSTR lpIn);
@@ -51303,7 +51303,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) UINT SetTextAlign(HDC hdc,UINT align);
   __attribute__((dllimport)) WINBOOL SetTextJustification(HDC hdc,int extra,int count);
   __attribute__((dllimport)) WINBOOL UpdateColors(HDC hdc);
-# 3233 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 3233 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   typedef USHORT COLOR16;
 
   typedef struct _TRIVERTEX {
@@ -51351,7 +51351,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
   __attribute__((dllimport)) WINBOOL GradientFill(HDC hdc,PTRIVERTEX pVertex,ULONG nVertex,PVOID pMesh,ULONG nMesh,ULONG ulMode);
   __attribute__((dllimport)) WINBOOL GdiGradientFill(HDC hdc,PTRIVERTEX pVertex,ULONG nVertex,PVOID pMesh,ULONG nMesh,ULONG ulMode);
-# 3288 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 3288 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   __attribute__((dllimport)) WINBOOL PlayMetaFileRecord(HDC hdc,LPHANDLETABLE lpHandleTable,LPMETARECORD lpMR,UINT noObjs);
 
   typedef int ( *MFENUMPROC)(HDC hdc,HANDLETABLE *lpht,METARECORD *lpMR,int nObj,LPARAM lParam);
@@ -51407,7 +51407,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) HBITMAP CreateDIBSection(HDC hdc,const BITMAPINFO *lpbmi,UINT usage,void **ppvBits,HANDLE hSection,DWORD offset);
   __attribute__((dllimport)) UINT GetDIBColorTable(HDC hdc,UINT iStart,UINT cEntries,RGBQUAD *prgbq);
   __attribute__((dllimport)) UINT SetDIBColorTable(HDC hdc,UINT iStart,UINT cEntries,const RGBQUAD *prgbq);
-# 3379 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 3379 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   typedef struct tagCOLORADJUSTMENT {
     WORD caSize;
     WORD caFlags;
@@ -51447,7 +51447,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
   typedef DOCINFOA DOCINFO;
   typedef LPDOCINFOA LPDOCINFO;
-# 3429 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 3429 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   __attribute__((dllimport)) int StartDocA(HDC hdc,const DOCINFOA *lpdi);
   __attribute__((dllimport)) int StartDocW(HDC hdc,const DOCINFOW *lpdi);
   __attribute__((dllimport)) int EndDoc(HDC hdc);
@@ -51530,7 +51530,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
   typedef int ( *ICMENUMPROCA)(LPSTR,LPARAM);
   typedef int ( *ICMENUMPROCW)(LPWSTR,LPARAM);
-# 3520 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 3520 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   __attribute__((dllimport)) int SetICMMode(HDC hdc,int mode);
   __attribute__((dllimport)) WINBOOL CheckColorsInGamut(HDC hdc,LPVOID lpRGBTriple,LPVOID dlpBuffer,DWORD nCount);
   __attribute__((dllimport)) HCOLORSPACE GetColorSpace(HDC hdc);
@@ -51552,7 +51552,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) WINBOOL UpdateICMRegKeyA(DWORD reserved,LPSTR lpszCMID,LPSTR lpszFileName,UINT command);
   __attribute__((dllimport)) WINBOOL UpdateICMRegKeyW(DWORD reserved,LPWSTR lpszCMID,LPWSTR lpszFileName,UINT command);
   __attribute__((dllimport)) WINBOOL ColorCorrectPalette(HDC hdc,HPALETTE hPal,DWORD deFirst,DWORD num);
-# 3675 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 3675 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   typedef struct tagEMR {
     DWORD iType;
     DWORD nSize;
@@ -52154,7 +52154,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     LONG cxSrc;
     LONG cySrc;
   } EMRTRANSPARENTBLT,*PEMRTRANSPARENTBLT;
-# 4289 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 4289 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   __attribute__((dllimport)) WINBOOL wglCopyContext(HGLRC,HGLRC,UINT);
   __attribute__((dllimport)) HGLRC wglCreateContext(HDC);
   __attribute__((dllimport)) HGLRC wglCreateLayerContext(HDC,int);
@@ -52215,7 +52215,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     BYTE bReserved;
     COLORREF crTransparent;
   } LAYERPLANEDESCRIPTOR,*PLAYERPLANEDESCRIPTOR,*LPLAYERPLANEDESCRIPTOR;
-# 4396 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wingdi.h" 3
+# 4396 "C:/tdm64/x86_64-w64-mingw32/include/wingdi.h" 3
   __attribute__((dllimport)) WINBOOL wglDescribeLayerPlane(HDC,int,int,UINT,LPLAYERPLANEDESCRIPTOR);
   __attribute__((dllimport)) int wglSetLayerPaletteEntries(HDC,int,int,int,const COLORREF *);
   __attribute__((dllimport)) int wglGetLayerPaletteEntries(HDC,int,int,int,COLORREF *);
@@ -52230,17 +52230,17 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
 
   __attribute__((dllimport)) DWORD wglSwapMultipleBuffers(UINT,const WGLSWAP *);
-# 72 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 1 3
-# 22 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 23 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 2 3
-# 1 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdarg.h" 1 3 4
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdarg.h" 1 3 4
-# 2 "C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdarg.h" 2 3 4
-# 24 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/guiddef.h" 1 3
-# 25 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 2 3
+# 72 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 1 3
+# 22 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 23 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 2 3
+# 1 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdarg.h" 1 3 4
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/stdarg.h" 1 3 4
+# 2 "C:/tdm64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdarg.h" 2 3 4
+# 24 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/guiddef.h" 1 3
+# 25 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 2 3
 
 
 
@@ -52282,7 +52282,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   typedef int ( *EDITWORDBREAKPROCW) (LPWSTR lpch, int ichCurrent, int cch, int code);
 
   typedef WINBOOL ( *DRAWSTATEPROC) (HDC hdc, LPARAM lData, WPARAM wData, int cx, int cy);
-# 93 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 93 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef PROPENUMPROCA PROPENUMPROC;
   typedef PROPENUMPROCEXA PROPENUMPROCEX;
   typedef EDITWORDBREAKPROCA EDITWORDBREAKPROC;
@@ -52294,15 +52294,15 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   typedef NAMEENUMPROCW WINSTAENUMPROCW;
   typedef NAMEENUMPROCA DESKTOPENUMPROCA;
   typedef NAMEENUMPROCW DESKTOPENUMPROCW;
-# 113 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 113 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef WINSTAENUMPROCA WINSTAENUMPROC;
   typedef DESKTOPENUMPROCA DESKTOPENUMPROC;
-# 168 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 168 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) int wvsprintfA(LPSTR,LPCSTR,va_list arglist);
   __attribute__((dllimport)) int wvsprintfW(LPWSTR,LPCWSTR,va_list arglist);
   __attribute__((dllimport)) int __attribute__((__cdecl__)) wsprintfA(LPSTR,LPCSTR,...);
   __attribute__((dllimport)) int __attribute__((__cdecl__)) wsprintfW(LPWSTR,LPCWSTR,...);
-# 494 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 494 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagCBT_CREATEWNDA {
     struct tagCREATESTRUCTA *lpcs;
     HWND hwndInsertAfter;
@@ -52327,7 +52327,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     DWORD cbSize;
     DWORD dwSessionId;
   } WTSSESSION_NOTIFICATION,*PWTSSESSION_NOTIFICATION;
-# 635 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 635 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct {
     HWND hwnd;
     RECT rc;
@@ -52357,7 +52357,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     UINT message;
     HWND hwnd;
   } CWPRETSTRUCT,*PCWPRETSTRUCT,*NPCWPRETSTRUCT,*LPCWPRETSTRUCT;
-# 676 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 676 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagKBDLLHOOKSTRUCT {
     DWORD vkCode;
     DWORD scanCode;
@@ -52406,7 +52406,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     WPARAM wParam;
     LPARAM lParam;
   } HARDWAREHOOKSTRUCT,*LPHARDWAREHOOKSTRUCT,*PHARDWAREHOOKSTRUCT;
-# 749 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 749 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) HKL LoadKeyboardLayoutA(LPCSTR pwszKLID,UINT Flags);
   __attribute__((dllimport)) HKL LoadKeyboardLayoutW(LPCWSTR pwszKLID,UINT Flags);
   __attribute__((dllimport)) HKL ActivateKeyboardLayout(HKL hkl,UINT Flags);
@@ -52425,7 +52425,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   } MOUSEMOVEPOINT,*PMOUSEMOVEPOINT,*LPMOUSEMOVEPOINT;
 
   __attribute__((dllimport)) int GetMouseMovePointsEx(UINT cbSize,LPMOUSEMOVEPOINT lppt,LPMOUSEMOVEPOINT lpptBuf,int nBufPoints,DWORD resolution);
-# 793 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 793 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) HDESK CreateDesktopA(LPCSTR lpszDesktop,LPCSTR lpszDevice,LPDEVMODEA pDevmode,DWORD dwFlags,ACCESS_MASK dwDesiredAccess,LPSECURITY_ATTRIBUTES lpsa);
   __attribute__((dllimport)) HDESK CreateDesktopW(LPCWSTR lpszDesktop,LPCWSTR lpszDevice,LPDEVMODEW pDevmode,DWORD dwFlags,ACCESS_MASK dwDesiredAccess,LPSECURITY_ATTRIBUTES lpsa);
   __attribute__((dllimport)) HDESK CreateDesktopExA (LPCSTR lpszDesktop, LPCSTR lpszDevice, DEVMODEA *pDevmode, DWORD dwFlags, ACCESS_MASK dwDesiredAccess, LPSECURITY_ATTRIBUTES lpsa, ULONG ulHeapSize, PVOID pvoid);
@@ -52446,7 +52446,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) WINBOOL SetThreadDesktop(HDESK hDesktop);
   __attribute__((dllimport)) WINBOOL CloseDesktop(HDESK hDesktop);
   __attribute__((dllimport)) HDESK GetThreadDesktop(DWORD dwThreadId);
-# 837 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 837 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) HWINSTA CreateWindowStationA(LPCSTR lpwinsta,DWORD dwFlags,ACCESS_MASK dwDesiredAccess,LPSECURITY_ATTRIBUTES lpsa);
   __attribute__((dllimport)) HWINSTA CreateWindowStationW(LPCWSTR lpwinsta,DWORD dwFlags,ACCESS_MASK dwDesiredAccess,LPSECURITY_ATTRIBUTES lpsa);
   __attribute__((dllimport)) HWINSTA OpenWindowStationA(LPCSTR lpszWinSta,WINBOOL fInherit,ACCESS_MASK dwDesiredAccess);
@@ -52463,7 +52463,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
   __attribute__((dllimport)) WINBOOL SetUserObjectSecurity(HANDLE hObj,PSECURITY_INFORMATION pSIRequested,PSECURITY_DESCRIPTOR pSID);
   __attribute__((dllimport)) WINBOOL GetUserObjectSecurity(HANDLE hObj,PSECURITY_INFORMATION pSIRequested,PSECURITY_DESCRIPTOR pSID,DWORD nLength,LPDWORD lpnLengthNeeded);
-# 866 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 866 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagUSEROBJECTFLAGS {
     WINBOOL fInherit;
     WINBOOL fReserved;
@@ -52561,7 +52561,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     DWORD time;
     POINT pt;
   } MSG,*PMSG,*NPMSG,*LPMSG;
-# 1072 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 1072 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagMINMAXINFO {
     POINT ptReserved;
     POINT ptMaxSize;
@@ -52569,7 +52569,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     POINT ptMinTrackSize;
     POINT ptMaxTrackSize;
   } MINMAXINFO,*PMINMAXINFO,*LPMINMAXINFO;
-# 1115 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 1115 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagCOPYDATASTRUCT {
     ULONG_PTR dwData;
     DWORD cbData;
@@ -52581,16 +52581,16 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     HMENU hmenuNext;
     HWND hwndNext;
   } MDINEXTMENU,*PMDINEXTMENU,*LPMDINEXTMENU;
-# 1313 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 1313 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct {
     GUID PowerSetting;
     DWORD DataLength;
     UCHAR Data[1];
   } POWERBROADCAST_SETTING,*PPOWERBROADCAST_SETTING;
-# 1503 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 1503 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) UINT RegisterWindowMessageA(LPCSTR lpString);
   __attribute__((dllimport)) UINT RegisterWindowMessageW(LPCWSTR lpString);
-# 1520 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 1520 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagWINDOWPOS {
     HWND hwnd;
     HWND hwndInsertAfter;
@@ -52605,7 +52605,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     RECT rgrc[3];
     PWINDOWPOS lppos;
   } NCCALCSIZE_PARAMS,*LPNCCALCSIZE_PARAMS;
-# 1567 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 1567 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagTRACKMOUSEEVENT {
     DWORD cbSize;
     DWORD dwFlags;
@@ -52614,11 +52614,11 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   } TRACKMOUSEEVENT,*LPTRACKMOUSEEVENT;
 
   __attribute__((dllimport)) WINBOOL TrackMouseEvent(LPTRACKMOUSEEVENT lpEventTrack);
-# 1702 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 1702 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) WINBOOL DrawEdge(HDC hdc,LPRECT qrc,UINT edge,UINT grfFlags);
-# 1748 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 1748 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) WINBOOL DrawFrameControl(HDC,LPRECT,UINT,UINT);
-# 1760 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 1760 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) WINBOOL DrawCaption(HWND hwnd,HDC hdc,const RECT *lprect,UINT flags);
 
 
@@ -52627,7 +52627,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
 
   __attribute__((dllimport)) WINBOOL DrawAnimatedRects(HWND hwnd,int idAni,const RECT *lprcFrom,const RECT *lprcTo);
-# 1817 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 1817 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagACCEL {
     BYTE fVirt;
     WORD key;
@@ -52706,7 +52706,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     DWORD styleOld;
     DWORD styleNew;
   } STYLESTRUCT,*LPSTYLESTRUCT;
-# 1920 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 1920 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagMEASUREITEMSTRUCT {
     UINT CtlType;
     UINT CtlID;
@@ -52746,7 +52746,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
     ULONG_PTR itemData2;
     DWORD dwLocaleId;
   } COMPAREITEMSTRUCT,*PCOMPAREITEMSTRUCT,*LPCOMPAREITEMSTRUCT;
-# 1967 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 1967 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) WINBOOL GetMessageA(LPMSG lpMsg,HWND hWnd,UINT wMsgFilterMin,UINT wMsgFilterMax);
   __attribute__((dllimport)) WINBOOL GetMessageW(LPMSG lpMsg,HWND hWnd,UINT wMsgFilterMin,UINT wMsgFilterMax);
   __attribute__((dllimport)) WINBOOL TranslateMessage(const MSG *lpMsg);
@@ -52755,10 +52755,10 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) WINBOOL SetMessageQueue(int cMessagesMax);
   __attribute__((dllimport)) WINBOOL PeekMessageA(LPMSG lpMsg,HWND hWnd,UINT wMsgFilterMin,UINT wMsgFilterMax,UINT wRemoveMsg);
   __attribute__((dllimport)) WINBOOL PeekMessageW(LPMSG lpMsg,HWND hWnd,UINT wMsgFilterMin,UINT wMsgFilterMax,UINT wRemoveMsg);
-# 1988 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 1988 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) WINBOOL RegisterHotKey(HWND hWnd,int id,UINT fsModifiers,UINT vk);
   __attribute__((dllimport)) WINBOOL UnregisterHotKey(HWND hWnd,int id);
-# 2039 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 2039 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) WINBOOL ExitWindowsEx(UINT uFlags,DWORD dwReason);
   __attribute__((dllimport)) WINBOOL SwapMouseButton(WINBOOL fSwap);
   __attribute__((dllimport)) DWORD GetMessagePos(void);
@@ -52792,10 +52792,10 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) long BroadcastSystemMessageExW(DWORD flags,LPDWORD lpInfo,UINT Msg,WPARAM wParam,LPARAM lParam,PBSMINFO pbsmInfo);
   __attribute__((dllimport)) long BroadcastSystemMessageA(DWORD flags,LPDWORD lpInfo,UINT Msg,WPARAM wParam,LPARAM lParam);
   __attribute__((dllimport)) long BroadcastSystemMessageW(DWORD flags,LPDWORD lpInfo,UINT Msg,WPARAM wParam,LPARAM lParam);
-# 2096 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 2096 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef PVOID HDEVNOTIFY;
   typedef HDEVNOTIFY *PHDEVNOTIFY;
-# 2120 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 2120 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef HANDLE HPOWERNOTIFY;
   typedef HPOWERNOTIFY *PHPOWERNOTIFY;
 
@@ -52839,7 +52839,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
   __attribute__((dllimport)) LRESULT CallWindowProcA (WNDPROC lpPrevWndFunc, HWND hWnd, UINT Msg, WPARAM wParam, LPARAM lParam);
   __attribute__((dllimport)) LRESULT CallWindowProcW (WNDPROC lpPrevWndFunc, HWND hWnd, UINT Msg, WPARAM wParam, LPARAM lParam);
-# 2182 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 2182 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   extern const GUID GUID_POWERSCHEME_PERSONALITY;
   extern const GUID GUID_MIN_POWER_SAVINGS;
   extern const GUID GUID_MAX_POWER_SAVINGS;
@@ -52906,7 +52906,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
   __attribute__((dllimport)) WINBOOL PrintWindow (HWND hwnd, HDC hdcBlt, UINT nFlags);
   __attribute__((dllimport)) WINBOOL SetLayeredWindowAttributes (HWND hwnd, COLORREF crKey, BYTE bAlpha, DWORD dwFlags);
-# 2266 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 2266 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct {
     UINT cbSize;
     HWND hwnd;
@@ -52925,7 +52925,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) WINBOOL SetWindowPos (HWND hWnd, HWND hWndInsertAfter, int X, int Y, int cx, int cy, UINT uFlags);
   __attribute__((dllimport)) WINBOOL GetWindowPlacement (HWND hWnd, WINDOWPLACEMENT *lpwndpl);
   __attribute__((dllimport)) WINBOOL SetWindowPlacement (HWND hWnd, const WINDOWPLACEMENT *lpwndpl);
-# 2297 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 2297 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) HDWP BeginDeferWindowPos (int nNumWindows);
   __attribute__((dllimport)) HDWP DeferWindowPos (HDWP hWinPosInfo, HWND hWnd, HWND hWndInsertAfter, int x, int y, int cx, int cy, UINT uFlags);
   __attribute__((dllimport)) WINBOOL EndDeferWindowPos (HDWP hWinPosInfo);
@@ -52938,8 +52938,8 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   __attribute__((dllimport)) WINBOOL AnyPopup (void);
   __attribute__((dllimport)) WINBOOL BringWindowToTop (HWND hWnd);
   __attribute__((dllimport)) WINBOOL IsZoomed (HWND hWnd);
-# 2335 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack2.h" 1 3
+# 2335 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack2.h" 1 3
 
 
 
@@ -52947,7 +52947,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
 
 #pragma pack(push,2)
-# 2336 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 2 3
+# 2336 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 2 3
 
 
   typedef struct {
@@ -52997,7 +52997,7 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
   typedef LPDLGITEMTEMPLATEA LPDLGITEMTEMPLATE;
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -53005,8 +53005,8 @@ typedef const REDIRECTION_DESCRIPTOR *PCREDIRECTION_DESCRIPTOR;
 
 
 #pragma pack(pop)
-# 2386 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 2 3
-# 2401 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 2386 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 2 3
+# 2401 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) HWND CreateDialogParamA(HINSTANCE hInstance,LPCSTR lpTemplateName,HWND hWndParent,DLGPROC lpDialogFunc,LPARAM dwInitParam);
   __attribute__((dllimport)) HWND CreateDialogParamW(HINSTANCE hInstance,LPCWSTR lpTemplateName,HWND hWndParent,DLGPROC lpDialogFunc,LPARAM dwInitParam);
   __attribute__((dllimport)) HWND CreateDialogIndirectParamA(HINSTANCE hInstance,LPCDLGTEMPLATEA lpTemplate,HWND hWndParent,DLGPROC lpDialogFunc,LPARAM dwInitParam);
@@ -53064,10 +53064,10 @@ DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS GetDialogControlDpiChangeBehavior(HWND hWnd)
 
 WINBOOL SetDialogDpiChangeBehavior(HWND hDlg, DIALOG_DPI_CHANGE_BEHAVIORS mask, DIALOG_DPI_CHANGE_BEHAVIORS values);
 DIALOG_DPI_CHANGE_BEHAVIORS GetDialogDpiChangeBehavior(HWND hDlg);
-# 2466 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 2466 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) WINBOOL CallMsgFilterA(LPMSG lpMsg,int nCode);
   __attribute__((dllimport)) WINBOOL CallMsgFilterW(LPMSG lpMsg,int nCode);
-# 2476 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 2476 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) WINBOOL OpenClipboard(HWND hWndNewOwner);
   __attribute__((dllimport)) WINBOOL CloseClipboard(void);
   __attribute__((dllimport)) DWORD GetClipboardSequenceNumber(void);
@@ -53087,7 +53087,7 @@ DIALOG_DPI_CHANGE_BEHAVIORS GetDialogDpiChangeBehavior(HWND hDlg);
   __attribute__((dllimport)) WINBOOL IsClipboardFormatAvailable(UINT format);
   __attribute__((dllimport)) int GetPriorityClipboardFormat(UINT *paFormatPriorityList, int cFormats);
   __attribute__((dllimport)) HWND GetOpenClipboardWindow(void);
-# 2515 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 2515 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) WINBOOL CharToOemA(LPCSTR lpszSrc,LPSTR lpszDst);
   __attribute__((dllimport)) WINBOOL CharToOemW(LPCWSTR lpszSrc,LPSTR lpszDst);
   __attribute__((dllimport)) WINBOOL OemToCharA(LPCSTR lpszSrc,LPSTR lpszDst);
@@ -53110,7 +53110,7 @@ DIALOG_DPI_CHANGE_BEHAVIORS GetDialogDpiChangeBehavior(HWND hDlg);
   __attribute__((dllimport)) LPWSTR CharPrevW(LPCWSTR lpszStart,LPCWSTR lpszCurrent);
   __attribute__((dllimport)) LPSTR CharNextExA(WORD CodePage,LPCSTR lpCurrentChar,DWORD dwFlags);
   __attribute__((dllimport)) LPSTR CharPrevExA(WORD CodePage,LPCSTR lpStart,LPCSTR lpCurrentChar,DWORD dwFlags);
-# 2557 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 2557 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) WINBOOL IsCharAlphaA(CHAR ch);
   __attribute__((dllimport)) WINBOOL IsCharAlphaW(WCHAR ch);
   __attribute__((dllimport)) WINBOOL IsCharAlphaNumericA(CHAR ch);
@@ -53119,7 +53119,7 @@ DIALOG_DPI_CHANGE_BEHAVIORS GetDialogDpiChangeBehavior(HWND hDlg);
   __attribute__((dllimport)) WINBOOL IsCharUpperW(WCHAR ch);
   __attribute__((dllimport)) WINBOOL IsCharLowerA(CHAR ch);
   __attribute__((dllimport)) WINBOOL IsCharLowerW(WCHAR ch);
-# 2573 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 2573 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) HWND SetFocus(HWND hWnd);
   __attribute__((dllimport)) HWND GetActiveWindow(void);
   __attribute__((dllimport)) HWND GetFocus(void);
@@ -53140,7 +53140,7 @@ DIALOG_DPI_CHANGE_BEHAVIORS GetDialogDpiChangeBehavior(HWND hDlg);
   __attribute__((dllimport)) SHORT VkKeyScanExA(CHAR ch,HKL dwhkl);
   __attribute__((dllimport)) SHORT VkKeyScanExW(WCHAR ch,HKL dwhkl);
   __attribute__((dllimport)) void keybd_event(BYTE bVk,BYTE bScan,DWORD dwFlags,ULONG_PTR dwExtraInfo);
-# 2731 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 2731 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) void mouse_event(DWORD dwFlags,DWORD dx,DWORD dy,DWORD dwData,ULONG_PTR dwExtraInfo);
 
   typedef struct tagMOUSEINPUT {
@@ -53176,9 +53176,9 @@ DIALOG_DPI_CHANGE_BEHAVIORS GetDialogDpiChangeBehavior(HWND hDlg);
   } INPUT,*PINPUT,*LPINPUT;
 
   __attribute__((dllimport)) UINT SendInput(UINT cInputs,LPINPUT pInputs,int cbSize);
-# 2957 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 2957 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
 __attribute__((dllimport)) WINBOOL EnableMouseInPointerForThread(void);
-# 2967 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 2967 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagLASTINPUTINFO {
     UINT cbSize;
     DWORD dwTime;
@@ -53199,7 +53199,7 @@ __attribute__((dllimport)) WINBOOL EnableMouseInPointerForThread(void);
   __attribute__((dllimport)) WINBOOL ReleaseCapture(void);
   __attribute__((dllimport)) DWORD MsgWaitForMultipleObjects(DWORD nCount,const HANDLE *pHandles,WINBOOL fWaitAll,DWORD dwMilliseconds,DWORD dwWakeMask);
   __attribute__((dllimport)) DWORD MsgWaitForMultipleObjectsEx(DWORD nCount,const HANDLE *pHandles,DWORD dwMilliseconds,DWORD dwWakeMask,DWORD dwFlags);
-# 3041 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 3041 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) UINT_PTR SetTimer(HWND hWnd,UINT_PTR nIDEvent,UINT uElapse,TIMERPROC lpTimerFunc);
   __attribute__((dllimport)) WINBOOL KillTimer(HWND hWnd,UINT_PTR uIDEvent);
   __attribute__((dllimport)) WINBOOL IsWindowUnicode(HWND hWnd);
@@ -53218,9 +53218,9 @@ __attribute__((dllimport)) WINBOOL EnableMouseInPointerForThread(void);
 
   __attribute__((dllimport)) int TranslateAcceleratorA(HWND hWnd,HACCEL hAccTable,LPMSG lpMsg);
   __attribute__((dllimport)) int TranslateAcceleratorW(HWND hWnd,HACCEL hAccTable,LPMSG lpMsg);
-# 3187 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 3187 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) int GetSystemMetrics(int nIndex);
-# 3258 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 3258 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) HMENU LoadMenuA(HINSTANCE hInstance,LPCSTR lpMenuName);
   __attribute__((dllimport)) HMENU LoadMenuW(HINSTANCE hInstance,LPCWSTR lpMenuName);
   __attribute__((dllimport)) HMENU LoadMenuIndirectA(const MENUTEMPLATEA *lpMenuTemplate);
@@ -53346,7 +53346,7 @@ __attribute__((dllimport)) WINBOOL EnableMouseInPointerForThread(void);
   __attribute__((dllimport)) WINBOOL SetMenuDefaultItem(HMENU hMenu,UINT uItem,UINT fByPos);
   __attribute__((dllimport)) WINBOOL GetMenuItemRect(HWND hWnd,HMENU hMenu,UINT uItem,LPRECT lprcItem);
   __attribute__((dllimport)) int MenuItemFromPoint(HWND hWnd,HMENU hMenu,POINT ptScreen);
-# 3411 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 3411 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagDROPSTRUCT {
     HWND hwndSource;
     HWND hwndSink;
@@ -53355,11 +53355,11 @@ __attribute__((dllimport)) WINBOOL EnableMouseInPointerForThread(void);
     POINT ptDrop;
     DWORD dwControlData;
   } DROPSTRUCT,*PDROPSTRUCT,*LPDROPSTRUCT;
-# 3432 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 3432 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) DWORD DragObject(HWND hwndParent,HWND hwndFrom,UINT fmt,ULONG_PTR data,HCURSOR hcur);
   __attribute__((dllimport)) WINBOOL DragDetect(HWND hwnd,POINT pt);
   __attribute__((dllimport)) WINBOOL DrawIcon(HDC hDC,int X,int Y,HICON hIcon);
-# 3465 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 3465 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagDRAWTEXTPARAMS {
     UINT cbSize;
     int iTabLength;
@@ -53375,7 +53375,7 @@ __attribute__((dllimport)) WINBOOL EnableMouseInPointerForThread(void);
   __attribute__((dllimport)) int DrawTextW(HDC hdc,LPCWSTR lpchText,int cchText,LPRECT lprc,UINT format);
   __attribute__((dllimport)) int DrawTextExA(HDC hdc,LPSTR lpchText,int cchText,LPRECT lprc,UINT format,LPDRAWTEXTPARAMS lpdtp);
   __attribute__((dllimport)) int DrawTextExW(HDC hdc,LPWSTR lpchText,int cchText,LPRECT lprc,UINT format,LPDRAWTEXTPARAMS lpdtp);
-# 3489 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 3489 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) WINBOOL GrayStringA(HDC hDC,HBRUSH hBrush,GRAYSTRINGPROC lpOutputFunc,LPARAM lpData,int nCount,int X,int Y,int nWidth,int nHeight);
   __attribute__((dllimport)) WINBOOL GrayStringW(HDC hDC,HBRUSH hBrush,GRAYSTRINGPROC lpOutputFunc,LPARAM lpData,int nCount,int X,int Y,int nWidth,int nHeight);
   __attribute__((dllimport)) WINBOOL DrawStateA(HDC hdc,HBRUSH hbrFore,DRAWSTATEPROC qfnCallBack,LPARAM lData,WPARAM wData,int x,int y,int cx,int cy,UINT uFlags);
@@ -53395,7 +53395,7 @@ __attribute__((dllimport)) WINBOOL EnableMouseInPointerForThread(void);
   __attribute__((dllimport)) HWND WindowFromDC(HDC hDC);
   __attribute__((dllimport)) HDC GetDC(HWND hWnd);
   __attribute__((dllimport)) HDC GetDCEx(HWND hWnd,HRGN hrgnClip,DWORD flags);
-# 3544 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 3544 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) HDC GetWindowDC(HWND hWnd);
   __attribute__((dllimport)) int ReleaseDC(HWND hWnd,HDC hDC);
   __attribute__((dllimport)) HDC BeginPaint(HWND hWnd,LPPAINTSTRUCT lpPaint);
@@ -53411,19 +53411,19 @@ __attribute__((dllimport)) WINBOOL EnableMouseInPointerForThread(void);
   __attribute__((dllimport)) WINBOOL InvalidateRgn(HWND hWnd,HRGN hRgn,WINBOOL bErase);
   __attribute__((dllimport)) WINBOOL ValidateRgn(HWND hWnd,HRGN hRgn);
   __attribute__((dllimport)) WINBOOL RedrawWindow(HWND hWnd,const RECT *lprcUpdate,HRGN hrgnUpdate,UINT flags);
-# 3579 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 3579 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) WINBOOL LockWindowUpdate(HWND hWndLock);
   __attribute__((dllimport)) WINBOOL ScrollWindow(HWND hWnd,int XAmount,int YAmount,const RECT *lpRect,const RECT *lpClipRect);
   __attribute__((dllimport)) WINBOOL ScrollDC(HDC hDC,int dx,int dy,const RECT *lprcScroll,const RECT *lprcClip,HRGN hrgnUpdate,LPRECT lprcUpdate);
   __attribute__((dllimport)) int ScrollWindowEx(HWND hWnd,int dx,int dy,const RECT *prcScroll,const RECT *prcClip,HRGN hrgnUpdate,LPRECT prcUpdate,UINT flags);
-# 3592 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 3592 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) int SetScrollPos(HWND hWnd,int nBar,int nPos,WINBOOL bRedraw);
   __attribute__((dllimport)) int GetScrollPos(HWND hWnd,int nBar);
   __attribute__((dllimport)) WINBOOL SetScrollRange(HWND hWnd,int nBar,int nMinPos,int nMaxPos,WINBOOL bRedraw);
   __attribute__((dllimport)) WINBOOL GetScrollRange(HWND hWnd,int nBar,LPINT lpMinPos,LPINT lpMaxPos);
   __attribute__((dllimport)) WINBOOL ShowScrollBar(HWND hWnd,int wBar,WINBOOL bShow);
   __attribute__((dllimport)) WINBOOL EnableScrollBar(HWND hWnd,UINT wSBflags,UINT wArrows);
-# 3622 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 3622 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) WINBOOL SetPropA(HWND hWnd,LPCSTR lpString,HANDLE hData);
   __attribute__((dllimport)) WINBOOL SetPropW(HWND hWnd,LPCWSTR lpString,HANDLE hData);
   __attribute__((dllimport)) HANDLE GetPropA(HWND hWnd,LPCSTR lpString);
@@ -53444,7 +53444,7 @@ __attribute__((dllimport)) WINBOOL EnableMouseInPointerForThread(void);
   __attribute__((dllimport)) WINBOOL GetWindowRect(HWND hWnd,LPRECT lpRect);
   __attribute__((dllimport)) WINBOOL AdjustWindowRect(LPRECT lpRect,DWORD dwStyle,WINBOOL bMenu);
   __attribute__((dllimport)) WINBOOL AdjustWindowRectEx(LPRECT lpRect,DWORD dwStyle,WINBOOL bMenu,DWORD dwExStyle);
-# 3652 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 3652 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagHELPINFO {
     UINT cbSize;
     int iContextType;
@@ -53458,7 +53458,7 @@ __attribute__((dllimport)) WINBOOL EnableMouseInPointerForThread(void);
   __attribute__((dllimport)) DWORD GetWindowContextHelpId(HWND);
   __attribute__((dllimport)) WINBOOL SetMenuContextHelpId(HMENU,DWORD);
   __attribute__((dllimport)) DWORD GetMenuContextHelpId(HMENU);
-# 3711 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 3711 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) int MessageBoxA(HWND hWnd,LPCSTR lpText,LPCSTR lpCaption,UINT uType);
   __attribute__((dllimport)) int MessageBoxW(HWND hWnd,LPCWSTR lpText,LPCWSTR lpCaption,UINT uType);
   __attribute__((dllimport)) int MessageBoxExA(HWND hWnd,LPCSTR lpText,LPCSTR lpCaption,UINT uType,WORD wLanguageId);
@@ -53526,7 +53526,7 @@ __attribute__((dllimport)) WINBOOL EnableMouseInPointerForThread(void);
   __attribute__((dllimport)) HWND WindowFromPoint(POINT Point);
   __attribute__((dllimport)) HWND ChildWindowFromPoint(HWND hWndParent,POINT Point);
   __attribute__((dllimport)) HWND ChildWindowFromPointEx(HWND hwnd,POINT pt,UINT flags);
-# 3847 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 3847 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) DWORD GetSysColor(int nIndex);
   __attribute__((dllimport)) HBRUSH GetSysColorBrush(int nIndex);
   __attribute__((dllimport)) WINBOOL SetSysColors(int cElements,const INT *lpaElements,const COLORREF *lpaRgbValues);
@@ -53549,7 +53549,7 @@ __attribute__((dllimport)) WINBOOL EnableMouseInPointerForThread(void);
   __attribute__((dllimport)) WINBOOL IsRectEmpty(const RECT *lprc);
   __attribute__((dllimport)) WINBOOL EqualRect(const RECT *lprc1,const RECT *lprc2);
   __attribute__((dllimport)) WINBOOL PtInRect(const RECT *lprc,POINT pt);
-# 3877 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 3877 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) WORD GetWindowWord(HWND hWnd,int nIndex);
   __attribute__((dllimport)) WORD SetWindowWord(HWND hWnd,int nIndex,WORD wNewWord);
   __attribute__((dllimport)) LONG GetWindowLongA(HWND hWnd,int nIndex);
@@ -53565,7 +53565,7 @@ __attribute__((dllimport)) WINBOOL EnableMouseInPointerForThread(void);
   __attribute__((dllimport)) LONG_PTR GetWindowLongPtrW(HWND hWnd,int nIndex);
   __attribute__((dllimport)) LONG_PTR SetWindowLongPtrA(HWND hWnd,int nIndex,LONG_PTR dwNewLong);
   __attribute__((dllimport)) LONG_PTR SetWindowLongPtrW(HWND hWnd,int nIndex,LONG_PTR dwNewLong);
-# 3902 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 3902 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) WORD GetClassWord(HWND hWnd,int nIndex);
   __attribute__((dllimport)) WORD SetClassWord(HWND hWnd,int nIndex,WORD wNewWord);
   __attribute__((dllimport)) DWORD GetClassLongA(HWND hWnd,int nIndex);
@@ -53581,7 +53581,7 @@ __attribute__((dllimport)) WINBOOL EnableMouseInPointerForThread(void);
   __attribute__((dllimport)) ULONG_PTR GetClassLongPtrW(HWND hWnd,int nIndex);
   __attribute__((dllimport)) ULONG_PTR SetClassLongPtrA(HWND hWnd,int nIndex,LONG_PTR dwNewLong);
   __attribute__((dllimport)) ULONG_PTR SetClassLongPtrW(HWND hWnd,int nIndex,LONG_PTR dwNewLong);
-# 3932 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 3932 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) WINBOOL GetProcessDefaultLayout(DWORD *pdwDefaultLayout);
   __attribute__((dllimport)) WINBOOL SetProcessDefaultLayout(DWORD dwDefaultLayout);
   __attribute__((dllimport)) HWND GetDesktopWindow(void);
@@ -53614,7 +53614,7 @@ __attribute__((dllimport)) WINBOOL EnableMouseInPointerForThread(void);
 
 
   __attribute__((dllimport)) HWND GetLastActivePopup(HWND hWnd);
-# 3978 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 3978 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) HWND GetWindow(HWND hWnd,UINT uCmd);
 
 
@@ -53624,13 +53624,13 @@ __attribute__((dllimport)) WINBOOL EnableMouseInPointerForThread(void);
 
   __attribute__((dllimport)) HHOOK SetWindowsHookA (int nFilterType, HOOKPROC pfnFilterProc);
   __attribute__((dllimport)) HHOOK SetWindowsHookW (int nFilterType, HOOKPROC pfnFilterProc);
-# 3995 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 3995 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) WINBOOL UnhookWindowsHook (int nCode, HOOKPROC pfnFilterProc);
   __attribute__((dllimport)) HHOOK SetWindowsHookExA (int idHook, HOOKPROC lpfn, HINSTANCE hmod, DWORD dwThreadId);
   __attribute__((dllimport)) HHOOK SetWindowsHookExW (int idHook, HOOKPROC lpfn, HINSTANCE hmod, DWORD dwThreadId);
   __attribute__((dllimport)) WINBOOL UnhookWindowsHookEx (HHOOK hhk);
   __attribute__((dllimport)) LRESULT CallNextHookEx (HHOOK hhk, int nCode, WPARAM wParam, LPARAM lParam);
-# 4054 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 4054 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) WINBOOL CheckMenuRadioItem(HMENU hmenu,UINT first,UINT last,UINT check,UINT flags);
 
   typedef struct {
@@ -53643,7 +53643,7 @@ __attribute__((dllimport)) WINBOOL EnableMouseInPointerForThread(void);
     WORD mtID;
     WCHAR mtString[1];
   } MENUITEMTEMPLATE,*PMENUITEMTEMPLATE;
-# 4108 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 4108 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) HBITMAP LoadBitmapA(HINSTANCE hInstance,LPCSTR lpBitmapName);
   __attribute__((dllimport)) HBITMAP LoadBitmapW(HINSTANCE hInstance,LPCWSTR lpBitmapName);
   __attribute__((dllimport)) HCURSOR LoadCursorA(HINSTANCE hInstance,LPCSTR lpCursorName);
@@ -53652,7 +53652,7 @@ __attribute__((dllimport)) WINBOOL EnableMouseInPointerForThread(void);
   __attribute__((dllimport)) HCURSOR LoadCursorFromFileW(LPCWSTR lpFileName);
   __attribute__((dllimport)) HCURSOR CreateCursor(HINSTANCE hInst,int xHotSpot,int yHotSpot,int nWidth,int nHeight,const void *pvANDPlane,const void *pvXORPlane);
   __attribute__((dllimport)) WINBOOL DestroyCursor(HCURSOR hCursor);
-# 4142 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 4142 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct _ICONINFO {
     WINBOOL fIcon;
     DWORD xHotspot;
@@ -53686,7 +53686,7 @@ __attribute__((dllimport)) WINBOOL EnableMouseInPointerForThread(void);
     BYTE Planes;
     BYTE BitsPixel;
   } CURSORSHAPE,*LPCURSORSHAPE;
-# 4199 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 4199 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) HANDLE LoadImageA(HINSTANCE hInst,LPCSTR name,UINT type,int cx,int cy,UINT fuLoad);
   __attribute__((dllimport)) HANDLE LoadImageW(HINSTANCE hInst,LPCWSTR name,UINT type,int cx,int cy,UINT fuLoad);
   __attribute__((dllimport)) HANDLE CopyImage(HANDLE h,UINT type,int cx,int cy,UINT flags);
@@ -53694,7 +53694,7 @@ __attribute__((dllimport)) WINBOOL EnableMouseInPointerForThread(void);
   __attribute__((dllimport)) HICON CreateIconIndirect(PICONINFO piconinfo);
   __attribute__((dllimport)) HICON CopyIcon(HICON hIcon);
   __attribute__((dllimport)) WINBOOL GetIconInfo(HICON hIcon,PICONINFO piconinfo);
-# 4612 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 4612 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) WINBOOL IsDialogMessageA(HWND hDlg,LPMSG lpMsg);
   __attribute__((dllimport)) WINBOOL IsDialogMessageW(HWND hDlg,LPMSG lpMsg);
 
@@ -53713,7 +53713,7 @@ __attribute__((dllimport)) WINBOOL EnableMouseInPointerForThread(void);
   __attribute__((dllimport)) int DlgDirListComboBoxW(HWND hDlg,LPWSTR lpPathSpec,int nIDComboBox,int nIDStaticPath,UINT uFiletype);
   __attribute__((dllimport)) WINBOOL DlgDirSelectComboBoxExA(HWND hwndDlg,LPSTR lpString,int cchOut,int idComboBox);
   __attribute__((dllimport)) WINBOOL DlgDirSelectComboBoxExW(HWND hwndDlg,LPWSTR lpString,int cchOut,int idComboBox);
-# 4882 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 4882 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagSCROLLINFO {
     UINT cbSize;
     UINT fMask;
@@ -53727,7 +53727,7 @@ __attribute__((dllimport)) WINBOOL EnableMouseInPointerForThread(void);
 
   __attribute__((dllimport)) int SetScrollInfo(HWND hwnd,int nBar,LPCSCROLLINFO lpsi,WINBOOL redraw);
   __attribute__((dllimport)) WINBOOL GetScrollInfo(HWND hwnd,int nBar,LPSCROLLINFO lpsi);
-# 4909 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 4909 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagMDICREATESTRUCTA {
     LPCSTR szClass;
     LPCSTR szTitle;
@@ -53830,9 +53830,9 @@ __attribute__((dllimport)) WINBOOL EnableMouseInPointerForThread(void);
 
   __attribute__((dllimport)) WINBOOL WinHelpA(HWND hWndMain,LPCSTR lpszHelp,UINT uCommand,ULONG_PTR dwData);
   __attribute__((dllimport)) WINBOOL WinHelpW(HWND hWndMain,LPCWSTR lpszHelp,UINT uCommand,ULONG_PTR dwData);
-# 5054 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 5054 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) DWORD GetGuiResources(HANDLE hProcess,DWORD uiFlags);
-# 5408 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 5408 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagNONCLIENTMETRICSA {
     UINT cbSize;
     int iBorderWidth;
@@ -53878,7 +53878,7 @@ __attribute__((dllimport)) WINBOOL EnableMouseInPointerForThread(void);
   typedef NONCLIENTMETRICSA NONCLIENTMETRICS;
   typedef PNONCLIENTMETRICSA PNONCLIENTMETRICS;
   typedef LPNONCLIENTMETRICSA LPNONCLIENTMETRICS;
-# 5472 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 5472 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagMINIMIZEDMETRICS {
     UINT cbSize;
     int iWidth;
@@ -53953,11 +53953,11 @@ __attribute__((dllimport)) WINBOOL EnableMouseInPointerForThread(void);
 
   typedef HIGHCONTRASTA HIGHCONTRAST;
   typedef LPHIGHCONTRASTA LPHIGHCONTRAST;
-# 5577 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/tvout.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/tvout.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/guiddef.h" 1 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/tvout.h" 2 3
+# 5577 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/tvout.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/tvout.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/guiddef.h" 1 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/tvout.h" 2 3
 
 typedef struct _VIDEOPARAMETERS {
   GUID Guid;
@@ -53984,8 +53984,8 @@ typedef struct _VIDEOPARAMETERS {
   ULONG bCP_APSTriggerBits;
   UCHAR bOEMCopyProtection[256];
 } VIDEOPARAMETERS,*PVIDEOPARAMETERS,*LPVIDEOPARAMETERS;
-# 5578 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 2 3
-# 5597 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 5578 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 2 3
+# 5597 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) LONG ChangeDisplaySettingsA(LPDEVMODEA lpDevMode,DWORD dwFlags);
   __attribute__((dllimport)) LONG ChangeDisplaySettingsW(LPDEVMODEW lpDevMode,DWORD dwFlags);
   __attribute__((dllimport)) LONG ChangeDisplaySettingsExA(LPCSTR lpszDeviceName,LPDEVMODEA lpDevMode,HWND hwnd,DWORD dwflags,LPVOID lParam);
@@ -54004,10 +54004,10 @@ typedef struct _VIDEOPARAMETERS {
 
   __attribute__((dllimport)) WINBOOL EnumDisplayDevicesA(LPCSTR lpDevice,DWORD iDevNum,PDISPLAY_DEVICEA lpDisplayDevice,DWORD dwFlags);
   __attribute__((dllimport)) WINBOOL EnumDisplayDevicesW(LPCWSTR lpDevice,DWORD iDevNum,PDISPLAY_DEVICEW lpDisplayDevice,DWORD dwFlags);
-# 5630 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 5630 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) WINBOOL SystemParametersInfoA(UINT uiAction,UINT uiParam,PVOID pvParam,UINT fWinIni);
   __attribute__((dllimport)) WINBOOL SystemParametersInfoW(UINT uiAction,UINT uiParam,PVOID pvParam,UINT fWinIni);
-# 5641 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 5641 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagFILTERKEYS {
     UINT cbSize;
     DWORD dwFlags;
@@ -54016,12 +54016,12 @@ typedef struct _VIDEOPARAMETERS {
     DWORD iRepeatMSec;
     DWORD iBounceMSec;
   } FILTERKEYS,*LPFILTERKEYS;
-# 5660 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 5660 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagSTICKYKEYS {
     UINT cbSize;
     DWORD dwFlags;
   } STICKYKEYS,*LPSTICKYKEYS;
-# 5693 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 5693 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagMOUSEKEYS {
     UINT cbSize;
     DWORD dwFlags;
@@ -54031,13 +54031,13 @@ typedef struct _VIDEOPARAMETERS {
     DWORD dwReserved1;
     DWORD dwReserved2;
   } MOUSEKEYS,*LPMOUSEKEYS;
-# 5719 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 5719 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagACCESSTIMEOUT {
     UINT cbSize;
     DWORD dwFlags;
     DWORD iTimeOutMSec;
   } ACCESSTIMEOUT,*LPACCESSTIMEOUT;
-# 5744 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 5744 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagSOUNDSENTRYA {
     UINT cbSize;
     DWORD dwFlags;
@@ -54070,7 +54070,7 @@ typedef struct _VIDEOPARAMETERS {
 
   typedef SOUNDSENTRYA SOUNDSENTRY;
   typedef LPSOUNDSENTRYA LPSOUNDSENTRY;
-# 5787 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 5787 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagTOGGLEKEYS {
     UINT cbSize;
     DWORD dwFlags;
@@ -54082,7 +54082,7 @@ typedef struct _VIDEOPARAMETERS {
     RECT rcWork;
     DWORD dwFlags;
   } MONITORINFO,*LPMONITORINFO;
-# 5819 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 5819 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagMONITORINFOEXA {
     __extension__ struct {
       DWORD cbSize;
@@ -54128,15 +54128,15 @@ typedef struct _VIDEOPARAMETERS {
   __attribute__((dllimport)) WINBOOL GetMonitorInfoA(HMONITOR hMonitor,LPMONITORINFO lpmi);
   __attribute__((dllimport)) WINBOOL GetMonitorInfoW(HMONITOR hMonitor,LPMONITORINFO lpmi);
   __attribute__((dllimport)) WINBOOL EnumDisplayMonitors(HDC hdc,LPCRECT lprcClip,MONITORENUMPROC lpfnEnum,LPARAM dwData);
-# 5885 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 5885 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef void ( *WINEVENTPROC)(HWINEVENTHOOK hWinEventHook,DWORD event,HWND hwnd,LONG idObject,LONG idChild,DWORD idEventThread,DWORD dwmsEventTime);
 
   __attribute__((dllimport)) void NotifyWinEvent(DWORD event,HWND hwnd,LONG idObject,LONG idChild);
   __attribute__((dllimport)) HWINEVENTHOOK SetWinEventHook(DWORD eventMin,DWORD eventMax,HMODULE hmodWinEventProc,WINEVENTPROC pfnWinEventProc,DWORD idProcess,DWORD idThread,DWORD dwFlags);
   __attribute__((dllimport)) WINBOOL IsWinEventHookInstalled(DWORD event);
-# 5898 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 5898 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) WINBOOL UnhookWinEvent(HWINEVENTHOOK hWinEventHook);
-# 6062 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 6062 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagGUITHREADINFO {
     DWORD cbSize;
     DWORD flags;
@@ -54148,12 +54148,12 @@ typedef struct _VIDEOPARAMETERS {
     HWND hwndCaret;
     RECT rcCaret;
   } GUITHREADINFO,*PGUITHREADINFO,*LPGUITHREADINFO;
-# 6089 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 6089 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) WINBOOL GetGUIThreadInfo(DWORD idThread,PGUITHREADINFO pgui);
   __attribute__((dllimport)) WINBOOL BlockInput (WINBOOL fBlockIt);
   __attribute__((dllimport)) UINT GetWindowModuleFileNameA(HWND hwnd,LPSTR pszFileName,UINT cchFileNameMax);
   __attribute__((dllimport)) UINT GetWindowModuleFileNameW(HWND hwnd,LPWSTR pszFileName,UINT cchFileNameMax);
-# 6167 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 6167 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagCURSORINFO {
     DWORD cbSize;
     DWORD flags;
@@ -54192,7 +54192,7 @@ typedef struct _VIDEOPARAMETERS {
   } TITLEBARINFO,*PTITLEBARINFO,*LPTITLEBARINFO;
 
   __attribute__((dllimport)) WINBOOL GetTitleBarInfo(HWND hwnd,PTITLEBARINFO pti);
-# 6215 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 6215 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagMENUBARINFO {
     DWORD cbSize;
     RECT rcBar;
@@ -54227,7 +54227,7 @@ typedef struct _VIDEOPARAMETERS {
   } COMBOBOXINFO,*PCOMBOBOXINFO,*LPCOMBOBOXINFO;
 
   __attribute__((dllimport)) WINBOOL GetComboBoxInfo(HWND hwndCombo,PCOMBOBOXINFO pcbi);
-# 6258 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 6258 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) HWND GetAncestor(HWND hwnd,UINT gaFlags);
   __attribute__((dllimport)) HWND RealChildWindowFromPoint(HWND hwndParent,POINT ptParentClientCoords);
   __attribute__((dllimport)) UINT RealGetWindowClassA(HWND hwnd,LPSTR ptszClassName,UINT cchClassNameMax);
@@ -54258,14 +54258,14 @@ typedef struct _VIDEOPARAMETERS {
   __attribute__((dllimport)) WINBOOL UserHandleGrantAccess(HANDLE hUserHandle,HANDLE hJob,WINBOOL bGrant);
 
   struct HRAWINPUT__ { int unused; }; typedef struct HRAWINPUT__ *HRAWINPUT;
-# 6296 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 6296 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagRAWINPUTHEADER {
     DWORD dwType;
     DWORD dwSize;
     HANDLE hDevice;
     WPARAM wParam;
   } RAWINPUTHEADER,*PRAWINPUTHEADER,*LPRAWINPUTHEADER;
-# 6310 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 6310 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagRAWMOUSE {
     USHORT usFlags;
     __extension__ union {
@@ -54280,7 +54280,7 @@ typedef struct _VIDEOPARAMETERS {
     LONG lLastY;
     ULONG ulExtraInformation;
   } RAWMOUSE,*PRAWMOUSE,*LPRAWMOUSE;
-# 6357 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 6357 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagRAWKEYBOARD {
     USHORT MakeCode;
     USHORT Flags;
@@ -54289,7 +54289,7 @@ typedef struct _VIDEOPARAMETERS {
     UINT Message;
     ULONG ExtraInformation;
   } RAWKEYBOARD,*PRAWKEYBOARD,*LPRAWKEYBOARD;
-# 6377 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 6377 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagRAWHID {
     DWORD dwSizeHid;
     DWORD dwCount;
@@ -54304,7 +54304,7 @@ typedef struct _VIDEOPARAMETERS {
       RAWHID hid;
     } data;
   } RAWINPUT,*PRAWINPUT,*LPRAWINPUT;
-# 6405 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 6405 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) UINT GetRawInputData(HRAWINPUT hRawInput,UINT uiCommand,LPVOID pData,PUINT pcbSize,UINT cbSizeHeader);
 
 
@@ -54361,7 +54361,7 @@ typedef struct _VIDEOPARAMETERS {
   } RAWINPUTDEVICE,*PRAWINPUTDEVICE,*LPRAWINPUTDEVICE;
 
   typedef const RAWINPUTDEVICE *PCRAWINPUTDEVICE;
-# 6487 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 6487 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   typedef struct tagRAWINPUTDEVICELIST {
     HANDLE hDevice;
     DWORD dwType;
@@ -54371,15 +54371,15 @@ typedef struct _VIDEOPARAMETERS {
   __attribute__((dllimport)) UINT GetRegisteredRawInputDevices (PRAWINPUTDEVICE pRawInputDevices, PUINT puiNumDevices, UINT cbSize);
   __attribute__((dllimport)) UINT GetRawInputDeviceList (PRAWINPUTDEVICELIST pRawInputDeviceList, PUINT puiNumDevices, UINT cbSize);
   __attribute__((dllimport)) LRESULT DefRawInputProc (PRAWINPUT *paRawInput, INT nInput, UINT cbSizeHeader);
-# 6684 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winuser.h" 3
+# 6684 "C:/tdm64/x86_64-w64-mingw32/include/winuser.h" 3
   __attribute__((dllimport)) WINBOOL ShutdownBlockReasonCreate (HWND hWnd, LPCWSTR pwszReason);
   __attribute__((dllimport)) WINBOOL ShutdownBlockReasonQuery (HWND hWnd, LPWSTR pwszBuff, DWORD *pcchBuff);
   __attribute__((dllimport)) WINBOOL ShutdownBlockReasonDestroy (HWND hWnd);
-# 73 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnls.h" 1 3
-# 16 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnls.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/datetimeapi.h" 1 3
-# 19 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/datetimeapi.h" 3
+# 73 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/winnls.h" 1 3
+# 16 "C:/tdm64/x86_64-w64-mingw32/include/winnls.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/datetimeapi.h" 1 3
+# 19 "C:/tdm64/x86_64-w64-mingw32/include/datetimeapi.h" 3
   __attribute__((dllimport)) int GetTimeFormatEx (LPCWSTR lpLocaleName, DWORD dwFlags, const SYSTEMTIME *lpTime, LPCWSTR lpFormat, LPWSTR lpTimeStr, int cchTime);
   __attribute__((dllimport)) int GetDateFormatEx (LPCWSTR lpLocaleName, DWORD dwFlags, const SYSTEMTIME *lpDate, LPCWSTR lpFormat, LPWSTR lpDateStr, int cchDate, LPCWSTR lpCalendar);
 
@@ -54389,8 +54389,8 @@ typedef struct _VIDEOPARAMETERS {
   __attribute__((dllimport)) int GetDateFormatW (LCID Locale, DWORD dwFlags, const SYSTEMTIME *lpDate, LPCWSTR lpFormat, LPWSTR lpDateStr, int cchDate);
   __attribute__((dllimport)) int GetTimeFormatA (LCID Locale, DWORD dwFlags, const SYSTEMTIME *lpTime, LPCSTR lpFormat, LPSTR lpTimeStr, int cchTime);
   __attribute__((dllimport)) int GetTimeFormatW (LCID Locale, DWORD dwFlags, const SYSTEMTIME *lpTime, LPCWSTR lpFormat, LPWSTR lpTimeStr, int cchTime);
-# 17 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnls.h" 2 3
-# 644 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnls.h" 3
+# 17 "C:/tdm64/x86_64-w64-mingw32/include/winnls.h" 2 3
+# 644 "C:/tdm64/x86_64-w64-mingw32/include/winnls.h" 3
   typedef DWORD LGRPID;
   typedef DWORD LCTYPE;
   typedef DWORD CALTYPE;
@@ -54472,7 +54472,7 @@ typedef struct _VIDEOPARAMETERS {
   };
 
   typedef DWORD NLS_FUNCTION;
-# 735 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnls.h" 3
+# 735 "C:/tdm64/x86_64-w64-mingw32/include/winnls.h" 3
   typedef struct _nlsversioninfo {
     DWORD dwNLSVersionInfoSize;
     DWORD dwNLSVersion;
@@ -54515,7 +54515,7 @@ typedef struct _VIDEOPARAMETERS {
     GEOCLASS_REGION = 14,
     GEOCLASS_ALL = 0
   };
-# 798 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnls.h" 3
+# 798 "C:/tdm64/x86_64-w64-mingw32/include/winnls.h" 3
   typedef WINBOOL ( *LANGUAGEGROUP_ENUMPROCA) (LGRPID, LPSTR, LPSTR, DWORD, LONG_PTR);
   typedef WINBOOL ( *LANGGROUPLOCALE_ENUMPROCA) (LGRPID, LCID, LPSTR, LONG_PTR);
   typedef WINBOOL ( *UILANGUAGE_ENUMPROCA) (LPSTR, LONG_PTR);
@@ -54537,7 +54537,7 @@ typedef struct _VIDEOPARAMETERS {
   typedef WINBOOL ( *CALINFO_ENUMPROCW) (LPWSTR);
   typedef WINBOOL ( *CALINFO_ENUMPROCEXW) (LPWSTR, CALID);
   typedef WINBOOL ( *GEO_ENUMPROC) (GEOID);
-# 869 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnls.h" 3
+# 869 "C:/tdm64/x86_64-w64-mingw32/include/winnls.h" 3
   typedef struct _FILEMUIINFO {
     DWORD dwSize;
     DWORD dwVersion;
@@ -54555,10 +54555,10 @@ typedef struct _VIDEOPARAMETERS {
   } FILEMUIINFO,*PFILEMUIINFO;
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stringapiset.h" 1 3
-# 12 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stringapiset.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnls.h" 1 3
-# 13 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stringapiset.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/stringapiset.h" 1 3
+# 12 "C:/tdm64/x86_64-w64-mingw32/include/stringapiset.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/winnls.h" 1 3
+# 13 "C:/tdm64/x86_64-w64-mingw32/include/stringapiset.h" 2 3
 
 
 
@@ -54567,14 +54567,14 @@ typedef struct _VIDEOPARAMETERS {
 
   __attribute__((dllimport)) int CompareStringW (LCID Locale, DWORD dwCmpFlags, PCNZWCH lpString1, int cchCount1, PCNZWCH lpString2, int cchCount2);
   __attribute__((dllimport)) int FoldStringW (DWORD dwMapFlags, LPCWCH lpSrcStr, int cchSrc, LPWSTR lpDestStr, int cchDest);
-# 30 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stringapiset.h" 3
+# 30 "C:/tdm64/x86_64-w64-mingw32/include/stringapiset.h" 3
   __attribute__((dllimport)) WINBOOL GetStringTypeExW (LCID Locale, DWORD dwInfoType, LPCWCH lpSrcStr, int cchSrc, LPWORD lpCharType);
-# 40 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stringapiset.h" 3
+# 40 "C:/tdm64/x86_64-w64-mingw32/include/stringapiset.h" 3
   __attribute__((dllimport)) WINBOOL GetStringTypeW (DWORD dwInfoType, LPCWCH lpSrcStr, int cchSrc, LPWORD lpCharType);
   __attribute__((dllimport)) int MultiByteToWideChar (UINT CodePage, DWORD dwFlags, LPCCH lpMultiByteStr, int cbMultiByte, LPWSTR lpWideCharStr, int cchWideChar);
   __attribute__((dllimport)) int WideCharToMultiByte (UINT CodePage, DWORD dwFlags, LPCWCH lpWideCharStr, int cchWideChar, LPSTR lpMultiByteStr, int cbMultiByte, LPCCH lpDefaultChar, LPBOOL lpUsedDefaultChar);
-# 887 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnls.h" 2 3
-# 901 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnls.h" 3
+# 887 "C:/tdm64/x86_64-w64-mingw32/include/winnls.h" 2 3
+# 901 "C:/tdm64/x86_64-w64-mingw32/include/winnls.h" 3
   __attribute__((dllimport)) WINBOOL IsValidCodePage (UINT CodePage);
 
 
@@ -54585,7 +54585,7 @@ typedef struct _VIDEOPARAMETERS {
   __attribute__((dllimport)) WINBOOL IsNLSDefinedString (NLS_FUNCTION Function, DWORD dwFlags, LPNLSVERSIONINFO lpVersionInformation, LPCWSTR lpString, INT cchStr);
   __attribute__((dllimport)) int GetLocaleInfoW (LCID Locale, LCTYPE LCType, LPWSTR lpLCData, int cchData);
   __attribute__((dllimport)) int GetLocaleInfoA (LCID Locale, LCTYPE LCType, LPSTR lpLCData, int cchData);
-# 921 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnls.h" 3
+# 921 "C:/tdm64/x86_64-w64-mingw32/include/winnls.h" 3
   __attribute__((dllimport)) UINT GetOEMCP (void);
   __attribute__((dllimport)) int CompareStringA (LCID Locale, DWORD dwCmpFlags, PCNZCH lpString1, int cchCount1, PCNZCH lpString2, int cchCount2);
   __attribute__((dllimport)) int LCMapStringW (LCID Locale, DWORD dwMapFlags, LPCWSTR lpSrcStr, int cchSrc, LPWSTR lpDestStr, int cchDest);
@@ -54613,7 +54613,7 @@ typedef struct _VIDEOPARAMETERS {
   __attribute__((dllimport)) int GetCalendarInfoW (LCID Locale, CALID Calendar, CALTYPE CalType, LPWSTR lpCalData, int cchData, LPDWORD lpValue);
   __attribute__((dllimport)) WINBOOL SetCalendarInfoA (LCID Locale, CALID Calendar, CALTYPE CalType, LPCSTR lpCalData);
   __attribute__((dllimport)) WINBOOL SetCalendarInfoW (LCID Locale, CALID Calendar, CALTYPE CalType, LPCWSTR lpCalData);
-# 986 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnls.h" 3
+# 986 "C:/tdm64/x86_64-w64-mingw32/include/winnls.h" 3
   __attribute__((dllimport)) int GetGeoInfoA (GEOID Location, GEOTYPE GeoType, LPSTR lpGeoData, int cchData, LANGID LangId);
   __attribute__((dllimport)) int GetGeoInfoW (GEOID Location, GEOTYPE GeoType, LPWSTR lpGeoData, int cchData, LANGID LangId);
   __attribute__((dllimport)) WINBOOL EnumSystemGeoID (GEOCLASS GeoClass, GEOID ParentGeoId, GEO_ENUMPROC lpGeoEnumProc);
@@ -54621,7 +54621,7 @@ typedef struct _VIDEOPARAMETERS {
   __attribute__((dllimport)) WINBOOL GetCPInfo (UINT CodePage, LPCPINFO lpCPInfo);
   __attribute__((dllimport)) WINBOOL GetCPInfoExA (UINT CodePage, DWORD dwFlags, LPCPINFOEXA lpCPInfoEx);
   __attribute__((dllimport)) WINBOOL GetCPInfoExW (UINT CodePage, DWORD dwFlags, LPCPINFOEXW lpCPInfoEx);
-# 1005 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnls.h" 3
+# 1005 "C:/tdm64/x86_64-w64-mingw32/include/winnls.h" 3
   __attribute__((dllimport)) WINBOOL SetUserGeoID (GEOID GeoId);
   __attribute__((dllimport)) LCID ConvertDefaultLocale (LCID Locale);
   __attribute__((dllimport)) LCID GetThreadLocale (void);
@@ -54639,7 +54639,7 @@ typedef struct _VIDEOPARAMETERS {
   __attribute__((dllimport)) WINBOOL EnumSystemLanguageGroupsW (LANGUAGEGROUP_ENUMPROCW lpLanguageGroupEnumProc, DWORD dwFlags, LONG_PTR lParam);
   __attribute__((dllimport)) WINBOOL EnumLanguageGroupLocalesA (LANGGROUPLOCALE_ENUMPROCA lpLangGroupLocaleEnumProc, LGRPID LanguageGroup, DWORD dwFlags, LONG_PTR lParam);
   __attribute__((dllimport)) WINBOOL EnumLanguageGroupLocalesW (LANGGROUPLOCALE_ENUMPROCW lpLangGroupLocaleEnumProc, LGRPID LanguageGroup, DWORD dwFlags, LONG_PTR lParam);
-# 1048 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnls.h" 3
+# 1048 "C:/tdm64/x86_64-w64-mingw32/include/winnls.h" 3
   __attribute__((dllimport)) WINBOOL GetStringTypeExA (LCID Locale, DWORD dwInfoType, LPCSTR lpSrcStr, int cchSrc, LPWORD lpCharType);
   __attribute__((dllimport)) LANGID GetUserDefaultUILanguage (void);
   __attribute__((dllimport)) WINBOOL EnumUILanguagesA (UILANGUAGE_ENUMPROCA lpUILanguageEnumProc, DWORD dwFlags, LONG_PTR lParam);
@@ -54647,9 +54647,9 @@ typedef struct _VIDEOPARAMETERS {
   __attribute__((dllimport)) WINBOOL EnumSystemCodePagesA (CODEPAGE_ENUMPROCA lpCodePageEnumProc, DWORD dwFlags);
   __attribute__((dllimport)) WINBOOL EnumSystemCodePagesW (CODEPAGE_ENUMPROCW lpCodePageEnumProc, DWORD dwFlags);
   __attribute__((dllimport)) LANGID GetUserDefaultLangID (void);
-# 74 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincon.h" 1 3
-# 20 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincon.h" 3
+# 74 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/wincon.h" 1 3
+# 20 "C:/tdm64/x86_64-w64-mingw32/include/wincon.h" 3
   typedef struct _COORD {
     SHORT X;
     SHORT Y;
@@ -54673,14 +54673,14 @@ typedef struct _VIDEOPARAMETERS {
     } uChar;
     DWORD dwControlKeyState;
   } KEY_EVENT_RECORD,*PKEY_EVENT_RECORD;
-# 62 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincon.h" 3
+# 62 "C:/tdm64/x86_64-w64-mingw32/include/wincon.h" 3
   typedef struct _MOUSE_EVENT_RECORD {
     COORD dwMousePosition;
     DWORD dwButtonState;
     DWORD dwControlKeyState;
     DWORD dwEventFlags;
   } MOUSE_EVENT_RECORD,*PMOUSE_EVENT_RECORD;
-# 82 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincon.h" 3
+# 82 "C:/tdm64/x86_64-w64-mingw32/include/wincon.h" 3
   typedef struct _WINDOW_BUFFER_SIZE_RECORD {
     COORD dwSize;
   } WINDOW_BUFFER_SIZE_RECORD,*PWINDOW_BUFFER_SIZE_RECORD;
@@ -54717,7 +54717,7 @@ typedef struct _VIDEOPARAMETERS {
     } Char;
     WORD Attributes;
   } CHAR_INFO,*PCHAR_INFO;
-# 137 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincon.h" 3
+# 137 "C:/tdm64/x86_64-w64-mingw32/include/wincon.h" 3
   typedef struct _CONSOLE_SCREEN_BUFFER_INFO {
     COORD dwSize;
     COORD dwCursorPosition;
@@ -54749,7 +54749,7 @@ typedef struct _VIDEOPARAMETERS {
 
 
   typedef WINBOOL ( *PHANDLER_ROUTINE)(DWORD CtrlType);
-# 215 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincon.h" 3
+# 215 "C:/tdm64/x86_64-w64-mingw32/include/wincon.h" 3
   __attribute__((dllimport)) WINBOOL PeekConsoleInputA(HANDLE hConsoleInput,PINPUT_RECORD lpBuffer,DWORD nLength,LPDWORD lpNumberOfEventsRead);
   __attribute__((dllimport)) WINBOOL PeekConsoleInputW(HANDLE hConsoleInput,PINPUT_RECORD lpBuffer,DWORD nLength,LPDWORD lpNumberOfEventsRead);
   __attribute__((dllimport)) WINBOOL ReadConsoleInputA(HANDLE hConsoleInput,PINPUT_RECORD lpBuffer,DWORD nLength,LPDWORD lpNumberOfEventsRead);
@@ -54896,7 +54896,7 @@ typedef struct _CONSOLE_SCREEN_BUFFER_INFOEX {
 WINBOOL GetConsoleHistoryInfo(
   PCONSOLE_HISTORY_INFO lpConsoleHistoryInfo
 );
-# 376 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincon.h" 3
+# 376 "C:/tdm64/x86_64-w64-mingw32/include/wincon.h" 3
 __attribute__((dllimport)) WINBOOL GetConsoleScreenBufferInfoEx(
   HANDLE hConsoleOutput,
   PCONSOLE_SCREEN_BUFFER_INFOEX lpConsoleScreenBufferInfoEx
@@ -54922,12 +54922,12 @@ __attribute__((dllimport)) WINBOOL SetCurrentConsoleFontEx(
   WINBOOL bMaximumWindow,
   PCONSOLE_FONT_INFOEX lpConsoleCurrentFontEx
 );
-# 75 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winver.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winver.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winver.h" 2 3
-# 118 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winver.h" 3
+# 75 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/winver.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/winver.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/winver.h" 2 3
+# 118 "C:/tdm64/x86_64-w64-mingw32/include/winver.h" 3
   typedef struct tagVS_FIXEDFILEINFO
   {
     DWORD dwSignature;
@@ -54944,7 +54944,7 @@ __attribute__((dllimport)) WINBOOL SetCurrentConsoleFontEx(
     DWORD dwFileDateMS;
     DWORD dwFileDateLS;
   } VS_FIXEDFILEINFO;
-# 145 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winver.h" 3
+# 145 "C:/tdm64/x86_64-w64-mingw32/include/winver.h" 3
   DWORD VerFindFileA(DWORD uFlags,LPSTR szFileName,LPSTR szWinDir,LPSTR szAppDir,LPSTR szCurDir,PUINT lpuCurDirLen,LPSTR szDestDir,PUINT lpuDestDirLen);
   DWORD VerFindFileW(DWORD uFlags,LPWSTR szFileName,LPWSTR szWinDir,LPWSTR szAppDir,LPWSTR szCurDir,PUINT lpuCurDirLen,LPWSTR szDestDir,PUINT lpuDestDirLen);
   DWORD VerInstallFileA(DWORD uFlags,LPSTR szSrcFileName,LPSTR szDestFileName,LPSTR szSrcDir,LPSTR szDestDir,LPSTR szCurDir,LPSTR szTmpFile,PUINT lpuTmpFileLen);
@@ -54964,12 +54964,12 @@ __attribute__((dllimport)) WINBOOL SetCurrentConsoleFontEx(
   DWORD VerLanguageNameW(DWORD wLang,LPWSTR szLang,DWORD nSize);
   WINBOOL VerQueryValueA(LPCVOID pBlock,LPCSTR lpSubBlock,LPVOID *lplpBuffer,PUINT puLen);
   WINBOOL VerQueryValueW(LPCVOID pBlock,LPCWSTR lpSubBlock,LPVOID *lplpBuffer,PUINT puLen);
-# 76 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winreg.h" 1 3
-# 43 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winreg.h" 3
+# 76 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/winreg.h" 1 3
+# 43 "C:/tdm64/x86_64-w64-mingw32/include/winreg.h" 3
   typedef ACCESS_MASK REGSAM;
   typedef LONG LSTATUS;
-# 62 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winreg.h" 3
+# 62 "C:/tdm64/x86_64-w64-mingw32/include/winreg.h" 3
   struct val_context {
     int valuelen;
     LPVOID value_context;
@@ -55026,7 +55026,7 @@ __attribute__((dllimport)) WINBOOL SetCurrentConsoleFontEx(
 
   typedef VALENTA VALENT;
   typedef PVALENTA PVALENT;
-# 158 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winreg.h" 3
+# 158 "C:/tdm64/x86_64-w64-mingw32/include/winreg.h" 3
   __attribute__((dllimport)) LONG RegCloseKey(HKEY hKey);
   __attribute__((dllimport)) LONG RegOverridePredefKey(HKEY hKey,HKEY hNewHKey);
   __attribute__((dllimport)) LONG RegOpenUserClassesRoot(HANDLE hToken,DWORD dwOptions,REGSAM samDesired,PHKEY phkResult);
@@ -55093,20 +55093,20 @@ __attribute__((dllimport)) WINBOOL SetCurrentConsoleFontEx(
   __attribute__((dllimport)) WINBOOL AbortSystemShutdownA(LPSTR lpMachineName);
   __attribute__((dllimport)) WINBOOL AbortSystemShutdownW(LPWSTR lpMachineName);
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/reason.h" 1 3
-# 225 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winreg.h" 2 3
-# 241 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winreg.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/reason.h" 1 3
+# 225 "C:/tdm64/x86_64-w64-mingw32/include/winreg.h" 2 3
+# 241 "C:/tdm64/x86_64-w64-mingw32/include/winreg.h" 3
   __attribute__((dllimport)) WINBOOL InitiateSystemShutdownExA(LPSTR lpMachineName,LPSTR lpMessage,DWORD dwTimeout,WINBOOL bForceAppsClosed,WINBOOL bRebootAfterShutdown,DWORD dwReason);
   __attribute__((dllimport)) WINBOOL InitiateSystemShutdownExW(LPWSTR lpMachineName,LPWSTR lpMessage,DWORD dwTimeout,WINBOOL bForceAppsClosed,WINBOOL bRebootAfterShutdown,DWORD dwReason);
   __attribute__((dllimport)) LONG RegSaveKeyExA(HKEY hKey,LPCSTR lpFile,LPSECURITY_ATTRIBUTES lpSecurityAttributes,DWORD Flags);
   __attribute__((dllimport)) LONG RegSaveKeyExW(HKEY hKey,LPCWSTR lpFile,LPSECURITY_ATTRIBUTES lpSecurityAttributes,DWORD Flags);
   __attribute__((dllimport)) LONG Wow64Win32ApiEntry (DWORD dwFuncNumber,DWORD dwFlag,DWORD dwRes);
-# 77 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnetwk.h" 1 3
-# 17 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnetwk.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wnnc.h" 1 3
-# 18 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnetwk.h" 2 3
-# 53 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnetwk.h" 3
+# 77 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/winnetwk.h" 1 3
+# 17 "C:/tdm64/x86_64-w64-mingw32/include/winnetwk.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/wnnc.h" 1 3
+# 18 "C:/tdm64/x86_64-w64-mingw32/include/winnetwk.h" 2 3
+# 53 "C:/tdm64/x86_64-w64-mingw32/include/winnetwk.h" 3
   typedef struct _NETRESOURCEA {
     DWORD dwScope;
     DWORD dwType;
@@ -55130,7 +55130,7 @@ __attribute__((dllimport)) WINBOOL SetCurrentConsoleFontEx(
 
   typedef NETRESOURCEA NETRESOURCE;
   typedef LPNETRESOURCEA LPNETRESOURCE;
-# 106 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnetwk.h" 3
+# 106 "C:/tdm64/x86_64-w64-mingw32/include/winnetwk.h" 3
   DWORD WNetAddConnectionA(LPCSTR lpRemoteName,LPCSTR lpPassword,LPCSTR lpLocalName);
   DWORD WNetAddConnectionW(LPCWSTR lpRemoteName,LPCWSTR lpPassword,LPCWSTR lpLocalName);
   DWORD WNetAddConnection2A(LPNETRESOURCEA lpNetResource,LPCSTR lpPassword,LPCSTR lpUserName,DWORD dwFlags);
@@ -55172,7 +55172,7 @@ __attribute__((dllimport)) WINBOOL SetCurrentConsoleFontEx(
 
   typedef CONNECTDLGSTRUCTA CONNECTDLGSTRUCT;
   typedef LPCONNECTDLGSTRUCTA LPCONNECTDLGSTRUCT;
-# 158 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnetwk.h" 3
+# 158 "C:/tdm64/x86_64-w64-mingw32/include/winnetwk.h" 3
   DWORD WNetConnectionDialog1A(LPCONNECTDLGSTRUCTA lpConnDlgStruct);
   DWORD WNetConnectionDialog1W(LPCONNECTDLGSTRUCTW lpConnDlgStruct);
 
@@ -55194,7 +55194,7 @@ __attribute__((dllimport)) WINBOOL SetCurrentConsoleFontEx(
 
   typedef DISCDLGSTRUCTA DISCDLGSTRUCT;
   typedef LPDISCDLGSTRUCTA LPDISCDLGSTRUCT;
-# 189 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnetwk.h" 3
+# 189 "C:/tdm64/x86_64-w64-mingw32/include/winnetwk.h" 3
   DWORD WNetDisconnectDialog1A(LPDISCDLGSTRUCTA lpConnDlgStruct);
   DWORD WNetDisconnectDialog1W(LPDISCDLGSTRUCTW lpConnDlgStruct);
   DWORD WNetOpenEnumA(DWORD dwScope,DWORD dwType,DWORD dwUsage,LPNETRESOURCEA lpNetResource,LPHANDLE lphEnum);
@@ -55297,7 +55297,7 @@ __attribute__((dllimport)) WINBOOL SetCurrentConsoleFontEx(
 
   DWORD WNetGetLastErrorA(LPDWORD lpError,LPSTR lpErrorBuf,DWORD nErrorBufSize,LPSTR lpNameBuf,DWORD nNameBufSize);
   DWORD WNetGetLastErrorW(LPDWORD lpError,LPWSTR lpErrorBuf,DWORD nErrorBufSize,LPWSTR lpNameBuf,DWORD nNameBufSize);
-# 335 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnetwk.h" 3
+# 335 "C:/tdm64/x86_64-w64-mingw32/include/winnetwk.h" 3
   typedef struct _NETCONNECTINFOSTRUCT {
     DWORD cbStructure;
     DWORD dwFlags;
@@ -55305,18 +55305,18 @@ __attribute__((dllimport)) WINBOOL SetCurrentConsoleFontEx(
     DWORD dwDelay;
     DWORD dwOptDataSize;
   } NETCONNECTINFOSTRUCT,*LPNETCONNECTINFOSTRUCT;
-# 350 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnetwk.h" 3
+# 350 "C:/tdm64/x86_64-w64-mingw32/include/winnetwk.h" 3
   DWORD MultinetGetConnectionPerformanceA(LPNETRESOURCEA lpNetResource,LPNETCONNECTINFOSTRUCT lpNetConnectInfoStruct);
   DWORD MultinetGetConnectionPerformanceW(LPNETRESOURCEW lpNetResource,LPNETCONNECTINFOSTRUCT lpNetConnectInfoStruct);
-# 78 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/virtdisk.h" 1 3
-# 79 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 78 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/virtdisk.h" 1 3
+# 79 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/cderr.h" 1 3
-# 82 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/dde.h" 1 3
-# 27 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/dde.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/cderr.h" 1 3
+# 82 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/dde.h" 1 3
+# 27 "C:/tdm64/x86_64-w64-mingw32/include/dde.h" 3
   typedef struct {
     unsigned short bAppReturnCode:8,reserved:6,fBusy:1,fAck:1;
   } DDEACK;
@@ -55356,9 +55356,9 @@ __attribute__((dllimport)) WINBOOL SetCurrentConsoleFontEx(
   WINBOOL UnpackDDElParam(UINT msg,LPARAM lParam,PUINT_PTR puiLo,PUINT_PTR puiHi);
   WINBOOL FreeDDElParam(UINT msg,LPARAM lParam);
   LPARAM ReuseDDElParam(LPARAM lParam,UINT msgIn,UINT msgOut,UINT_PTR uiLo,UINT_PTR uiHi);
-# 83 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ddeml.h" 1 3
-# 15 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ddeml.h" 3
+# 83 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ddeml.h" 1 3
+# 15 "C:/tdm64/x86_64-w64-mingw32/include/ddeml.h" 3
   struct HCONVLIST__ { int unused; }; typedef struct HCONVLIST__ *HCONVLIST;
   struct HCONV__ { int unused; }; typedef struct HCONV__ *HCONV;
   struct HSZ__ { int unused; }; typedef struct HSZ__ *HSZ;
@@ -55398,7 +55398,7 @@ __attribute__((dllimport)) WINBOOL SetCurrentConsoleFontEx(
     HWND hwnd;
     HWND hwndPartner;
   } CONVINFO, *PCONVINFO;
-# 154 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ddeml.h" 3
+# 154 "C:/tdm64/x86_64-w64-mingw32/include/ddeml.h" 3
   typedef HDDEDATA FNCALLBACK(UINT wType,UINT wFmt,HCONV hConv,HSZ hsz1,HSZ hsz2,HDDEDATA hData,ULONG_PTR dwData1,ULONG_PTR dwData2);
   typedef HDDEDATA ( *PFNCALLBACK)(UINT wType,UINT wFmt,HCONV hConv,HSZ hsz1,HSZ hsz2,HDDEDATA hData,ULONG_PTR dwData1,ULONG_PTR dwData2);
 
@@ -55406,7 +55406,7 @@ __attribute__((dllimport)) WINBOOL SetCurrentConsoleFontEx(
 
   UINT DdeInitializeA(LPDWORD pidInst,PFNCALLBACK pfnCallback,DWORD afCmd,DWORD ulRes);
   UINT DdeInitializeW(LPDWORD pidInst,PFNCALLBACK pfnCallback,DWORD afCmd,DWORD ulRes);
-# 183 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ddeml.h" 3
+# 183 "C:/tdm64/x86_64-w64-mingw32/include/ddeml.h" 3
   WINBOOL DdeUninitialize(DWORD idInst);
   HCONVLIST DdeConnectList(DWORD idInst,HSZ hszService,HSZ hszTopic,HCONVLIST hConvList,PCONVCONTEXT pCC);
   HCONV DdeQueryNextServer(HCONVLIST hConvList,HCONV hConvPrev);
@@ -55420,7 +55420,7 @@ __attribute__((dllimport)) WINBOOL SetCurrentConsoleFontEx(
   WINBOOL DdePostAdvise(DWORD idInst,HSZ hszTopic,HSZ hszItem);
   WINBOOL DdeEnableCallback(DWORD idInst,HCONV hConv,UINT wCmd);
   WINBOOL DdeImpersonateClient(HCONV hConv);
-# 207 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ddeml.h" 3
+# 207 "C:/tdm64/x86_64-w64-mingw32/include/ddeml.h" 3
   HDDEDATA DdeNameService(DWORD idInst,HSZ hsz1,HSZ hsz2,UINT afCmd);
   HDDEDATA DdeClientTransaction(LPBYTE pData,DWORD cbData,HCONV hConv,HSZ hszItem,UINT wFmt,UINT wType,DWORD dwTimeout,LPDWORD pdwResult);
   HDDEDATA DdeCreateDataHandle(DWORD idInst,LPBYTE pSrc,DWORD cb,DWORD cbOff,HSZ hszItem,UINT wFmt,UINT afCmd);
@@ -55433,7 +55433,7 @@ __attribute__((dllimport)) WINBOOL SetCurrentConsoleFontEx(
 
 
   UINT DdeGetLastError(DWORD idInst);
-# 244 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ddeml.h" 3
+# 244 "C:/tdm64/x86_64-w64-mingw32/include/ddeml.h" 3
   HSZ DdeCreateStringHandleA(DWORD idInst,LPCSTR psz,int iCodePage);
   HSZ DdeCreateStringHandleW(DWORD idInst,LPCWSTR psz,int iCodePage);
   DWORD DdeQueryStringA(DWORD idInst,HSZ hsz,LPSTR psz,DWORD cchMax,int iCodePage);
@@ -55540,18 +55540,18 @@ __attribute__((dllimport)) WINBOOL SetCurrentConsoleFontEx(
     HCONV hConvClient;
     HCONV hConvServer;
   } MONCONVSTRUCT,*PMONCONVSTRUCT;
-# 84 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/dlgs.h" 1 3
-# 194 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/dlgs.h" 3
+# 84 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/dlgs.h" 1 3
+# 194 "C:/tdm64/x86_64-w64-mingw32/include/dlgs.h" 3
 typedef struct tagCRGB {
   BYTE bRed;
   BYTE bGreen;
   BYTE bBlue;
   BYTE bExtra;
 } CRGB;
-# 85 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/lzexpand.h" 1 3
-# 27 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/lzexpand.h" 3
+# 85 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/lzexpand.h" 1 3
+# 27 "C:/tdm64/x86_64-w64-mingw32/include/lzexpand.h" 3
   INT LZStart(void);
   void LZDone(void);
   LONG CopyLZFile(INT,INT);
@@ -55564,10 +55564,10 @@ typedef struct tagCRGB {
   LONG LZSeek(INT,LONG,INT);
   INT LZRead(INT,LPSTR,INT);
   void LZClose(INT);
-# 86 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 1 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack1.h" 1 3
+# 86 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 1 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack1.h" 1 3
 
 
 
@@ -55575,8 +55575,8 @@ typedef struct tagCRGB {
 
 
 #pragma pack(push,1)
-# 11 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 2 3
-# 28 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 11 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 2 3
+# 28 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   typedef UINT MMVERSION;
   typedef UINT MMRESULT;
 
@@ -55608,7 +55608,7 @@ typedef struct tagCRGB {
       } midi;
     } u;
   } MMTIME,*PMMTIME, *NPMMTIME,*LPMMTIME;
-# 165 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 165 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   struct HDRVR__ { int unused; }; typedef struct HDRVR__ *HDRVR;
 
 
@@ -55619,7 +55619,7 @@ typedef struct tagCRGB {
     LPCWSTR lpszDCIAliasName;
     DWORD dnDevNode;
   } DRVCONFIGINFOEX,*PDRVCONFIGINFOEX, *NPDRVCONFIGINFOEX,*LPDRVCONFIGINFOEX;
-# 192 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 192 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   typedef struct tagDRVCONFIGINFO {
     DWORD dwDCISize;
     LPCWSTR lpszDCISectionName;
@@ -55638,7 +55638,7 @@ typedef struct tagCRGB {
   __attribute__((dllimport)) HMODULE DrvGetModuleHandle(HDRVR hDriver);
   __attribute__((dllimport)) HMODULE GetDriverModuleHandle(HDRVR hDriver);
   __attribute__((dllimport)) LRESULT DefDriverProc(DWORD_PTR dwDriverIdentifier,HDRVR hdrvr,UINT uMsg,LPARAM lParam1,LPARAM lParam2);
-# 226 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 226 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   typedef void ( DRVCALLBACK)(HDRVR hdrvr,UINT uMsg,DWORD_PTR dwUser,DWORD_PTR dw1,DWORD_PTR dw2);
 
   typedef DRVCALLBACK *LPDRVCALLBACK;
@@ -55652,10 +55652,10 @@ typedef struct tagCRGB {
 
   __attribute__((dllimport)) WINBOOL sndPlaySoundA(LPCSTR pszSound,UINT fuSound);
   __attribute__((dllimport)) WINBOOL sndPlaySoundW(LPCWSTR pszSound,UINT fuSound);
-# 269 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 269 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   __attribute__((dllimport)) WINBOOL PlaySoundA(LPCSTR pszSound,HMODULE hmod,DWORD fdwSound);
   __attribute__((dllimport)) WINBOOL PlaySoundW(LPCWSTR pszSound,HMODULE hmod,DWORD fdwSound);
-# 283 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 283 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   struct HWAVE__ { int unused; }; typedef struct HWAVE__ *HWAVE;
   struct HWAVEIN__ { int unused; }; typedef struct HWAVEIN__ *HWAVEIN;
   struct HWAVEOUT__ { int unused; }; typedef struct HWAVEOUT__ *HWAVEOUT;
@@ -55663,7 +55663,7 @@ typedef struct tagCRGB {
   typedef HWAVEOUT *LPHWAVEOUT;
   typedef DRVCALLBACK WAVECALLBACK;
   typedef WAVECALLBACK *LPWAVECALLBACK;
-# 306 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 306 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   typedef struct wavehdr_tag {
     LPSTR lpData;
     DWORD dwBufferLength;
@@ -55740,7 +55740,7 @@ typedef struct tagCRGB {
   typedef PWAVEOUTCAPS2A PWAVEOUTCAPS2;
   typedef NPWAVEOUTCAPS2A NPWAVEOUTCAPS2;
   typedef LPWAVEOUTCAPS2A LPWAVEOUTCAPS2;
-# 390 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 390 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   typedef struct tagWAVEINCAPSA {
     WORD wMid;
     WORD wPid;
@@ -55796,7 +55796,7 @@ typedef struct tagCRGB {
   typedef PWAVEINCAPS2A PWAVEINCAPS2;
   typedef NPWAVEINCAPS2A NPWAVEINCAPS2;
   typedef LPWAVEINCAPS2A LPWAVEINCAPS2;
-# 474 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 474 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   typedef struct waveformat_tag {
     WORD wFormatTag;
     WORD nChannels;
@@ -55879,7 +55879,7 @@ typedef struct tagCRGB {
   __attribute__((dllimport)) MMRESULT waveInGetPosition(HWAVEIN hwi,LPMMTIME pmmt,UINT cbmmt);
   __attribute__((dllimport)) MMRESULT waveInGetID(HWAVEIN hwi,LPUINT puDeviceID);
   __attribute__((dllimport)) MMRESULT waveInMessage(HWAVEIN hwi,UINT uMsg,DWORD_PTR dw1,DWORD_PTR dw2);
-# 570 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 570 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   struct HMIDI__ { int unused; }; typedef struct HMIDI__ *HMIDI;
   struct HMIDIIN__ { int unused; }; typedef struct HMIDIIN__ *HMIDIIN;
   struct HMIDIOUT__ { int unused; }; typedef struct HMIDIOUT__ *HMIDIOUT;
@@ -55895,7 +55895,7 @@ typedef struct tagCRGB {
   typedef WORD *LPPATCHARRAY;
   typedef WORD KEYARRAY[128];
   typedef WORD *LPKEYARRAY;
-# 609 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 609 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   typedef struct tagMIDIOUTCAPSA {
     WORD wMid;
     WORD wPid;
@@ -55959,7 +55959,7 @@ typedef struct tagCRGB {
   typedef PMIDIOUTCAPS2A PMIDIOUTCAPS2;
   typedef NPMIDIOUTCAPS2A NPMIDIOUTCAPS2;
   typedef LPMIDIOUTCAPS2A LPMIDIOUTCAPS2;
-# 686 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 686 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   typedef struct tagMIDIINCAPSA {
     WORD wMid;
     WORD wPid;
@@ -56032,7 +56032,7 @@ typedef struct tagCRGB {
     DWORD dwMid;
     DWORD dwOEMVersion;
   } MIDISTRMBUFFVER;
-# 787 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 787 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   typedef struct midiproptimediv_tag {
     DWORD cbStruct;
     DWORD dwTimeDiv;
@@ -56184,7 +56184,7 @@ typedef struct tagCRGB {
 
   struct HMIXER__ { int unused; }; typedef struct HMIXER__ *HMIXER;
   typedef HMIXER *LPHMIXER;
-# 960 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 960 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   __attribute__((dllimport)) UINT mixerGetNumDevs(void);
 
   typedef struct tagMIXERCAPSA {
@@ -56295,10 +56295,10 @@ typedef struct tagCRGB {
   typedef MIXERLINEA MIXERLINE;
   typedef PMIXERLINEA PMIXERLINE;
   typedef LPMIXERLINEA LPMIXERLINE;
-# 1107 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 1107 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   __attribute__((dllimport)) MMRESULT mixerGetLineInfoA(HMIXEROBJ hmxobj,LPMIXERLINEA pmxl,DWORD fdwInfo);
   __attribute__((dllimport)) MMRESULT mixerGetLineInfoW(HMIXEROBJ hmxobj,LPMIXERLINEW pmxl,DWORD fdwInfo);
-# 1120 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 1120 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   __attribute__((dllimport)) MMRESULT mixerGetID(HMIXEROBJ hmxobj,UINT *puMxId,DWORD fdwId);
 
   typedef struct tagMIXERCONTROLA {
@@ -56356,7 +56356,7 @@ typedef struct tagCRGB {
   typedef MIXERCONTROLA MIXERCONTROL;
   typedef PMIXERCONTROLA PMIXERCONTROL;
   typedef LPMIXERCONTROLA LPMIXERCONTROL;
-# 1245 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 1245 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   typedef struct tagMIXERLINECONTROLSA {
     DWORD cbStruct;
     DWORD dwLineID;
@@ -56387,7 +56387,7 @@ typedef struct tagCRGB {
 
   __attribute__((dllimport)) MMRESULT mixerGetLineControlsA(HMIXEROBJ hmxobj,LPMIXERLINECONTROLSA pmxlc,DWORD fdwControls);
   __attribute__((dllimport)) MMRESULT mixerGetLineControlsW(HMIXEROBJ hmxobj,LPMIXERLINECONTROLSW pmxlc,DWORD fdwControls);
-# 1284 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 1284 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   typedef struct tMIXERCONTROLDETAILS {
     DWORD cbStruct;
     DWORD dwControlID;
@@ -56429,12 +56429,12 @@ typedef struct tagCRGB {
 
   __attribute__((dllimport)) MMRESULT mixerGetControlDetailsA(HMIXEROBJ hmxobj,LPMIXERCONTROLDETAILS pmxcd,DWORD fdwDetails);
   __attribute__((dllimport)) MMRESULT mixerGetControlDetailsW(HMIXEROBJ hmxobj,LPMIXERCONTROLDETAILS pmxcd,DWORD fdwDetails);
-# 1333 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 1333 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   __attribute__((dllimport)) MMRESULT mixerSetControlDetails(HMIXEROBJ hmxobj,LPMIXERCONTROLDETAILS pmxcd,DWORD fdwDetails);
-# 1347 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 1347 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   typedef void ( TIMECALLBACK)(UINT uTimerID,UINT uMsg,DWORD_PTR dwUser,DWORD_PTR dw1,DWORD_PTR dw2);
   typedef TIMECALLBACK *LPTIMECALLBACK;
-# 1358 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 1358 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   typedef struct timecaps_tag {
     UINT wPeriodMin;
     UINT wPeriodMax;
@@ -56447,7 +56447,7 @@ typedef struct tagCRGB {
   __attribute__((dllimport)) MMRESULT timeGetDevCaps(LPTIMECAPS ptc,UINT cbtc);
   __attribute__((dllimport)) MMRESULT timeBeginPeriod(UINT uPeriod);
   __attribute__((dllimport)) MMRESULT timeEndPeriod(UINT uPeriod);
-# 1460 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 1460 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   typedef struct tagJOYCAPSA {
     WORD wMid;
     WORD wPid;
@@ -56607,7 +56607,7 @@ typedef struct tagCRGB {
   __attribute__((dllimport)) MMRESULT joyReleaseCapture(UINT uJoyID);
   __attribute__((dllimport)) MMRESULT joySetCapture(HWND hwnd,UINT uJoyID,UINT uPeriod,WINBOOL fChanged);
   __attribute__((dllimport)) MMRESULT joySetThreshold(UINT uJoyID,UINT uThreshold);
-# 1643 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 1643 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   typedef DWORD FOURCC;
   typedef char *HPSTR;
   struct HMMIO__ { int unused; }; typedef struct HMMIO__ *HMMIO;
@@ -56644,7 +56644,7 @@ typedef struct tagCRGB {
   } MMCKINFO,*PMMCKINFO, *NPMMCKINFO,*LPMMCKINFO;
 
   typedef const MMCKINFO *LPCMMCKINFO;
-# 1742 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 1742 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   __attribute__((dllimport)) FOURCC mmioStringToFOURCCA(LPCSTR sz,UINT uFlags);
   __attribute__((dllimport)) FOURCC mmioStringToFOURCCW(LPCWSTR sz,UINT uFlags);
 
@@ -56722,7 +56722,7 @@ typedef struct tagCRGB {
   __attribute__((dllimport)) WINBOOL mciSetYieldProc(MCIDEVICEID mciId,YIELDPROC fpYieldProc,DWORD dwYieldData);
   __attribute__((dllimport)) HTASK mciGetCreatorTask(MCIDEVICEID mciId);
   __attribute__((dllimport)) YIELDPROC mciGetYieldProc(MCIDEVICEID mciId,LPDWORD pdwYieldData);
-# 2072 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 2072 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   typedef struct tagMCI_GENERIC_PARMS {
     DWORD_PTR dwCallback;
   } MCI_GENERIC_PARMS,*PMCI_GENERIC_PARMS,*LPMCI_GENERIC_PARMS;
@@ -56850,7 +56850,7 @@ typedef struct tagCRGB {
     DWORD dwFrom;
     DWORD dwTo;
   } MCI_RECORD_PARMS,*LPMCI_RECORD_PARMS;
-# 2238 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 2238 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   typedef struct tagMCI_VD_PLAY_PARMS {
     DWORD_PTR dwCallback;
     DWORD dwFrom;
@@ -56876,7 +56876,7 @@ typedef struct tagCRGB {
   typedef MCI_VD_ESCAPE_PARMSA MCI_VD_ESCAPE_PARMS;
   typedef PMCI_VD_ESCAPE_PARMSA PMCI_VD_ESCAPE_PARMS;
   typedef LPMCI_VD_ESCAPE_PARMSA LPMCI_VD_ESCAPE_PARMS;
-# 2297 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 2297 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   typedef struct tagMCI_WAVE_OPEN_PARMSA {
     DWORD_PTR dwCallback;
     MCIDEVICEID wDeviceID;
@@ -56922,7 +56922,7 @@ typedef struct tagCRGB {
     WORD wBitsPerSample;
     WORD wReserved5;
   } MCI_WAVE_SET_PARMS,*PMCI_WAVE_SET_PARMS,*LPMCI_WAVE_SET_PARMS;
-# 2371 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 2371 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   typedef struct tagMCI_SEQ_SET_PARMS {
     DWORD_PTR dwCallback;
     DWORD dwTimeFormat;
@@ -56933,7 +56933,7 @@ typedef struct tagCRGB {
     DWORD dwMaster;
     DWORD dwOffset;
   } MCI_SEQ_SET_PARMS,*PMCI_SEQ_SET_PARMS,*LPMCI_SEQ_SET_PARMS;
-# 2431 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 2431 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   typedef struct tagMCI_ANIM_OPEN_PARMSA {
     DWORD_PTR dwCallback;
     MCIDEVICEID wDeviceID;
@@ -57006,7 +57006,7 @@ typedef struct tagCRGB {
     RECT rc;
     HDC hDC;
   } MCI_ANIM_UPDATE_PARMS,*PMCI_ANIM_UPDATE_PARMS,*LPMCI_ANIM_UPDATE_PARMS;
-# 2535 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 2535 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
   typedef struct tagMCI_OVLY_OPEN_PARMSA {
     DWORD_PTR dwCallback;
     MCIDEVICEID wDeviceID;
@@ -57090,8 +57090,8 @@ typedef struct tagCRGB {
   typedef MCI_OVLY_LOAD_PARMSA MCI_OVLY_LOAD_PARMS;
   typedef PMCI_OVLY_LOAD_PARMSA PMCI_OVLY_LOAD_PARMS;
   typedef LPMCI_OVLY_LOAD_PARMSA LPMCI_OVLY_LOAD_PARMS;
-# 2636 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 2636 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -57099,10 +57099,10 @@ typedef struct tagCRGB {
 
 
 #pragma pack(pop)
-# 2637 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h" 2 3
-# 87 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/nb30.h" 1 3
-# 16 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/nb30.h" 3
+# 2637 "C:/tdm64/x86_64-w64-mingw32/include/mmsystem.h" 2 3
+# 87 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/nb30.h" 1 3
+# 16 "C:/tdm64/x86_64-w64-mingw32/include/nb30.h" 3
   typedef struct _NCB {
     UCHAR ncb_command;
     UCHAR ncb_retcode;
@@ -57161,7 +57161,7 @@ typedef struct tagCRGB {
     UCHAR name_num;
     UCHAR name_flags;
   } NAME_BUFFER,*PNAME_BUFFER;
-# 86 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/nb30.h" 3
+# 86 "C:/tdm64/x86_64-w64-mingw32/include/nb30.h" 3
   typedef struct _SESSION_HEADER {
     UCHAR sess_name;
     UCHAR num_sess;
@@ -57177,7 +57177,7 @@ typedef struct tagCRGB {
     UCHAR rcvs_outstanding;
     UCHAR sends_outstanding;
   } SESSION_BUFFER,*PSESSION_BUFFER;
-# 109 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/nb30.h" 3
+# 109 "C:/tdm64/x86_64-w64-mingw32/include/nb30.h" 3
   typedef struct _LANA_ENUM {
     UCHAR length;
     UCHAR lana[254 +1];
@@ -57203,10 +57203,10 @@ typedef struct tagCRGB {
     USHORT action_code;
     USHORT reserved;
   } ACTION_HEADER,*PACTION_HEADER;
-# 209 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/nb30.h" 3
+# 209 "C:/tdm64/x86_64-w64-mingw32/include/nb30.h" 3
   UCHAR Netbios(PNCB pncb);
-# 88 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 88 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
@@ -57214,8 +57214,8 @@ typedef struct tagCRGB {
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
 
 
 
@@ -57223,19 +57223,19 @@ typedef struct tagCRGB {
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/windows.h" 1 3
-# 17 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 26 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/basetsd.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/windows.h" 1 3
+# 17 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 26 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/basetsd.h" 1 3
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 6 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/basetsd.h" 2 3
-# 27 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 39 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack8.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 6 "C:/tdm64/x86_64-w64-mingw32/include/basetsd.h" 2 3
+# 27 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 39 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack8.h" 1 3
 
 
 
@@ -57243,13 +57243,13 @@ typedef struct tagCRGB {
 
 
 #pragma pack(push,8)
-# 40 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 48 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 3
+# 40 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 48 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 3
   typedef void *I_RPC_HANDLE;
   typedef long RPC_STATUS;
-# 82 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcdce.h" 1 3
-# 33 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcdce.h" 3
+# 82 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcdce.h" 1 3
+# 33 "C:/tdm64/x86_64-w64-mingw32/include/rpcdce.h" 3
   typedef unsigned char *RPC_CSTR;
   typedef unsigned short *RPC_WSTR;
   typedef I_RPC_HANDLE RPC_BINDING_HANDLE;
@@ -57257,8 +57257,8 @@ typedef struct tagCRGB {
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/guiddef.h" 1 3
-# 41 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcdce.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/guiddef.h" 1 3
+# 41 "C:/tdm64/x86_64-w64-mingw32/include/rpcdce.h" 2 3
 
 
 
@@ -57293,7 +57293,7 @@ typedef struct tagCRGB {
     unsigned short VersMajor;
     unsigned short VersMinor;
   } RPC_IF_ID;
-# 124 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcdce.h" 3
+# 124 "C:/tdm64/x86_64-w64-mingw32/include/rpcdce.h" 3
   typedef struct _RPC_PROTSEQ_VECTORA {
     unsigned int Count;
     unsigned char *Protseq[1];
@@ -57332,7 +57332,7 @@ typedef struct tagCRGB {
     unsigned long Count;
     RPC_IF_ID *IfId[1];
   } RPC_IF_ID_VECTOR;
-# 181 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcdce.h" 3
+# 181 "C:/tdm64/x86_64-w64-mingw32/include/rpcdce.h" 3
   __attribute__((dllimport)) RPC_STATUS RpcBindingCopy(RPC_BINDING_HANDLE SourceBinding,RPC_BINDING_HANDLE *DestinationBinding);
   __attribute__((dllimport)) RPC_STATUS RpcBindingFree(RPC_BINDING_HANDLE *Binding);
   __attribute__((dllimport)) RPC_STATUS RpcBindingSetOption(RPC_BINDING_HANDLE hBinding,unsigned long option,ULONG_PTR optionValue);
@@ -57411,7 +57411,7 @@ typedef struct tagCRGB {
 
   typedef void *RPC_AUTH_IDENTITY_HANDLE;
   typedef void *RPC_AUTHZ_HANDLE;
-# 311 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcdce.h" 3
+# 311 "C:/tdm64/x86_64-w64-mingw32/include/rpcdce.h" 3
   typedef struct _RPC_SECURITY_QOS {
     unsigned long Version;
     unsigned long Capabilities;
@@ -57444,7 +57444,7 @@ typedef struct tagCRGB {
     unsigned long PasswordLength;
     unsigned long Flags;
   } SEC_WINNT_AUTH_IDENTITY_A,*PSEC_WINNT_AUTH_IDENTITY_A;
-# 366 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcdce.h" 3
+# 366 "C:/tdm64/x86_64-w64-mingw32/include/rpcdce.h" 3
   typedef struct _RPC_HTTP_TRANSPORT_CREDENTIALS_W {
     SEC_WINNT_AUTH_IDENTITY_W *TransportCredentials;
     unsigned long Flags;
@@ -57510,7 +57510,7 @@ typedef struct tagCRGB {
     } u;
     void *Sid;
   } RPC_SECURITY_QOS_V3_A,*PRPC_SECURITY_QOS_V3_A;
-# 443 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcdce.h" 3
+# 443 "C:/tdm64/x86_64-w64-mingw32/include/rpcdce.h" 3
   typedef enum _RPC_HTTP_REDIRECTOR_STAGE {
     RPCHTTP_RS_REDIRECT = 1,RPCHTTP_RS_ACCESS_1,RPCHTTP_RS_SESSION,RPCHTTP_RS_ACCESS_2,RPCHTTP_RS_INTERFACE
   } RPC_HTTP_REDIRECTOR_STAGE;
@@ -57543,14 +57543,14 @@ typedef struct tagCRGB {
 
   __attribute__((dllimport)) RPC_STATUS RpcServerRegisterAuthInfoA(RPC_CSTR ServerPrincName,unsigned long AuthnSvc,RPC_AUTH_KEY_RETRIEVAL_FN GetKeyFn,void *Arg);
   __attribute__((dllimport)) RPC_STATUS RpcServerRegisterAuthInfoW(RPC_WSTR ServerPrincName,unsigned long AuthnSvc,RPC_AUTH_KEY_RETRIEVAL_FN GetKeyFn,void *Arg);
-# 485 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcdce.h" 3
+# 485 "C:/tdm64/x86_64-w64-mingw32/include/rpcdce.h" 3
   typedef struct {
     unsigned char *UserName;
     unsigned char *ComputerName;
     unsigned short Privilege;
     unsigned long AuthFlags;
   } RPC_CLIENT_INFORMATION1,*PRPC_CLIENT_INFORMATION1;
-# 501 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcdce.h" 3
+# 501 "C:/tdm64/x86_64-w64-mingw32/include/rpcdce.h" 3
   __attribute__((dllimport)) RPC_STATUS RpcBindingServerFromClient(RPC_BINDING_HANDLE ClientBinding,RPC_BINDING_HANDLE *ServerBinding);
   __attribute__((dllimport)) __attribute__((noreturn)) void RpcRaiseException(RPC_STATUS exception);
   __attribute__((dllimport)) RPC_STATUS RpcTestCancel(void);
@@ -57577,7 +57577,7 @@ typedef struct tagCRGB {
   __attribute__((dllimport)) RPC_STATUS DceErrorInqTextW(RPC_STATUS RpcStatus,RPC_WSTR ErrorText);
 
   typedef I_RPC_HANDLE *RPC_EP_INQ_HANDLE;
-# 541 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcdce.h" 3
+# 541 "C:/tdm64/x86_64-w64-mingw32/include/rpcdce.h" 3
   __attribute__((dllimport)) RPC_STATUS RpcMgmtEpEltInqBegin(RPC_BINDING_HANDLE EpBinding,unsigned long InquiryType,RPC_IF_ID *IfId,unsigned long VersOption,UUID *ObjectUuid,RPC_EP_INQ_HANDLE *InquiryContext);
   __attribute__((dllimport)) RPC_STATUS RpcMgmtEpEltInqDone(RPC_EP_INQ_HANDLE *InquiryContext);
   __attribute__((dllimport)) RPC_STATUS RpcMgmtEpEltInqNextA(RPC_EP_INQ_HANDLE InquiryContext,RPC_IF_ID *IfId,RPC_BINDING_HANDLE *Binding,UUID *ObjectUuid,RPC_CSTR *Annotation);
@@ -57593,9 +57593,9 @@ typedef struct tagCRGB {
 
 
   __attribute__((dllimport)) RPC_STATUS RpcMgmtSetAuthorizationFn(RPC_MGMT_AUTHORIZATION_FN AuthorizationFn);
-# 623 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcdce.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcdcep.h" 1 3
-# 15 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcdcep.h" 3
+# 623 "C:/tdm64/x86_64-w64-mingw32/include/rpcdce.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcdcep.h" 1 3
+# 15 "C:/tdm64/x86_64-w64-mingw32/include/rpcdcep.h" 3
   typedef struct _RPC_VERSION {
     unsigned short MajorVersion;
     unsigned short MinorVersion;
@@ -57627,7 +57627,7 @@ typedef struct tagCRGB {
   };
 
   typedef void RPC_ADDRESS_CHANGE_FN(void *arg);
-# 77 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcdcep.h" 3
+# 77 "C:/tdm64/x86_64-w64-mingw32/include/rpcdcep.h" 3
   typedef void ( *RPC_DISPATCH_FUNCTION)(PRPC_MESSAGE Message);
 
   typedef struct {
@@ -57754,7 +57754,7 @@ typedef struct tagCRGB {
 
   typedef void (*RPCLT_PDU_FILTER_FUNC)(void *Buffer,unsigned int BufferLength,int fDatagram);
   typedef void (__attribute__((__cdecl__)) *RPC_SETFILTER_FUNC)(RPCLT_PDU_FILTER_FUNC pfnFilter);
-# 219 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcdcep.h" 3
+# 219 "C:/tdm64/x86_64-w64-mingw32/include/rpcdcep.h" 3
   __attribute__((dllimport)) RPC_STATUS I_RpcServerInqTransportType(unsigned int *Type);
   __attribute__((dllimport)) long I_RpcMapWin32Status(RPC_STATUS Status);
 
@@ -57802,13 +57802,13 @@ typedef struct tagCRGB {
   __attribute__((dllimport)) RPC_STATUS I_RpcProxyNewConnection(unsigned long ConnectionType,unsigned short *ServerAddress,unsigned short *ServerPort,unsigned short *MinConnTimeout,void *ConnectionParameter,RDR_CALLOUT_STATE *CallOutState,I_RpcProxyCallbackInterface *ProxyCallbackInterface);
   __attribute__((dllimport)) RPC_STATUS I_RpcReplyToClientWithStatus(void *ConnectionParameter,RPC_STATUS RpcStatus);
   __attribute__((dllimport)) void I_RpcRecordCalloutFailure(RPC_STATUS RpcStatus,RDR_CALLOUT_STATE *CallOutState,unsigned short *DllName);
-# 624 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcdce.h" 2 3
-# 83 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 624 "C:/tdm64/x86_64-w64-mingw32/include/rpcdce.h" 2 3
+# 83 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcnsi.h" 1 3
-# 11 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcnsi.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcnsi.h" 1 3
+# 11 "C:/tdm64/x86_64-w64-mingw32/include/rpcnsi.h" 3
 typedef void *RPC_NS_HANDLE;
-# 25 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcnsi.h" 3
+# 25 "C:/tdm64/x86_64-w64-mingw32/include/rpcnsi.h" 3
 __attribute__((dllimport)) RPC_STATUS RpcNsBindingExportA(unsigned long EntryNameSyntax,RPC_CSTR EntryName,RPC_IF_HANDLE IfSpec,RPC_BINDING_VECTOR *BindingVec,UUID_VECTOR *ObjectUuidVec);
 __attribute__((dllimport)) RPC_STATUS RpcNsBindingUnexportA(unsigned long EntryNameSyntax,RPC_CSTR EntryName,RPC_IF_HANDLE IfSpec,UUID_VECTOR *ObjectUuidVec);
 __attribute__((dllimport)) RPC_STATUS RpcNsBindingExportW(unsigned long EntryNameSyntax,RPC_WSTR EntryName,RPC_IF_HANDLE IfSpec,RPC_BINDING_VECTOR *BindingVec,UUID_VECTOR *ObjectUuidVec);
@@ -57865,14 +57865,14 @@ __attribute__((dllimport)) RPC_STATUS RpcNsBindingImportBeginW(unsigned long Ent
 __attribute__((dllimport)) RPC_STATUS RpcNsBindingImportNext(RPC_NS_HANDLE ImportContext,RPC_BINDING_HANDLE *Binding);
 __attribute__((dllimport)) RPC_STATUS RpcNsBindingImportDone(RPC_NS_HANDLE *ImportContext);
 __attribute__((dllimport)) RPC_STATUS RpcNsBindingSelect(RPC_BINDING_VECTOR *BindingVec,RPC_BINDING_HANDLE *Binding);
-# 85 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 85 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcnterr.h" 1 3
-# 87 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 104 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcasync.h" 1 3
-# 11 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcasync.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack8.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcnterr.h" 1 3
+# 87 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 104 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcasync.h" 1 3
+# 11 "C:/tdm64/x86_64-w64-mingw32/include/rpcasync.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack8.h" 1 3
 
 
 
@@ -57880,8 +57880,8 @@ __attribute__((dllimport)) RPC_STATUS RpcNsBindingSelect(RPC_BINDING_VECTOR *Bin
 
 
 #pragma pack(push,8)
-# 12 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcasync.h" 2 3
-# 20 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcasync.h" 3
+# 12 "C:/tdm64/x86_64-w64-mingw32/include/rpcasync.h" 2 3
+# 20 "C:/tdm64/x86_64-w64-mingw32/include/rpcasync.h" 3
   typedef enum _RPC_NOTIFICATION_TYPES {
     RpcNotificationTypeNone,RpcNotificationTypeEvent,RpcNotificationTypeApc,RpcNotificationTypeIoc,RpcNotificationTypeHwnd,
     RpcNotificationTypeCallback
@@ -57963,7 +57963,7 @@ __attribute__((dllimport)) RPC_STATUS RpcNsBindingSelect(RPC_BINDING_VECTOR *Bin
       BinaryParam BVal;
     } u;
   } RPC_EE_INFO_PARAM;
-# 109 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcasync.h" 3
+# 109 "C:/tdm64/x86_64-w64-mingw32/include/rpcasync.h" 3
   typedef struct tagRPC_EXTENDED_ERROR_INFO {
     ULONG Version;
     LPWSTR ComputerName;
@@ -58107,8 +58107,8 @@ RPC_STATUS RpcServerUnsubscribeForNotification(
   RPC_NOTIFICATIONS Notification,
   unsigned long *NotificationsQueued
 );
-# 331 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcasync.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 331 "C:/tdm64/x86_64-w64-mingw32/include/rpcasync.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -58116,12 +58116,12 @@ RPC_STATUS RpcServerUnsubscribeForNotification(
 
 
 #pragma pack(pop)
-# 332 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcasync.h" 2 3
-# 105 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 332 "C:/tdm64/x86_64-w64-mingw32/include/rpcasync.h" 2 3
+# 105 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -58129,12 +58129,12 @@ RPC_STATUS RpcServerUnsubscribeForNotification(
 
 
 #pragma pack(pop)
-# 109 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 89 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/shellapi.h" 1 3
-# 60 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/shellapi.h" 3
+# 109 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 89 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/shellapi.h" 1 3
+# 60 "C:/tdm64/x86_64-w64-mingw32/include/shellapi.h" 3
   struct HDROP__ { int unused; }; typedef struct HDROP__ *HDROP;
-# 70 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/shellapi.h" 3
+# 70 "C:/tdm64/x86_64-w64-mingw32/include/shellapi.h" 3
   __attribute__((dllimport)) UINT DragQueryFileA (HDROP hDrop, UINT iFile, LPSTR lpszFile, UINT cch);
   __attribute__((dllimport)) UINT DragQueryFileW (HDROP hDrop, UINT iFile, LPWSTR lpszFile, UINT cch);
   __attribute__((dllimport)) WINBOOL DragQueryPoint (HDROP hDrop, POINT *ppt);
@@ -58172,7 +58172,7 @@ RPC_STATUS RpcServerUnsubscribeForNotification(
 
   typedef DRAGINFOA DRAGINFO;
   typedef LPDRAGINFOA LPDRAGINFO;
-# 138 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/shellapi.h" 3
+# 138 "C:/tdm64/x86_64-w64-mingw32/include/shellapi.h" 3
   typedef struct _AppBarData {
     DWORD cbSize;
     HWND hWnd;
@@ -58187,7 +58187,7 @@ RPC_STATUS RpcServerUnsubscribeForNotification(
   __attribute__((dllimport)) DWORD DoEnvironmentSubstW (LPWSTR pszSrc, UINT cchSrc);
   __attribute__((dllimport)) UINT ExtractIconExA (LPCSTR lpszFile, int nIconIndex, HICON *phiconLarge, HICON *phiconSmall, UINT nIcons);
   __attribute__((dllimport)) UINT ExtractIconExW (LPCWSTR lpszFile, int nIconIndex, HICON *phiconLarge, HICON *phiconSmall, UINT nIcons);
-# 182 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/shellapi.h" 3
+# 182 "C:/tdm64/x86_64-w64-mingw32/include/shellapi.h" 3
   typedef WORD FILEOP_FLAGS;
 
 
@@ -58247,7 +58247,7 @@ RPC_STATUS RpcServerUnsubscribeForNotification(
 
   typedef SHNAMEMAPPINGA SHNAMEMAPPING;
   typedef LPSHNAMEMAPPINGA LPSHNAMEMAPPING;
-# 301 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/shellapi.h" 3
+# 301 "C:/tdm64/x86_64-w64-mingw32/include/shellapi.h" 3
   typedef struct _SHELLEXECUTEINFOA {
     DWORD cbSize;
     ULONG fMask;
@@ -58315,7 +58315,7 @@ RPC_STATUS RpcServerUnsubscribeForNotification(
   } SHCREATEPROCESSINFOW,*PSHCREATEPROCESSINFOW;
 
   __attribute__((dllimport)) WINBOOL SHCreateProcessAsUserW (PSHCREATEPROCESSINFOW pscpi);
-# 398 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/shellapi.h" 3
+# 398 "C:/tdm64/x86_64-w64-mingw32/include/shellapi.h" 3
   typedef struct _SHQUERYRBINFO {
     DWORD cbSize;
     __extension__ long long i64Size;
@@ -58333,7 +58333,7 @@ RPC_STATUS RpcServerUnsubscribeForNotification(
 
   __attribute__((dllimport)) HRESULT SHEmptyRecycleBinA (HWND hwnd, LPCSTR pszRootPath, DWORD dwFlags);
   __attribute__((dllimport)) HRESULT SHEmptyRecycleBinW (HWND hwnd, LPCWSTR pszRootPath, DWORD dwFlags);
-# 442 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/shellapi.h" 3
+# 442 "C:/tdm64/x86_64-w64-mingw32/include/shellapi.h" 3
   typedef struct _NOTIFYICONDATAA {
     DWORD cbSize;
     HWND hWnd;
@@ -58382,7 +58382,7 @@ RPC_STATUS RpcServerUnsubscribeForNotification(
 
   typedef NOTIFYICONDATAA NOTIFYICONDATA;
   typedef PNOTIFYICONDATAA PNOTIFYICONDATA;
-# 556 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/shellapi.h" 3
+# 556 "C:/tdm64/x86_64-w64-mingw32/include/shellapi.h" 3
   typedef struct _NOTIFYICONIDENTIFIER {
     DWORD cbSize;
     HWND hWnd;
@@ -58392,7 +58392,7 @@ RPC_STATUS RpcServerUnsubscribeForNotification(
 
   __attribute__((dllimport)) WINBOOL Shell_NotifyIconA (DWORD dwMessage, PNOTIFYICONDATAA lpData);
   __attribute__((dllimport)) WINBOOL Shell_NotifyIconW (DWORD dwMessage, PNOTIFYICONDATAW lpData);
-# 575 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/shellapi.h" 3
+# 575 "C:/tdm64/x86_64-w64-mingw32/include/shellapi.h" 3
   typedef struct _SHFILEINFOA {
     HICON hIcon;
     int iIcon;
@@ -58410,18 +58410,18 @@ RPC_STATUS RpcServerUnsubscribeForNotification(
   } SHFILEINFOW;
 
   typedef SHFILEINFOA SHFILEINFO;
-# 615 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/shellapi.h" 3
+# 615 "C:/tdm64/x86_64-w64-mingw32/include/shellapi.h" 3
   __attribute__((dllimport)) DWORD_PTR SHGetFileInfoA (LPCSTR pszPath, DWORD dwFileAttributes, SHFILEINFOA *psfi, UINT cbFileInfo, UINT uFlags);
   __attribute__((dllimport)) DWORD_PTR SHGetFileInfoW (LPCWSTR pszPath, DWORD dwFileAttributes, SHFILEINFOW *psfi, UINT cbFileInfo, UINT uFlags);
-# 744 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/shellapi.h" 3
+# 744 "C:/tdm64/x86_64-w64-mingw32/include/shellapi.h" 3
   __attribute__((dllimport)) WINBOOL SHGetDiskFreeSpaceExA (LPCSTR pszDirectoryName, ULARGE_INTEGER *pulFreeBytesAvailableToCaller, ULARGE_INTEGER *pulTotalNumberOfBytes, ULARGE_INTEGER *pulTotalNumberOfFreeBytes);
   __attribute__((dllimport)) WINBOOL SHGetDiskFreeSpaceExW (LPCWSTR pszDirectoryName, ULARGE_INTEGER *pulFreeBytesAvailableToCaller, ULARGE_INTEGER *pulTotalNumberOfBytes, ULARGE_INTEGER *pulTotalNumberOfFreeBytes);
   __attribute__((dllimport)) WINBOOL SHGetNewLinkInfoA (LPCSTR pszLinkTo, LPCSTR pszDir, LPSTR pszName, WINBOOL *pfMustCopy, UINT uFlags);
   __attribute__((dllimport)) WINBOOL SHGetNewLinkInfoW (LPCWSTR pszLinkTo, LPCWSTR pszDir, LPWSTR pszName, WINBOOL *pfMustCopy, UINT uFlags);
-# 772 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/shellapi.h" 3
+# 772 "C:/tdm64/x86_64-w64-mingw32/include/shellapi.h" 3
   __attribute__((dllimport)) WINBOOL SHInvokePrinterCommandA (HWND hwnd, UINT uAction, LPCSTR lpBuf1, LPCSTR lpBuf2, WINBOOL fModal);
   __attribute__((dllimport)) WINBOOL SHInvokePrinterCommandW (HWND hwnd, UINT uAction, LPCWSTR lpBuf1, LPCWSTR lpBuf2, WINBOOL fModal);
-# 799 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/shellapi.h" 3
+# 799 "C:/tdm64/x86_64-w64-mingw32/include/shellapi.h" 3
   __attribute__((dllimport)) HRESULT SHLoadNonloadedIconOverlayIdentifiers (void);
   __attribute__((dllimport)) HRESULT SHIsFileAvailableOffline (PCWSTR pwszPath, DWORD *pdwStatus);
 
@@ -58430,7 +58430,7 @@ RPC_STATUS RpcServerUnsubscribeForNotification(
 
 
   __attribute__((dllimport)) HRESULT SHSetLocalizedName (PCWSTR pszPath, PCWSTR pszResModule, int idsRes);
-# 819 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/shellapi.h" 3
+# 819 "C:/tdm64/x86_64-w64-mingw32/include/shellapi.h" 3
   extern __attribute__((dllimport)) int __attribute__((__cdecl__)) ShellMessageBoxA (HINSTANCE hAppInst, HWND hWnd, LPCSTR lpcText, LPCSTR lpcTitle, UINT fuStyle,...);
   extern __attribute__((dllimport)) int __attribute__((__cdecl__)) ShellMessageBoxW (HINSTANCE hAppInst, HWND hWnd, LPCWSTR lpcText, LPCWSTR lpcTitle, UINT fuStyle,...);
 
@@ -58460,7 +58460,7 @@ RPC_STATUS RpcServerUnsubscribeForNotification(
 
 
   __attribute__((dllimport)) HRESULT SHGetImageList (int iImageList, const IID *const riid, void **ppvObj);
-# 860 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/shellapi.h" 3
+# 860 "C:/tdm64/x86_64-w64-mingw32/include/shellapi.h" 3
   typedef HRESULT ( *PFNCANSHAREFOLDERW) (PCWSTR pszPath);
   typedef HRESULT ( *PFNSHOWSHAREFOLDERUIW) (HWND hwndParent, PCWSTR pszPath);
 
@@ -58469,10 +58469,10 @@ RPC_STATUS RpcServerUnsubscribeForNotification(
 
 
   __attribute__((dllimport)) LPWSTR * CommandLineToArgvW (LPCWSTR lpCmdLine, int *pNumArgs);
-# 90 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winperf.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winperf.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack8.h" 1 3
+# 90 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/winperf.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/winperf.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack8.h" 1 3
 
 
 
@@ -58480,7 +58480,7 @@ RPC_STATUS RpcServerUnsubscribeForNotification(
 
 
 #pragma pack(push,8)
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winperf.h" 2 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/winperf.h" 2 3
 
 
 
@@ -58526,7 +58526,7 @@ typedef struct _PERF_OBJECT_TYPE {
   LARGE_INTEGER PerfTime;
   LARGE_INTEGER PerfFreq;
 } PERF_OBJECT_TYPE,*PPERF_OBJECT_TYPE;
-# 139 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winperf.h" 3
+# 139 "C:/tdm64/x86_64-w64-mingw32/include/winperf.h" 3
 typedef struct _PERF_COUNTER_DEFINITION {
   DWORD ByteLength;
   DWORD CounterNameTitleIndex;
@@ -58572,8 +58572,8 @@ typedef DWORD ( PM_OPEN_PROC)(LPWSTR);
 typedef DWORD ( PM_COLLECT_PROC)(LPWSTR,LPVOID *,LPDWORD,LPDWORD);
 typedef DWORD ( PM_CLOSE_PROC)(void);
 typedef DWORD ( PM_QUERY_PROC)(LPDWORD,LPVOID *,LPDWORD,LPDWORD);
-# 192 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winperf.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 192 "C:/tdm64/x86_64-w64-mingw32/include/winperf.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -58581,15 +58581,15 @@ typedef DWORD ( PM_QUERY_PROC)(LPDWORD,LPVOID *,LPDWORD,LPDWORD);
 
 
 #pragma pack(pop)
-# 193 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winperf.h" 2 3
-# 91 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 193 "C:/tdm64/x86_64-w64-mingw32/include/winperf.h" 2 3
+# 91 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winsock.h" 1 3
-# 33 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winsock.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_bsd_types.h" 1 3
-# 11 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_bsd_types.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 12 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_bsd_types.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/winsock.h" 1 3
+# 33 "C:/tdm64/x86_64-w64-mingw32/include/winsock.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_bsd_types.h" 1 3
+# 11 "C:/tdm64/x86_64-w64-mingw32/include/_bsd_types.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 12 "C:/tdm64/x86_64-w64-mingw32/include/_bsd_types.h" 2 3
 
 typedef unsigned char u_char;
 typedef unsigned short u_short;
@@ -58604,11 +58604,11 @@ typedef unsigned long u_long;
 __extension__
 
 typedef unsigned long long u_int64;
-# 34 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winsock.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/inaddr.h" 1 3
-# 15 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/inaddr.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_bsd_types.h" 1 3
-# 16 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/inaddr.h" 2 3
+# 34 "C:/tdm64/x86_64-w64-mingw32/include/winsock.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/inaddr.h" 1 3
+# 15 "C:/tdm64/x86_64-w64-mingw32/include/inaddr.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_bsd_types.h" 1 3
+# 16 "C:/tdm64/x86_64-w64-mingw32/include/inaddr.h" 2 3
 
 typedef struct in_addr {
   union {
@@ -58617,13 +58617,13 @@ typedef struct in_addr {
     u_long S_addr;
   } S_un;
 } IN_ADDR, *PIN_ADDR, *LPIN_ADDR;
-# 35 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winsock.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/_socket_types.h" 1 3
-# 11 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/_socket_types.h" 3
+# 35 "C:/tdm64/x86_64-w64-mingw32/include/winsock.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/_socket_types.h" 1 3
+# 11 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/_socket_types.h" 3
 typedef UINT_PTR SOCKET;
-# 36 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winsock.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/_fd_types.h" 1 3
-# 21 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/_fd_types.h" 3
+# 36 "C:/tdm64/x86_64-w64-mingw32/include/winsock.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/_fd_types.h" 1 3
+# 21 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/_fd_types.h" 3
 typedef struct fd_set
 {
  u_int fd_count;
@@ -58635,16 +58635,16 @@ typedef struct fd_set
 
 
 int __WSAFDIsSet(SOCKET,fd_set *);
-# 104 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/_fd_types.h" 3
+# 104 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/_fd_types.h" 3
 typedef struct fd_set FD_SET;
 typedef struct fd_set *PFD_SET;
 typedef struct fd_set *LPFD_SET;
-# 37 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winsock.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h" 1 3
-# 16 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_bsd_types.h" 1 3
-# 17 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h" 2 3
-# 25 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h" 3
+# 37 "C:/tdm64/x86_64-w64-mingw32/include/winsock.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h" 1 3
+# 16 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_bsd_types.h" 1 3
+# 17 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h" 2 3
+# 25 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h" 3
 struct hostent {
  char *h_name;
  char **h_aliases;
@@ -58725,20 +58725,20 @@ typedef struct sockaddr_in *LPSOCKADDR_IN;
 typedef struct linger LINGER;
 typedef struct linger *PLINGER;
 typedef struct linger *LPLINGER;
-# 115 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h" 3
+# 115 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h" 3
 typedef struct timeval TIMEVAL;
 typedef struct timeval *PTIMEVAL;
 typedef struct timeval *LPTIMEVAL;
-# 38 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winsock.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/_ip_mreq1.h" 1 3
-# 12 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/_ip_mreq1.h" 3
+# 38 "C:/tdm64/x86_64-w64-mingw32/include/winsock.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/_ip_mreq1.h" 1 3
+# 12 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/_ip_mreq1.h" 3
 struct ip_mreq {
  struct in_addr imr_multiaddr;
  struct in_addr imr_interface;
 };
-# 39 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winsock.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/_wsadata.h" 1 3
-# 13 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/_wsadata.h" 3
+# 39 "C:/tdm64/x86_64-w64-mingw32/include/winsock.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/_wsadata.h" 1 3
+# 13 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/_wsadata.h" 3
 typedef struct WSAData {
  WORD wVersion;
  WORD wHighVersion;
@@ -58756,19 +58756,19 @@ typedef struct WSAData {
 
 
 } WSADATA, *LPWSADATA;
-# 40 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winsock.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/_xmitfile.h" 1 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/_xmitfile.h" 3
+# 40 "C:/tdm64/x86_64-w64-mingw32/include/winsock.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/_xmitfile.h" 1 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/_xmitfile.h" 3
 typedef struct _TRANSMIT_FILE_BUFFERS {
  LPVOID Head;
  DWORD HeadLength;
  LPVOID Tail;
  DWORD TailLength;
 } TRANSMIT_FILE_BUFFERS, *PTRANSMIT_FILE_BUFFERS, *LPTRANSMIT_FILE_BUFFERS;
-# 41 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winsock.h" 2 3
-# 274 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winsock.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/_wsa_errnos.h" 1 3
-# 275 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winsock.h" 2 3
+# 41 "C:/tdm64/x86_64-w64-mingw32/include/winsock.h" 2 3
+# 274 "C:/tdm64/x86_64-w64-mingw32/include/winsock.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/psdk_inc/_wsa_errnos.h" 1 3
+# 275 "C:/tdm64/x86_64-w64-mingw32/include/winsock.h" 2 3
 
 
   __attribute__((dllimport)) SOCKET accept(SOCKET s,struct sockaddr *addr,int *addrlen);
@@ -58837,23 +58837,23 @@ typedef struct _TRANSMIT_FILE_BUFFERS {
   WINBOOL TransmitFile(SOCKET hSocket,HANDLE hFile,DWORD nNumberOfBytesToWrite,DWORD nNumberOfBytesPerSend,LPOVERLAPPED lpOverlapped,LPTRANSMIT_FILE_BUFFERS lpTransmitBuffers,DWORD dwReserved);
   WINBOOL AcceptEx(SOCKET sListenSocket,SOCKET sAcceptSocket,PVOID lpOutputBuffer,DWORD dwReceiveDataLength,DWORD dwLocalAddressLength,DWORD dwRemoteAddressLength,LPDWORD lpdwBytesReceived,LPOVERLAPPED lpOverlapped);
   void GetAcceptExSockaddrs(PVOID lpOutputBuffer,DWORD dwReceiveDataLength,DWORD dwLocalAddressLength,DWORD dwRemoteAddressLength,struct sockaddr **LocalSockaddr,LPINT LocalSockaddrLength,struct sockaddr **RemoteSockaddr,LPINT RemoteSockaddrLength);
-# 93 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 93 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 2 3
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/guiddef.h" 1 3
-# 12 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 2 3
-# 199 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/guiddef.h" 1 3
+# 12 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 2 3
+# 199 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef unsigned int ALG_ID;
-# 283 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 283 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef ULONG_PTR HCRYPTHASH;
   typedef ULONG_PTR HCRYPTKEY;
   typedef ULONG_PTR HCRYPTPROV;
-# 627 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 627 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CMS_KEY_INFO {
     DWORD dwVersion;
     ALG_ID Algid;
@@ -58971,7 +58971,7 @@ typedef struct _TRANSMIT_FILE_BUFFERS {
     unsigned char IV[8];
     unsigned char Feedback[8];
   } CRYPT_3DES_KEY_STATE,*PCRYPT_3DES_KEY_STATE;
-# 769 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 769 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CRYPTOAPI_BLOB {
     DWORD cbData;
     BYTE *pbData;
@@ -58996,7 +58996,7 @@ typedef struct _TRANSMIT_FILE_BUFFERS {
     CRYPT_DATA_BLOB PubInfo;
     void *pReserved;
   } CMS_DH_KEY_INFO,*PCMS_DH_KEY_INFO;
-# 802 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 802 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   __attribute__((dllimport)) WINBOOL CryptGenKey (HCRYPTPROV hProv, ALG_ID Algid, DWORD dwFlags, HCRYPTKEY *phKey);
   __attribute__((dllimport)) WINBOOL CryptDeriveKey (HCRYPTPROV hProv, ALG_ID Algid, HCRYPTHASH hBaseData, DWORD dwFlags, HCRYPTKEY *phKey);
   __attribute__((dllimport)) WINBOOL CryptDestroyKey (HCRYPTKEY hKey);
@@ -59041,10 +59041,10 @@ typedef struct _TRANSMIT_FILE_BUFFERS {
   typedef ULONG_PTR HCRYPTPROV_OR_NCRYPT_KEY_HANDLE;
   typedef ULONG_PTR HCRYPTPROV_LEGACY;
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/bcrypt.h" 1 3
-# 27 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/bcrypt.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/bcrypt.h" 1 3
+# 27 "C:/tdm64/x86_64-w64-mingw32/include/bcrypt.h" 3
   typedef LONG NTSTATUS,*PNTSTATUS;
-# 142 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/bcrypt.h" 3
+# 142 "C:/tdm64/x86_64-w64-mingw32/include/bcrypt.h" 3
   typedef struct __BCRYPT_KEY_LENGTHS_STRUCT {
     ULONG dwMinLength;
     ULONG dwMaxLength;
@@ -59107,7 +59107,7 @@ typedef struct _TRANSMIT_FILE_BUFFERS {
     ULONG cBuffers;
     PBCryptBuffer pBuffers;
   } BCryptBufferDesc,*PBCryptBufferDesc;
-# 374 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/bcrypt.h" 3
+# 374 "C:/tdm64/x86_64-w64-mingw32/include/bcrypt.h" 3
 typedef PVOID BCRYPT_HANDLE;
   typedef PVOID BCRYPT_ALG_HANDLE;
   typedef PVOID BCRYPT_KEY_HANDLE;
@@ -59340,18 +59340,18 @@ typedef PVOID BCRYPT_HANDLE;
   NTSTATUS BCryptSetContextFunctionProperty (ULONG dwTable, LPCWSTR pszContext, ULONG dwInterface, LPCWSTR pszFunction, LPCWSTR pszProperty, ULONG cbValue, PUCHAR pbValue);
   NTSTATUS BCryptQueryContextFunctionProperty (ULONG dwTable, LPCWSTR pszContext, ULONG dwInterface, LPCWSTR pszFunction, LPCWSTR pszProperty, ULONG *pcbValue, PUCHAR *ppbValue);
   NTSTATUS BCryptRegisterConfigChangeNotify (HANDLE *phEvent);
-# 847 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 2 3
+# 847 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 2 3
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ncrypt.h" 1 3
-# 23 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ncrypt.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ncrypt.h" 1 3
+# 23 "C:/tdm64/x86_64-w64-mingw32/include/ncrypt.h" 3
   typedef LONG SECURITY_STATUS;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/bcrypt.h" 1 3
-# 28 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ncrypt.h" 2 3
-# 138 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ncrypt.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/bcrypt.h" 1 3
+# 28 "C:/tdm64/x86_64-w64-mingw32/include/ncrypt.h" 2 3
+# 138 "C:/tdm64/x86_64-w64-mingw32/include/ncrypt.h" 3
   typedef LPVOID ( *PFN_NCRYPT_ALLOC) (SIZE_T cbSize);
   typedef void ( *PFN_NCRYPT_FREE) (LPVOID pv);
 
@@ -59371,7 +59371,7 @@ typedef PVOID BCRYPT_HANDLE;
   typedef ULONG_PTR NCRYPT_KEY_HANDLE;
   typedef ULONG_PTR NCRYPT_HASH_HANDLE;
   typedef ULONG_PTR NCRYPT_SECRET_HANDLE;
-# 202 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ncrypt.h" 3
+# 202 "C:/tdm64/x86_64-w64-mingw32/include/ncrypt.h" 3
   typedef struct _NCryptAlgorithmName {
     LPWSTR pszName;
     DWORD dwClass;
@@ -59399,7 +59399,7 @@ typedef PVOID BCRYPT_HANDLE;
   SECURITY_STATUS NCryptFreeBuffer (PVOID pvInput);
   SECURITY_STATUS NCryptOpenKey (NCRYPT_PROV_HANDLE hProvider, NCRYPT_KEY_HANDLE *phKey, LPCWSTR pszKeyName, DWORD dwLegacyKeySpec, DWORD dwFlags);
   SECURITY_STATUS NCryptCreatePersistedKey (NCRYPT_PROV_HANDLE hProvider, NCRYPT_KEY_HANDLE *phKey, LPCWSTR pszAlgId, LPCWSTR pszKeyName, DWORD dwLegacyKeySpec, DWORD dwFlags);
-# 335 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ncrypt.h" 3
+# 335 "C:/tdm64/x86_64-w64-mingw32/include/ncrypt.h" 3
 typedef struct __NCRYPT_UI_POLICY {
     DWORD dwVersion;
     DWORD dwFlags;
@@ -59420,7 +59420,7 @@ typedef struct __NCRYPT_UI_POLICY {
   SECURITY_STATUS NCryptFinalizeKey (NCRYPT_KEY_HANDLE hKey, DWORD dwFlags);
   SECURITY_STATUS NCryptEncrypt (NCRYPT_KEY_HANDLE hKey, PBYTE pbInput, DWORD cbInput, void *pPaddingInfo, PBYTE pbOutput, DWORD cbOutput, DWORD *pcbResult, DWORD dwFlags);
   SECURITY_STATUS NCryptDecrypt (NCRYPT_KEY_HANDLE hKey, PBYTE pbInput, DWORD cbInput, void *pPaddingInfo, PBYTE pbOutput, DWORD cbOutput, DWORD *pcbResult, DWORD dwFlags);
-# 385 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ncrypt.h" 3
+# 385 "C:/tdm64/x86_64-w64-mingw32/include/ncrypt.h" 3
   SECURITY_STATUS NCryptImportKey (NCRYPT_PROV_HANDLE hProvider, NCRYPT_KEY_HANDLE hImportKey, LPCWSTR pszBlobType, NCryptBufferDesc *pParameterList, NCRYPT_KEY_HANDLE *phKey, PBYTE pbData, DWORD cbData, DWORD dwFlags);
   SECURITY_STATUS NCryptExportKey (NCRYPT_KEY_HANDLE hKey, NCRYPT_KEY_HANDLE hExportKey, LPCWSTR pszBlobType, NCryptBufferDesc *pParameterList, PBYTE pbOutput, DWORD cbOutput, DWORD *pcbResult, DWORD dwFlags);
   SECURITY_STATUS NCryptSignHash (NCRYPT_KEY_HANDLE hKey, void *pPaddingInfo, PBYTE pbHashValue, DWORD cbHashValue, PBYTE pbSignature, DWORD cbSignature, DWORD *pcbResult, DWORD dwFlags);
@@ -59432,7 +59432,7 @@ typedef struct __NCRYPT_UI_POLICY {
   SECURITY_STATUS NCryptNotifyChangeKey (NCRYPT_PROV_HANDLE hProvider, HANDLE *phEvent, DWORD dwFlags);
   SECURITY_STATUS NCryptSecretAgreement (NCRYPT_KEY_HANDLE hPrivKey, NCRYPT_KEY_HANDLE hPubKey, NCRYPT_SECRET_HANDLE *phAgreedSecret, DWORD dwFlags);
   SECURITY_STATUS NCryptDeriveKey (NCRYPT_SECRET_HANDLE hSharedSecret, LPCWSTR pwszKDF, NCryptBufferDesc *pParameterList, PBYTE pbDerivedKey, DWORD cbDerivedKey, DWORD *pcbResult, ULONG dwFlags);
-# 850 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 2 3
+# 850 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 2 3
 
   typedef struct _CRYPT_BIT_BLOB {
     DWORD cbData;
@@ -59444,7 +59444,7 @@ typedef struct __NCRYPT_UI_POLICY {
     LPSTR pszObjId;
     CRYPT_OBJID_BLOB Parameters;
   } CRYPT_ALGORITHM_IDENTIFIER,*PCRYPT_ALGORITHM_IDENTIFIER;
-# 1086 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 1086 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CRYPT_OBJID_TABLE {
     DWORD dwAlgId;
     LPCSTR pszObjId;
@@ -59487,7 +59487,7 @@ typedef struct __NCRYPT_UI_POLICY {
     DWORD dwValueType;
     CERT_RDN_VALUE_BLOB Value;
   } CERT_RDN_ATTR,*PCERT_RDN_ATTR;
-# 1217 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 1217 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CERT_RDN {
     DWORD cRDNAttr;
     PCERT_RDN_ATTR rgRDNAttr;
@@ -59572,7 +59572,7 @@ typedef struct __NCRYPT_UI_POLICY {
     DWORD cExtension;
     PCERT_EXTENSION rgExtension;
   } CERT_INFO,*PCERT_INFO;
-# 1319 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 1319 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CRL_ENTRY {
     CRYPT_INTEGER_BLOB SerialNumber;
     FILETIME RevocationDate;
@@ -59681,9 +59681,9 @@ typedef struct __NCRYPT_UI_POLICY {
     LPWSTR pwszProviderName;
     CRYPT_BIT_BLOB Signature;
   } CRYPT_CSP_PROVIDER,*PCRYPT_CSP_PROVIDER;
-# 1440 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 1440 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   __attribute__((dllimport)) WINBOOL CryptFormatObject (DWORD dwCertEncodingType, DWORD dwFormatType, DWORD dwFormatStrType, void *pFormatStruct, LPCSTR lpszStructType, const BYTE *pbEncoded, DWORD cbEncoded, void *pbFormat, DWORD *pcbFormat);
-# 1456 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 1456 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef LPVOID ( *PFN_CRYPT_ALLOC)(size_t cbSize);
   typedef void ( *PFN_CRYPT_FREE)(LPVOID pv);
 
@@ -59695,7 +59695,7 @@ typedef struct __NCRYPT_UI_POLICY {
 
   __attribute__((dllimport)) WINBOOL CryptEncodeObjectEx (DWORD dwCertEncodingType, LPCSTR lpszStructType, const void *pvStructInfo, DWORD dwFlags, PCRYPT_ENCODE_PARA pEncodePara, void *pvEncoded, DWORD *pcbEncoded);
   __attribute__((dllimport)) WINBOOL CryptEncodeObject (DWORD dwCertEncodingType, LPCSTR lpszStructType, const void *pvStructInfo, BYTE *pbEncoded, DWORD *pcbEncoded);
-# 1479 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 1479 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CRYPT_DECODE_PARA {
     DWORD cbSize;
     PFN_CRYPT_ALLOC pfnAlloc;
@@ -59704,12 +59704,12 @@ typedef struct __NCRYPT_UI_POLICY {
 
   __attribute__((dllimport)) WINBOOL CryptDecodeObjectEx (DWORD dwCertEncodingType, LPCSTR lpszStructType, const BYTE *pbEncoded, DWORD cbEncoded, DWORD dwFlags, PCRYPT_DECODE_PARA pDecodePara, void *pvStructInfo, DWORD *pcbStructInfo);
   __attribute__((dllimport)) WINBOOL CryptDecodeObject (DWORD dwCertEncodingType, LPCSTR lpszStructType, const BYTE *pbEncoded, DWORD cbEncoded, DWORD dwFlags, void *pvStructInfo, DWORD *pcbStructInfo);
-# 1876 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 1876 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CERT_EXTENSIONS {
     DWORD cExtension;
     PCERT_EXTENSION rgExtension;
   } CERT_EXTENSIONS,*PCERT_EXTENSIONS;
-# 1892 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 1892 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CERT_AUTHORITY_KEY_ID_INFO {
     CRYPT_DATA_BLOB KeyId;
     CERT_NAME_BLOB CertIssuer;
@@ -59726,7 +59726,7 @@ typedef struct __NCRYPT_UI_POLICY {
     CRYPT_BIT_BLOB IntendedKeyUsage;
     PCERT_PRIVATE_KEY_VALIDITY pPrivateKeyUsagePeriod;
   } CERT_KEY_ATTRIBUTES_INFO,*PCERT_KEY_ATTRIBUTES_INFO;
-# 1921 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 1921 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CERT_POLICY_ID {
     DWORD cCertPolicyElementId;
     LPSTR *rgpszCertPolicyElementId;
@@ -59766,12 +59766,12 @@ typedef struct __NCRYPT_UI_POLICY {
       LPSTR pszRegisteredID;
     };
   } CERT_ALT_NAME_ENTRY,*PCERT_ALT_NAME_ENTRY;
-# 1971 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 1971 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CERT_ALT_NAME_INFO {
     DWORD cAltEntry;
     PCERT_ALT_NAME_ENTRY rgAltEntry;
   } CERT_ALT_NAME_INFO,*PCERT_ALT_NAME_INFO;
-# 1983 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 1983 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CERT_BASIC_CONSTRAINTS_INFO {
     CRYPT_BIT_BLOB SubjectType;
     WINBOOL fPathLenConstraint;
@@ -59880,7 +59880,7 @@ typedef struct __NCRYPT_UI_POLICY {
   } CERT_AUTHORITY_INFO_ACCESS,*PCERT_AUTHORITY_INFO_ACCESS;
 
   typedef CERT_AUTHORITY_INFO_ACCESS CERT_SUBJECT_INFO_ACCESS,*PCERT_SUBJECT_INFO_ACCESS;
-# 2109 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 2109 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CRL_DIST_POINT_NAME {
     DWORD dwDistPointNameChoice;
     __extension__ union {
@@ -59897,12 +59897,12 @@ typedef struct __NCRYPT_UI_POLICY {
     CRYPT_BIT_BLOB ReasonFlags;
     CERT_ALT_NAME_INFO CRLIssuer;
   } CRL_DIST_POINT,*PCRL_DIST_POINT;
-# 2136 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 2136 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CRL_DIST_POINTS_INFO {
     DWORD cDistPoint;
     PCRL_DIST_POINT rgDistPoint;
   } CRL_DIST_POINTS_INFO,*PCRL_DIST_POINTS_INFO;
-# 2148 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 2148 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CROSS_CERT_DIST_POINTS_INFO {
     DWORD dwSyncDeltaTime;
     DWORD cDistPoint;
@@ -59939,7 +59939,7 @@ typedef struct __NCRYPT_UI_POLICY {
     DWORD cExcludedSubtree;
     PCERT_GENERAL_SUBTREE rgExcludedSubtree;
   } CERT_NAME_CONSTRAINTS_INFO,*PCERT_NAME_CONSTRAINTS_INFO;
-# 2195 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 2195 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CERT_DSS_PARAMETERS {
     CRYPT_UINT_BLOB p;
     CRYPT_UINT_BLOB q;
@@ -60052,7 +60052,7 @@ typedef struct __NCRYPT_UI_POLICY {
     CRYPT_MASK_GEN_ALGORITHM MaskGenAlgorithm;
     CRYPT_PSOURCE_ALGORITHM PSourceAlgorithm;
   } CRYPT_RSAES_OAEP_PARAMETERS,*PCRYPT_RSAES_OAEP_PARAMETERS;
-# 2374 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 2374 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CMC_TAGGED_ATTRIBUTE {
     DWORD dwBodyPartID;
     CRYPT_ATTRIBUTE Attribute;
@@ -60119,7 +60119,7 @@ typedef struct __NCRYPT_UI_POLICY {
       PCMC_PEND_INFO pPendInfo;
     };
   } CMC_STATUS_INFO,*PCMC_STATUS_INFO;
-# 2465 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 2465 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CMC_ADD_EXTENSIONS_INFO {
     DWORD dwCmcDataReference;
     DWORD cCertReference;
@@ -60172,7 +60172,7 @@ typedef struct __NCRYPT_UI_POLICY {
     };
     LPWSTR pwszLanguage;
   } CERT_LOGOTYPE_IMAGE_INFO,*PCERT_LOGOTYPE_IMAGE_INFO;
-# 2525 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 2525 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CERT_LOGOTYPE_IMAGE {
     CERT_LOGOTYPE_DETAILS LogotypeDetails;
     PCERT_LOGOTYPE_IMAGE_INFO pLogotypeImageInfo;
@@ -60287,7 +60287,7 @@ typedef struct __NCRYPT_UI_POLICY {
     LPSTR pszObjId;
     CRYPT_OBJID_BLOB Value;
   } OCSP_RESPONSE_INFO,*POCSP_RESPONSE_INFO;
-# 2649 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 2649 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _OCSP_BASIC_SIGNED_RESPONSE_INFO {
     CRYPT_DER_BLOB ToBeSigned;
     OCSP_SIGNATURE_INFO SignatureInfo;
@@ -60346,7 +60346,7 @@ typedef struct __NCRYPT_UI_POLICY {
 
   typedef void *HCRYPTOIDFUNCSET;
   typedef void *HCRYPTOIDFUNCADDR;
-# 2729 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 2729 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CRYPT_OID_FUNC_ENTRY {
     LPCSTR pszOID;
     void *pvFuncAddr;
@@ -60374,7 +60374,7 @@ typedef struct __NCRYPT_UI_POLICY {
   typedef WINBOOL ( *PFN_CRYPT_ENUM_OID_FUNC) (DWORD dwEncodingType, LPCSTR pszFuncName, LPCSTR pszOID, DWORD cValue, const DWORD rgdwValueType[], LPCWSTR const rgpwszValueName[], const BYTE *const rgpbValueData[], const DWORD rgcbValueData[], void *pvArg);
 
   __attribute__((dllimport)) WINBOOL CryptEnumOIDFunction (DWORD dwEncodingType, LPCSTR pszFuncName, LPCSTR pszOID, DWORD dwFlags, void *pvArg, PFN_CRYPT_ENUM_OID_FUNC pfnEnumOIDFunc);
-# 2770 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 2770 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CRYPT_OID_INFO {
     DWORD cbSize;
     LPCSTR pszOID;
@@ -60393,9 +60393,9 @@ typedef struct __NCRYPT_UI_POLICY {
   } CRYPT_OID_INFO,*PCRYPT_OID_INFO;
 
   typedef const CRYPT_OID_INFO CCRYPT_OID_INFO,*PCCRYPT_OID_INFO;
-# 2813 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 2813 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   __attribute__((dllimport)) PCCRYPT_OID_INFO CryptFindOIDInfo (DWORD dwKeyType, void *pvKey, DWORD dwGroupId);
-# 2837 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 2837 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef WINBOOL ( *PFN_CRYPT_ENUM_OID_INFO) (PCCRYPT_OID_INFO pInfo, void *pvArg);
 
   __attribute__((dllimport)) WINBOOL CryptRegisterOIDInfo (PCCRYPT_OID_INFO pInfo, DWORD dwFlags);
@@ -60425,9 +60425,9 @@ typedef struct __NCRYPT_UI_POLICY {
   } CERT_STRONG_SIGN_PARA,*PCERT_STRONG_SIGN_PARA;
 
   typedef const CERT_STRONG_SIGN_PARA *PCCERT_STRONG_SIGN_PARA;
-# 2888 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 2888 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef void *HCRYPTMSG;
-# 2915 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 2915 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CERT_ISSUER_SERIAL_NUMBER {
     CERT_NAME_BLOB Issuer;
     CRYPT_INTEGER_BLOB SerialNumber;
@@ -60490,7 +60490,7 @@ typedef struct __NCRYPT_UI_POLICY {
     void *pvEncryptionAuxInfo;
     DWORD cRecipients;
     PCERT_INFO *rgpRecipients;
-# 2988 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 2988 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   } CMSG_ENVELOPED_ENCODE_INFO,*PCMSG_ENVELOPED_ENCODE_INFO;
 
   typedef struct _CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO {
@@ -60545,7 +60545,7 @@ typedef struct __NCRYPT_UI_POLICY {
     FILETIME Date;
     PCRYPT_ATTRIBUTE_TYPE_VALUE pOtherAttr;
   } CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO,*PCMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO;
-# 3052 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 3052 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   struct _CMSG_RECIPIENT_ENCODE_INFO {
     DWORD dwRecipientChoice;
     __extension__ union {
@@ -60598,7 +60598,7 @@ typedef struct __NCRYPT_UI_POLICY {
     PFN_CMSG_STREAM_OUTPUT pfnStreamOutput;
     void *pvArg;
   } CMSG_STREAM_INFO,*PCMSG_STREAM_INFO;
-# 3115 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 3115 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   __attribute__((dllimport)) HCRYPTMSG CryptMsgOpenToEncode (DWORD dwMsgEncodingType, DWORD dwFlags, DWORD dwMsgType, void const *pvMsgEncodeInfo, LPSTR pszInnerContentObjID, PCMSG_STREAM_INFO pStreamInfo);
   __attribute__((dllimport)) DWORD CryptMsgCalculateEncodedLength (DWORD dwMsgEncodingType, DWORD dwFlags, DWORD dwMsgType, void const *pvMsgEncodeInfo, LPSTR pszInnerContentObjID, DWORD cbData);
   __attribute__((dllimport)) HCRYPTMSG CryptMsgOpenToDecode (DWORD dwMsgEncodingType, DWORD dwFlags, DWORD dwMsgType, HCRYPTPROV_LEGACY hCryptProv, PCERT_INFO pRecipientInfo, PCMSG_STREAM_INFO pStreamInfo);
@@ -60606,7 +60606,7 @@ typedef struct __NCRYPT_UI_POLICY {
   __attribute__((dllimport)) WINBOOL CryptMsgClose (HCRYPTMSG hCryptMsg);
   __attribute__((dllimport)) WINBOOL CryptMsgUpdate (HCRYPTMSG hCryptMsg, const BYTE *pbData, DWORD cbData, WINBOOL fFinal);
   __attribute__((dllimport)) WINBOOL CryptMsgGetParam (HCRYPTMSG hCryptMsg, DWORD dwParamType, DWORD dwIndex, void *pvData, DWORD *pcbData);
-# 3159 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 3159 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CMSG_SIGNER_INFO {
     DWORD dwVersion;
     CERT_NAME_BLOB Issuer;
@@ -60630,7 +60630,7 @@ typedef struct __NCRYPT_UI_POLICY {
 
   typedef CRYPT_ATTRIBUTES CMSG_ATTR;
   typedef CRYPT_ATTRIBUTES *PCMSG_ATTR;
-# 3203 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 3203 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CMSG_KEY_TRANS_RECIPIENT_INFO {
     DWORD dwVersion;
     CERT_ID RecipientId;
@@ -60678,9 +60678,9 @@ typedef struct __NCRYPT_UI_POLICY {
       PCMSG_MAIL_LIST_RECIPIENT_INFO pMailList;
     };
   } CMSG_CMS_RECIPIENT_INFO,*PCMSG_CMS_RECIPIENT_INFO;
-# 3260 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 3260 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   __attribute__((dllimport)) WINBOOL CryptMsgControl (HCRYPTMSG hCryptMsg, DWORD dwFlags, DWORD dwCtrlType, void const *pvCtrlPara);
-# 3282 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 3282 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA {
     DWORD cbSize;
     HCRYPTPROV_LEGACY hCryptProv;
@@ -60794,7 +60794,7 @@ typedef struct __NCRYPT_UI_POLICY {
     BYTE *pbContentEncryptKey;
     DWORD cbContentEncryptKey;
   } CMSG_CONTENT_ENCRYPT_INFO,*PCMSG_CONTENT_ENCRYPT_INFO;
-# 3406 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 3406 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef WINBOOL ( *PFN_CMSG_GEN_CONTENT_ENCRYPT_KEY) (PCMSG_CONTENT_ENCRYPT_INFO pContentEncryptInfo, DWORD dwFlags, void *pvReserved);
 
   typedef struct _CMSG_KEY_TRANS_ENCRYPT_INFO {
@@ -60804,7 +60804,7 @@ typedef struct __NCRYPT_UI_POLICY {
     CRYPT_DATA_BLOB EncryptedKey;
     DWORD dwFlags;
   } CMSG_KEY_TRANS_ENCRYPT_INFO,*PCMSG_KEY_TRANS_ENCRYPT_INFO;
-# 3423 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 3423 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef WINBOOL ( *PFN_CMSG_EXPORT_KEY_TRANS) (PCMSG_CONTENT_ENCRYPT_INFO pContentEncryptInfo, PCMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO pKeyTransEncodeInfo, PCMSG_KEY_TRANS_ENCRYPT_INFO pKeyTransEncryptInfo, DWORD dwFlags, void *pvReserved);
 
   typedef struct _CMSG_KEY_AGREE_KEY_ENCRYPT_INFO {
@@ -60826,7 +60826,7 @@ typedef struct __NCRYPT_UI_POLICY {
     PCMSG_KEY_AGREE_KEY_ENCRYPT_INFO *rgpKeyAgreeKeyEncryptInfo;
     DWORD dwFlags;
   } CMSG_KEY_AGREE_ENCRYPT_INFO,*PCMSG_KEY_AGREE_ENCRYPT_INFO;
-# 3456 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 3456 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef WINBOOL ( *PFN_CMSG_EXPORT_KEY_AGREE) (PCMSG_CONTENT_ENCRYPT_INFO pContentEncryptInfo, PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO pKeyAgreeEncodeInfo, PCMSG_KEY_AGREE_ENCRYPT_INFO pKeyAgreeEncryptInfo, DWORD dwFlags, void *pvReserved);
 
   typedef struct _CMSG_MAIL_LIST_ENCRYPT_INFO {
@@ -60836,7 +60836,7 @@ typedef struct __NCRYPT_UI_POLICY {
     CRYPT_DATA_BLOB EncryptedKey;
     DWORD dwFlags;
   } CMSG_MAIL_LIST_ENCRYPT_INFO,*PCMSG_MAIL_LIST_ENCRYPT_INFO;
-# 3478 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 3478 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef WINBOOL ( *PFN_CMSG_EXPORT_MAIL_LIST) (PCMSG_CONTENT_ENCRYPT_INFO pContentEncryptInfo, PCMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO pMailListEncodeInfo, PCMSG_MAIL_LIST_ENCRYPT_INFO pMailListEncryptInfo, DWORD dwFlags, void *pvReserved);
   typedef WINBOOL ( *PFN_CMSG_IMPORT_KEY_TRANS) (PCRYPT_ALGORITHM_IDENTIFIER pContentEncryptionAlgorithm, PCMSG_CTRL_KEY_TRANS_DECRYPT_PARA pKeyTransDecryptPara, DWORD dwFlags, void *pvReserved, HCRYPTKEY *phContentEncryptKey);
   typedef WINBOOL ( *PFN_CMSG_IMPORT_KEY_AGREE) (PCRYPT_ALGORITHM_IDENTIFIER pContentEncryptionAlgorithm, PCMSG_CTRL_KEY_AGREE_DECRYPT_PARA pKeyAgreeDecryptPara, DWORD dwFlags, void *pvReserved, HCRYPTKEY *phContentEncryptKey);
@@ -60899,7 +60899,7 @@ typedef struct __NCRYPT_UI_POLICY {
   } CTL_CONTEXT,*PCTL_CONTEXT;
 
   typedef const CTL_CONTEXT *PCCTL_CONTEXT;
-# 3656 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 3656 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef enum CertKeyType {
     KeyTypeOther = 0,
     KeyTypeVirtualSmartCard = 1,
@@ -60911,7 +60911,7 @@ typedef struct __NCRYPT_UI_POLICY {
     KeyTypeSoftware = 7,
     KeyTypeSelfSigned = 8
   } CertKeyType;
-# 3699 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 3699 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CRYPT_KEY_PROV_PARAM {
     DWORD dwParam;
     BYTE *pbData;
@@ -60952,7 +60952,7 @@ typedef struct __NCRYPT_UI_POLICY {
     BYTE rgbCardID [16];
     ROOT_INFO_LUID luid;
   } CRYPT_SMART_CARD_ROOT_INFO,*PCRYPT_SMART_CARD_ROOT_INFO;
-# 3814 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 3814 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CERT_SYSTEM_STORE_RELOCATE_PARA {
     __extension__ union {
       HKEY hKeyBase;
@@ -60964,7 +60964,7 @@ typedef struct __NCRYPT_UI_POLICY {
       LPCWSTR pwszSystemStore;
     };
   } CERT_SYSTEM_STORE_RELOCATE_PARA,*PCERT_SYSTEM_STORE_RELOCATE_PARA;
-# 3937 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 3937 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CERT_REGISTRY_STORE_CLIENT_GPT_PARA {
     HKEY hKeyBase;
     LPWSTR pwszRegPath;
@@ -60976,7 +60976,7 @@ typedef struct __NCRYPT_UI_POLICY {
     HKEY hKey;
     LPWSTR pwszStoreDirectory;
   } CERT_REGISTRY_STORE_ROAMING_PARA,*PCERT_REGISTRY_STORE_ROAMING_PARA;
-# 3959 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 3959 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CERT_LDAP_STORE_OPENED_PARA {
     void *pvLdapSessionHandle;
     LPCWSTR pwszLdapUrl;
@@ -61000,7 +61000,7 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
   } CERT_STORE_PROV_INFO,*PCERT_STORE_PROV_INFO;
 
   typedef WINBOOL ( *PFN_CERT_DLL_OPEN_STORE_PROV_FUNC) (LPCSTR lpszStoreProvider, DWORD dwEncodingType, HCRYPTPROV_LEGACY hCryptProv, DWORD dwFlags, const void *pvPara, HCERTSTORE hCertStore, PCERT_STORE_PROV_INFO pStoreProvInfo);
-# 4017 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 4017 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef void ( *PFN_CERT_STORE_PROV_CLOSE) (HCERTSTOREPROV hStoreProv, DWORD dwFlags);
   typedef WINBOOL ( *PFN_CERT_STORE_PROV_READ_CERT) (HCERTSTOREPROV hStoreProv, PCCERT_CONTEXT pStoreCertContext, DWORD dwFlags, PCCERT_CONTEXT *ppProvCertContext);
   typedef WINBOOL ( *PFN_CERT_STORE_PROV_WRITE_CERT) (HCERTSTOREPROV hStoreProv, PCCERT_CONTEXT pCertContext, DWORD dwFlags);
@@ -61037,13 +61037,13 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
   typedef WINBOOL ( *PFN_CERT_STORE_PROV_GET_CTL_PROPERTY) (HCERTSTOREPROV hStoreProv, PCCTL_CONTEXT pCtlContext, DWORD dwPropId, DWORD dwFlags, void *pvData, DWORD *pcbData);
 
   __attribute__((dllimport)) HCERTSTORE CertDuplicateStore (HCERTSTORE hCertStore);
-# 4067 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 4067 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   __attribute__((dllimport)) WINBOOL CertSaveStore (HCERTSTORE hCertStore, DWORD dwEncodingType, DWORD dwSaveAs, DWORD dwSaveTo, void *pvSaveToPara, DWORD dwFlags);
   __attribute__((dllimport)) WINBOOL CertCloseStore (HCERTSTORE hCertStore, DWORD dwFlags);
   __attribute__((dllimport)) PCCERT_CONTEXT CertGetSubjectCertificateFromStore (HCERTSTORE hCertStore, DWORD dwCertEncodingType, PCERT_INFO pCertId);
   __attribute__((dllimport)) PCCERT_CONTEXT CertEnumCertificatesInStore (HCERTSTORE hCertStore, PCCERT_CONTEXT pPrevCertContext);
   __attribute__((dllimport)) PCCERT_CONTEXT CertFindCertificateInStore (HCERTSTORE hCertStore, DWORD dwCertEncodingType, DWORD dwFindFlags, DWORD dwFindType, const void *pvFindPara, PCCERT_CONTEXT pPrevCertContext);
-# 4145 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 4145 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   __attribute__((dllimport)) PCCERT_CONTEXT CertGetIssuerCertificateFromStore (HCERTSTORE hCertStore, PCCERT_CONTEXT pSubjectContext, PCCERT_CONTEXT pPrevIssuerContext, DWORD *pdwFlags);
   __attribute__((dllimport)) WINBOOL CertVerifySubjectCertificateContext (PCCERT_CONTEXT pSubject, PCCERT_CONTEXT pIssuer, DWORD *pdwFlags);
   __attribute__((dllimport)) PCCERT_CONTEXT CertDuplicateCertificateContext (PCCERT_CONTEXT pCertContext);
@@ -61060,7 +61060,7 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
     CRYPT_ALGORITHM_IDENTIFIER SubjectAlgorithm;
     CRYPT_DATA_BLOB SubjectIdentifier;
   } CTL_ANY_SUBJECT_INFO,*PCTL_ANY_SUBJECT_INFO;
-# 4198 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 4198 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   __attribute__((dllimport)) PCCRL_CONTEXT CertEnumCRLsInStore (HCERTSTORE hCertStore, PCCRL_CONTEXT pPrevCrlContext);
   __attribute__((dllimport)) WINBOOL CertDeleteCRLFromStore (PCCRL_CONTEXT pCrlContext);
   __attribute__((dllimport)) PCCRL_CONTEXT CertDuplicateCRLContext (PCCRL_CONTEXT pCrlContext);
@@ -61099,7 +61099,7 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
   __attribute__((dllimport)) PCCTL_CONTEXT CertEnumCTLsInStore (HCERTSTORE hCertStore, PCCTL_CONTEXT pPrevCtlContext);
   __attribute__((dllimport)) PCTL_ENTRY CertFindSubjectInCTL (DWORD dwEncodingType, DWORD dwSubjectType, void *pvSubject, PCCTL_CONTEXT pCtlContext, DWORD dwFlags);
   __attribute__((dllimport)) PCCTL_CONTEXT CertFindCTLInStore (HCERTSTORE hCertStore, DWORD dwMsgAndCertEncodingType, DWORD dwFindFlags, DWORD dwFindType, const void *pvFindPara, PCCTL_CONTEXT pPrevCtlContext);
-# 4272 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 4272 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CTL_FIND_USAGE_PARA {
     DWORD cbSize;
     CTL_USAGE SubjectUsage;
@@ -61159,11 +61159,11 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
   typedef WINBOOL ( *PFN_CERT_ENUM_SYSTEM_STORE_LOCATION) (LPCWSTR pwszStoreLocation, DWORD dwFlags, void *pvReserved, void *pvArg);
   typedef WINBOOL ( *PFN_CERT_ENUM_SYSTEM_STORE) (const void *pvSystemStore, DWORD dwFlags, PCERT_SYSTEM_STORE_INFO pStoreInfo, void *pvReserved, void *pvArg);
   typedef WINBOOL ( *PFN_CERT_ENUM_PHYSICAL_STORE) (const void *pvSystemStore, DWORD dwFlags, LPCWSTR pwszStoreName, PCERT_PHYSICAL_STORE_INFO pStoreInfo, void *pvReserved, void *pvArg);
-# 4343 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 4343 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   __attribute__((dllimport)) WINBOOL CertEnumSystemStoreLocation (DWORD dwFlags, void *pvArg, PFN_CERT_ENUM_SYSTEM_STORE_LOCATION pfnEnum);
   __attribute__((dllimport)) WINBOOL CertEnumSystemStore (DWORD dwFlags, void *pvSystemStoreLocationPara, void *pvArg, PFN_CERT_ENUM_SYSTEM_STORE pfnEnum);
   __attribute__((dllimport)) WINBOOL CertEnumPhysicalStore (const void *pvSystemStore, DWORD dwFlags, void *pvArg, PFN_CERT_ENUM_PHYSICAL_STORE pfnEnum);
-# 4364 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 4364 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   __attribute__((dllimport)) WINBOOL CertGetEnhancedKeyUsage (PCCERT_CONTEXT pCertContext, DWORD dwFlags, PCERT_ENHKEY_USAGE pUsage, DWORD *pcbUsage);
   __attribute__((dllimport)) WINBOOL CertSetEnhancedKeyUsage (PCCERT_CONTEXT pCertContext, PCERT_ENHKEY_USAGE pUsage);
   __attribute__((dllimport)) WINBOOL CertAddEnhancedKeyUsageIdentifier (PCCERT_CONTEXT pCertContext, LPCSTR pszUsageIdentifier);
@@ -61193,7 +61193,7 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
     PCCERT_CONTEXT *ppSigner;
     DWORD dwSignerIndex;
   } CTL_VERIFY_USAGE_STATUS,*PCTL_VERIFY_USAGE_STATUS;
-# 4401 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 4401 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   __attribute__((dllimport)) WINBOOL CertVerifyCTLUsage (DWORD dwEncodingType, DWORD dwSubjectType, void *pvSubject, PCTL_USAGE pSubjectUsage, DWORD dwFlags, PCTL_VERIFY_USAGE_PARA pVerifyUsagePara, PCTL_VERIFY_USAGE_STATUS pVerifyUsageStatus);
 
   typedef struct _CERT_REVOCATION_CRL_INFO {
@@ -61213,7 +61213,7 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
     HCERTSTORE *rgCertStore;
     HCERTSTORE hCrlStore;
     LPFILETIME pftTimeToUse;
-# 4429 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 4429 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   } CERT_REVOCATION_PARA,*PCERT_REVOCATION_PARA;
 
   typedef struct _CERT_REVOCATION_STATUS {
@@ -61224,7 +61224,7 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
     WINBOOL fHasFreshnessTime;
     DWORD dwFreshnessTime;
   } CERT_REVOCATION_STATUS,*PCERT_REVOCATION_STATUS;
-# 4475 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 4475 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO {
     CRYPT_DATA_BLOB CertSignHashCNGAlgPropData;
     CRYPT_DATA_BLOB CertIssuerPubKeyBitLengthPropData;
@@ -61277,7 +61277,7 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
 
 
   typedef WINBOOL ( *PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC) (NCRYPT_KEY_HANDLE hNCryptKey, DWORD dwCertEncodingType, LPSTR pszPublicKeyObjId, DWORD dwFlags, void *pvAuxInfo, PCERT_PUBLIC_KEY_INFO pInfo, DWORD *pcbInfo);
-# 4558 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 4558 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef WINBOOL ( *PFN_IMPORT_PRIV_KEY_FUNC) (HCRYPTPROV hCryptProv, CRYPT_PRIVATE_KEY_INFO *pPrivateKeyInfo, DWORD dwFlags, void *pvAuxInfo);
   typedef WINBOOL ( *PFN_EXPORT_PRIV_KEY_FUNC) (HCRYPTPROV hCryptProv, DWORD dwKeySpec, LPSTR pszPrivateKeyObjId, DWORD dwFlags, void *pvAuxInfo, CRYPT_PRIVATE_KEY_INFO *pPrivateKeyInfo, DWORD *pcbPrivateKeyInfo);
 
@@ -61286,7 +61286,7 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
 
   __attribute__((dllimport)) WINBOOL CryptImportPublicKeyInfo (HCRYPTPROV hCryptProv, DWORD dwCertEncodingType, PCERT_PUBLIC_KEY_INFO pInfo, HCRYPTKEY *phKey);
   __attribute__((dllimport)) WINBOOL CryptImportPublicKeyInfoEx (HCRYPTPROV hCryptProv, DWORD dwCertEncodingType, PCERT_PUBLIC_KEY_INFO pInfo, ALG_ID aiKeyAlg, DWORD dwFlags, void *pvAuxInfo, HCRYPTKEY *phKey);
-# 4574 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 4574 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   __attribute__((dllimport)) WINBOOL CryptAcquireCertificatePrivateKey (PCCERT_CONTEXT pCert, DWORD dwFlags, void *pvParameters, HCRYPTPROV_OR_NCRYPT_KEY_HANDLE *phCryptProvOrNCryptKey, DWORD *pdwKeySpec, WINBOOL *pfCallerFreeProvOrNCryptKey);
   __attribute__((dllimport)) WINBOOL CryptFindCertificateKeyProvInfo (PCCERT_CONTEXT pCert, DWORD dwFlags, void *pvReserved);
   __attribute__((dllimport)) WINBOOL CryptImportPKCS8 (CRYPT_PKCS8_IMPORT_PARAMS sPrivateKeyAndParams, DWORD dwFlags, HCRYPTPROV *phCryptProv, void *pvAuxInfo);
@@ -61297,12 +61297,12 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
   __attribute__((dllimport)) DWORD CertRDNValueToStrW (DWORD dwValueType, PCERT_RDN_VALUE_BLOB pValue, LPWSTR psz, DWORD csz);
   __attribute__((dllimport)) DWORD CertNameToStrA (DWORD dwCertEncodingType, PCERT_NAME_BLOB pName, DWORD dwStrType, LPSTR psz, DWORD csz);
   __attribute__((dllimport)) DWORD CertNameToStrW (DWORD dwCertEncodingType, PCERT_NAME_BLOB pName, DWORD dwStrType, LPWSTR psz, DWORD csz);
-# 4608 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 4608 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   __attribute__((dllimport)) WINBOOL CertStrToNameA (DWORD dwCertEncodingType, LPCSTR pszX500, DWORD dwStrType, void *pvReserved, BYTE *pbEncoded, DWORD *pcbEncoded, LPCSTR *ppszError);
   __attribute__((dllimport)) WINBOOL CertStrToNameW (DWORD dwCertEncodingType, LPCWSTR pszX500, DWORD dwStrType, void *pvReserved, BYTE *pbEncoded, DWORD *pcbEncoded, LPCWSTR *ppszError);
   __attribute__((dllimport)) DWORD CertGetNameStringA (PCCERT_CONTEXT pCertContext, DWORD dwType, DWORD dwFlags, void *pvTypePara, LPSTR pszNameString, DWORD cchNameString);
   __attribute__((dllimport)) DWORD CertGetNameStringW (PCCERT_CONTEXT pCertContext, DWORD dwType, DWORD dwFlags, void *pvTypePara, LPWSTR pszNameString, DWORD cchNameString);
-# 4627 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 4627 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef PCCERT_CONTEXT ( *PFN_CRYPT_GET_SIGNER_CERTIFICATE) (void *pvGetArg, DWORD dwCertEncodingType, PCERT_INFO pSignerId, HCERTSTORE hMsgCertStore);
 
   typedef struct _CRYPT_SIGN_MESSAGE_PARA {
@@ -61422,7 +61422,7 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
   __attribute__((dllimport)) WINBOOL CertAddEncodedCertificateToSystemStoreW (LPCWSTR szCertStoreName, const BYTE *pbCertEncoded, DWORD cbCertEncoded);
   HRESULT FindCertsByIssuer (PCERT_CHAIN pCertChains, DWORD *pcbCertChains, DWORD *pcCertChains, BYTE *pbEncodedIssuerName, DWORD cbEncodedIssuerName, LPCWSTR pwszPurpose, DWORD dwKeySpec);
   __attribute__((dllimport)) WINBOOL CryptQueryObject (DWORD dwObjectType, const void *pvObject, DWORD dwExpectedContentTypeFlags, DWORD dwExpectedFormatTypeFlags, DWORD dwFlags, DWORD *pdwMsgAndCertEncodingType, DWORD *pdwContentType, DWORD *pdwFormatType, HCERTSTORE *phCertStore, HCRYPTMSG *phMsg, const void **ppvContext);
-# 4793 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 4793 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef HANDLE HCRYPTASYNC,*PHCRYPTASYNC;
   typedef void ( *PFN_CRYPT_ASYNC_PARAM_FREE_FUNC) (LPSTR pszParamOid, LPVOID pvParam);
 
@@ -61470,7 +61470,7 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
 
 
   typedef void ( *PFN_FREE_ENCODED_OBJECT_FUNC) (LPCSTR pszObjectOid, PCRYPT_BLOB_ARRAY pObject, LPVOID pvFreeContext);
-# 4878 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 4878 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CRYPTNET_URL_CACHE_PRE_FETCH_INFO {
     DWORD cbSize;
     DWORD dwObjectType;
@@ -61480,7 +61480,7 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
     FILETIME NextUpdateTime;
     FILETIME PublishTime;
   } CRYPTNET_URL_CACHE_PRE_FETCH_INFO,*PCRYPTNET_URL_CACHE_PRE_FETCH_INFO;
-# 4896 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 4896 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CRYPTNET_URL_CACHE_FLUSH_INFO {
     DWORD cbSize;
     DWORD dwExemptSeconds;
@@ -61562,7 +61562,7 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
   } CRYPT_URL_INFO,*PCRYPT_URL_INFO;
 
   __attribute__((dllimport)) WINBOOL CryptGetObjectUrl (LPCSTR pszUrlOid, LPVOID pvPara, DWORD dwFlags, PCRYPT_URL_ARRAY pUrlArray, DWORD *pcbUrlArray, PCRYPT_URL_INFO pUrlInfo, DWORD *pcbUrlInfo, LPVOID pvReserved);
-# 4994 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 4994 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CERT_CRL_CONTEXT_PAIR {
     PCCERT_CONTEXT pCertContext;
     PCCRL_CONTEXT pCrlContext;
@@ -61581,7 +61581,7 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
   } CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO, *PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO;
 
   typedef WINBOOL ( *PFN_CRYPT_ENUM_KEYID_PROP) (const CRYPT_HASH_BLOB *pKeyIdentifier, DWORD dwFlags, void *pvReserved, void *pvArg, DWORD cProp, DWORD *rgdwPropId, void **rgpvData, DWORD *rgcbData);
-# 5039 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 5039 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   __attribute__((dllimport)) WINBOOL CryptGetTimeValidObject (LPCSTR pszTimeValidOid, LPVOID pvPara, PCCERT_CONTEXT pIssuer, LPFILETIME pftValidFor, DWORD dwFlags, DWORD dwTimeout, LPVOID *ppvObject, PCRYPT_CREDENTIALS pCredentials, PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO pExtraInfo);
   __attribute__((dllimport)) WINBOOL CryptFlushTimeValidObject (LPCSTR pszFlushTimeValidOid, LPVOID pvPara, PCCERT_CONTEXT pIssuer, DWORD dwFlags, LPVOID pvReserved);
   __attribute__((dllimport)) PCCERT_CONTEXT CertCreateSelfSignCertificate (HCRYPTPROV_OR_NCRYPT_KEY_HANDLE hCryptProvOrNCryptKey, PCERT_NAME_BLOB pSubjectIssuerBlob, DWORD dwFlags, PCRYPT_KEY_PROV_INFO pKeyProvInfo, PCRYPT_ALGORITHM_IDENTIFIER pSignatureAlgorithm, PSYSTEMTIME pStartTime, PSYSTEMTIME pEndTime, PCERT_EXTENSIONS pExtensions);
@@ -61589,7 +61589,7 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
   __attribute__((dllimport)) WINBOOL CryptSetKeyIdentifierProperty (const CRYPT_HASH_BLOB *pKeyIdentifier, DWORD dwPropId, DWORD dwFlags, LPCWSTR pwszComputerName, void *pvReserved, const void *pvData);
   __attribute__((dllimport)) WINBOOL CryptEnumKeyIdentifierProperties (const CRYPT_HASH_BLOB *pKeyIdentifier, DWORD dwPropId, DWORD dwFlags, LPCWSTR pwszComputerName, void *pvReserved, void *pvArg, PFN_CRYPT_ENUM_KEYID_PROP pfnEnum);
   __attribute__((dllimport)) WINBOOL CryptCreateKeyIdentifierFromCSP (DWORD dwCertEncodingType, LPCSTR pszPubKeyOID, const PUBLICKEYSTRUC *pPubKeyStruc, DWORD cbPubKeyStruc, DWORD dwFlags, void *pvReserved, BYTE *pbHash, DWORD *pcbHash);
-# 5243 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 5243 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef HANDLE HCERTCHAINENGINE;
 
   typedef struct _CERT_CHAIN_ENGINE_CONFIG {
@@ -61624,7 +61624,7 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
     DWORD dwErrorStatus;
     DWORD dwInfoStatus;
   } CERT_TRUST_STATUS,*PCERT_TRUST_STATUS;
-# 5332 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 5332 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CERT_REVOCATION_INFO {
     DWORD cbSize;
     DWORD dwRevocationResult;
@@ -61697,9 +61697,9 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
   typedef struct _CERT_CHAIN_PARA {
     DWORD cbSize;
     CERT_USAGE_MATCH RequestedUsage;
-# 5413 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 5413 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   } CERT_CHAIN_PARA,*PCERT_CHAIN_PARA;
-# 5434 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 5434 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   __attribute__((dllimport)) WINBOOL CertGetCertificateChain (HCERTCHAINENGINE hChainEngine, PCCERT_CONTEXT pCertContext, LPFILETIME pTime, HCERTSTORE hAdditionalStore, PCERT_CHAIN_PARA pChainPara, DWORD dwFlags, LPVOID pvReserved, PCCERT_CHAIN_CONTEXT *ppChainContext);
   __attribute__((dllimport)) void CertFreeCertificateChain (PCCERT_CHAIN_CONTEXT pChainContext);
   __attribute__((dllimport)) PCCERT_CHAIN_CONTEXT CertDuplicateCertificateChain (PCCERT_CHAIN_CONTEXT pChainContext);
@@ -61743,7 +61743,7 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
 
 
   } CERT_CHAIN_FIND_ISSUER_PARA,*PCERT_CHAIN_FIND_ISSUER_PARA,CERT_CHAIN_FIND_BY_ISSUER_PARA,*PCERT_CHAIN_FIND_BY_ISSUER_PARA;
-# 5485 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 5485 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CERT_CHAIN_POLICY_PARA {
     DWORD cbSize;
     DWORD dwFlags;
@@ -61757,9 +61757,9 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
     LONG lElementIndex;
     void *pvExtraPolicyStatus;
   } CERT_CHAIN_POLICY_STATUS,*PCERT_CHAIN_POLICY_STATUS;
-# 5523 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 5523 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   __attribute__((dllimport)) WINBOOL CertVerifyCertificateChainPolicy (LPCSTR pszPolicyOID, PCCERT_CHAIN_CONTEXT pChainContext, PCERT_CHAIN_POLICY_PARA pPolicyPara, PCERT_CHAIN_POLICY_STATUS pPolicyStatus);
-# 5540 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 5540 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA {
     DWORD cbSize;
     DWORD dwRegPolicySettings;
@@ -61815,7 +61815,7 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
     DWORD dwReserved;
     WCHAR wszErrorText[256];
   } SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS;
-# 5608 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 5608 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _SSL_HPKP_HEADER_EXTRA_CERT_CHAIN_POLICY_PARA {
     DWORD cbSize;
     DWORD dwReserved;
@@ -61835,12 +61835,12 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
     LONG lError;
     WCHAR wszErrorText[512];
   } SSL_KEY_PIN_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_KEY_PIN_EXTRA_CERT_CHAIN_POLICY_STATUS;
-# 5637 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 5637 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   __attribute__((dllimport)) WINBOOL CryptStringToBinaryA (LPCSTR pszString, DWORD cchString, DWORD dwFlags, BYTE *pbBinary, DWORD *pcbBinary, DWORD *pdwSkip, DWORD *pdwFlags);
   __attribute__((dllimport)) WINBOOL CryptStringToBinaryW (LPCWSTR pszString, DWORD cchString, DWORD dwFlags, BYTE *pbBinary, DWORD *pcbBinary, DWORD *pdwSkip, DWORD *pdwFlags);
   __attribute__((dllimport)) WINBOOL CryptBinaryToStringA (const BYTE *pbBinary, DWORD cbBinary, DWORD dwFlags, LPSTR pszString, DWORD *pcchString);
   __attribute__((dllimport)) WINBOOL CryptBinaryToStringW (const BYTE *pbBinary, DWORD cbBinary, DWORD dwFlags, LPWSTR pszString, DWORD *pcchString);
-# 5677 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 5677 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _CRYPT_PKCS12_PBE_PARAMS {
     int iIterations;
     ULONG cbSalt;
@@ -61850,11 +61850,11 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
 
 
   __attribute__((dllimport)) HCERTSTORE PFXImportCertStore (CRYPT_DATA_BLOB *pPFX, LPCWSTR szPassword, DWORD dwFlags);
-# 5707 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 5707 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   __attribute__((dllimport)) WINBOOL PFXIsPFXBlob (CRYPT_DATA_BLOB *pPFX);
   __attribute__((dllimport)) WINBOOL PFXVerifyPassword (CRYPT_DATA_BLOB *pPFX, LPCWSTR szPassword, DWORD dwFlags);
   __attribute__((dllimport)) WINBOOL PFXExportCertStoreEx (HCERTSTORE hStore, CRYPT_DATA_BLOB *pPFX, LPCWSTR szPassword, void *pvPara, DWORD dwFlags);
-# 5729 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 5729 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   typedef struct _PKCS12_PBES2_EXPORT_PARAMS {
     DWORD dwSize;
     PVOID hNcryptDescriptor;
@@ -61866,11 +61866,11 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
 
 
   __attribute__((dllimport)) WINBOOL PFXExportCertStore (HCERTSTORE hStore, CRYPT_DATA_BLOB *pPFX, LPCWSTR szPassword, DWORD dwFlags);
-# 5778 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 5778 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
   __attribute__((dllimport)) WINBOOL CertRetrieveLogoOrBiometricInfo (PCCERT_CONTEXT pCertContext, LPCSTR lpszLogoOrBiometricType, DWORD dwRetrievalFlags, DWORD dwTimeout, DWORD dwFlags, void *pvReserved, BYTE **ppbData, DWORD *pcbData, LPWSTR *ppwszMimeType);
-# 5974 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/dpapi.h" 1 3
-# 65 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/dpapi.h" 3
+# 5974 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/dpapi.h" 1 3
+# 65 "C:/tdm64/x86_64-w64-mingw32/include/dpapi.h" 3
   typedef struct _CRYPTPROTECT_PROMPTSTRUCT {
     DWORD cbSize;
     DWORD dwPromptFlags;
@@ -61880,13 +61880,13 @@ __attribute__((dllimport)) HCERTSTORE CertOpenStore (LPCSTR lpszStoreProvider, D
 
   __attribute__((dllimport)) WINBOOL CryptProtectData (DATA_BLOB *pDataIn, LPCWSTR szDataDescr, DATA_BLOB *pOptionalEntropy, PVOID pvReserved, CRYPTPROTECT_PROMPTSTRUCT *pPromptStruct, DWORD dwFlags, DATA_BLOB *pDataOut);
   __attribute__((dllimport)) WINBOOL CryptUnprotectData (DATA_BLOB *pDataIn, LPWSTR *ppszDataDescr, DATA_BLOB *pOptionalEntropy, PVOID pvReserved, CRYPTPROTECT_PROMPTSTRUCT *pPromptStruct, DWORD dwFlags, DATA_BLOB *pDataOut);
-# 93 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/dpapi.h" 3
+# 93 "C:/tdm64/x86_64-w64-mingw32/include/dpapi.h" 3
 __attribute__((dllimport)) WINBOOL CryptProtectMemory (LPVOID pDataIn, DWORD cbDataIn, DWORD dwFlags);
 __attribute__((dllimport)) WINBOOL CryptUnprotectMemory (LPVOID pDataIn, DWORD cbDataIn, DWORD dwFlags);
-# 5975 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h" 2 3
-# 96 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winefs.h" 1 3
-# 18 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winefs.h" 3
+# 5975 "C:/tdm64/x86_64-w64-mingw32/include/wincrypt.h" 2 3
+# 96 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/winefs.h" 1 3
+# 18 "C:/tdm64/x86_64-w64-mingw32/include/winefs.h" 3
   typedef struct _CERTIFICATE_BLOB {
     DWORD dwCertEncodingType;
     DWORD cbData;
@@ -61943,17 +61943,17 @@ __attribute__((dllimport)) WINBOOL CryptUnprotectMemory (LPVOID pDataIn, DWORD c
   __attribute__((dllimport)) void FreeEncryptionCertificateHashList(PENCRYPTION_CERTIFICATE_HASH_LIST pHashes);
   __attribute__((dllimport)) WINBOOL EncryptionDisable(LPCWSTR DirPath,WINBOOL Disable);
   __attribute__((dllimport)) DWORD DuplicateEncryptionInfoFile(LPCWSTR SrcFileName,LPCWSTR DstFileName,DWORD dwCreationDistribution,DWORD dwAttributes,const LPSECURITY_ATTRIBUTES lpSecurityAttributes);
-# 97 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winscard.h" 1 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winscard.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 1 3
+# 97 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/winscard.h" 1 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/winscard.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 1 3
 
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
@@ -61961,12 +61961,12 @@ __attribute__((dllimport)) WINBOOL CryptUnprotectMemory (LPVOID pDataIn, DWORD c
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 19 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack8.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 19 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack8.h" 1 3
 
 
 
@@ -61974,17 +61974,17 @@ __attribute__((dllimport)) WINBOOL CryptUnprotectMemory (LPVOID pDataIn, DWORD c
 
 
 #pragma pack(push,8)
-# 20 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/basetsd.h" 1 3
+# 20 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/basetsd.h" 1 3
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 6 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/basetsd.h" 2 3
-# 21 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcnsip.h" 1 3
-# 13 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcnsip.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 6 "C:/tdm64/x86_64-w64-mingw32/include/basetsd.h" 2 3
+# 21 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcnsip.h" 1 3
+# 13 "C:/tdm64/x86_64-w64-mingw32/include/rpcnsip.h" 3
   typedef struct {
     RPC_NS_HANDLE LookupContext;
     RPC_BINDING_HANDLE ProposedHandle;
@@ -61998,17 +61998,17 @@ __attribute__((dllimport)) WINBOOL CryptUnprotectMemory (LPVOID pDataIn, DWORD c
   __attribute__((dllimport)) RPC_STATUS I_NsServerBindSearch(void);
   __attribute__((dllimport)) RPC_STATUS I_NsClientBindSearch(void);
   __attribute__((dllimport)) void I_NsClientBindDone(void);
-# 22 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcsal.h" 1 3
-# 23 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 2 3
-# 63 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 3
+# 22 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcsal.h" 1 3
+# 23 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 2 3
+# 63 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 3
   typedef unsigned char byte;
   typedef byte cs_byte;
   typedef unsigned char boolean;
-# 114 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 3
+# 114 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 3
   void * MIDL_user_allocate(size_t);
   void MIDL_user_free(void *);
-# 128 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 3
+# 128 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 3
   typedef void *NDR_CCONTEXT;
 
   typedef struct _NDR_SCONTEXT {
@@ -62039,9 +62039,9 @@ __attribute__((dllimport)) WINBOOL CryptUnprotectMemory (LPVOID pDataIn, DWORD c
   __attribute__((dllimport)) NDR_SCONTEXT NDRSContextUnmarshallEx(RPC_BINDING_HANDLE BindingHandle,void *pBuff,unsigned long DataRepresentation);
   __attribute__((dllimport)) NDR_SCONTEXT NDRSContextUnmarshall2(RPC_BINDING_HANDLE BindingHandle,void *pBuff,unsigned long DataRepresentation,void *CtxGuard,unsigned long Flags);
   __attribute__((dllimport)) void RpcSsDestroyClientContext(void **ContextHandle);
-# 173 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 3
+# 173 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 3
 typedef unsigned long error_status_t;
-# 211 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 3
+# 211 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 3
   struct _MIDL_STUB_MESSAGE;
   struct _MIDL_STUB_DESC;
   struct _FULL_PTR_XLAT_TABLES;
@@ -62204,7 +62204,7 @@ typedef unsigned long error_status_t;
     PFORMAT_STRING pFormat;
     PFORMAT_STRING pTypeFormat;
   } USER_MARSHAL_CB;
-# 381 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 3
+# 381 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 3
   typedef struct _MALLOC_FREE_STRUCT {
     void *( *pfnAllocate)(size_t);
     void ( *pfnFree)(void *);
@@ -62460,7 +62460,7 @@ typedef unsigned long error_status_t;
   __attribute__((dllimport)) void NdrInterfacePointerFree(PMIDL_STUB_MESSAGE pStubMsg,unsigned char *pMemory,PFORMAT_STRING pFormat);
   __attribute__((dllimport)) void NdrConvert2(PMIDL_STUB_MESSAGE pStubMsg,PFORMAT_STRING pFormat,long NumberParams);
   __attribute__((dllimport)) void NdrConvert(PMIDL_STUB_MESSAGE pStubMsg,PFORMAT_STRING pFormat);
-# 650 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 3
+# 650 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 3
   __attribute__((dllimport)) unsigned char * NdrUserMarshalSimpleTypeConvert(unsigned long *pFlags,unsigned char *pBuffer,unsigned char FormatChar);
   __attribute__((dllimport)) void NdrClientInitializeNew(PRPC_MESSAGE pRpcMsg,PMIDL_STUB_MESSAGE pStubMsg,PMIDL_STUB_DESC pStubDescriptor,unsigned int ProcNum);
   __attribute__((dllimport)) unsigned char * NdrServerInitializeNew(PRPC_MESSAGE pRpcMsg,PMIDL_STUB_MESSAGE pStubMsg,PMIDL_STUB_DESC pStubDescriptor);
@@ -62556,7 +62556,7 @@ typedef unsigned long error_status_t;
   __attribute__((dllimport)) void NdrClearOutParameters(PMIDL_STUB_MESSAGE pStubMsg,PFORMAT_STRING pFormat,void *ArgAddr);
   __attribute__((dllimport)) void * NdrOleAllocate(size_t Size);
   __attribute__((dllimport)) void NdrOleFree(void *NodeToFree);
-# 763 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 3
+# 763 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 3
   typedef struct _NDR_USER_MARSHAL_INFO_LEVEL1 {
     void *Buffer;
     unsigned long BufferSize;
@@ -62600,7 +62600,7 @@ typedef unsigned long error_status_t;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -62608,54 +62608,15 @@ typedef unsigned long error_status_t;
 
 
 #pragma pack(pop)
-# 807 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 2 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 2 3
+# 807 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 2 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 2 3
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack8.h" 1 3
-
-
-
-
-
-
-#pragma pack(push,8)
-# 11 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 2 3
-
-
-
-
-
-
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objbase.h" 1 3
-
-
-
-
-
-
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
-
-
-
-
-
-
-
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objbase.h" 2 3
-
-
-
-
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack8.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack8.h" 1 3
 
 
 
@@ -62663,10 +62624,21 @@ typedef unsigned long error_status_t;
 
 
 #pragma pack(push,8)
-# 14 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/combaseapi.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/combaseapi.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 11 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 2 3
+
+
+
+
+
+
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/objbase.h" 1 3
+
+
+
+
+
+
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
@@ -62674,13 +62646,16 @@ typedef unsigned long error_status_t;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/combaseapi.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 11 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/combaseapi.h" 2 3
-# 31 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/combaseapi.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack8.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/objbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/objbase.h" 2 3
+
+
+
+
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack8.h" 1 3
 
 
 
@@ -62688,8 +62663,33 @@ typedef unsigned long error_status_t;
 
 
 #pragma pack(push,8)
-# 32 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/combaseapi.h" 2 3
-# 138 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/combaseapi.h" 3
+# 14 "C:/tdm64/x86_64-w64-mingw32/include/objbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/combaseapi.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/combaseapi.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
+
+
+
+
+
+
+
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/combaseapi.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 11 "C:/tdm64/x86_64-w64-mingw32/include/combaseapi.h" 2 3
+# 31 "C:/tdm64/x86_64-w64-mingw32/include/combaseapi.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack8.h" 1 3
+
+
+
+
+
+
+#pragma pack(push,8)
+# 32 "C:/tdm64/x86_64-w64-mingw32/include/combaseapi.h" 2 3
+# 138 "C:/tdm64/x86_64-w64-mingw32/include/combaseapi.h" 3
 typedef enum tagREGCLS {
   REGCLS_SINGLEUSE = 0,
   REGCLS_MULTIPLEUSE = 1,
@@ -62705,14 +62705,14 @@ typedef enum tagCOINITBASE {
   COINITBASE_MULTITHREADED = 0x0,
 } COINITBASE;
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/wtypesbase.h" 1 3
 
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
@@ -62720,42 +62720,42 @@ typedef enum tagCOINITBASE {
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 14 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
-# 23 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/basetsd.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 14 "C:/tdm64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
+# 23 "C:/tdm64/x86_64-w64-mingw32/include/wtypesbase.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/basetsd.h" 1 3
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 6 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/basetsd.h" 2 3
-# 24 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/guiddef.h" 1 3
-# 25 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
-# 42 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 6 "C:/tdm64/x86_64-w64-mingw32/include/basetsd.h" 2 3
+# 24 "C:/tdm64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/guiddef.h" 1 3
+# 25 "C:/tdm64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
+# 42 "C:/tdm64/x86_64-w64-mingw32/include/wtypesbase.h" 3
 extern RPC_IF_HANDLE IWinTypesBase_v0_1_c_ifspec;
 extern RPC_IF_HANDLE IWinTypesBase_v0_1_s_ifspec;
-# 69 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h" 3
+# 69 "C:/tdm64/x86_64-w64-mingw32/include/wtypesbase.h" 3
 typedef WCHAR OLECHAR;
 typedef OLECHAR *LPOLESTR;
 typedef const OLECHAR *LPCOLESTR;
-# 90 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h" 3
+# 90 "C:/tdm64/x86_64-w64-mingw32/include/wtypesbase.h" 3
 typedef unsigned char UCHAR;
 typedef short SHORT;
 typedef unsigned short USHORT;
 typedef DWORD ULONG;
 typedef double DOUBLE;
-# 185 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h" 3
+# 185 "C:/tdm64/x86_64-w64-mingw32/include/wtypesbase.h" 3
 typedef struct _COAUTHIDENTITY {
     USHORT *User;
     ULONG UserLength;
@@ -62778,7 +62778,7 @@ typedef struct _COAUTHINFO {
 
 typedef LONG SCODE;
 typedef SCODE *PSCODE;
-# 233 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h" 3
+# 233 "C:/tdm64/x86_64-w64-mingw32/include/wtypesbase.h" 3
 typedef enum tagMEMCTX {
     MEMCTX_TASK = 1,
     MEMCTX_SHARED = 2,
@@ -62786,7 +62786,7 @@ typedef enum tagMEMCTX {
     MEMCTX_UNKNOWN = -1,
     MEMCTX_SAME = -2
 } MEMCTX;
-# 269 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h" 3
+# 269 "C:/tdm64/x86_64-w64-mingw32/include/wtypesbase.h" 3
 typedef enum tagCLSCTX {
     CLSCTX_INPROC_SERVER = 0x1,
     CLSCTX_INPROC_HANDLER = 0x2,
@@ -62906,15 +62906,15 @@ typedef struct tagBLOB {
     BYTE *pBlobData;
 } BLOB;
 typedef struct tagBLOB *LPBLOB;
-# 154 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/combaseapi.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwnbase.h" 1 3
+# 154 "C:/tdm64/x86_64-w64-mingw32/include/combaseapi.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/unknwnbase.h" 1 3
 
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
@@ -62922,18 +62922,18 @@ typedef struct tagBLOB *LPBLOB;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwnbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwnbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/unknwnbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/unknwnbase.h" 2 3
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 14 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwnbase.h" 2 3
-# 23 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwnbase.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 14 "C:/tdm64/x86_64-w64-mingw32/include/unknwnbase.h" 2 3
+# 23 "C:/tdm64/x86_64-w64-mingw32/include/unknwnbase.h" 3
 typedef struct IUnknown IUnknown;
 
 
@@ -62958,14 +62958,14 @@ typedef struct IClassFactory IClassFactory;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/wtypesbase.h" 1 3
 
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
@@ -62973,23 +62973,23 @@ typedef struct IClassFactory IClassFactory;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 14 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
-# 48 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwnbase.h" 2 3
-# 68 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwnbase.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 14 "C:/tdm64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
+# 48 "C:/tdm64/x86_64-w64-mingw32/include/unknwnbase.h" 2 3
+# 68 "C:/tdm64/x86_64-w64-mingw32/include/unknwnbase.h" 3
 typedef IUnknown *LPUNKNOWN;
-# 97 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwnbase.h" 3
+# 97 "C:/tdm64/x86_64-w64-mingw32/include/unknwnbase.h" 3
 extern const GUID IID_IUnknown;
-# 122 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwnbase.h" 3
+# 122 "C:/tdm64/x86_64-w64-mingw32/include/unknwnbase.h" 3
 typedef struct IUnknownVtbl {
    
 
@@ -63011,9 +63011,9 @@ typedef struct IUnknownVtbl {
 struct IUnknown {
     IUnknownVtbl* lpVtbl;
 };
-# 179 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwnbase.h" 3
+# 179 "C:/tdm64/x86_64-w64-mingw32/include/unknwnbase.h" 3
 extern const GUID IID_AsyncIUnknown;
-# 207 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwnbase.h" 3
+# 207 "C:/tdm64/x86_64-w64-mingw32/include/unknwnbase.h" 3
 typedef struct AsyncIUnknownVtbl {
    
 
@@ -63056,11 +63056,11 @@ typedef struct AsyncIUnknownVtbl {
 struct AsyncIUnknown {
     AsyncIUnknownVtbl* lpVtbl;
 };
-# 310 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwnbase.h" 3
+# 310 "C:/tdm64/x86_64-w64-mingw32/include/unknwnbase.h" 3
 typedef IClassFactory *LPCLASSFACTORY;
 
 extern const GUID IID_IClassFactory;
-# 330 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwnbase.h" 3
+# 330 "C:/tdm64/x86_64-w64-mingw32/include/unknwnbase.h" 3
 typedef struct IClassFactoryVtbl {
    
 
@@ -63093,7 +63093,7 @@ typedef struct IClassFactoryVtbl {
 struct IClassFactory {
     IClassFactoryVtbl* lpVtbl;
 };
-# 395 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwnbase.h" 3
+# 395 "C:/tdm64/x86_64-w64-mingw32/include/unknwnbase.h" 3
 HRESULT IClassFactory_RemoteCreateInstance_Proxy(
     IClassFactory* This,
     const IID *const riid,
@@ -63126,15 +63126,15 @@ HRESULT IClassFactory_LockServer_Proxy(
 HRESULT IClassFactory_LockServer_Stub(
     IClassFactory* This,
     WINBOOL fLock);
-# 155 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/combaseapi.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 1 3
+# 155 "C:/tdm64/x86_64-w64-mingw32/include/combaseapi.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 1 3
 
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
@@ -63142,18 +63142,18 @@ HRESULT IClassFactory_LockServer_Stub(
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 2 3
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 14 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 2 3
-# 23 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 14 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 2 3
+# 23 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IMarshal IMarshal;
 
 
@@ -63570,41 +63570,14 @@ typedef struct IMarshalingStream IMarshalingStream;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwnbase.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/unknwnbase.h" 1 3
 
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
-
-
-
-
-
-
-
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwnbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwnbase.h" 2 3
-
-
-
-
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 14 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwnbase.h" 2 3
-# 440 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h" 1 3
-
-
-
-
-
-
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
@@ -63612,19 +63585,46 @@ typedef struct IMarshalingStream IMarshalingStream;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/unknwnbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/unknwnbase.h" 2 3
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 14 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
-# 441 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 2 3
-# 522 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 14 "C:/tdm64/x86_64-w64-mingw32/include/unknwnbase.h" 2 3
+# 440 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/wtypesbase.h" 1 3
+
+
+
+
+
+
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
+
+
+
+
+
+
+
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
+
+
+
+
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 14 "C:/tdm64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
+# 441 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 2 3
+# 522 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct _COSERVERINFO {
     DWORD dwReserved1;
     LPWSTR pwszName;
@@ -63640,7 +63640,7 @@ typedef struct _COSERVERINFO {
 
 typedef IMarshal *LPMARSHAL;
 extern const GUID IID_IMarshal;
-# 581 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 581 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IMarshalVtbl {
    
 
@@ -63704,9 +63704,9 @@ typedef struct IMarshalVtbl {
 struct IMarshal {
     IMarshalVtbl* lpVtbl;
 };
-# 703 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 703 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_INoMarshal;
-# 713 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 713 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct INoMarshalVtbl {
    
 
@@ -63728,9 +63728,9 @@ typedef struct INoMarshalVtbl {
 struct INoMarshal {
     INoMarshalVtbl* lpVtbl;
 };
-# 767 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 767 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_IAgileObject;
-# 777 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 777 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IAgileObjectVtbl {
    
 
@@ -63752,9 +63752,9 @@ typedef struct IAgileObjectVtbl {
 struct IAgileObject {
     IAgileObjectVtbl* lpVtbl;
 };
-# 830 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 830 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_IAgileReference;
-# 844 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 844 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IAgileReferenceVtbl {
    
 
@@ -63782,10 +63782,10 @@ typedef struct IAgileReferenceVtbl {
 struct IAgileReference {
     IAgileReferenceVtbl* lpVtbl;
 };
-# 912 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 912 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef IMarshal2 *LPMARSHAL2;
 extern const GUID IID_IMarshal2;
-# 923 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 923 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IMarshal2Vtbl {
    
 
@@ -63849,11 +63849,11 @@ typedef struct IMarshal2Vtbl {
 struct IMarshal2 {
     IMarshal2Vtbl* lpVtbl;
 };
-# 1045 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 1045 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef IMalloc *LPMALLOC;
 
 extern const GUID IID_IMalloc;
-# 1076 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 1076 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IMallocVtbl {
    
 
@@ -63900,11 +63900,11 @@ typedef struct IMallocVtbl {
 struct IMalloc {
     IMallocVtbl* lpVtbl;
 };
-# 1181 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 1181 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef IStdMarshalInfo *LPSTDMARSHALINFO;
 
 extern const GUID IID_IStdMarshalInfo;
-# 1198 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 1198 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IStdMarshalInfoVtbl {
    
 
@@ -63933,7 +63933,7 @@ typedef struct IStdMarshalInfoVtbl {
 struct IStdMarshalInfo {
     IStdMarshalInfoVtbl* lpVtbl;
 };
-# 1265 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 1265 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef IExternalConnection *LPEXTERNALCONNECTION;
 
 typedef enum tagEXTCONN {
@@ -63943,7 +63943,7 @@ typedef enum tagEXTCONN {
 } EXTCONN;
 
 extern const GUID IID_IExternalConnection;
-# 1292 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 1292 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IExternalConnectionVtbl {
    
 
@@ -63977,7 +63977,7 @@ typedef struct IExternalConnectionVtbl {
 struct IExternalConnection {
     IExternalConnectionVtbl* lpVtbl;
 };
-# 1362 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 1362 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef IMultiQI *LPMULTIQI;
 
 
@@ -63995,7 +63995,7 @@ typedef struct tagMULTI_QI {
 
 
 extern const GUID IID_IMultiQI;
-# 1392 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 1392 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IMultiQIVtbl {
    
 
@@ -64023,9 +64023,9 @@ typedef struct IMultiQIVtbl {
 struct IMultiQI {
     IMultiQIVtbl* lpVtbl;
 };
-# 1457 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 1457 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_AsyncIMultiQI;
-# 1474 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 1474 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct AsyncIMultiQIVtbl {
    
 
@@ -64057,9 +64057,9 @@ typedef struct AsyncIMultiQIVtbl {
 struct AsyncIMultiQI {
     AsyncIMultiQIVtbl* lpVtbl;
 };
-# 1550 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 1550 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_IInternalUnknown;
-# 1564 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 1564 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IInternalUnknownVtbl {
    
 
@@ -64087,11 +64087,11 @@ typedef struct IInternalUnknownVtbl {
 struct IInternalUnknown {
     IInternalUnknownVtbl* lpVtbl;
 };
-# 1632 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 1632 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef IEnumUnknown *LPENUMUNKNOWN;
 
 extern const GUID IID_IEnumUnknown;
-# 1658 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 1658 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IEnumUnknownVtbl {
    
 
@@ -64131,7 +64131,7 @@ typedef struct IEnumUnknownVtbl {
 struct IEnumUnknown {
     IEnumUnknownVtbl* lpVtbl;
 };
-# 1738 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 1738 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 HRESULT IEnumUnknown_RemoteNext_Proxy(
     IEnumUnknown* This,
     ULONG celt,
@@ -64152,11 +64152,11 @@ HRESULT IEnumUnknown_Next_Stub(
     ULONG celt,
     IUnknown **rgelt,
     ULONG *pceltFetched);
-# 1768 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 1768 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef IEnumString *LPENUMSTRING;
 
 extern const GUID IID_IEnumString;
-# 1794 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 1794 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IEnumStringVtbl {
    
 
@@ -64196,7 +64196,7 @@ typedef struct IEnumStringVtbl {
 struct IEnumString {
     IEnumStringVtbl* lpVtbl;
 };
-# 1874 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 1874 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 HRESULT IEnumString_RemoteNext_Proxy(
     IEnumString* This,
     ULONG celt,
@@ -64217,9 +64217,9 @@ HRESULT IEnumString_Next_Stub(
     ULONG celt,
     LPOLESTR *rgelt,
     ULONG *pceltFetched);
-# 1904 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 1904 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_ISequentialStream;
-# 1924 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 1924 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct ISequentialStreamVtbl {
    
 
@@ -64254,7 +64254,7 @@ typedef struct ISequentialStreamVtbl {
 struct ISequentialStream {
     ISequentialStreamVtbl* lpVtbl;
 };
-# 1991 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 1991 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 HRESULT ISequentialStream_RemoteRead_Proxy(
     ISequentialStream* This,
     byte *pv,
@@ -64295,7 +64295,7 @@ HRESULT ISequentialStream_Write_Stub(
     const byte *pv,
     ULONG cb,
     ULONG *pcbWritten);
-# 2041 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 2041 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef IStream *LPSTREAM;
 
 typedef struct tagSTATSTG {
@@ -64332,7 +64332,7 @@ typedef enum tagLOCKTYPE {
 } LOCKTYPE;
 
 extern const GUID IID_IStream;
-# 2123 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 2123 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IStreamVtbl {
    
 
@@ -64413,7 +64413,7 @@ typedef struct IStreamVtbl {
 struct IStream {
     IStreamVtbl* lpVtbl;
 };
-# 2274 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 2274 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 HRESULT IStream_RemoteSeek_Proxy(
     IStream* This,
     LARGE_INTEGER dlibMove,
@@ -64457,7 +64457,7 @@ HRESULT IStream_CopyTo_Stub(
     ULARGE_INTEGER cb,
     ULARGE_INTEGER *pcbRead,
     ULARGE_INTEGER *pcbWritten);
-# 2327 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 2327 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef ULONG RPCOLEDATAREP;
 
 typedef struct tagRPCOLEMESSAGE {
@@ -64473,7 +64473,7 @@ typedef struct tagRPCOLEMESSAGE {
 typedef RPCOLEMESSAGE *PRPCOLEMESSAGE;
 
 extern const GUID IID_IRpcChannelBuffer;
-# 2369 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 2369 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IRpcChannelBufferVtbl {
    
 
@@ -64518,9 +64518,9 @@ typedef struct IRpcChannelBufferVtbl {
 struct IRpcChannelBuffer {
     IRpcChannelBufferVtbl* lpVtbl;
 };
-# 2470 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 2470 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_IRpcChannelBuffer2;
-# 2483 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 2483 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IRpcChannelBuffer2Vtbl {
    
 
@@ -64570,9 +64570,9 @@ typedef struct IRpcChannelBuffer2Vtbl {
 struct IRpcChannelBuffer2 {
     IRpcChannelBuffer2Vtbl* lpVtbl;
 };
-# 2593 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 2593 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_IAsyncRpcChannelBuffer;
-# 2617 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 2617 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IAsyncRpcChannelBufferVtbl {
    
 
@@ -64640,9 +64640,9 @@ typedef struct IAsyncRpcChannelBufferVtbl {
 struct IAsyncRpcChannelBuffer {
     IAsyncRpcChannelBufferVtbl* lpVtbl;
 };
-# 2759 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 2759 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_IRpcChannelBuffer3;
-# 2799 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 2799 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IRpcChannelBuffer3Vtbl {
    
 
@@ -64730,9 +64730,9 @@ typedef struct IRpcChannelBuffer3Vtbl {
 struct IRpcChannelBuffer3 {
     IRpcChannelBuffer3Vtbl* lpVtbl;
 };
-# 2977 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 2977 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_IRpcSyntaxNegotiate;
-# 2990 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 2990 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IRpcSyntaxNegotiateVtbl {
    
 
@@ -64759,9 +64759,9 @@ typedef struct IRpcSyntaxNegotiateVtbl {
 struct IRpcSyntaxNegotiate {
     IRpcSyntaxNegotiateVtbl* lpVtbl;
 };
-# 3055 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 3055 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_IRpcProxyBuffer;
-# 3071 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 3071 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IRpcProxyBufferVtbl {
    
 
@@ -64791,9 +64791,9 @@ typedef struct IRpcProxyBufferVtbl {
 struct IRpcProxyBuffer {
     IRpcProxyBufferVtbl* lpVtbl;
 };
-# 3145 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 3145 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_IRpcStubBuffer;
-# 3177 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 3177 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IRpcStubBufferVtbl {
    
 
@@ -64843,9 +64843,9 @@ typedef struct IRpcStubBufferVtbl {
 struct IRpcStubBuffer {
     IRpcStubBufferVtbl* lpVtbl;
 };
-# 3289 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 3289 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_IPSFactoryBuffer;
-# 3310 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 3310 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IPSFactoryBufferVtbl {
    
 
@@ -64881,7 +64881,7 @@ typedef struct IPSFactoryBufferVtbl {
 struct IPSFactoryBuffer {
     IPSFactoryBufferVtbl* lpVtbl;
 };
-# 3385 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 3385 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct SChannelHookCallInfo {
     IID iid;
     DWORD cbSize;
@@ -64898,7 +64898,7 @@ typedef struct SChannelHookCallInfo {
 
 
 extern const GUID IID_IChannelHook;
-# 3449 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 3449 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IChannelHookVtbl {
    
 
@@ -64966,7 +64966,7 @@ typedef struct IChannelHookVtbl {
 struct IChannelHook {
     IChannelHookVtbl* lpVtbl;
 };
-# 3579 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 3579 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct tagSOLE_AUTHENTICATION_SERVICE {
     DWORD dwAuthnSvc;
     DWORD dwAuthzSvc;
@@ -65013,7 +65013,7 @@ typedef struct tagSOLE_AUTHENTICATION_LIST {
 typedef struct tagSOLE_AUTHENTICATION_LIST *PSOLE_AUTHENTICATION_LIST;
 
 extern const GUID IID_IClientSecurity;
-# 3658 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 3658 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IClientSecurityVtbl {
    
 
@@ -65063,9 +65063,9 @@ typedef struct IClientSecurityVtbl {
 struct IClientSecurity {
     IClientSecurityVtbl* lpVtbl;
 };
-# 3756 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 3756 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_IServerSecurity;
-# 3784 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 3784 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IServerSecurityVtbl {
    
 
@@ -65107,7 +65107,7 @@ typedef struct IServerSecurityVtbl {
 struct IServerSecurity {
     IServerSecurityVtbl* lpVtbl;
 };
-# 3870 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 3870 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef enum tagRPCOPT_PROPERTIES {
     COMBND_RPCTIMEOUT = 0x1,
     COMBND_SERVER_LOCALITY = 0x2,
@@ -65127,7 +65127,7 @@ typedef enum tagRPCOPT_SERVER_LOCALITY_VALUES {
 
 
 extern const GUID IID_IRpcOptions;
-# 3908 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 3908 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IRpcOptionsVtbl {
    
 
@@ -65162,7 +65162,7 @@ typedef struct IRpcOptionsVtbl {
 struct IRpcOptions {
     IRpcOptionsVtbl* lpVtbl;
 };
-# 3981 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 3981 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef enum tagGLOBALOPT_PROPERTIES {
     COMGLB_EXCEPTION_HANDLING = 1,
     COMGLB_APPID = 2,
@@ -65207,7 +65207,7 @@ typedef enum tagGLOBALOPT_UNMARSHALING_POLICY_VALUES {
 
 
 extern const GUID IID_IGlobalOptions;
-# 4042 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 4042 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IGlobalOptionsVtbl {
    
 
@@ -65240,11 +65240,11 @@ typedef struct IGlobalOptionsVtbl {
 struct IGlobalOptions {
     IGlobalOptionsVtbl* lpVtbl;
 };
-# 4120 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 4120 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef ISurrogate *LPSURROGATE;
 
 extern const GUID IID_ISurrogate;
-# 4138 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 4138 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct ISurrogateVtbl {
    
 
@@ -65274,11 +65274,11 @@ typedef struct ISurrogateVtbl {
 struct ISurrogate {
     ISurrogateVtbl* lpVtbl;
 };
-# 4210 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 4210 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef IGlobalInterfaceTable *LPGLOBALINTERFACETABLE;
 
 extern const GUID IID_IGlobalInterfaceTable;
-# 4235 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 4235 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IGlobalInterfaceTableVtbl {
    
 
@@ -65317,9 +65317,9 @@ typedef struct IGlobalInterfaceTableVtbl {
 struct IGlobalInterfaceTable {
     IGlobalInterfaceTableVtbl* lpVtbl;
 };
-# 4322 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 4322 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_ISynchronize;
-# 4342 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 4342 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct ISynchronizeVtbl {
    
 
@@ -65353,9 +65353,9 @@ typedef struct ISynchronizeVtbl {
 struct ISynchronize {
     ISynchronizeVtbl* lpVtbl;
 };
-# 4422 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 4422 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_ISynchronizeHandle;
-# 4435 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 4435 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct ISynchronizeHandleVtbl {
    
 
@@ -65382,9 +65382,9 @@ typedef struct ISynchronizeHandleVtbl {
 struct ISynchronizeHandle {
     ISynchronizeHandleVtbl* lpVtbl;
 };
-# 4500 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 4500 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_ISynchronizeEvent;
-# 4513 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 4513 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct ISynchronizeEventVtbl {
    
 
@@ -65416,9 +65416,9 @@ typedef struct ISynchronizeEventVtbl {
 struct ISynchronizeEvent {
     ISynchronizeEventVtbl* lpVtbl;
 };
-# 4589 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 4589 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_ISynchronizeContainer;
-# 4607 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 4607 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct ISynchronizeContainerVtbl {
    
 
@@ -65451,9 +65451,9 @@ typedef struct ISynchronizeContainerVtbl {
 struct ISynchronizeContainer {
     ISynchronizeContainerVtbl* lpVtbl;
 };
-# 4682 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 4682 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_ISynchronizeMutex;
-# 4695 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 4695 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct ISynchronizeMutexVtbl {
    
 
@@ -65491,11 +65491,11 @@ typedef struct ISynchronizeMutexVtbl {
 struct ISynchronizeMutex {
     ISynchronizeMutexVtbl* lpVtbl;
 };
-# 4785 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 4785 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef ICancelMethodCalls *LPCANCELMETHODCALLS;
 
 extern const GUID IID_ICancelMethodCalls;
-# 4803 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 4803 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct ICancelMethodCallsVtbl {
    
 
@@ -65525,7 +65525,7 @@ typedef struct ICancelMethodCallsVtbl {
 struct ICancelMethodCalls {
     ICancelMethodCallsVtbl* lpVtbl;
 };
-# 4875 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 4875 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef enum tagDCOM_CALL_STATE {
     DCOM_NONE = 0x0,
     DCOM_CALL_COMPLETE = 0x1,
@@ -65533,7 +65533,7 @@ typedef enum tagDCOM_CALL_STATE {
 } DCOM_CALL_STATE;
 
 extern const GUID IID_IAsyncManager;
-# 4901 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 4901 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IAsyncManagerVtbl {
    
 
@@ -65569,9 +65569,9 @@ typedef struct IAsyncManagerVtbl {
 struct IAsyncManager {
     IAsyncManagerVtbl* lpVtbl;
 };
-# 4983 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 4983 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_ICallFactory;
-# 4999 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 4999 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct ICallFactoryVtbl {
    
 
@@ -65601,9 +65601,9 @@ typedef struct ICallFactoryVtbl {
 struct ICallFactory {
     ICallFactoryVtbl* lpVtbl;
 };
-# 5067 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 5067 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_IRpcHelper;
-# 5084 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 5084 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IRpcHelperVtbl {
    
 
@@ -65635,9 +65635,9 @@ typedef struct IRpcHelperVtbl {
 struct IRpcHelper {
     IRpcHelperVtbl* lpVtbl;
 };
-# 5158 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 5158 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_IReleaseMarshalBuffers;
-# 5173 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 5173 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IReleaseMarshalBuffersVtbl {
    
 
@@ -65666,9 +65666,9 @@ typedef struct IReleaseMarshalBuffersVtbl {
 struct IReleaseMarshalBuffers {
     IReleaseMarshalBuffersVtbl* lpVtbl;
 };
-# 5240 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 5240 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_IWaitMultiple;
-# 5257 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 5257 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IWaitMultipleVtbl {
    
 
@@ -65700,10 +65700,10 @@ typedef struct IWaitMultipleVtbl {
 struct IWaitMultiple {
     IWaitMultipleVtbl* lpVtbl;
 };
-# 5331 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 5331 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef IAddrTrackingControl *LPADDRTRACKINGCONTROL;
 extern const GUID IID_IAddrTrackingControl;
-# 5348 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 5348 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IAddrTrackingControlVtbl {
    
 
@@ -65732,10 +65732,10 @@ typedef struct IAddrTrackingControlVtbl {
 struct IAddrTrackingControl {
     IAddrTrackingControlVtbl* lpVtbl;
 };
-# 5419 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 5419 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef IAddrExclusionControl *LPADDREXCLUSIONCONTROL;
 extern const GUID IID_IAddrExclusionControl;
-# 5437 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 5437 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IAddrExclusionControlVtbl {
    
 
@@ -65767,9 +65767,9 @@ typedef struct IAddrExclusionControlVtbl {
 struct IAddrExclusionControl {
     IAddrExclusionControlVtbl* lpVtbl;
 };
-# 5511 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 5511 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_IPipeByte;
-# 5530 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 5530 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IPipeByteVtbl {
    
 
@@ -65803,9 +65803,9 @@ typedef struct IPipeByteVtbl {
 struct IPipeByte {
     IPipeByteVtbl* lpVtbl;
 };
-# 5606 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 5606 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_IPipeLong;
-# 5625 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 5625 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IPipeLongVtbl {
    
 
@@ -65839,9 +65839,9 @@ typedef struct IPipeLongVtbl {
 struct IPipeLong {
     IPipeLongVtbl* lpVtbl;
 };
-# 5701 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 5701 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_IPipeDouble;
-# 5720 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 5720 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IPipeDoubleVtbl {
    
 
@@ -65875,7 +65875,7 @@ typedef struct IPipeDoubleVtbl {
 struct IPipeDouble {
     IPipeDoubleVtbl* lpVtbl;
 };
-# 6049 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 6049 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef enum _APTTYPEQUALIFIER {
     APTTYPEQUALIFIER_NONE = 0,
     APTTYPEQUALIFIER_IMPLICIT_MTA = 1,
@@ -65910,7 +65910,7 @@ typedef DWORD APARTMENTID;
 
 
 extern const GUID IID_IComThreadingInfo;
-# 6104 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 6104 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IComThreadingInfoVtbl {
    
 
@@ -65949,9 +65949,9 @@ typedef struct IComThreadingInfoVtbl {
 struct IComThreadingInfo {
     IComThreadingInfoVtbl* lpVtbl;
 };
-# 6193 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 6193 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_IProcessInitControl;
-# 6206 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 6206 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IProcessInitControlVtbl {
    
 
@@ -65978,9 +65978,9 @@ typedef struct IProcessInitControlVtbl {
 struct IProcessInitControl {
     IProcessInitControlVtbl* lpVtbl;
 };
-# 6271 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 6271 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_IFastRundown;
-# 6281 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 6281 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IFastRundownVtbl {
    
 
@@ -66002,7 +66002,7 @@ typedef struct IFastRundownVtbl {
 struct IFastRundown {
     IFastRundownVtbl* lpVtbl;
 };
-# 6329 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 6329 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef enum CO_MARSHALING_CONTEXT_ATTRIBUTES {
     CO_MARSHALING_SOURCE_IS_APP_CONTAINER = 0
 } CO_MARSHALING_CONTEXT_ATTRIBUTES;
@@ -66014,7 +66014,7 @@ typedef enum CO_MARSHALING_CONTEXT_ATTRIBUTES {
 
 
 extern const GUID IID_IMarshalingStream;
-# 6353 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 6353 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 typedef struct IMarshalingStreamVtbl {
    
 
@@ -66101,15 +66101,15 @@ typedef struct IMarshalingStreamVtbl {
 struct IMarshalingStream {
     IMarshalingStreamVtbl* lpVtbl;
 };
-# 6522 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h" 3
+# 6522 "C:/tdm64/x86_64-w64-mingw32/include/objidlbase.h" 3
 extern const GUID IID_ICallbackWithNoReentrancyToApplicationSTA;
-# 156 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/combaseapi.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/guiddef.h" 1 3
-# 157 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/combaseapi.h" 2 3
+# 156 "C:/tdm64/x86_64-w64-mingw32/include/combaseapi.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/guiddef.h" 1 3
+# 157 "C:/tdm64/x86_64-w64-mingw32/include/combaseapi.h" 2 3
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/cguid.h" 1 3
-# 13 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/cguid.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/cguid.h" 1 3
+# 13 "C:/tdm64/x86_64-w64-mingw32/include/cguid.h" 3
   extern const IID GUID_NULL;
   extern const IID CATID_MARSHALER;
   extern const IID IID_IRpcChannel;
@@ -66190,8 +66190,8 @@ extern const GUID IID_ICallbackWithNoReentrancyToApplicationSTA;
   extern const CLSID CLSID_Picture_EnhMetafile;
   extern const CLSID CLSID_Picture_Dib;
   extern const GUID GUID_TRISTATE;
-# 160 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/combaseapi.h" 2 3
-# 173 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/combaseapi.h" 3
+# 160 "C:/tdm64/x86_64-w64-mingw32/include/combaseapi.h" 2 3
+# 173 "C:/tdm64/x86_64-w64-mingw32/include/combaseapi.h" 3
 extern __attribute__((dllimport)) HRESULT CreateStreamOnHGlobal (HGLOBAL hGlobal, WINBOOL fDeleteOnRelease, LPSTREAM *ppstm);
 extern __attribute__((dllimport)) HRESULT GetHGlobalFromStream (LPSTREAM pstm, HGLOBAL *phglobal);
 extern __attribute__((dllimport)) void CoUninitialize (void);
@@ -66279,7 +66279,7 @@ extern __attribute__((dllimport)) HRESULT CoRevertToSelf (void);
 extern __attribute__((dllimport)) HRESULT CoQueryAuthenticationServices (DWORD *pcAuthSvc, SOLE_AUTHENTICATION_SERVICE **asAuthSvc);
 extern __attribute__((dllimport)) HRESULT CoCreateInstance (const IID *const rclsid, LPUNKNOWN pUnkOuter, DWORD dwClsContext, const IID *const riid, LPVOID *ppv);
 extern __attribute__((dllimport)) HRESULT CoCreateInstanceEx (const IID *const Clsid, IUnknown *punkOuter, DWORD dwClsCtx, COSERVERINFO *pServerInfo, DWORD dwCount, MULTI_QI *pResults);
-# 284 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/combaseapi.h" 3
+# 284 "C:/tdm64/x86_64-w64-mingw32/include/combaseapi.h" 3
 extern __attribute__((dllimport)) HRESULT CoGetCancelObject (DWORD dwThreadId, const IID *const iid, void **ppUnk);
 extern __attribute__((dllimport)) HRESULT CoSetCancelObject (IUnknown *pUnk);
 extern __attribute__((dllimport)) HRESULT CoCancelCall (DWORD dwThreadId, ULONG ulTimeout);
@@ -66328,7 +66328,7 @@ typedef enum tagCOWAIT_FLAGS {
 
 
 } COWAIT_FLAGS;
-# 353 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/combaseapi.h" 3
+# 353 "C:/tdm64/x86_64-w64-mingw32/include/combaseapi.h" 3
 extern __attribute__((dllimport)) HRESULT CoGetTreatAsClass (const IID *const clsidOld, LPCLSID pClsidNew);
 extern __attribute__((dllimport)) HRESULT CoInvalidateRemoteMachineBindings (LPOLESTR pszMachineName);
 
@@ -66344,7 +66344,7 @@ extern __attribute__((dllimport)) LPVOID CoTaskMemRealloc (LPVOID pv, SIZE_T cb)
 extern __attribute__((dllimport)) void CoTaskMemFree (LPVOID pv);
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -66352,8 +66352,8 @@ extern __attribute__((dllimport)) void CoTaskMemFree (LPVOID pv);
 
 
 #pragma pack(pop)
-# 369 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/combaseapi.h" 2 3
-# 15 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objbase.h" 2 3
+# 369 "C:/tdm64/x86_64-w64-mingw32/include/combaseapi.h" 2 3
+# 15 "C:/tdm64/x86_64-w64-mingw32/include/objbase.h" 2 3
 
 typedef enum tagCOINIT {
   COINIT_APARTMENTTHREADED = 0x2,
@@ -66361,17 +66361,17 @@ typedef enum tagCOINIT {
   COINIT_DISABLE_OLE1DDE = 0x4,
   COINIT_SPEED_OVER_MEMORY = 0x8
 } COINIT;
-# 57 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objbase.h" 3
+# 57 "C:/tdm64/x86_64-w64-mingw32/include/objbase.h" 3
 typedef DWORD STGFMT;
-# 66 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objbase.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 1 3
+# 66 "C:/tdm64/x86_64-w64-mingw32/include/objbase.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 1 3
 
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
@@ -66379,17 +66379,17 @@ typedef DWORD STGFMT;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 2 3
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 13 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 2 3
-# 277 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 13 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 2 3
+# 277 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IMallocSpy IMallocSpy;
 
 
@@ -66590,40 +66590,14 @@ typedef struct IApartmentShutdown IApartmentShutdown;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwn.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/unknwn.h" 1 3
 
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
-
-
-
-
-
-
-
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwn.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwn.h" 2 3
-
-
-
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 13 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwn.h" 2 3
-# 37 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwn.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 1 3
-
-
-
-
-
-
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
@@ -66631,46 +66605,72 @@ typedef struct IApartmentShutdown IApartmentShutdown;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/unknwn.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/unknwn.h" 2 3
 
 
 
-
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 14 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 2 3
-# 23 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h" 1 3
-
-
-
-
-
-
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 13 "C:/tdm64/x86_64-w64-mingw32/include/unknwn.h" 2 3
+# 37 "C:/tdm64/x86_64-w64-mingw32/include/unknwn.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 1 3
 
 
 
 
 
 
-
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 14 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
-# 24 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 2 3
-# 41 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 3
+
+
+
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 2 3
+
+
+
+
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 14 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 2 3
+# 23 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/wtypesbase.h" 1 3
+
+
+
+
+
+
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
+
+
+
+
+
+
+
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
+
+
+
+
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 14 "C:/tdm64/x86_64-w64-mingw32/include/wtypesbase.h" 2 3
+# 24 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 2 3
+# 41 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 3
 extern RPC_IF_HANDLE IWinTypes_v0_1_c_ifspec;
 extern RPC_IF_HANDLE IWinTypes_v0_1_s_ifspec;
 typedef struct tagRemHGLOBAL {
@@ -66705,7 +66705,7 @@ typedef struct tagRemBRUSH {
     ULONG cbData;
     byte data[1];
 } RemHBRUSH;
-# 182 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 3
+# 182 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 3
 typedef enum tagDVASPECT {
     DVASPECT_CONTENT = 1,
     DVASPECT_THUMBNAIL = 2,
@@ -66733,7 +66733,7 @@ typedef enum tagSTATFLAG {
     STATFLAG_NOOPEN = 2
 } STATFLAG;
 typedef void *HCONTEXT;
-# 227 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 3
+# 227 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 3
 typedef struct _userCLIPFORMAT {
     LONG fContext;
     union {
@@ -66844,20 +66844,20 @@ typedef RemotableHandle *wireHDC;
 typedef RemotableHandle *wireHICON;
 typedef RemotableHandle *wireHRGN;
 typedef RemotableHandle *wireHMONITOR;
-# 401 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 3
+# 401 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 3
 typedef userHBITMAP *wireHBITMAP;
 typedef userHPALETTE *wireHPALETTE;
 typedef userHENHMETAFILE *wireHENHMETAFILE;
 typedef userHMETAFILE *wireHMETAFILE;
 typedef userHMETAFILEPICT *wireHMETAFILEPICT;
-# 416 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 3
+# 416 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 3
 typedef void *HMETAFILEPICT;
 
 
 
 
 typedef double DATE;
-# 432 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 3
+# 432 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 3
 typedef union tagCY {
   __extension__ struct {
     unsigned long Lo;
@@ -66869,7 +66869,7 @@ typedef union tagCY {
 
 
 typedef CY *LPCY;
-# 453 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 3
+# 453 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 3
 typedef struct tagDEC {
   USHORT wReserved;
   __extension__ union {
@@ -66901,7 +66901,7 @@ typedef OLECHAR *BSTR;
 typedef BSTR *LPBSTR;
 
 typedef short VARIANT_BOOL;
-# 493 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 3
+# 493 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 3
 typedef struct tagBSTRBLOB {
     ULONG cbSize;
     BYTE *pData;
@@ -67031,16 +67031,16 @@ typedef struct __WIDL_wtypes_generated_name_00000001 {
         } ByObjectId;
     } tagged_union;
 } uCLSSPEC;
-# 38 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwn.h" 2 3
-# 478 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 1 3
+# 38 "C:/tdm64/x86_64-w64-mingw32/include/unknwn.h" 2 3
+# 478 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 1 3
 
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
@@ -67048,22 +67048,22 @@ typedef struct __WIDL_wtypes_generated_name_00000001 {
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 2 3
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 14 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 2 3
-# 479 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 2 3
-# 7612 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 14 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 2 3
+# 479 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 2 3
+# 7612 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef IMallocSpy *LPMALLOCSPY;
 extern const GUID IID_IMallocSpy;
-# 7669 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 7669 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IMallocSpyVtbl {
    
 
@@ -67141,7 +67141,7 @@ typedef struct IMallocSpyVtbl {
 struct IMallocSpy {
     IMallocSpyVtbl* lpVtbl;
 };
-# 7819 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 7819 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 SIZE_T IMallocSpy_PreAlloc_Proxy(
     IMallocSpy* This,
     SIZE_T cbRequest);
@@ -67246,10 +67246,10 @@ void IMallocSpy_PostHeapMinimize_Stub(
     IRpcChannelBuffer* pRpcChannelBuffer,
     PRPC_MESSAGE pRpcMessage,
     DWORD* pdwStubPhase);
-# 7934 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 7934 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef IBindCtx *LPBC;
 typedef IBindCtx *LPBINDCTX;
-# 7944 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 7944 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct tagBIND_OPTS {
     DWORD cbStruct;
     DWORD grfFlags;
@@ -67257,7 +67257,7 @@ typedef struct tagBIND_OPTS {
     DWORD dwTickCountDeadline;
 } BIND_OPTS;
 typedef struct tagBIND_OPTS *LPBIND_OPTS;
-# 7960 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 7960 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct tagBIND_OPTS2 {
     DWORD cbStruct;
     DWORD grfFlags;
@@ -67293,7 +67293,7 @@ typedef enum tagBIND_FLAGS {
     BIND_JUSTTESTEXISTENCE = 2
 } BIND_FLAGS;
 extern const GUID IID_IBindCtx;
-# 8036 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 8036 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IBindCtxVtbl {
    
 
@@ -67356,7 +67356,7 @@ typedef struct IBindCtxVtbl {
 struct IBindCtx {
     IBindCtxVtbl* lpVtbl;
 };
-# 8163 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 8163 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IBindCtx_RegisterObjectBound_Proxy(
     IBindCtx* This,
     IUnknown *punk);
@@ -67450,10 +67450,10 @@ HRESULT IBindCtx_GetBindOptions_Proxy(
 HRESULT IBindCtx_GetBindOptions_Stub(
     IBindCtx* This,
     BIND_OPTS2 *pbindopts);
-# 8265 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 8265 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef IEnumMoniker *LPENUMMONIKER;
 extern const GUID IID_IEnumMoniker;
-# 8290 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 8290 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IEnumMonikerVtbl {
    
 
@@ -67492,7 +67492,7 @@ typedef struct IEnumMonikerVtbl {
 struct IEnumMoniker {
     IEnumMonikerVtbl* lpVtbl;
 };
-# 8369 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 8369 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IEnumMoniker_RemoteNext_Proxy(
     IEnumMoniker* This,
     ULONG celt,
@@ -67536,10 +67536,10 @@ HRESULT IEnumMoniker_Next_Stub(
     ULONG celt,
     IMoniker **rgelt,
     ULONG *pceltFetched);
-# 8423 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 8423 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef IRunnableObject *LPRUNNABLEOBJECT;
 extern const GUID IID_IRunnableObject;
-# 8450 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 8450 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IRunnableObjectVtbl {
    
 
@@ -67581,7 +67581,7 @@ typedef struct IRunnableObjectVtbl {
 struct IRunnableObject {
     IRunnableObjectVtbl* lpVtbl;
 };
-# 8536 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 8536 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IRunnableObject_GetRunningClass_Proxy(
     IRunnableObject* This,
     LPCLSID lpClsid);
@@ -67626,10 +67626,10 @@ WINBOOL IRunnableObject_IsRunning_Proxy(
     IRunnableObject* This);
 HRESULT IRunnableObject_IsRunning_Stub(
     IRunnableObject* This);
-# 8589 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 8589 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef IRunningObjectTable *LPRUNNINGOBJECTTABLE;
 extern const GUID IID_IRunningObjectTable;
-# 8627 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 8627 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IRunningObjectTableVtbl {
    
 
@@ -67685,7 +67685,7 @@ typedef struct IRunningObjectTableVtbl {
 struct IRunningObjectTable {
     IRunningObjectTableVtbl* lpVtbl;
 };
-# 8735 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 8735 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IRunningObjectTable_Register_Proxy(
     IRunningObjectTable* This,
     DWORD grfFlags,
@@ -67748,10 +67748,10 @@ void IRunningObjectTable_EnumRunning_Stub(
     IRpcChannelBuffer* pRpcChannelBuffer,
     PRPC_MESSAGE pRpcMessage,
     DWORD* pdwStubPhase);
-# 8808 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 8808 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef IPersist *LPPERSIST;
 extern const GUID IID_IPersist;
-# 8822 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 8822 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IPersistVtbl {
    
 
@@ -67777,7 +67777,7 @@ typedef struct IPersistVtbl {
 struct IPersist {
     IPersistVtbl* lpVtbl;
 };
-# 8876 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 8876 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IPersist_GetClassID_Proxy(
     IPersist* This,
     CLSID *pClassID);
@@ -67786,10 +67786,10 @@ void IPersist_GetClassID_Stub(
     IRpcChannelBuffer* pRpcChannelBuffer,
     PRPC_MESSAGE pRpcMessage,
     DWORD* pdwStubPhase);
-# 8893 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 8893 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef IPersistStream *LPPERSISTSTREAM;
 extern const GUID IID_IPersistStream;
-# 8917 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 8917 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IPersistStreamVtbl {
    
 
@@ -67832,7 +67832,7 @@ typedef struct IPersistStreamVtbl {
 struct IPersistStream {
     IPersistStreamVtbl* lpVtbl;
 };
-# 9006 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 9006 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IPersistStream_IsDirty_Proxy(
     IPersistStream* This);
 void IPersistStream_IsDirty_Stub(
@@ -67865,7 +67865,7 @@ void IPersistStream_GetSizeMax_Stub(
     IRpcChannelBuffer* pRpcChannelBuffer,
     PRPC_MESSAGE pRpcMessage,
     DWORD* pdwStubPhase);
-# 9047 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 9047 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef IMoniker *LPMONIKER;
 typedef enum tagMKSYS {
     MKSYS_NONE = 0,
@@ -67886,7 +67886,7 @@ typedef enum tagMKREDUCE {
     MKRREDUCE_ALL = 0
 } MKRREDUCE;
 extern const GUID IID_IMoniker;
-# 9145 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 9145 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IMonikerVtbl {
    
 
@@ -68014,7 +68014,7 @@ typedef struct IMonikerVtbl {
 struct IMoniker {
     IMonikerVtbl* lpVtbl;
 };
-# 9381 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 9381 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IMoniker_RemoteBindToObject_Proxy(
     IMoniker* This,
     IBindCtx *pbc,
@@ -68183,9 +68183,9 @@ HRESULT IMoniker_BindToStorage_Stub(
     IMoniker *pmkToLeft,
     const IID *const riid,
     IUnknown **ppvObj);
-# 9560 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 9560 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 extern const GUID IID_IROTData;
-# 9575 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 9575 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IROTDataVtbl {
    
 
@@ -68213,7 +68213,7 @@ typedef struct IROTDataVtbl {
 struct IROTData {
     IROTDataVtbl* lpVtbl;
 };
-# 9631 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 9631 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IROTData_GetComparisonData_Proxy(
     IROTData* This,
     byte *pbData,
@@ -68224,10 +68224,10 @@ void IROTData_GetComparisonData_Stub(
     IRpcChannelBuffer* pRpcChannelBuffer,
     PRPC_MESSAGE pRpcMessage,
     DWORD* pdwStubPhase);
-# 9652 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 9652 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef IEnumSTATSTG *LPENUMSTATSTG;
 extern const GUID IID_IEnumSTATSTG;
-# 9677 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 9677 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IEnumSTATSTGVtbl {
    
 
@@ -68266,7 +68266,7 @@ typedef struct IEnumSTATSTGVtbl {
 struct IEnumSTATSTG {
     IEnumSTATSTGVtbl* lpVtbl;
 };
-# 9756 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 9756 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IEnumSTATSTG_RemoteNext_Proxy(
     IEnumSTATSTG* This,
     ULONG celt,
@@ -68310,7 +68310,7 @@ HRESULT IEnumSTATSTG_Next_Stub(
     ULONG celt,
     STATSTG *rgelt,
     ULONG *pceltFetched);
-# 9808 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 9808 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef IStorage *LPSTORAGE;
 typedef struct tagRemSNB {
     ULONG ulCntStr;
@@ -68320,7 +68320,7 @@ typedef struct tagRemSNB {
 typedef RemSNB *wireSNB;
 typedef LPOLESTR *SNB;
 extern const GUID IID_IStorage;
-# 9903 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 9903 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IStorageVtbl {
    
 
@@ -68433,7 +68433,7 @@ typedef struct IStorageVtbl {
 struct IStorage {
     IStorageVtbl* lpVtbl;
 };
-# 10100 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 10100 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IStorage_CreateStream_Proxy(
     IStorage* This,
     const OLECHAR *pwcsName,
@@ -68627,10 +68627,10 @@ HRESULT IStorage_EnumElements_Stub(
     byte *reserved2,
     DWORD reserved3,
     IEnumSTATSTG **ppenum);
-# 10304 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 10304 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef IPersistFile *LPPERSISTFILE;
 extern const GUID IID_IPersistFile;
-# 10332 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 10332 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IPersistFileVtbl {
    
 
@@ -68678,7 +68678,7 @@ typedef struct IPersistFileVtbl {
 struct IPersistFile {
     IPersistFileVtbl* lpVtbl;
 };
-# 10430 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 10430 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IPersistFile_IsDirty_Proxy(
     IPersistFile* This);
 void IPersistFile_IsDirty_Stub(
@@ -68720,10 +68720,10 @@ void IPersistFile_GetCurFile_Stub(
     IRpcChannelBuffer* pRpcChannelBuffer,
     PRPC_MESSAGE pRpcMessage,
     DWORD* pdwStubPhase);
-# 10480 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 10480 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef IPersistStorage *LPPERSISTSTORAGE;
 extern const GUID IID_IPersistStorage;
-# 10510 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 10510 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IPersistStorageVtbl {
    
 
@@ -68773,7 +68773,7 @@ typedef struct IPersistStorageVtbl {
 struct IPersistStorage {
     IPersistStorageVtbl* lpVtbl;
 };
-# 10614 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 10614 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IPersistStorage_IsDirty_Proxy(
     IPersistStorage* This);
 void IPersistStorage_IsDirty_Stub(
@@ -68821,10 +68821,10 @@ void IPersistStorage_HandsOffStorage_Stub(
     IRpcChannelBuffer* pRpcChannelBuffer,
     PRPC_MESSAGE pRpcMessage,
     DWORD* pdwStubPhase);
-# 10672 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 10672 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef ILockBytes *LPLOCKBYTES;
 extern const GUID IID_ILockBytes;
-# 10715 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 10715 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct ILockBytesVtbl {
    
 
@@ -68884,7 +68884,7 @@ typedef struct ILockBytesVtbl {
 struct ILockBytes {
     ILockBytesVtbl* lpVtbl;
 };
-# 10827 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 10827 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT ILockBytes_RemoteReadAt_Proxy(
     ILockBytes* This,
     ULARGE_INTEGER ulOffset,
@@ -68975,7 +68975,7 @@ HRESULT ILockBytes_WriteAt_Stub(
     const byte *pv,
     ULONG cb,
     ULONG *pcbWritten);
-# 10926 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 10926 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef IEnumFORMATETC *LPENUMFORMATETC;
 typedef struct tagDVTARGETDEVICE {
     DWORD tdSize;
@@ -68995,7 +68995,7 @@ typedef struct tagFORMATETC {
 } FORMATETC;
 typedef struct tagFORMATETC *LPFORMATETC;
 extern const GUID IID_IEnumFORMATETC;
-# 10968 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 10968 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IEnumFORMATETCVtbl {
    
 
@@ -69034,7 +69034,7 @@ typedef struct IEnumFORMATETCVtbl {
 struct IEnumFORMATETC {
     IEnumFORMATETCVtbl* lpVtbl;
 };
-# 11047 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 11047 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IEnumFORMATETC_RemoteNext_Proxy(
     IEnumFORMATETC* This,
     ULONG celt,
@@ -69078,7 +69078,7 @@ HRESULT IEnumFORMATETC_Next_Stub(
     ULONG celt,
     FORMATETC *rgelt,
     ULONG *pceltFetched);
-# 11099 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 11099 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef IEnumSTATDATA *LPENUMSTATDATA;
 typedef enum tagADVF {
     ADVF_NODATA = 1,
@@ -69097,7 +69097,7 @@ typedef struct tagSTATDATA {
 } STATDATA;
 typedef STATDATA *LPSTATDATA;
 extern const GUID IID_IEnumSTATDATA;
-# 11140 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 11140 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IEnumSTATDATAVtbl {
    
 
@@ -69136,7 +69136,7 @@ typedef struct IEnumSTATDATAVtbl {
 struct IEnumSTATDATA {
     IEnumSTATDATAVtbl* lpVtbl;
 };
-# 11219 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 11219 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IEnumSTATDATA_RemoteNext_Proxy(
     IEnumSTATDATA* This,
     ULONG celt,
@@ -69180,10 +69180,10 @@ HRESULT IEnumSTATDATA_Next_Stub(
     ULONG celt,
     STATDATA *rgelt,
     ULONG *pceltFetched);
-# 11271 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 11271 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef IRootStorage *LPROOTSTORAGE;
 extern const GUID IID_IRootStorage;
-# 11285 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 11285 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IRootStorageVtbl {
    
 
@@ -69209,7 +69209,7 @@ typedef struct IRootStorageVtbl {
 struct IRootStorage {
     IRootStorageVtbl* lpVtbl;
 };
-# 11339 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 11339 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IRootStorage_SwitchToFile_Proxy(
     IRootStorage* This,
     LPOLESTR pszFile);
@@ -69218,7 +69218,7 @@ void IRootStorage_SwitchToFile_Stub(
     IRpcChannelBuffer* pRpcChannelBuffer,
     PRPC_MESSAGE pRpcMessage,
     DWORD* pdwStubPhase);
-# 11356 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 11356 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef IAdviseSink *LPADVISESINK;
 typedef enum tagTYMED {
     TYMED_HGLOBAL = 1,
@@ -69238,7 +69238,7 @@ typedef struct tagRemSTGMEDIUM {
     ULONG cbData;
     byte data[1];
 } RemSTGMEDIUM;
-# 11390 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 11390 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct tagSTGMEDIUM {
     DWORD tymed;
     __extension__ union {
@@ -69293,7 +69293,7 @@ typedef struct _FLAG_STGMEDIUM {
     STGMEDIUM Stgmed;
 } FLAG_STGMEDIUM;
 extern const GUID IID_IAdviseSink;
-# 11470 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 11470 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IAdviseSinkVtbl {
    
 
@@ -69335,7 +69335,7 @@ typedef struct IAdviseSinkVtbl {
 struct IAdviseSink {
     IAdviseSinkVtbl* lpVtbl;
 };
-# 11556 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 11556 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IAdviseSink_RemoteOnDataChange_Proxy(
     IAdviseSink* This,
     FORMATETC *pFormatetc,
@@ -69406,9 +69406,9 @@ void IAdviseSink_OnClose_Proxy(
     IAdviseSink* This);
 HRESULT IAdviseSink_OnClose_Stub(
     IAdviseSink* This);
-# 11635 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 11635 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 extern const GUID IID_AsyncIAdviseSink;
-# 11677 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 11677 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct AsyncIAdviseSinkVtbl {
    
 
@@ -69465,7 +69465,7 @@ typedef struct AsyncIAdviseSinkVtbl {
 struct AsyncIAdviseSink {
     AsyncIAdviseSinkVtbl* lpVtbl;
 };
-# 11798 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 11798 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT AsyncIAdviseSink_Begin_RemoteOnDataChange_Proxy(
     IAdviseSink* This,
     FORMATETC *pFormatetc,
@@ -69601,10 +69601,10 @@ void AsyncIAdviseSink_Finish_OnClose_Proxy(
     IAdviseSink* This);
 HRESULT AsyncIAdviseSink_Finish_OnClose_Stub(
     IAdviseSink* This);
-# 11944 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 11944 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef IAdviseSink2 *LPADVISESINK2;
 extern const GUID IID_IAdviseSink2;
-# 11958 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 11958 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IAdviseSink2Vtbl {
    
 
@@ -69651,7 +69651,7 @@ typedef struct IAdviseSink2Vtbl {
 struct IAdviseSink2 {
     IAdviseSink2Vtbl* lpVtbl;
 };
-# 12055 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 12055 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IAdviseSink2_RemoteOnLinkSrcChange_Proxy(
     IAdviseSink2* This,
     IMoniker *pmk);
@@ -69666,9 +69666,9 @@ void IAdviseSink2_OnLinkSrcChange_Proxy(
 HRESULT IAdviseSink2_OnLinkSrcChange_Stub(
     IAdviseSink2* This,
     IMoniker *pmk);
-# 12078 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 12078 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 extern const GUID IID_AsyncIAdviseSink2;
-# 12094 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 12094 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct AsyncIAdviseSink2Vtbl {
    
 
@@ -69733,7 +69733,7 @@ typedef struct AsyncIAdviseSink2Vtbl {
 struct AsyncIAdviseSink2 {
     AsyncIAdviseSink2Vtbl* lpVtbl;
 };
-# 12233 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 12233 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT AsyncIAdviseSink2_Begin_RemoteOnLinkSrcChange_Proxy(
     IAdviseSink2* This,
     IMoniker *pmk);
@@ -69761,14 +69761,14 @@ void AsyncIAdviseSink2_Finish_OnLinkSrcChange_Proxy(
 HRESULT AsyncIAdviseSink2_Finish_OnLinkSrcChange_Stub(
     IAdviseSink2* This,
     IMoniker *pmk);
-# 12271 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 12271 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef IDataObject *LPDATAOBJECT;
 typedef enum tagDATADIR {
     DATADIR_GET = 1,
     DATADIR_SET = 2
 } DATADIR;
 extern const GUID IID_IDataObject;
-# 12322 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 12322 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IDataObjectVtbl {
    
 
@@ -69835,7 +69835,7 @@ typedef struct IDataObjectVtbl {
 struct IDataObject {
     IDataObjectVtbl* lpVtbl;
 };
-# 12449 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 12449 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IDataObject_RemoteGetData_Proxy(
     IDataObject* This,
     FORMATETC *pformatetcIn,
@@ -69943,10 +69943,10 @@ HRESULT IDataObject_SetData_Stub(
     FORMATETC *pformatetc,
     FLAG_STGMEDIUM *pmedium,
     WINBOOL fRelease);
-# 12567 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 12567 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef IDataAdviseHolder *LPDATAADVISEHOLDER;
 extern const GUID IID_IDataAdviseHolder;
-# 12596 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 12596 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IDataAdviseHolderVtbl {
    
 
@@ -69990,7 +69990,7 @@ typedef struct IDataAdviseHolderVtbl {
 struct IDataAdviseHolder {
     IDataAdviseHolderVtbl* lpVtbl;
 };
-# 12680 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 12680 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IDataAdviseHolder_Advise_Proxy(
     IDataAdviseHolder* This,
     IDataObject *pDataObject,
@@ -70029,7 +70029,7 @@ void IDataAdviseHolder_SendOnDataChange_Stub(
     IRpcChannelBuffer* pRpcChannelBuffer,
     PRPC_MESSAGE pRpcMessage,
     DWORD* pdwStubPhase);
-# 12727 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 12727 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef IMessageFilter *LPMESSAGEFILTER;
 typedef enum tagCALLTYPE {
     CALLTYPE_TOPLEVEL = 1,
@@ -70059,7 +70059,7 @@ typedef struct tagINTERFACEINFO {
 } INTERFACEINFO;
 typedef struct tagINTERFACEINFO *LPINTERFACEINFO;
 extern const GUID IID_IMessageFilter;
-# 12781 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 12781 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IMessageFilterVtbl {
    
 
@@ -70100,7 +70100,7 @@ typedef struct IMessageFilterVtbl {
 struct IMessageFilter {
     IMessageFilterVtbl* lpVtbl;
 };
-# 12858 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 12858 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 DWORD IMessageFilter_HandleInComingCall_Proxy(
     IMessageFilter* This,
     DWORD dwCallType,
@@ -70159,7 +70159,7 @@ extern const FMTID FMTID_MediaFileSummaryInformation;
 
 
 extern const GUID IID_IClassActivator;
-# 12932 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 12932 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IClassActivatorVtbl {
    
 
@@ -70189,7 +70189,7 @@ typedef struct IClassActivatorVtbl {
 struct IClassActivator {
     IClassActivatorVtbl* lpVtbl;
 };
-# 12990 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 12990 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IClassActivator_GetClassObject_Proxy(
     IClassActivator* This,
     const IID *const rclsid,
@@ -70202,9 +70202,9 @@ void IClassActivator_GetClassObject_Stub(
     IRpcChannelBuffer* pRpcChannelBuffer,
     PRPC_MESSAGE pRpcMessage,
     DWORD* pdwStubPhase);
-# 13013 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 13013 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 extern const GUID IID_IFillLockBytes;
-# 13040 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 13040 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IFillLockBytesVtbl {
    
 
@@ -70247,7 +70247,7 @@ typedef struct IFillLockBytesVtbl {
 struct IFillLockBytes {
     IFillLockBytesVtbl* lpVtbl;
 };
-# 13123 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 13123 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IFillLockBytes_RemoteFillAppend_Proxy(
     IFillLockBytes* This,
     const byte *pv,
@@ -70307,9 +70307,9 @@ HRESULT IFillLockBytes_FillAt_Stub(
     const byte *pv,
     ULONG cb,
     ULONG *pcbWritten);
-# 13193 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 13193 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 extern const GUID IID_IProgressNotify;
-# 13209 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 13209 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IProgressNotifyVtbl {
    
 
@@ -70338,7 +70338,7 @@ typedef struct IProgressNotifyVtbl {
 struct IProgressNotify {
     IProgressNotifyVtbl* lpVtbl;
 };
-# 13266 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 13266 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IProgressNotify_OnProgress_Proxy(
     IProgressNotify* This,
     DWORD dwProgressCurrent,
@@ -70350,7 +70350,7 @@ void IProgressNotify_OnProgress_Stub(
     IRpcChannelBuffer* pRpcChannelBuffer,
     PRPC_MESSAGE pRpcMessage,
     DWORD* pdwStubPhase);
-# 13288 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 13288 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct tagStorageLayout {
     DWORD LayoutType;
     OLECHAR *pwcsElementName;
@@ -70358,7 +70358,7 @@ typedef struct tagStorageLayout {
     LARGE_INTEGER cBytes;
 } StorageLayout;
 extern const GUID IID_ILayoutStorage;
-# 13321 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 13321 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct ILayoutStorageVtbl {
    
 
@@ -70400,7 +70400,7 @@ typedef struct ILayoutStorageVtbl {
 struct ILayoutStorage {
     ILayoutStorageVtbl* lpVtbl;
 };
-# 13407 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 13407 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT ILayoutStorage_LayoutScript_Proxy(
     ILayoutStorage* This,
     StorageLayout *pStorageLayout,
@@ -70441,9 +70441,9 @@ void ILayoutStorage_ReLayoutDocfileOnILockBytes_Stub(
     IRpcChannelBuffer* pRpcChannelBuffer,
     PRPC_MESSAGE pRpcMessage,
     DWORD* pdwStubPhase);
-# 13458 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 13458 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 extern const GUID IID_IBlockingLock;
-# 13474 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 13474 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IBlockingLockVtbl {
    
 
@@ -70472,7 +70472,7 @@ typedef struct IBlockingLockVtbl {
 struct IBlockingLock {
     IBlockingLockVtbl* lpVtbl;
 };
-# 13535 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 13535 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IBlockingLock_Lock_Proxy(
     IBlockingLock* This,
     DWORD dwTimeout);
@@ -70488,9 +70488,9 @@ void IBlockingLock_Unlock_Stub(
     IRpcChannelBuffer* pRpcChannelBuffer,
     PRPC_MESSAGE pRpcMessage,
     DWORD* pdwStubPhase);
-# 13559 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 13559 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 extern const GUID IID_ITimeAndNoticeControl;
-# 13573 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 13573 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct ITimeAndNoticeControlVtbl {
    
 
@@ -70517,7 +70517,7 @@ typedef struct ITimeAndNoticeControlVtbl {
 struct ITimeAndNoticeControl {
     ITimeAndNoticeControlVtbl* lpVtbl;
 };
-# 13628 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 13628 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT ITimeAndNoticeControl_SuppressChanges_Proxy(
     ITimeAndNoticeControl* This,
     DWORD res1,
@@ -70527,9 +70527,9 @@ void ITimeAndNoticeControl_SuppressChanges_Stub(
     IRpcChannelBuffer* pRpcChannelBuffer,
     PRPC_MESSAGE pRpcMessage,
     DWORD* pdwStubPhase);
-# 13646 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 13646 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 extern const GUID IID_IOplockStorage;
-# 13672 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 13672 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IOplockStorageVtbl {
    
 
@@ -70569,7 +70569,7 @@ typedef struct IOplockStorageVtbl {
 struct IOplockStorage {
     IOplockStorageVtbl* lpVtbl;
 };
-# 13744 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 13744 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IOplockStorage_CreateStorageEx_Proxy(
     IOplockStorage* This,
     LPCWSTR pwcsName,
@@ -70596,9 +70596,9 @@ void IOplockStorage_OpenStorageEx_Stub(
     IRpcChannelBuffer* pRpcChannelBuffer,
     PRPC_MESSAGE pRpcMessage,
     DWORD* pdwStubPhase);
-# 13781 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 13781 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 extern const GUID IID_IDirectWriterLock;
-# 13800 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 13800 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IDirectWriterLockVtbl {
    
 
@@ -70630,7 +70630,7 @@ typedef struct IDirectWriterLockVtbl {
 struct IDirectWriterLock {
     IDirectWriterLockVtbl* lpVtbl;
 };
-# 13868 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 13868 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IDirectWriterLock_WaitForWriteAccess_Proxy(
     IDirectWriterLock* This,
     DWORD dwTimeout);
@@ -70653,9 +70653,9 @@ void IDirectWriterLock_HaveWriteAccess_Stub(
     IRpcChannelBuffer* pRpcChannelBuffer,
     PRPC_MESSAGE pRpcMessage,
     DWORD* pdwStubPhase);
-# 13901 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 13901 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 extern const GUID IID_IUrlMon;
-# 13923 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 13923 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IUrlMonVtbl {
    
 
@@ -70690,7 +70690,7 @@ typedef struct IUrlMonVtbl {
 struct IUrlMon {
     IUrlMonVtbl* lpVtbl;
 };
-# 13986 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 13986 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IUrlMon_AsyncGetClassBits_Proxy(
     IUrlMon* This,
     const IID *const rclsid,
@@ -70708,9 +70708,9 @@ void IUrlMon_AsyncGetClassBits_Stub(
     IRpcChannelBuffer* pRpcChannelBuffer,
     PRPC_MESSAGE pRpcMessage,
     DWORD* pdwStubPhase);
-# 14012 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 14012 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 extern const GUID IID_IForegroundTransfer;
-# 14025 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 14025 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IForegroundTransferVtbl {
    
 
@@ -70736,7 +70736,7 @@ typedef struct IForegroundTransferVtbl {
 struct IForegroundTransfer {
     IForegroundTransferVtbl* lpVtbl;
 };
-# 14079 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 14079 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IForegroundTransfer_AllowForegroundTransfer_Proxy(
     IForegroundTransfer* This,
     void *lpvReserved);
@@ -70745,9 +70745,9 @@ void IForegroundTransfer_AllowForegroundTransfer_Stub(
     IRpcChannelBuffer* pRpcChannelBuffer,
     PRPC_MESSAGE pRpcMessage,
     DWORD* pdwStubPhase);
-# 14096 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 14096 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 extern const GUID IID_IThumbnailExtractor;
-# 14117 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 14117 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IThumbnailExtractorVtbl {
    
 
@@ -70782,7 +70782,7 @@ typedef struct IThumbnailExtractorVtbl {
 struct IThumbnailExtractor {
     IThumbnailExtractorVtbl* lpVtbl;
 };
-# 14184 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 14184 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IThumbnailExtractor_ExtractThumbnail_Proxy(
     IThumbnailExtractor* This,
     IStorage *pStg,
@@ -70804,9 +70804,9 @@ void IThumbnailExtractor_OnFileUpdated_Stub(
     IRpcChannelBuffer* pRpcChannelBuffer,
     PRPC_MESSAGE pRpcMessage,
     DWORD* pdwStubPhase);
-# 14214 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 14214 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 extern const GUID IID_IDummyHICONIncluder;
-# 14228 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 14228 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IDummyHICONIncluderVtbl {
    
 
@@ -70833,7 +70833,7 @@ typedef struct IDummyHICONIncluderVtbl {
 struct IDummyHICONIncluder {
     IDummyHICONIncluderVtbl* lpVtbl;
 };
-# 14283 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 14283 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IDummyHICONIncluder_Dummy_Proxy(
     IDummyHICONIncluder* This,
     HICON h1,
@@ -70861,7 +70861,7 @@ typedef enum tagShutdownType {
 
 
 extern const GUID IID_IProcessLock;
-# 14325 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 14325 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IProcessLockVtbl {
    
 
@@ -70889,7 +70889,7 @@ typedef struct IProcessLockVtbl {
 struct IProcessLock {
     IProcessLockVtbl* lpVtbl;
 };
-# 14385 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 14385 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 ULONG IProcessLock_AddRefOnProcess_Proxy(
     IProcessLock* This);
 void IProcessLock_AddRefOnProcess_Stub(
@@ -70904,9 +70904,9 @@ void IProcessLock_ReleaseRefOnProcess_Stub(
     IRpcChannelBuffer* pRpcChannelBuffer,
     PRPC_MESSAGE pRpcMessage,
     DWORD* pdwStubPhase);
-# 14408 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 14408 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 extern const GUID IID_ISurrogateService;
-# 14436 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 14436 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct ISurrogateServiceVtbl {
    
 
@@ -70951,7 +70951,7 @@ typedef struct ISurrogateServiceVtbl {
 struct ISurrogateService {
     ISurrogateServiceVtbl* lpVtbl;
 };
-# 14525 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 14525 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT ISurrogateService_Init_Proxy(
     ISurrogateService* This,
     const GUID *const rguidProcessID,
@@ -70995,10 +70995,10 @@ void ISurrogateService_ProcessShutdown_Stub(
     IRpcChannelBuffer* pRpcChannelBuffer,
     PRPC_MESSAGE pRpcMessage,
     DWORD* pdwStubPhase);
-# 14577 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 14577 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef IInitializeSpy *LPINITIALIZESPY;
 extern const GUID IID_IInitializeSpy;
-# 14603 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 14603 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IInitializeSpyVtbl {
    
 
@@ -71039,7 +71039,7 @@ typedef struct IInitializeSpyVtbl {
 struct IInitializeSpy {
     IInitializeSpyVtbl* lpVtbl;
 };
-# 14684 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 14684 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 HRESULT IInitializeSpy_PreInitialize_Proxy(
     IInitializeSpy* This,
     DWORD dwCoInit,
@@ -71075,9 +71075,9 @@ void IInitializeSpy_PostUninitialize_Stub(
     IRpcChannelBuffer* pRpcChannelBuffer,
     PRPC_MESSAGE pRpcMessage,
     DWORD* pdwStubPhase);
-# 14730 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 14730 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 extern const GUID IID_IApartmentShutdown;
-# 14743 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 14743 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 typedef struct IApartmentShutdownVtbl {
    
 
@@ -71103,7 +71103,7 @@ typedef struct IApartmentShutdownVtbl {
 struct IApartmentShutdown {
     IApartmentShutdownVtbl* lpVtbl;
 };
-# 14797 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 3
+# 14797 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 3
 void IApartmentShutdown_OnUninitialize_Proxy(
     IApartmentShutdown* This,
     UINT64 ui64ApartmentIdentifier);
@@ -71150,8 +71150,8 @@ ULONG HDC_UserSize (ULONG *, ULONG, HDC *);
 unsigned char * HDC_UserMarshal (ULONG *, unsigned char *, HDC *);
 unsigned char * HDC_UserUnmarshal(ULONG *, unsigned char *, HDC *);
 void HDC_UserFree (ULONG *, HDC *);
-# 67 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objbase.h" 2 3
-# 79 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objbase.h" 3
+# 67 "C:/tdm64/x86_64-w64-mingw32/include/objbase.h" 2 3
+# 79 "C:/tdm64/x86_64-w64-mingw32/include/objbase.h" 3
 extern __attribute__((dllimport)) DWORD CoBuildVersion (void);
 extern __attribute__((dllimport)) HRESULT CoInitialize (LPVOID pvReserved);
 extern __attribute__((dllimport)) HRESULT CoRegisterMallocSpy (LPMALLOCSPY pMallocSpy);
@@ -71236,14 +71236,14 @@ extern __attribute__((dllimport)) HRESULT CoInstall (IBindCtx *pbc, DWORD dwFlag
 extern __attribute__((dllimport)) HRESULT GetRunningObjectTable (DWORD reserved, LPRUNNINGOBJECTTABLE *pprot);
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 1 3
 
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
@@ -71251,18 +71251,18 @@ extern __attribute__((dllimport)) HRESULT GetRunningObjectTable (DWORD reserved,
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 2 3
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 14 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 2 3
-# 23 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 14 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 2 3
+# 23 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IPersistMoniker IPersistMoniker;
 
 
@@ -71687,40 +71687,14 @@ typedef struct IBindCallbackRedirect IBindCallbackRedirect;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 1 3
 
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
-
-
-
-
-
-
-
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 2 3
-
-
-
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 13 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 2 3
-# 448 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 1 3
-
-
-
-
-
-
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
@@ -71728,18 +71702,44 @@ typedef struct IBindCallbackRedirect IBindCallbackRedirect;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 2 3
+
+
+
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 13 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 2 3
+# 448 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 1 3
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 14 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 2 3
-# 23 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+
+
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
+
+
+
+
+
+
+
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 2 3
+
+
+
+
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 14 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 2 3
+# 23 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef struct IOleAdviseHolder IOleAdviseHolder;
 
 
@@ -71924,14 +71924,14 @@ typedef struct IEnumOLEVERB IEnumOLEVERB;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 1 3
 
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
@@ -71939,22 +71939,22 @@ typedef struct IEnumOLEVERB IEnumOLEVERB;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 2 3
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 13 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 2 3
-# 208 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 2 3
-# 245 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 13 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 2 3
+# 208 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 2 3
+# 245 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef IOleAdviseHolder *LPOLEADVISEHOLDER;
 
 extern const GUID IID_IOleAdviseHolder;
-# 276 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 276 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef struct IOleAdviseHolderVtbl {
    
 
@@ -72000,11 +72000,11 @@ typedef struct IOleAdviseHolderVtbl {
 struct IOleAdviseHolder {
     IOleAdviseHolderVtbl* lpVtbl;
 };
-# 382 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 382 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef IOleCache *LPOLECACHE;
 
 extern const GUID IID_IOleCache;
-# 413 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 413 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef struct IOleCacheVtbl {
    
 
@@ -72051,16 +72051,16 @@ typedef struct IOleCacheVtbl {
 struct IOleCache {
     IOleCacheVtbl* lpVtbl;
 };
-# 514 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 514 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef IOleCache2 *LPOLECACHE2;
-# 535 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 535 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef enum tagDISCARDCACHE {
     DISCARDCACHE_SAVEIFDIRTY = 0,
     DISCARDCACHE_NOSAVE = 1
 } DISCARDCACHE;
 
 extern const GUID IID_IOleCache2;
-# 558 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 558 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef struct IOleCache2Vtbl {
    
 
@@ -72118,7 +72118,7 @@ typedef struct IOleCache2Vtbl {
 struct IOleCache2 {
     IOleCache2Vtbl* lpVtbl;
 };
-# 670 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 670 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 HRESULT IOleCache2_RemoteUpdateCache_Proxy(
     IOleCache2* This,
     LPDATAOBJECT pDataObject,
@@ -72139,11 +72139,11 @@ HRESULT IOleCache2_UpdateCache_Stub(
     LPDATAOBJECT pDataObject,
     DWORD grfUpdf,
     LONG_PTR pReserved);
-# 702 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 702 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef IOleCacheControl *LPOLECACHECONTROL;
 
 extern const GUID IID_IOleCacheControl;
-# 720 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 720 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef struct IOleCacheControlVtbl {
    
 
@@ -72173,11 +72173,11 @@ typedef struct IOleCacheControlVtbl {
 struct IOleCacheControl {
     IOleCacheControlVtbl* lpVtbl;
 };
-# 792 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 792 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef IParseDisplayName *LPPARSEDISPLAYNAME;
 
 extern const GUID IID_IParseDisplayName;
-# 810 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 810 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef struct IParseDisplayNameVtbl {
    
 
@@ -72207,11 +72207,11 @@ typedef struct IParseDisplayNameVtbl {
 struct IParseDisplayName {
     IParseDisplayNameVtbl* lpVtbl;
 };
-# 878 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 878 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef IOleContainer *LPOLECONTAINER;
 
 extern const GUID IID_IOleContainer;
-# 897 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 897 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef struct IOleContainerVtbl {
    
 
@@ -72251,11 +72251,11 @@ typedef struct IOleContainerVtbl {
 struct IOleContainer {
     IOleContainerVtbl* lpVtbl;
 };
-# 985 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 985 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef IOleClientSite *LPOLECLIENTSITE;
 
 extern const GUID IID_IOleClientSite;
-# 1017 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 1017 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef struct IOleClientSiteVtbl {
    
 
@@ -72301,7 +72301,7 @@ typedef struct IOleClientSiteVtbl {
 struct IOleClientSite {
     IOleClientSiteVtbl* lpVtbl;
 };
-# 1121 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 1121 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef IOleObject *LPOLEOBJECT;
 
 typedef enum tagOLEGETMONIKER {
@@ -72354,7 +72354,7 @@ typedef enum tagOLECLOSE {
 } OLECLOSE;
 
 extern const GUID IID_IOleObject;
-# 1262 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 1262 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef struct IOleObjectVtbl {
    
 
@@ -72476,7 +72476,7 @@ typedef struct IOleObjectVtbl {
 struct IOleObject {
     IOleObjectVtbl* lpVtbl;
 };
-# 1502 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 1502 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 extern RPC_IF_HANDLE IOLETypes_v0_0_c_ifspec;
 extern RPC_IF_HANDLE IOLETypes_v0_0_s_ifspec;
 typedef enum tagOLERENDER {
@@ -72503,11 +72503,11 @@ typedef struct tagOBJECTDESCRIPTOR *LPOBJECTDESCRIPTOR;
 typedef struct tagOBJECTDESCRIPTOR LINKSRCDESCRIPTOR;
 typedef struct tagOBJECTDESCRIPTOR *PLINKSRCDESCRIPTOR;
 typedef struct tagOBJECTDESCRIPTOR *LPLINKSRCDESCRIPTOR;
-# 1538 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 1538 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef IOleWindow *LPOLEWINDOW;
 
 extern const GUID IID_IOleWindow;
-# 1556 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 1556 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef struct IOleWindowVtbl {
    
 
@@ -72538,7 +72538,7 @@ typedef struct IOleWindowVtbl {
 struct IOleWindow {
     IOleWindowVtbl* lpVtbl;
 };
-# 1629 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 1629 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef IOleLink *LPOLELINK;
 
 typedef enum tagOLEUPDATE {
@@ -72554,7 +72554,7 @@ typedef enum tagOLELINKBIND {
 } OLELINKBIND;
 
 extern const GUID IID_IOleLink;
-# 1688 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 1688 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef struct IOleLinkVtbl {
    
 
@@ -72621,7 +72621,7 @@ typedef struct IOleLinkVtbl {
 struct IOleLink {
     IOleLinkVtbl* lpVtbl;
 };
-# 1833 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 1833 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef IOleItemContainer *LPOLEITEMCONTAINER;
 
 typedef enum tagBINDSPEED {
@@ -72639,7 +72639,7 @@ typedef enum tagOLECONTF {
 } OLECONTF;
 
 extern const GUID IID_IOleItemContainer;
-# 1875 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 1875 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef struct IOleItemContainerVtbl {
    
 
@@ -72699,14 +72699,14 @@ typedef struct IOleItemContainerVtbl {
 struct IOleItemContainer {
     IOleItemContainerVtbl* lpVtbl;
 };
-# 1997 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 1997 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef IOleInPlaceUIWindow *LPOLEINPLACEUIWINDOW;
 typedef RECT BORDERWIDTHS;
 typedef LPRECT LPBORDERWIDTHS;
 typedef LPCRECT LPCBORDERWIDTHS;
 
 extern const GUID IID_IOleInPlaceUIWindow;
-# 2025 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 2025 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef struct IOleInPlaceUIWindowVtbl {
    
 
@@ -72755,11 +72755,11 @@ typedef struct IOleInPlaceUIWindowVtbl {
 struct IOleInPlaceUIWindow {
     IOleInPlaceUIWindowVtbl* lpVtbl;
 };
-# 2134 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 2134 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef IOleInPlaceActiveObject *LPOLEINPLACEACTIVEOBJECT;
 
 extern const GUID IID_IOleInPlaceActiveObject;
-# 2163 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 2163 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef struct IOleInPlaceActiveObjectVtbl {
    
 
@@ -72813,7 +72813,7 @@ typedef struct IOleInPlaceActiveObjectVtbl {
 struct IOleInPlaceActiveObject {
     IOleInPlaceActiveObjectVtbl* lpVtbl;
 };
-# 2271 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 2271 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 HRESULT IOleInPlaceActiveObject_RemoteTranslateAccelerator_Proxy(
     IOleInPlaceActiveObject* This);
 void IOleInPlaceActiveObject_RemoteTranslateAccelerator_Stub(
@@ -72848,7 +72848,7 @@ HRESULT IOleInPlaceActiveObject_ResizeBorder_Stub(
     const IID *const riid,
     IOleInPlaceUIWindow *pUIWindow,
     WINBOOL fFrameWindow);
-# 2315 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 2315 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef IOleInPlaceFrame *LPOLEINPLACEFRAME;
 
 typedef struct tagOIFI {
@@ -72868,7 +72868,7 @@ typedef struct tagOleMenuGroupWidths *LPOLEMENUGROUPWIDTHS;
 typedef HGLOBAL HOLEMENU;
 
 extern const GUID IID_IOleInPlaceFrame;
-# 2365 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 2365 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef struct IOleInPlaceFrameVtbl {
    
 
@@ -72946,11 +72946,11 @@ typedef struct IOleInPlaceFrameVtbl {
 struct IOleInPlaceFrame {
     IOleInPlaceFrameVtbl* lpVtbl;
 };
-# 2529 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 2529 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef IOleInPlaceObject *LPOLEINPLACEOBJECT;
 
 extern const GUID IID_IOleInPlaceObject;
-# 2554 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 2554 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef struct IOleInPlaceObjectVtbl {
    
 
@@ -72996,11 +72996,11 @@ typedef struct IOleInPlaceObjectVtbl {
 struct IOleInPlaceObject {
     IOleInPlaceObjectVtbl* lpVtbl;
 };
-# 2660 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 2660 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef IOleInPlaceSite *LPOLEINPLACESITE;
 
 extern const GUID IID_IOleInPlaceSite;
-# 2706 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 2706 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef struct IOleInPlaceSiteVtbl {
    
 
@@ -73070,9 +73070,9 @@ typedef struct IOleInPlaceSiteVtbl {
 struct IOleInPlaceSite {
     IOleInPlaceSiteVtbl* lpVtbl;
 };
-# 2860 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 2860 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 extern const GUID IID_IContinue;
-# 2873 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 2873 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef struct IContinueVtbl {
    
 
@@ -73098,11 +73098,11 @@ typedef struct IContinueVtbl {
 struct IContinue {
     IContinueVtbl* lpVtbl;
 };
-# 2937 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 2937 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef IViewObject *LPVIEWOBJECT;
 
 extern const GUID IID_IViewObject;
-# 2988 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 2988 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef struct IViewObjectVtbl {
    
 
@@ -73170,7 +73170,7 @@ typedef struct IViewObjectVtbl {
 struct IViewObject {
     IViewObjectVtbl* lpVtbl;
 };
-# 3104 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 3104 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 HRESULT IViewObject_RemoteDraw_Proxy(
     IViewObject* This,
     DWORD dwDrawAspect,
@@ -73282,11 +73282,11 @@ HRESULT IViewObject_GetAdvise_Stub(
     DWORD *pAspects,
     DWORD *pAdvf,
     IAdviseSink **ppAdvSink);
-# 3225 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 3225 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef IViewObject2 *LPVIEWOBJECT2;
 
 extern const GUID IID_IViewObject2;
-# 3243 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 3243 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef struct IViewObject2Vtbl {
    
 
@@ -73362,11 +73362,11 @@ typedef struct IViewObject2Vtbl {
 struct IViewObject2 {
     IViewObject2Vtbl* lpVtbl;
 };
-# 3383 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 3383 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef IDropSource *LPDROPSOURCE;
 
 extern const GUID IID_IDropSource;
-# 3402 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 3402 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef struct IDropSourceVtbl {
    
 
@@ -73398,11 +73398,11 @@ typedef struct IDropSourceVtbl {
 struct IDropSource {
     IDropSourceVtbl* lpVtbl;
 };
-# 3476 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 3476 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef IDropTarget *LPDROPTARGET;
-# 3506 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 3506 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 extern const GUID IID_IDropTarget;
-# 3536 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 3536 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef struct IDropTargetVtbl {
    
 
@@ -73448,9 +73448,9 @@ typedef struct IDropTargetVtbl {
 struct IDropTarget {
     IDropTargetVtbl* lpVtbl;
 };
-# 3632 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 3632 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 extern const GUID IID_IDropSourceNotify;
-# 3648 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 3648 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef struct IDropSourceNotifyVtbl {
    
 
@@ -73480,7 +73480,7 @@ typedef struct IDropSourceNotifyVtbl {
 struct IDropSourceNotify {
     IDropSourceNotifyVtbl* lpVtbl;
 };
-# 3722 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 3722 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef IEnumOLEVERB *LPENUMOLEVERB;
 
 typedef struct tagOLEVERB {
@@ -73497,7 +73497,7 @@ typedef enum tagOLEVERBATTRIB {
 } OLEVERBATTRIB;
 
 extern const GUID IID_IEnumOLEVERB;
-# 3761 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 3761 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 typedef struct IEnumOLEVERBVtbl {
    
 
@@ -73537,7 +73537,7 @@ typedef struct IEnumOLEVERBVtbl {
 struct IEnumOLEVERB {
     IEnumOLEVERBVtbl* lpVtbl;
 };
-# 3841 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 3
+# 3841 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 3
 HRESULT IEnumOLEVERB_RemoteNext_Proxy(
     IEnumOLEVERB* This,
     ULONG celt,
@@ -73592,15 +73592,15 @@ ULONG HDC_UserSize (ULONG *, ULONG, HDC *);
 unsigned char * HDC_UserMarshal (ULONG *, unsigned char *, HDC *);
 unsigned char * HDC_UserUnmarshal(ULONG *, unsigned char *, HDC *);
 void HDC_UserFree (ULONG *, HDC *);
-# 449 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/servprov.h" 1 3
+# 449 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/servprov.h" 1 3
 
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
@@ -73608,18 +73608,18 @@ void HDC_UserFree (ULONG *, HDC *);
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/servprov.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/servprov.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/servprov.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/servprov.h" 2 3
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 14 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/servprov.h" 2 3
-# 23 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/servprov.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 14 "C:/tdm64/x86_64-w64-mingw32/include/servprov.h" 2 3
+# 23 "C:/tdm64/x86_64-w64-mingw32/include/servprov.h" 3
 typedef struct IServiceProvider IServiceProvider;
 
 
@@ -73628,14 +73628,14 @@ typedef struct IServiceProvider IServiceProvider;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 1 3
 
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
@@ -73643,22 +73643,22 @@ typedef struct IServiceProvider IServiceProvider;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 2 3
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 13 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 2 3
-# 32 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/servprov.h" 2 3
-# 62 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/servprov.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 13 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 2 3
+# 32 "C:/tdm64/x86_64-w64-mingw32/include/servprov.h" 2 3
+# 62 "C:/tdm64/x86_64-w64-mingw32/include/servprov.h" 3
 typedef IServiceProvider *LPSERVICEPROVIDER;
-# 84 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/servprov.h" 3
+# 84 "C:/tdm64/x86_64-w64-mingw32/include/servprov.h" 3
 extern const GUID IID_IServiceProvider;
-# 99 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/servprov.h" 3
+# 99 "C:/tdm64/x86_64-w64-mingw32/include/servprov.h" 3
 typedef struct IServiceProviderVtbl {
    
 
@@ -73687,7 +73687,7 @@ typedef struct IServiceProviderVtbl {
 struct IServiceProvider {
     IServiceProviderVtbl* lpVtbl;
 };
-# 156 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/servprov.h" 3
+# 156 "C:/tdm64/x86_64-w64-mingw32/include/servprov.h" 3
 HRESULT IServiceProvider_RemoteQueryService_Proxy(
     IServiceProvider* This,
     const GUID *const guidService,
@@ -73708,15 +73708,15 @@ HRESULT IServiceProvider_QueryService_Stub(
     const GUID *const guidService,
     const IID *const riid,
     IUnknown **ppvObject);
-# 450 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 1 3
+# 450 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 1 3
 
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
@@ -73724,26 +73724,26 @@ HRESULT IServiceProvider_QueryService_Stub(
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 2 3
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 14 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 2 3
-# 23 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwn.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 14 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 2 3
+# 23 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/unknwn.h" 1 3
 
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
@@ -73751,25 +73751,25 @@ HRESULT IServiceProvider_QueryService_Stub(
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwn.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwn.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/unknwn.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/unknwn.h" 2 3
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 13 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwn.h" 2 3
-# 24 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 13 "C:/tdm64/x86_64-w64-mingw32/include/unknwn.h" 2 3
+# 24 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 1 3
 
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
@@ -73777,25 +73777,25 @@ HRESULT IServiceProvider_QueryService_Stub(
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 2 3
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 13 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 2 3
-# 25 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 13 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 2 3
+# 25 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 1 3
 
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
@@ -73803,18 +73803,18 @@ HRESULT IServiceProvider_QueryService_Stub(
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 2 3
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 14 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 2 3
-# 23 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 14 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 2 3
+# 23 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef struct ICreateTypeInfo ICreateTypeInfo;
 
 
@@ -73975,14 +73975,14 @@ typedef struct IPropertyBag IPropertyBag;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 1 3
 
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
@@ -73990,18 +73990,18 @@ typedef struct IPropertyBag IPropertyBag;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 2 3
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 13 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 2 3
-# 184 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 2 3
-# 356 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 13 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 2 3
+# 184 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 2 3
+# 356 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 extern RPC_IF_HANDLE IOleAutomationTypes_v1_0_c_ifspec;
 extern RPC_IF_HANDLE IOleAutomationTypes_v1_0_s_ifspec;
 typedef CY CURRENCY;
@@ -74094,7 +74094,7 @@ typedef struct tagSAFEARRAY {
     SAFEARRAYBOUND rgsabound[1];
 } SAFEARRAY;
 typedef SAFEARRAY *LPSAFEARRAY;
-# 495 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 495 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef struct tagVARIANT VARIANT;
 
 struct tagVARIANT {
@@ -74161,7 +74161,7 @@ struct tagVARIANT {
 typedef VARIANT *LPVARIANT;
 typedef VARIANT VARIANTARG;
 typedef VARIANT *LPVARIANTARG;
-# 575 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 575 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 struct _wireBRECORD {
     ULONG fFlags;
     ULONG clSize;
@@ -74265,13 +74265,13 @@ typedef struct tagPARAMDESC {
     USHORT wParamFlags;
 } PARAMDESC;
 typedef struct tagPARAMDESC *LPPARAMDESC;
-# 696 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 696 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef struct tagIDLDESC {
     ULONG_PTR dwReserved;
     USHORT wIDLFlags;
 } IDLDESC;
 typedef struct tagIDLDESC *LPIDLDESC;
-# 720 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 720 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
   typedef struct tagELEMDESC {
     TYPEDESC tdesc;
     __extension__ union {
@@ -74309,7 +74309,7 @@ typedef struct tagDISPPARAMS {
     UINT cArgs;
     UINT cNamedArgs;
 } DISPPARAMS;
-# 771 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 771 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
   typedef struct tagEXCEPINFO {
     WORD wCode;
     WORD wReserved;
@@ -74374,7 +74374,7 @@ typedef enum tagVARKIND {
     VAR_CONST = 2,
     VAR_DISPATCH = 3
 } VARKIND;
-# 845 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 845 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef struct tagVARDESC {
     MEMBERID memid;
     LPOLESTR lpstrSchema;
@@ -74455,11 +74455,11 @@ typedef struct tagCUSTDATA {
     LPCUSTDATAITEM prgCustData;
 } CUSTDATA;
 typedef struct tagCUSTDATA *LPCUSTDATA;
-# 937 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 937 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef ICreateTypeInfo *LPCREATETYPEINFO;
 
 extern const GUID IID_ICreateTypeInfo;
-# 1034 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 1034 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef struct ICreateTypeInfoVtbl {
    
 
@@ -74589,11 +74589,11 @@ typedef struct ICreateTypeInfoVtbl {
 struct ICreateTypeInfo {
     ICreateTypeInfoVtbl* lpVtbl;
 };
-# 1290 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 1290 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef ICreateTypeInfo2 *LPCREATETYPEINFO2;
 
 extern const GUID IID_ICreateTypeInfo2;
-# 1360 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 1360 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef struct ICreateTypeInfo2Vtbl {
    
 
@@ -74796,11 +74796,11 @@ typedef struct ICreateTypeInfo2Vtbl {
 struct ICreateTypeInfo2 {
     ICreateTypeInfo2Vtbl* lpVtbl;
 };
-# 1751 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 1751 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef ICreateTypeLib *LPCREATETYPELIB;
 
 extern const GUID IID_ICreateTypeLib;
-# 1796 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 1796 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef struct ICreateTypeLibVtbl {
    
 
@@ -74865,10 +74865,10 @@ typedef struct ICreateTypeLibVtbl {
 struct ICreateTypeLib {
     ICreateTypeLibVtbl* lpVtbl;
 };
-# 1935 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 1935 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef ICreateTypeLib2 *LPCREATETYPELIB2;
 extern const GUID IID_ICreateTypeLib2;
-# 1959 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 1959 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef struct ICreateTypeLib2Vtbl {
    
 
@@ -74951,11 +74951,11 @@ typedef struct ICreateTypeLib2Vtbl {
 struct ICreateTypeLib2 {
     ICreateTypeLib2Vtbl* lpVtbl;
 };
-# 2136 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 2136 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef IDispatch *LPDISPATCH;
-# 2156 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 2156 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 extern const GUID IID_IDispatch;
-# 2191 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 2191 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef struct IDispatchVtbl {
    
 
@@ -75007,7 +75007,7 @@ typedef struct IDispatchVtbl {
 struct IDispatch {
     IDispatchVtbl* lpVtbl;
 };
-# 2283 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 2283 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 HRESULT IDispatch_RemoteInvoke_Proxy(
     IDispatch* This,
     DISPID dispIdMember,
@@ -75049,11 +75049,11 @@ HRESULT IDispatch_Invoke_Stub(
     UINT cVarRef,
     UINT *rgVarRefIdx,
     VARIANTARG *rgVarRef);
-# 2334 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 2334 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef IEnumVARIANT *LPENUMVARIANT;
 
 extern const GUID IID_IEnumVARIANT;
-# 2360 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 2360 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef struct IEnumVARIANTVtbl {
    
 
@@ -75093,7 +75093,7 @@ typedef struct IEnumVARIANTVtbl {
 struct IEnumVARIANT {
     IEnumVARIANTVtbl* lpVtbl;
 };
-# 2440 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 2440 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 HRESULT IEnumVARIANT_RemoteNext_Proxy(
     IEnumVARIANT* This,
     ULONG celt,
@@ -75114,7 +75114,7 @@ HRESULT IEnumVARIANT_Next_Stub(
     ULONG celt,
     VARIANT *rgVar,
     ULONG *pCeltFetched);
-# 2470 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 2470 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef ITypeComp *LPTYPECOMP;
 
 typedef enum tagDESCKIND {
@@ -75134,7 +75134,7 @@ typedef union tagBINDPTR {
 typedef union tagBINDPTR *LPBINDPTR;
 
 extern const GUID IID_ITypeComp;
-# 2512 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 2512 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef struct ITypeCompVtbl {
    
 
@@ -75173,7 +75173,7 @@ typedef struct ITypeCompVtbl {
 struct ITypeComp {
     ITypeCompVtbl* lpVtbl;
 };
-# 2583 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 2583 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 HRESULT ITypeComp_RemoteBind_Proxy(
     ITypeComp* This,
     LPOLESTR szName,
@@ -75230,11 +75230,11 @@ HRESULT ITypeComp_BindType_Stub(
     LPOLESTR szName,
     ULONG lHashVal,
     ITypeInfo **ppTInfo);
-# 2651 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 2651 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef ITypeInfo *LPTYPEINFO;
 
 extern const GUID IID_ITypeInfo;
-# 2750 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 2750 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef struct ITypeInfoVtbl {
    
 
@@ -75363,7 +75363,7 @@ typedef struct ITypeInfoVtbl {
 struct ITypeInfo {
     ITypeInfoVtbl* lpVtbl;
 };
-# 2979 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 2979 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 HRESULT ITypeInfo_RemoteGetTypeAttr_Proxy(
     ITypeInfo* This,
     LPTYPEATTR *ppTypeAttr,
@@ -75614,11 +75614,11 @@ void ITypeInfo_ReleaseVarDesc_Proxy(
     VARDESC *pVarDesc);
 HRESULT ITypeInfo_ReleaseVarDesc_Stub(
     ITypeInfo* This);
-# 3239 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 3239 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef ITypeInfo2 *LPTYPEINFO2;
 
 extern const GUID IID_ITypeInfo2;
-# 3318 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 3318 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef struct ITypeInfo2Vtbl {
    
 
@@ -75830,7 +75830,7 @@ typedef struct ITypeInfo2Vtbl {
 struct ITypeInfo2 {
     ITypeInfo2Vtbl* lpVtbl;
 };
-# 3692 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 3692 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 HRESULT ITypeInfo2_RemoteGetDocumentation2_Proxy(
     ITypeInfo2* This,
     MEMBERID memid,
@@ -75859,7 +75859,7 @@ HRESULT ITypeInfo2_GetDocumentation2_Stub(
     BSTR *pbstrHelpString,
     DWORD *pdwHelpStringContext,
     BSTR *pbstrHelpStringDll);
-# 3732 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 3732 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef enum tagSYSKIND {
     SYS_WIN16 = 0,
     SYS_WIN32 = 1,
@@ -75887,7 +75887,7 @@ typedef struct tagTLIBATTR {
 typedef struct tagTLIBATTR *LPTLIBATTR;
 
 extern const GUID IID_ITypeLib;
-# 3811 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 3811 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef struct ITypeLibVtbl {
    
 
@@ -75962,7 +75962,7 @@ typedef struct ITypeLibVtbl {
 struct ITypeLib {
     ITypeLibVtbl* lpVtbl;
 };
-# 3950 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 3950 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 HRESULT ITypeLib_RemoteGetTypeInfoCount_Proxy(
     ITypeLib* This,
     UINT *pcTInfo);
@@ -76082,11 +76082,11 @@ void ITypeLib_ReleaseTLibAttr_Proxy(
     TLIBATTR *pTLibAttr);
 HRESULT ITypeLib_ReleaseTLibAttr_Stub(
     ITypeLib* This);
-# 4081 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 4081 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef ITypeLib2 *LPTYPELIB2;
 
 extern const GUID IID_ITypeLib2;
-# 4111 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 4111 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef struct ITypeLib2Vtbl {
    
 
@@ -76184,7 +76184,7 @@ typedef struct ITypeLib2Vtbl {
 struct ITypeLib2 {
     ITypeLib2Vtbl* lpVtbl;
 };
-# 4291 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 4291 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 HRESULT ITypeLib2_RemoteGetLibStatistics_Proxy(
     ITypeLib2* This,
     ULONG *pcUniqueNames,
@@ -76230,7 +76230,7 @@ HRESULT ITypeLib2_GetDocumentation2_Stub(
     BSTR *pbstrHelpString,
     DWORD *pdwHelpStringContext,
     BSTR *pbstrHelpStringDll);
-# 4346 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 4346 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef ITypeChangeEvents *LPTYPECHANGEEVENTS;
 
 typedef enum tagCHANGEKIND {
@@ -76245,7 +76245,7 @@ typedef enum tagCHANGEKIND {
 } CHANGEKIND;
 
 extern const GUID IID_ITypeChangeEvents;
-# 4380 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 4380 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef struct ITypeChangeEventsVtbl {
    
 
@@ -76281,11 +76281,11 @@ typedef struct ITypeChangeEventsVtbl {
 struct ITypeChangeEvents {
     ITypeChangeEventsVtbl* lpVtbl;
 };
-# 4458 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 4458 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef IErrorInfo *LPERRORINFO;
 
 extern const GUID IID_IErrorInfo;
-# 4485 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 4485 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef struct IErrorInfoVtbl {
    
 
@@ -76328,11 +76328,11 @@ typedef struct IErrorInfoVtbl {
 struct IErrorInfo {
     IErrorInfoVtbl* lpVtbl;
 };
-# 4582 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 4582 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef ICreateErrorInfo *LPCREATEERRORINFO;
 
 extern const GUID IID_ICreateErrorInfo;
-# 4609 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 4609 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef struct ICreateErrorInfoVtbl {
    
 
@@ -76375,11 +76375,11 @@ typedef struct ICreateErrorInfoVtbl {
 struct ICreateErrorInfo {
     ICreateErrorInfoVtbl* lpVtbl;
 };
-# 4706 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 4706 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef ISupportErrorInfo *LPSUPPORTERRORINFO;
 
 extern const GUID IID_ISupportErrorInfo;
-# 4721 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 4721 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef struct ISupportErrorInfoVtbl {
    
 
@@ -76406,9 +76406,9 @@ typedef struct ISupportErrorInfoVtbl {
 struct ISupportErrorInfo {
     ISupportErrorInfoVtbl* lpVtbl;
 };
-# 4786 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 4786 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 extern const GUID IID_ITypeFactory;
-# 4801 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 4801 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef struct ITypeFactoryVtbl {
    
 
@@ -76437,9 +76437,9 @@ typedef struct ITypeFactoryVtbl {
 struct ITypeFactory {
     ITypeFactoryVtbl* lpVtbl;
 };
-# 4868 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 4868 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 extern const GUID IID_ITypeMarshal;
-# 4902 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 4902 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef struct ITypeMarshalVtbl {
    
 
@@ -76490,11 +76490,11 @@ typedef struct ITypeMarshalVtbl {
 struct ITypeMarshal {
     ITypeMarshalVtbl* lpVtbl;
 };
-# 5003 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 5003 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef IRecordInfo *LPRECORDINFO;
 
 extern const GUID IID_IRecordInfo;
-# 5077 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 5077 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef struct IRecordInfoVtbl {
    
 
@@ -76594,11 +76594,11 @@ typedef struct IRecordInfoVtbl {
 struct IRecordInfo {
     IRecordInfoVtbl* lpVtbl;
 };
-# 5275 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 5275 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef IErrorLog *LPERRORLOG;
 
 extern const GUID IID_IErrorLog;
-# 5291 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 5291 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef struct IErrorLogVtbl {
    
 
@@ -76626,11 +76626,11 @@ typedef struct IErrorLogVtbl {
 struct IErrorLog {
     IErrorLogVtbl* lpVtbl;
 };
-# 5357 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 5357 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef IPropertyBag *LPPROPERTYBAG;
 
 extern const GUID IID_IPropertyBag;
-# 5378 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 5378 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 typedef struct IPropertyBagVtbl {
    
 
@@ -76664,7 +76664,7 @@ typedef struct IPropertyBagVtbl {
 struct IPropertyBag {
     IPropertyBagVtbl* lpVtbl;
 };
-# 5444 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 3
+# 5444 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 3
 HRESULT IPropertyBag_RemoteRead_Proxy(
     IPropertyBag* This,
     LPCOLESTR pszPropName,
@@ -76707,7 +76707,7 @@ ULONG CLEANLOCALSTORAGE_UserSize (ULONG *, ULONG, CLEANLOCALSTORAGE *);
 unsigned char * CLEANLOCALSTORAGE_UserMarshal (ULONG *, unsigned char *, CLEANLOCALSTORAGE *);
 unsigned char * CLEANLOCALSTORAGE_UserUnmarshal(ULONG *, unsigned char *, CLEANLOCALSTORAGE *);
 void CLEANLOCALSTORAGE_UserFree (ULONG *, CLEANLOCALSTORAGE *);
-# 26 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 2 3
+# 26 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 2 3
 
 
 
@@ -76821,7 +76821,7 @@ typedef struct XMLDOMDocumentEvents XMLDOMDocumentEvents;
 
 
 typedef struct DOMDocument DOMDocument;
-# 147 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 147 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
 typedef struct DOMFreeThreadedDocument DOMFreeThreadedDocument;
 
 
@@ -76887,7 +76887,7 @@ typedef struct IXMLAttribute IXMLAttribute;
 
 
 typedef struct IXMLError IXMLError;
-# 220 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 220 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
 typedef struct XMLDocument XMLDocument;
 
 
@@ -76947,7 +76947,7 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLDOMImplementation {
     struct IXMLDOMImplementationVtbl *lpVtbl;
   };
-# 290 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 290 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   HRESULT IXMLDOMImplementation_hasFeature_Proxy(IXMLDOMImplementation *This,BSTR feature,BSTR version,VARIANT_BOOL *hasFeature);
   void IXMLDOMImplementation_hasFeature_Stub(IRpcStubBuffer *This,IRpcChannelBuffer *_pRpcChannelBuffer,PRPC_MESSAGE _pRpcMessage,DWORD *_pdwStubPhase);
 
@@ -76955,7 +76955,7 @@ typedef struct XMLDocument XMLDocument;
 
 
   extern const IID IID_IXMLDOMNode;
-# 338 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 338 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   typedef struct IXMLDOMNodeVtbl {
    
       HRESULT ( *QueryInterface)(IXMLDOMNode *This,const IID *const riid,void **ppvObject);
@@ -77006,7 +77006,7 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLDOMNode {
     struct IXMLDOMNodeVtbl *lpVtbl;
   };
-# 434 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 434 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   HRESULT IXMLDOMNode_get_nodeName_Proxy(IXMLDOMNode *This,BSTR *name);
   void IXMLDOMNode_get_nodeName_Stub(IRpcStubBuffer *This,IRpcChannelBuffer *_pRpcChannelBuffer,PRPC_MESSAGE _pRpcMessage,DWORD *_pdwStubPhase);
   HRESULT IXMLDOMNode_get_nodeValue_Proxy(IXMLDOMNode *This,VARIANT *value);
@@ -77138,9 +77138,9 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLDOMDocumentFragment {
     struct IXMLDOMDocumentFragmentVtbl *lpVtbl;
   };
-# 615 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 615 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   extern const IID IID_IXMLDOMDocument;
-# 654 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 654 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   typedef struct IXMLDOMDocumentVtbl {
    
       HRESULT ( *QueryInterface)(IXMLDOMDocument *This,const IID *const riid,void **ppvObject);
@@ -77224,7 +77224,7 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLDOMDocument {
     struct IXMLDOMDocumentVtbl *lpVtbl;
   };
-# 816 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 816 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   HRESULT IXMLDOMDocument_get_doctype_Proxy(IXMLDOMDocument *This,IXMLDOMDocumentType **documentType);
   void IXMLDOMDocument_get_doctype_Stub(IRpcStubBuffer *This,IRpcChannelBuffer *_pRpcChannelBuffer,PRPC_MESSAGE _pRpcMessage,DWORD *_pdwStubPhase);
   HRESULT IXMLDOMDocument_get_implementation_Proxy(IXMLDOMDocument *This,IXMLDOMImplementation **impl);
@@ -77296,7 +77296,7 @@ typedef struct XMLDocument XMLDocument;
 
 
   extern const IID IID_IXMLDOMNodeList;
-# 897 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 897 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   typedef struct IXMLDOMNodeListVtbl {
    
       HRESULT ( *QueryInterface)(IXMLDOMNodeList *This,const IID *const riid,void **ppvObject);
@@ -77316,7 +77316,7 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLDOMNodeList {
     struct IXMLDOMNodeListVtbl *lpVtbl;
   };
-# 931 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 931 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   HRESULT IXMLDOMNodeList_get_item_Proxy(IXMLDOMNodeList *This,LONG index,IXMLDOMNode **listItem);
   void IXMLDOMNodeList_get_item_Stub(IRpcStubBuffer *This,IRpcChannelBuffer *_pRpcChannelBuffer,PRPC_MESSAGE _pRpcMessage,DWORD *_pdwStubPhase);
   HRESULT IXMLDOMNodeList_get_length_Proxy(IXMLDOMNodeList *This,LONG *listLength);
@@ -77332,7 +77332,7 @@ typedef struct XMLDocument XMLDocument;
 
 
   extern const IID IID_IXMLDOMNamedNodeMap;
-# 961 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 961 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   typedef struct IXMLDOMNamedNodeMapVtbl {
    
       HRESULT ( *QueryInterface)(IXMLDOMNamedNodeMap *This,const IID *const riid,void **ppvObject);
@@ -77357,7 +77357,7 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLDOMNamedNodeMap {
     struct IXMLDOMNamedNodeMapVtbl *lpVtbl;
   };
-# 1005 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 1005 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   HRESULT IXMLDOMNamedNodeMap_getNamedItem_Proxy(IXMLDOMNamedNodeMap *This,BSTR name,IXMLDOMNode **namedItem);
   void IXMLDOMNamedNodeMap_getNamedItem_Stub(IRpcStubBuffer *This,IRpcChannelBuffer *_pRpcChannelBuffer,PRPC_MESSAGE _pRpcMessage,DWORD *_pdwStubPhase);
   HRESULT IXMLDOMNamedNodeMap_setNamedItem_Proxy(IXMLDOMNamedNodeMap *This,IXMLDOMNode *newItem,IXMLDOMNode **nameItem);
@@ -77383,7 +77383,7 @@ typedef struct XMLDocument XMLDocument;
 
 
   extern const IID IID_IXMLDOMCharacterData;
-# 1043 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 1043 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   typedef struct IXMLDOMCharacterDataVtbl {
    
       HRESULT ( *QueryInterface)(IXMLDOMCharacterData *This,const IID *const riid,void **ppvObject);
@@ -77442,7 +77442,7 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLDOMCharacterData {
     struct IXMLDOMCharacterDataVtbl *lpVtbl;
   };
-# 1155 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 1155 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   HRESULT IXMLDOMCharacterData_get_data_Proxy(IXMLDOMCharacterData *This,BSTR *data);
   void IXMLDOMCharacterData_get_data_Stub(IRpcStubBuffer *This,IRpcChannelBuffer *_pRpcChannelBuffer,PRPC_MESSAGE _pRpcMessage,DWORD *_pdwStubPhase);
   HRESULT IXMLDOMCharacterData_put_data_Proxy(IXMLDOMCharacterData *This,BSTR data);
@@ -77464,7 +77464,7 @@ typedef struct XMLDocument XMLDocument;
 
 
   extern const IID IID_IXMLDOMAttribute;
-# 1184 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 1184 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   typedef struct IXMLDOMAttributeVtbl {
    
       HRESULT ( *QueryInterface)(IXMLDOMAttribute *This,const IID *const riid,void **ppvObject);
@@ -77518,7 +77518,7 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLDOMAttribute {
     struct IXMLDOMAttributeVtbl *lpVtbl;
   };
-# 1286 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 1286 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   HRESULT IXMLDOMAttribute_get_name_Proxy(IXMLDOMAttribute *This,BSTR *attributeName);
   void IXMLDOMAttribute_get_name_Stub(IRpcStubBuffer *This,IRpcChannelBuffer *_pRpcChannelBuffer,PRPC_MESSAGE _pRpcMessage,DWORD *_pdwStubPhase);
   HRESULT IXMLDOMAttribute_get_value_Proxy(IXMLDOMAttribute *This,VARIANT *attributeValue);
@@ -77530,7 +77530,7 @@ typedef struct XMLDocument XMLDocument;
 
 
   extern const IID IID_IXMLDOMElement;
-# 1311 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 1311 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   typedef struct IXMLDOMElementVtbl {
    
       HRESULT ( *QueryInterface)(IXMLDOMElement *This,const IID *const riid,void **ppvObject);
@@ -77590,7 +77590,7 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLDOMElement {
     struct IXMLDOMElementVtbl *lpVtbl;
   };
-# 1425 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 1425 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   HRESULT IXMLDOMElement_get_tagName_Proxy(IXMLDOMElement *This,BSTR *tagName);
   void IXMLDOMElement_get_tagName_Stub(IRpcStubBuffer *This,IRpcChannelBuffer *_pRpcChannelBuffer,PRPC_MESSAGE _pRpcMessage,DWORD *_pdwStubPhase);
   HRESULT IXMLDOMElement_getAttribute_Proxy(IXMLDOMElement *This,BSTR name,VARIANT *value);
@@ -77679,7 +77679,7 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLDOMText {
     struct IXMLDOMTextVtbl *lpVtbl;
   };
-# 1568 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 1568 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   HRESULT IXMLDOMText_splitText_Proxy(IXMLDOMText *This,LONG offset,IXMLDOMText **rightHandTextNode);
   void IXMLDOMText_splitText_Stub(IRpcStubBuffer *This,IRpcChannelBuffer *_pRpcChannelBuffer,PRPC_MESSAGE _pRpcMessage,DWORD *_pdwStubPhase);
 
@@ -77749,9 +77749,9 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLDOMComment {
     struct IXMLDOMCommentVtbl *lpVtbl;
   };
-# 1695 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 1695 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   extern const IID IID_IXMLDOMProcessingInstruction;
-# 1704 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 1704 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   typedef struct IXMLDOMProcessingInstructionVtbl {
    
       HRESULT ( *QueryInterface)(IXMLDOMProcessingInstruction *This,const IID *const riid,void **ppvObject);
@@ -77805,7 +77805,7 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLDOMProcessingInstruction {
     struct IXMLDOMProcessingInstructionVtbl *lpVtbl;
   };
-# 1806 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 1806 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   HRESULT IXMLDOMProcessingInstruction_get_target_Proxy(IXMLDOMProcessingInstruction *This,BSTR *name);
   void IXMLDOMProcessingInstruction_get_target_Stub(IRpcStubBuffer *This,IRpcChannelBuffer *_pRpcChannelBuffer,PRPC_MESSAGE _pRpcMessage,DWORD *_pdwStubPhase);
   HRESULT IXMLDOMProcessingInstruction_get_data_Proxy(IXMLDOMProcessingInstruction *This,BSTR *value);
@@ -77880,9 +77880,9 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLDOMCDATASection {
     struct IXMLDOMCDATASectionVtbl *lpVtbl;
   };
-# 1939 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 1939 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   extern const IID IID_IXMLDOMDocumentType;
-# 1948 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 1948 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   typedef struct IXMLDOMDocumentTypeVtbl {
    
       HRESULT ( *QueryInterface)(IXMLDOMDocumentType *This,const IID *const riid,void **ppvObject);
@@ -77936,7 +77936,7 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLDOMDocumentType {
     struct IXMLDOMDocumentTypeVtbl *lpVtbl;
   };
-# 2050 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 2050 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   HRESULT IXMLDOMDocumentType_get_name_Proxy(IXMLDOMDocumentType *This,BSTR *rootName);
   void IXMLDOMDocumentType_get_name_Stub(IRpcStubBuffer *This,IRpcChannelBuffer *_pRpcChannelBuffer,PRPC_MESSAGE _pRpcMessage,DWORD *_pdwStubPhase);
   HRESULT IXMLDOMDocumentType_get_entities_Proxy(IXMLDOMDocumentType *This,IXMLDOMNamedNodeMap **entityMap);
@@ -78007,7 +78007,7 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLDOMNotation {
     struct IXMLDOMNotationVtbl *lpVtbl;
   };
-# 2168 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 2168 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   HRESULT IXMLDOMNotation_get_publicId_Proxy(IXMLDOMNotation *This,VARIANT *publicID);
   void IXMLDOMNotation_get_publicId_Stub(IRpcStubBuffer *This,IRpcChannelBuffer *_pRpcChannelBuffer,PRPC_MESSAGE _pRpcMessage,DWORD *_pdwStubPhase);
   HRESULT IXMLDOMNotation_get_systemId_Proxy(IXMLDOMNotation *This,VARIANT *systemID);
@@ -78017,7 +78017,7 @@ typedef struct XMLDocument XMLDocument;
 
 
   extern const IID IID_IXMLDOMEntity;
-# 2185 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 2185 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   typedef struct IXMLDOMEntityVtbl {
    
       HRESULT ( *QueryInterface)(IXMLDOMEntity *This,const IID *const riid,void **ppvObject);
@@ -78071,7 +78071,7 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLDOMEntity {
     struct IXMLDOMEntityVtbl *lpVtbl;
   };
-# 2287 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 2287 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   HRESULT IXMLDOMEntity_get_publicId_Proxy(IXMLDOMEntity *This,VARIANT *publicID);
   void IXMLDOMEntity_get_publicId_Stub(IRpcStubBuffer *This,IRpcChannelBuffer *_pRpcChannelBuffer,PRPC_MESSAGE _pRpcMessage,DWORD *_pdwStubPhase);
   HRESULT IXMLDOMEntity_get_systemId_Proxy(IXMLDOMEntity *This,VARIANT *systemID);
@@ -78137,9 +78137,9 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLDOMEntityReference {
     struct IXMLDOMEntityReferenceVtbl *lpVtbl;
   };
-# 2402 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 2402 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   extern const IID IID_IXMLDOMParseError;
-# 2415 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 2415 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   typedef struct IXMLDOMParseErrorVtbl {
    
       HRESULT ( *QueryInterface)(IXMLDOMParseError *This,const IID *const riid,void **ppvObject);
@@ -78161,7 +78161,7 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLDOMParseError {
     struct IXMLDOMParseErrorVtbl *lpVtbl;
   };
-# 2453 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 2453 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   HRESULT IXMLDOMParseError_get_errorCode_Proxy(IXMLDOMParseError *This,LONG *errorCode);
   void IXMLDOMParseError_get_errorCode_Stub(IRpcStubBuffer *This,IRpcChannelBuffer *_pRpcChannelBuffer,PRPC_MESSAGE _pRpcMessage,DWORD *_pdwStubPhase);
   HRESULT IXMLDOMParseError_get_url_Proxy(IXMLDOMParseError *This,BSTR *urlString);
@@ -78181,7 +78181,7 @@ typedef struct XMLDocument XMLDocument;
 
 
   extern const IID IID_IXTLRuntime;
-# 2486 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 2486 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   typedef struct IXTLRuntimeVtbl {
    
       HRESULT ( *QueryInterface)(IXTLRuntime *This,const IID *const riid,void **ppvObject);
@@ -78241,7 +78241,7 @@ typedef struct XMLDocument XMLDocument;
   struct IXTLRuntime {
     struct IXTLRuntimeVtbl *lpVtbl;
   };
-# 2600 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 2600 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   HRESULT IXTLRuntime_uniqueID_Proxy(IXTLRuntime *This,IXMLDOMNode *pNode,LONG *pID);
   void IXTLRuntime_uniqueID_Stub(IRpcStubBuffer *This,IRpcChannelBuffer *_pRpcChannelBuffer,PRPC_MESSAGE _pRpcMessage,DWORD *_pdwStubPhase);
   HRESULT IXTLRuntime_depth_Proxy(IXTLRuntime *This,IXMLDOMNode *pNode,LONG *pDepth);
@@ -78283,7 +78283,7 @@ typedef struct XMLDocument XMLDocument;
   struct XMLDOMDocumentEvents {
     struct XMLDOMDocumentEventsVtbl *lpVtbl;
   };
-# 2653 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 2653 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   extern const CLSID CLSID_DOMDocument;
 
 
@@ -78296,7 +78296,7 @@ typedef struct XMLDocument XMLDocument;
 
 
   extern const IID IID_IXMLHttpRequest;
-# 2684 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 2684 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   typedef struct IXMLHttpRequestVtbl {
    
       HRESULT ( *QueryInterface)(IXMLHttpRequest *This,const IID *const riid,void **ppvObject);
@@ -78325,7 +78325,7 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLHttpRequest {
     struct IXMLHttpRequestVtbl *lpVtbl;
   };
-# 2736 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 2736 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   HRESULT IXMLHttpRequest_open_Proxy(IXMLHttpRequest *This,BSTR bstrMethod,BSTR bstrUrl,VARIANT varAsync,VARIANT bstrUser,VARIANT bstrPassword);
   void IXMLHttpRequest_open_Stub(IRpcStubBuffer *This,IRpcChannelBuffer *_pRpcChannelBuffer,PRPC_MESSAGE _pRpcMessage,DWORD *_pdwStubPhase);
   HRESULT IXMLHttpRequest_setRequestHeader_Proxy(IXMLHttpRequest *This,BSTR bstrHeader,BSTR bstrValue);
@@ -78364,7 +78364,7 @@ typedef struct XMLDocument XMLDocument;
 
 
   extern const IID IID_IXMLDSOControl;
-# 2784 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 2784 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   typedef struct IXMLDSOControlVtbl {
    
       HRESULT ( *QueryInterface)(IXMLDSOControl *This,const IID *const riid,void **ppvObject);
@@ -78384,7 +78384,7 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLDSOControl {
     struct IXMLDSOControlVtbl *lpVtbl;
   };
-# 2818 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 2818 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   HRESULT IXMLDSOControl_get_XMLDocument_Proxy(IXMLDSOControl *This,IXMLDOMDocument **ppDoc);
   void IXMLDSOControl_get_XMLDocument_Stub(IRpcStubBuffer *This,IRpcChannelBuffer *_pRpcChannelBuffer,PRPC_MESSAGE _pRpcMessage,DWORD *_pdwStubPhase);
   HRESULT IXMLDSOControl_put_XMLDocument_Proxy(IXMLDSOControl *This,IXMLDOMDocument *ppDoc);
@@ -78405,7 +78405,7 @@ typedef struct XMLDocument XMLDocument;
 
 
   extern const IID IID_IXMLElementCollection;
-# 2847 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 2847 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   typedef struct IXMLElementCollectionVtbl {
    
       HRESULT ( *QueryInterface)(IXMLElementCollection *This,const IID *const riid,void **ppvObject);
@@ -78424,7 +78424,7 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLElementCollection {
     struct IXMLElementCollectionVtbl *lpVtbl;
   };
-# 2879 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 2879 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   HRESULT IXMLElementCollection_put_length_Proxy(IXMLElementCollection *This,LONG v);
   void IXMLElementCollection_put_length_Stub(IRpcStubBuffer *This,IRpcChannelBuffer *_pRpcChannelBuffer,PRPC_MESSAGE _pRpcMessage,DWORD *_pdwStubPhase);
   HRESULT IXMLElementCollection_get_length_Proxy(IXMLElementCollection *This,LONG *p);
@@ -78438,7 +78438,7 @@ typedef struct XMLDocument XMLDocument;
 
 
   extern const IID IID_IXMLDocument;
-# 2911 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 2911 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   typedef struct IXMLDocumentVtbl {
    
       HRESULT ( *QueryInterface)(IXMLDocument *This,const IID *const riid,void **ppvObject);
@@ -78467,7 +78467,7 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLDocument {
     struct IXMLDocumentVtbl *lpVtbl;
   };
-# 2963 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 2963 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   HRESULT IXMLDocument_get_root_Proxy(IXMLDocument *This,IXMLElement **p);
   void IXMLDocument_get_root_Stub(IRpcStubBuffer *This,IRpcChannelBuffer *_pRpcChannelBuffer,PRPC_MESSAGE _pRpcMessage,DWORD *_pdwStubPhase);
   HRESULT IXMLDocument_get_fileSize_Proxy(IXMLDocument *This,BSTR *p);
@@ -78501,7 +78501,7 @@ typedef struct XMLDocument XMLDocument;
 
 
   extern const IID IID_IXMLDocument2;
-# 3017 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 3017 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   typedef struct IXMLDocument2Vtbl {
    
       HRESULT ( *QueryInterface)(IXMLDocument2 *This,const IID *const riid,void **ppvObject);
@@ -78532,7 +78532,7 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLDocument2 {
     struct IXMLDocument2Vtbl *lpVtbl;
   };
-# 3073 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 3073 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   HRESULT IXMLDocument2_get_root_Proxy(IXMLDocument2 *This,IXMLElement2 **p);
   void IXMLDocument2_get_root_Stub(IRpcStubBuffer *This,IRpcChannelBuffer *_pRpcChannelBuffer,PRPC_MESSAGE _pRpcMessage,DWORD *_pdwStubPhase);
   HRESULT IXMLDocument2_get_fileSize_Proxy(IXMLDocument2 *This,BSTR *p);
@@ -78570,7 +78570,7 @@ typedef struct XMLDocument XMLDocument;
 
 
   extern const IID IID_IXMLElement;
-# 3127 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 3127 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   typedef struct IXMLElementVtbl {
    
       HRESULT ( *QueryInterface)(IXMLElement *This,const IID *const riid,void **ppvObject);
@@ -78597,7 +78597,7 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLElement {
     struct IXMLElementVtbl *lpVtbl;
   };
-# 3175 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 3175 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   HRESULT IXMLElement_get_tagName_Proxy(IXMLElement *This,BSTR *p);
   void IXMLElement_get_tagName_Stub(IRpcStubBuffer *This,IRpcChannelBuffer *_pRpcChannelBuffer,PRPC_MESSAGE _pRpcMessage,DWORD *_pdwStubPhase);
   HRESULT IXMLElement_put_tagName_Proxy(IXMLElement *This,BSTR p);
@@ -78627,7 +78627,7 @@ typedef struct XMLDocument XMLDocument;
 
 
   extern const IID IID_IXMLElement2;
-# 3222 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 3222 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   typedef struct IXMLElement2Vtbl {
    
       HRESULT ( *QueryInterface)(IXMLElement2 *This,const IID *const riid,void **ppvObject);
@@ -78655,7 +78655,7 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLElement2 {
     struct IXMLElement2Vtbl *lpVtbl;
   };
-# 3272 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 3272 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   HRESULT IXMLElement2_get_tagName_Proxy(IXMLElement2 *This,BSTR *p);
   void IXMLElement2_get_tagName_Stub(IRpcStubBuffer *This,IRpcChannelBuffer *_pRpcChannelBuffer,PRPC_MESSAGE _pRpcMessage,DWORD *_pdwStubPhase);
   HRESULT IXMLElement2_put_tagName_Proxy(IXMLElement2 *This,BSTR p);
@@ -78710,7 +78710,7 @@ typedef struct XMLDocument XMLDocument;
   struct IXMLAttribute {
     struct IXMLAttributeVtbl *lpVtbl;
   };
-# 3338 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h" 3
+# 3338 "C:/tdm64/x86_64-w64-mingw32/include/msxml.h" 3
   HRESULT IXMLAttribute_get_name_Proxy(IXMLAttribute *This,BSTR *n);
   void IXMLAttribute_get_name_Stub(IRpcStubBuffer *This,IRpcChannelBuffer *_pRpcChannelBuffer,PRPC_MESSAGE _pRpcMessage,DWORD *_pdwStubPhase);
   HRESULT IXMLAttribute_get_value_Proxy(IXMLAttribute *This,BSTR *v);
@@ -78754,10 +78754,10 @@ typedef struct XMLDocument XMLDocument;
 
 
        
-# 451 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 2 3
-# 508 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 451 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 2 3
+# 508 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IBindStatusCallbackMsg IBindStatusCallbackMsg;
-# 587 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 587 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 extern const IID CLSID_SBS_StdURLMoniker;
 extern const IID CLSID_SBS_HttpProtocol;
 extern const IID CLSID_SBS_FtpProtocol;
@@ -78771,7 +78771,7 @@ extern const IID CLSID_SBS_CdlProtocol;
 extern const IID CLSID_SBS_ClassInstallFilter;
 extern const IID CLSID_SBS_InternetSecurityManager;
 extern const IID CLSID_SBS_InternetZoneManager;
-# 608 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 608 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 extern const IID IID_IAsyncMoniker;
 extern const IID CLSID_StdURLMoniker;
 extern const IID CLSID_HttpProtocol;
@@ -78785,7 +78785,7 @@ extern const IID CLSID_UrlMkBindCtx;
 extern const IID CLSID_CdlProtocol;
 extern const IID CLSID_ClassInstallFilter;
 extern const IID IID_IAsyncBindCtx;
-# 630 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 630 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 extern HRESULT CreateURLMoniker(LPMONIKER pMkCtx, LPCWSTR szURL, LPMONIKER *ppmk);
 extern HRESULT CreateURLMonikerEx(LPMONIKER pMkCtx, LPCWSTR szURL, LPMONIKER *ppmk, DWORD dwFlags);
 extern HRESULT GetClassURL(LPCWSTR szURL, CLSID *pClsID);
@@ -78820,15 +78820,15 @@ extern HRESULT FindMediaTypeClass(LPBC pBC, LPCSTR szType, CLSID *pclsID, DWORD 
 extern HRESULT UrlMkSetSessionOption(DWORD dwOption, LPVOID pBuffer, DWORD dwBufferLength, DWORD dwReserved);
 extern HRESULT UrlMkGetSessionOption(DWORD dwOption, LPVOID pBuffer, DWORD dwBufferLength, DWORD *pdwBufferLengthOut, DWORD dwReserved);
 extern HRESULT FindMimeFromData(LPBC pBC, LPCWSTR pwzUrl, LPVOID pBuffer, DWORD cbSize, LPCWSTR pwzMimeProposed, DWORD dwMimeFlags, LPWSTR *ppwzMimeOut, DWORD dwReserved);
-# 677 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 677 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 extern HRESULT ObtainUserAgentString(DWORD dwOption, LPSTR pszUAOut, DWORD *cbSize);
 extern HRESULT CompareSecurityIds(BYTE *pbSecurityId1, DWORD dwLen1, BYTE *pbSecurityId2, DWORD dwLen2, DWORD dwReserved);
 extern HRESULT CompatFlagsFromClsid(CLSID *pclsid, LPDWORD pdwCompatFlags, LPDWORD pdwMiscStatusFlags);
-# 795 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 795 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IPersistMoniker *LPPERSISTMONIKER;
 
 extern const GUID IID_IPersistMoniker;
-# 831 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 831 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IPersistMonikerVtbl {
    
 
@@ -78880,7 +78880,7 @@ typedef struct IPersistMonikerVtbl {
 struct IPersistMoniker {
     IPersistMonikerVtbl* lpVtbl;
 };
-# 944 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 944 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IMonikerProp *LPMONIKERPROP;
 
 typedef enum __WIDL_urlmon_generated_name_00000002 {
@@ -78892,7 +78892,7 @@ typedef enum __WIDL_urlmon_generated_name_00000002 {
 } MONIKERPROPERTY;
 
 extern const GUID IID_IMonikerProp;
-# 968 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 968 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IMonikerPropVtbl {
    
 
@@ -78920,11 +78920,11 @@ typedef struct IMonikerPropVtbl {
 struct IMonikerProp {
     IMonikerPropVtbl* lpVtbl;
 };
-# 1038 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 1038 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IBindProtocol *LPBINDPROTOCOL;
 
 extern const GUID IID_IBindProtocol;
-# 1055 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 1055 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IBindProtocolVtbl {
    
 
@@ -78953,11 +78953,11 @@ typedef struct IBindProtocolVtbl {
 struct IBindProtocol {
     IBindProtocolVtbl* lpVtbl;
 };
-# 1126 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 1126 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IBinding *LPBINDING;
 
 extern const GUID IID_IBinding;
-# 1159 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 1159 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IBindingVtbl {
    
 
@@ -79004,7 +79004,7 @@ typedef struct IBindingVtbl {
 struct IBinding {
     IBindingVtbl* lpVtbl;
 };
-# 1254 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 1254 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 HRESULT IBinding_RemoteGetBindResult_Proxy(
     IBinding* This,
     CLSID *pclsidProtocol,
@@ -79028,7 +79028,7 @@ HRESULT IBinding_GetBindResult_Stub(
     DWORD *pdwResult,
     LPOLESTR *pszResult,
     DWORD dwReserved);
-# 1293 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 1293 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IBindStatusCallback *LPBINDSTATUSCALLBACK;
 
 typedef enum __WIDL_urlmon_generated_name_00000003 {
@@ -79234,7 +79234,7 @@ typedef enum tagBINDSTATUS {
 } BINDSTATUS;
 
 extern const GUID IID_IBindStatusCallback;
-# 1541 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 1541 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IBindStatusCallbackVtbl {
    
 
@@ -79299,7 +79299,7 @@ typedef struct IBindStatusCallbackVtbl {
 struct IBindStatusCallback {
     IBindStatusCallbackVtbl* lpVtbl;
 };
-# 1662 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 1662 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 HRESULT IBindStatusCallback_RemoteGetBindInfo_Proxy(
     IBindStatusCallback* This,
     DWORD *grfBINDF,
@@ -79342,7 +79342,7 @@ HRESULT IBindStatusCallback_OnDataAvailable_Stub(
     DWORD dwSize,
     RemFORMATETC *pformatetc,
     RemSTGMEDIUM *pstgmed);
-# 1720 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 1720 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IBindStatusCallbackEx *LPBINDSTATUSCALLBACKEX;
 
 typedef enum __WIDL_urlmon_generated_name_00000009 {
@@ -79372,7 +79372,7 @@ typedef enum __WIDL_urlmon_generated_name_00000009 {
 } BINDF2;
 
 extern const GUID IID_IBindStatusCallbackEx;
-# 1764 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 1764 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IBindStatusCallbackExVtbl {
    
 
@@ -79445,7 +79445,7 @@ typedef struct IBindStatusCallbackExVtbl {
 struct IBindStatusCallbackEx {
     IBindStatusCallbackExVtbl* lpVtbl;
 };
-# 1899 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 1899 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 HRESULT IBindStatusCallbackEx_RemoteGetBindInfoEx_Proxy(
     IBindStatusCallbackEx* This,
     DWORD *grfBINDF,
@@ -79471,11 +79471,11 @@ HRESULT IBindStatusCallbackEx_GetBindInfoEx_Stub(
     RemSTGMEDIUM *pstgmed,
     DWORD *grfBINDF2,
     DWORD *pdwReserved);
-# 1938 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 1938 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IAuthenticate *LPAUTHENTICATION;
 
 extern const GUID IID_IAuthenticate;
-# 1955 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 1955 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IAuthenticateVtbl {
    
 
@@ -79504,7 +79504,7 @@ typedef struct IAuthenticateVtbl {
 struct IAuthenticate {
     IAuthenticateVtbl* lpVtbl;
 };
-# 2026 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 2026 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IAuthenticateEx *LPAUTHENTICATIONEX;
 
 typedef enum __WIDL_urlmon_generated_name_0000000A {
@@ -79519,7 +79519,7 @@ typedef struct _tagAUTHENTICATEINFO {
 } AUTHENTICATEINFO;
 
 extern const GUID IID_IAuthenticateEx;
-# 2055 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 2055 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IAuthenticateExVtbl {
    
 
@@ -79556,11 +79556,11 @@ typedef struct IAuthenticateExVtbl {
 struct IAuthenticateEx {
     IAuthenticateExVtbl* lpVtbl;
 };
-# 2140 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 2140 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IHttpNegotiate *LPHTTPNEGOTIATE;
 
 extern const GUID IID_IHttpNegotiate;
-# 2164 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 2164 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IHttpNegotiateVtbl {
    
 
@@ -79597,11 +79597,11 @@ typedef struct IHttpNegotiateVtbl {
 struct IHttpNegotiate {
     IHttpNegotiateVtbl* lpVtbl;
 };
-# 2247 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 2247 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IHttpNegotiate2 *LPHTTPNEGOTIATE2;
 
 extern const GUID IID_IHttpNegotiate2;
-# 2264 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 2264 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IHttpNegotiate2Vtbl {
    
 
@@ -79645,11 +79645,11 @@ typedef struct IHttpNegotiate2Vtbl {
 struct IHttpNegotiate2 {
     IHttpNegotiate2Vtbl* lpVtbl;
 };
-# 2360 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 2360 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IHttpNegotiate3 *LPHTTPNEGOTIATE3;
 
 extern const GUID IID_IHttpNegotiate3;
-# 2376 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 2376 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IHttpNegotiate3Vtbl {
    
 
@@ -79699,11 +79699,11 @@ typedef struct IHttpNegotiate3Vtbl {
 struct IHttpNegotiate3 {
     IHttpNegotiate3Vtbl* lpVtbl;
 };
-# 2484 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 2484 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IWinInetFileStream *LPWININETFILESTREAM;
 
 extern const GUID IID_IWinInetFileStream;
-# 2503 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 2503 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IWinInetFileStreamVtbl {
    
 
@@ -79735,11 +79735,11 @@ typedef struct IWinInetFileStreamVtbl {
 struct IWinInetFileStream {
     IWinInetFileStreamVtbl* lpVtbl;
 };
-# 2581 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 2581 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IWindowForBindingUI *LPWINDOWFORBINDINGUI;
 
 extern const GUID IID_IWindowForBindingUI;
-# 2597 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 2597 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IWindowForBindingUIVtbl {
    
 
@@ -79767,7 +79767,7 @@ typedef struct IWindowForBindingUIVtbl {
 struct IWindowForBindingUI {
     IWindowForBindingUIVtbl* lpVtbl;
 };
-# 2667 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 2667 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef ICodeInstall *LPCODEINSTALL;
 
 typedef enum __WIDL_urlmon_generated_name_0000000B {
@@ -79784,7 +79784,7 @@ typedef enum __WIDL_urlmon_generated_name_0000000B {
 } CIP_STATUS;
 
 extern const GUID IID_ICodeInstall;
-# 2698 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 2698 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct ICodeInstallVtbl {
    
 
@@ -79820,10 +79820,10 @@ typedef struct ICodeInstallVtbl {
 struct ICodeInstall {
     ICodeInstallVtbl* lpVtbl;
 };
-# 3783 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 3783 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IWinInetInfo *LPWININETINFO;
 extern const GUID IID_IWinInetInfo;
-# 3799 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 3799 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IWinInetInfoVtbl {
    
 
@@ -79852,7 +79852,7 @@ typedef struct IWinInetInfoVtbl {
 struct IWinInetInfo {
     IWinInetInfoVtbl* lpVtbl;
 };
-# 3856 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 3856 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 HRESULT IWinInetInfo_RemoteQueryOption_Proxy(
     IWinInetInfo* This,
     DWORD dwOption,
@@ -79873,11 +79873,11 @@ HRESULT IWinInetInfo_QueryOption_Stub(
     DWORD dwOption,
     BYTE *pBuffer,
     DWORD *pcbBuf);
-# 3892 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 3892 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IHttpSecurity *LPHTTPSECURITY;
 
 extern const GUID IID_IHttpSecurity;
-# 3907 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 3907 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IHttpSecurityVtbl {
    
 
@@ -79910,11 +79910,11 @@ typedef struct IHttpSecurityVtbl {
 struct IHttpSecurity {
     IHttpSecurityVtbl* lpVtbl;
 };
-# 3988 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 3988 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IWinInetHttpInfo *LPWININETHTTPINFO;
 
 extern const GUID IID_IWinInetHttpInfo;
-# 4007 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 4007 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IWinInetHttpInfoVtbl {
    
 
@@ -79952,7 +79952,7 @@ typedef struct IWinInetHttpInfoVtbl {
 struct IWinInetHttpInfo {
     IWinInetHttpInfoVtbl* lpVtbl;
 };
-# 4079 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 4079 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 HRESULT IWinInetHttpInfo_RemoteQueryInfo_Proxy(
     IWinInetHttpInfo* This,
     DWORD dwOption,
@@ -79979,9 +79979,9 @@ HRESULT IWinInetHttpInfo_QueryInfo_Stub(
     DWORD *pcbBuf,
     DWORD *pdwFlags,
     DWORD *pdwReserved);
-# 4118 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 4118 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 extern const GUID IID_IWinInetHttpTimeouts;
-# 4133 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 4133 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IWinInetHttpTimeoutsVtbl {
    
 
@@ -80010,7 +80010,7 @@ typedef struct IWinInetHttpTimeoutsVtbl {
 struct IWinInetHttpTimeouts {
     IWinInetHttpTimeoutsVtbl* lpVtbl;
 };
-# 4404 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 4404 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 extern const GUID SID_BindHost;
 
 
@@ -80022,7 +80022,7 @@ extern const GUID SID_BindHost;
 typedef IBindHost *LPBINDHOST;
 
 extern const GUID IID_IBindHost;
-# 4444 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 4444 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IBindHostVtbl {
    
 
@@ -80068,7 +80068,7 @@ typedef struct IBindHostVtbl {
 struct IBindHost {
     IBindHostVtbl* lpVtbl;
 };
-# 4526 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 4526 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 HRESULT IBindHost_RemoteMonikerBindToStorage_Proxy(
     IBindHost* This,
     IMoniker *pMk,
@@ -80121,7 +80121,7 @@ HRESULT IBindHost_MonikerBindToObject_Stub(
     IBindStatusCallback *pBSC,
     const IID *const riid,
     IUnknown **ppvObj);
-# 4587 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 4587 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 struct IBindStatusCallback;
 extern HRESULT HlinkSimpleNavigateToString(LPCWSTR szTarget, LPCWSTR szLocation, LPCWSTR szTargetFrameName, IUnknown *pUnk, IBindCtx *pbc, IBindStatusCallback *, DWORD grfHLNF, DWORD dwReserved);
 extern HRESULT HlinkSimpleNavigateToMoniker(IMoniker *pmkTarget, LPCWSTR szLocation, LPCWSTR szTargetFrameName, IUnknown *pUnk, IBindCtx *pbc, IBindStatusCallback *, DWORD grfHLNF, DWORD dwReserved);
@@ -80146,10 +80146,10 @@ extern HRESULT HlinkGoBack(IUnknown *pUnk);
 extern HRESULT HlinkGoForward(IUnknown *pUnk);
 extern HRESULT HlinkNavigateString(IUnknown *pUnk, LPCWSTR szTarget);
 extern HRESULT HlinkNavigateMoniker(IUnknown *pUnk, IMoniker *pmkTarget);
-# 4703 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 4703 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IInternet *LPIINTERNET;
 extern const GUID IID_IInternet;
-# 4714 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 4714 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IInternetVtbl {
    
 
@@ -80171,7 +80171,7 @@ typedef struct IInternetVtbl {
 struct IInternet {
     IInternetVtbl* lpVtbl;
 };
-# 4772 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 4772 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IInternetBindInfo *LPIINTERNETBINDINFO;
 
 typedef enum tagBINDSTRING {
@@ -80201,7 +80201,7 @@ typedef enum tagBINDSTRING {
 } BINDSTRING;
 
 extern const GUID IID_IInternetBindInfo;
-# 4820 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 4820 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IInternetBindInfoVtbl {
    
 
@@ -80236,11 +80236,11 @@ typedef struct IInternetBindInfoVtbl {
 struct IInternetBindInfo {
     IInternetBindInfoVtbl* lpVtbl;
 };
-# 4901 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 4901 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IInternetBindInfoEx *LPIINTERNETBINDINFOEX;
 
 extern const GUID IID_IInternetBindInfoEx;
-# 4919 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 4919 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IInternetBindInfoExVtbl {
    
 
@@ -80283,7 +80283,7 @@ typedef struct IInternetBindInfoExVtbl {
 struct IInternetBindInfoEx {
     IInternetBindInfoExVtbl* lpVtbl;
 };
-# 5014 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 5014 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IInternetProtocolRoot *LPIINTERNETPROTOCOLROOT;
 
 typedef enum _tagPI_FLAGS {
@@ -80317,7 +80317,7 @@ typedef struct _tagStartParam {
 } StartParam;
 
 extern const GUID IID_IInternetProtocolRoot;
-# 5079 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 5079 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IInternetProtocolRootVtbl {
    
 
@@ -80367,11 +80367,11 @@ typedef struct IInternetProtocolRootVtbl {
 struct IInternetProtocolRoot {
     IInternetProtocolRootVtbl* lpVtbl;
 };
-# 5191 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 5191 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IInternetProtocol *LPIINTERNETPROTOCOL;
 
 extern const GUID IID_IInternetProtocol;
-# 5219 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 5219 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IInternetProtocolVtbl {
    
 
@@ -80441,11 +80441,11 @@ typedef struct IInternetProtocolVtbl {
 struct IInternetProtocol {
     IInternetProtocolVtbl* lpVtbl;
 };
-# 5552 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 5552 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IInternetProtocolSink *LPIINTERNETPROTOCOLSINK;
 
 extern const GUID IID_IInternetProtocolSink;
-# 5581 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 5581 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IInternetProtocolSinkVtbl {
    
 
@@ -80489,11 +80489,11 @@ typedef struct IInternetProtocolSinkVtbl {
 struct IInternetProtocolSink {
     IInternetProtocolSinkVtbl* lpVtbl;
 };
-# 5679 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 5679 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IInternetProtocolSinkStackable *LPIINTERNETPROTOCOLSINKStackable;
 
 extern const GUID IID_IInternetProtocolSinkStackable;
-# 5700 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 5700 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IInternetProtocolSinkStackableVtbl {
    
 
@@ -80526,7 +80526,7 @@ typedef struct IInternetProtocolSinkStackableVtbl {
 struct IInternetProtocolSinkStackable {
     IInternetProtocolSinkStackableVtbl* lpVtbl;
 };
-# 5783 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 5783 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IInternetSession *LPIINTERNETSESSION;
 
 typedef enum _tagOIBDG_FLAGS {
@@ -80535,7 +80535,7 @@ typedef enum _tagOIBDG_FLAGS {
 } OIBDG_FLAGS;
 
 extern const GUID IID_IInternetSession;
-# 5841 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 5841 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IInternetSessionVtbl {
    
 
@@ -80606,11 +80606,11 @@ typedef struct IInternetSessionVtbl {
 struct IInternetSession {
     IInternetSessionVtbl* lpVtbl;
 };
-# 5978 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 5978 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IInternetThreadSwitch *LPIINTERNETTHREADSWITCH;
 
 extern const GUID IID_IInternetThreadSwitch;
-# 5996 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 5996 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IInternetThreadSwitchVtbl {
    
 
@@ -80639,11 +80639,11 @@ typedef struct IInternetThreadSwitchVtbl {
 struct IInternetThreadSwitch {
     IInternetThreadSwitchVtbl* lpVtbl;
 };
-# 6071 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 6071 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IInternetPriority *LPIINTERNETPRIORITY;
 
 extern const GUID IID_IInternetPriority;
-# 6089 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 6089 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IInternetPriorityVtbl {
    
 
@@ -80674,7 +80674,7 @@ typedef struct IInternetPriorityVtbl {
 struct IInternetPriority {
     IInternetPriorityVtbl* lpVtbl;
 };
-# 6166 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 6166 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IInternetProtocolInfo *LPIINTERNETPROTOCOLINFO;
 
 typedef enum _tagPARSEACTION {
@@ -80724,7 +80724,7 @@ typedef enum _tagQUERYOPTION {
 } QUERYOPTION;
 
 extern const GUID IID_IInternetProtocolInfo;
-# 6256 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 6256 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IInternetProtocolInfoVtbl {
    
 
@@ -80783,7 +80783,7 @@ typedef struct IInternetProtocolInfoVtbl {
 struct IInternetProtocolInfo {
     IInternetProtocolInfoVtbl* lpVtbl;
 };
-# 6413 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 6413 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 extern HRESULT CoInternetParseUrl(LPCWSTR pwzUrl, PARSEACTION ParseAction, DWORD dwFlags, LPWSTR pszResult, DWORD cchResult, DWORD *pcchResult, DWORD dwReserved);
 
 
@@ -80799,19 +80799,19 @@ extern HRESULT CoInternetQueryInfo(LPCWSTR pwzUrl, QUERYOPTION QueryOptions, DWO
 extern HRESULT CoInternetGetSession(DWORD dwSessionMode, IInternetSession **ppIInternetSession, DWORD dwReserved);
 extern HRESULT CoInternetGetSecurityUrl(LPCWSTR pwszUrl, LPWSTR *ppwszSecUrl, PSUACTION psuAction, DWORD dwReserved);
 extern HRESULT AsyncInstallDistributionUnit(LPCWSTR szDistUnit, LPCWSTR szTYPE, LPCWSTR szExt, DWORD dwFileVersionMS, DWORD dwFileVersionLS, LPCWSTR szURL,IBindCtx *pbc, LPVOID pvReserved,DWORD flags);
-# 6493 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 6493 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 extern HRESULT CopyStgMedium(const STGMEDIUM *pcstgmedSrc, STGMEDIUM *pstgmedDest);
 extern HRESULT CopyBindInfo(const BINDINFO *pcbiSrc, BINDINFO *pbiDest);
 extern void ReleaseBindInfo(BINDINFO *pbindinfo);
-# 6516 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 6516 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 extern HRESULT CoInternetCreateSecurityManager(IServiceProvider *pSP, IInternetSecurityManager **ppSM, DWORD dwReserved);
 extern HRESULT CoInternetCreateZoneManager(IServiceProvider *pSP, IInternetZoneManager **ppZM, DWORD dwReserved);
 
 extern const IID CLSID_InternetSecurityManager;
 extern const IID CLSID_InternetZoneManager;
-# 6544 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 6544 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 extern const GUID IID_IInternetSecurityMgrSite;
-# 6560 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 6560 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IInternetSecurityMgrSiteVtbl {
    
 
@@ -80842,7 +80842,7 @@ typedef struct IInternetSecurityMgrSiteVtbl {
 struct IInternetSecurityMgrSite {
     IInternetSecurityMgrSiteVtbl* lpVtbl;
 };
-# 6653 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 6653 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef enum __WIDL_urlmon_generated_name_0000000E {
     PUAF_DEFAULT = 0x0,
     PUAF_NOUI = 0x1,
@@ -80878,7 +80878,7 @@ typedef enum __WIDL_urlmon_generated_name_00000010 {
 } SZM_FLAGS;
 
 extern const GUID IID_IInternetSecurityManager;
-# 6743 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 6743 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IInternetSecurityManagerVtbl {
    
 
@@ -80955,9 +80955,9 @@ typedef struct IInternetSecurityManagerVtbl {
 struct IInternetSecurityManager {
     IInternetSecurityManagerVtbl* lpVtbl;
 };
-# 7447 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 7447 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 extern const GUID IID_IInternetHostSecurityManager;
-# 7479 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 7479 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IInternetHostSecurityManagerVtbl {
    
 
@@ -81005,7 +81005,7 @@ typedef struct IInternetHostSecurityManagerVtbl {
 struct IInternetHostSecurityManager {
     IInternetHostSecurityManagerVtbl* lpVtbl;
 };
-# 7780 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 7780 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IInternetZoneManager *LPURLZONEMANAGER;
 
 typedef enum tagURLZONE {
@@ -81074,7 +81074,7 @@ typedef enum _URLZONEREG {
 } URLZONEREG;
 
 extern const GUID IID_IInternetZoneManager;
-# 7924 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 7924 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IInternetZoneManagerVtbl {
    
 
@@ -81176,9 +81176,9 @@ typedef struct IInternetZoneManagerVtbl {
 struct IInternetZoneManager {
     IInternetZoneManagerVtbl* lpVtbl;
 };
-# 8642 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 8642 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 extern const IID CLSID_SoftDistExt;
-# 8657 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 8657 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct _tagCODEBASEHOLD {
     ULONG cbSize;
     LPWSTR szDistUnit;
@@ -81213,7 +81213,7 @@ typedef struct _tagSOFTDISTINFO *LPSOFTDISTINFO;
 
 
 extern const GUID IID_ISoftDistExt;
-# 8719 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 8719 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct ISoftDistExtVtbl {
    
 
@@ -81259,14 +81259,14 @@ typedef struct ISoftDistExtVtbl {
 struct ISoftDistExt {
     ISoftDistExtVtbl* lpVtbl;
 };
-# 8809 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 8809 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 extern HRESULT GetSoftwareUpdateInfo(LPCWSTR szDistUnit, LPSOFTDISTINFO psdi);
 extern HRESULT SetSoftwareUpdateAdvertisementState(LPCWSTR szDistUnit, DWORD dwAdState, DWORD dwAdvertisedVersionMS, DWORD dwAdvertisedVersionLS);
-# 8822 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 8822 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef ICatalogFileInfo *LPCATALOGFILEINFO;
 
 extern const GUID IID_ICatalogFileInfo;
-# 8840 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 8840 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct ICatalogFileInfoVtbl {
    
 
@@ -81297,11 +81297,11 @@ typedef struct ICatalogFileInfoVtbl {
 struct ICatalogFileInfo {
     ICatalogFileInfoVtbl* lpVtbl;
 };
-# 8917 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 8917 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IDataFilter *LPDATAFILTER;
 
 extern const GUID IID_IDataFilter;
-# 8954 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 8954 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IDataFilterVtbl {
    
 
@@ -81352,7 +81352,7 @@ typedef struct IDataFilterVtbl {
 struct IDataFilter {
     IDataFilterVtbl* lpVtbl;
 };
-# 9049 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 9049 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct _tagPROTOCOLFILTERDATA {
     DWORD cbSize;
     IInternetProtocolSink *pProtocolSink;
@@ -81377,7 +81377,7 @@ typedef struct _tagDATAINFO {
 } DATAINFO;
 
 extern const GUID IID_IEncodingFilterFactory;
-# 9093 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 9093 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IEncodingFilterFactoryVtbl {
    
 
@@ -81413,7 +81413,7 @@ typedef struct IEncodingFilterFactoryVtbl {
 struct IEncodingFilterFactory {
     IEncodingFilterFactoryVtbl* lpVtbl;
 };
-# 9169 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 9169 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 WINBOOL IsLoggingEnabledA(LPCSTR pszUrl);
 WINBOOL IsLoggingEnabledW(LPCWSTR pwszUrl);
 
@@ -81438,11 +81438,11 @@ struct CONFIRMSAFETY {
 };
 
 extern const GUID GUID_CUSTOM_CONFIRMOBJECTSAFETY;
-# 9204 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 9204 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IWrappedProtocol *LPIWRAPPEDPROTOCOL;
 
 extern const GUID IID_IWrappedProtocol;
-# 9220 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 9220 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IWrappedProtocolVtbl {
    
 
@@ -81470,7 +81470,7 @@ typedef struct IWrappedProtocolVtbl {
 struct IWrappedProtocol {
     IWrappedProtocolVtbl* lpVtbl;
 };
-# 9290 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 9290 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IGetBindHandle *LPGETBINDHANDLE;
 
 typedef enum __WIDL_urlmon_generated_name_00000012 {
@@ -81480,7 +81480,7 @@ typedef enum __WIDL_urlmon_generated_name_00000012 {
 } BINDHANDLETYPES;
 
 extern const GUID IID_IGetBindHandle;
-# 9312 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 9312 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IGetBindHandleVtbl {
    
 
@@ -81508,17 +81508,17 @@ typedef struct IGetBindHandleVtbl {
 struct IGetBindHandle {
     IGetBindHandleVtbl* lpVtbl;
 };
-# 9376 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 9376 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct _tagPROTOCOL_ARGUMENT {
     LPCWSTR szMethod;
     LPCWSTR szTargetUrl;
 } PROTOCOL_ARGUMENT;
 typedef struct _tagPROTOCOL_ARGUMENT *LPPROTOCOL_ARGUMENT;
-# 9392 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 9392 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef IBindCallbackRedirect *LPBINDCALLBACKREDIRECT;
 
 extern const GUID IID_IBindCallbackRedirect;
-# 9408 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 9408 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 typedef struct IBindCallbackRedirectVtbl {
    
 
@@ -81546,7 +81546,7 @@ typedef struct IBindCallbackRedirectVtbl {
 struct IBindCallbackRedirect {
     IBindCallbackRedirectVtbl* lpVtbl;
 };
-# 9472 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h" 3
+# 9472 "C:/tdm64/x86_64-w64-mingw32/include/urlmon.h" 3
 ULONG STGMEDIUM_UserSize (ULONG *, ULONG, STGMEDIUM *);
 unsigned char * STGMEDIUM_UserMarshal (ULONG *, unsigned char *, STGMEDIUM *);
 unsigned char * STGMEDIUM_UserUnmarshal(ULONG *, unsigned char *, STGMEDIUM *);
@@ -81563,15 +81563,15 @@ ULONG BSTR_UserSize (ULONG *, ULONG, BSTR *);
 unsigned char * BSTR_UserMarshal (ULONG *, unsigned char *, BSTR *);
 unsigned char * BSTR_UserUnmarshal(ULONG *, unsigned char *, BSTR *);
 void BSTR_UserFree (ULONG *, BSTR *);
-# 164 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objbase.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/propidl.h" 1 3
+# 164 "C:/tdm64/x86_64-w64-mingw32/include/objbase.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/propidl.h" 1 3
 
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
@@ -81579,18 +81579,18 @@ void BSTR_UserFree (ULONG *, BSTR *);
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/propidl.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/propidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/propidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/propidl.h" 2 3
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 14 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/propidl.h" 2 3
-# 23 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/propidl.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 14 "C:/tdm64/x86_64-w64-mingw32/include/propidl.h" 2 3
+# 23 "C:/tdm64/x86_64-w64-mingw32/include/propidl.h" 3
 typedef struct IPropertyStorage IPropertyStorage;
 
 
@@ -81623,41 +81623,14 @@ typedef struct IEnumSTATPROPSETSTG IEnumSTATPROPSETSTG;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 1 3
 
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
-
-
-
-
-
-
-
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 2 3
-
-
-
-
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 14 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 2 3
-# 56 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/propidl.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 1 3
-
-
-
-
-
-
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
@@ -81665,51 +81638,78 @@ typedef struct IEnumSTATPROPSETSTG IEnumSTATPROPSETSTG;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 2 3
-
-
-
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 13 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h" 2 3
-# 57 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/propidl.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 2 3
 
 
 
 
-
-
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 14 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 2 3
+# 56 "C:/tdm64/x86_64-w64-mingw32/include/propidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 1 3
 
 
 
 
 
 
-
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 14 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 2 3
-# 58 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/propidl.h" 2 3
-# 97 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/propidl.h" 3
+
+
+
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 2 3
+
+
+
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 13 "C:/tdm64/x86_64-w64-mingw32/include/objidl.h" 2 3
+# 57 "C:/tdm64/x86_64-w64-mingw32/include/propidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 1 3
+
+
+
+
+
+
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
+
+
+
+
+
+
+
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 2 3
+
+
+
+
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 14 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 2 3
+# 58 "C:/tdm64/x86_64-w64-mingw32/include/propidl.h" 2 3
+# 97 "C:/tdm64/x86_64-w64-mingw32/include/propidl.h" 3
 typedef struct tagVersionedStream {
     GUID guidVersion;
     IStream *pStream;
 } VERSIONEDSTREAM;
 typedef struct tagVersionedStream *LPVERSIONEDSTREAM;
-# 120 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/propidl.h" 3
+# 120 "C:/tdm64/x86_64-w64-mingw32/include/propidl.h" 3
 typedef struct tagPROPVARIANT PROPVARIANT;
 
 
@@ -81906,7 +81906,7 @@ struct {
 
 
 typedef struct tagPROPVARIANT * LPPROPVARIANT;
-# 402 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/propidl.h" 3
+# 402 "C:/tdm64/x86_64-w64-mingw32/include/propidl.h" 3
 enum PIDMSI_STATUS_VALUE {
     PIDMSI_STATUS_NORMAL = 0,
     PIDMSI_STATUS_NEW = 1,
@@ -81919,7 +81919,7 @@ enum PIDMSI_STATUS_VALUE {
     PIDMSI_STATUS_FINAL = 8,
     PIDMSI_STATUS_OTHER = 0x7fff
 };
-# 424 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/propidl.h" 3
+# 424 "C:/tdm64/x86_64-w64-mingw32/include/propidl.h" 3
 typedef struct tagPROPSPEC {
     ULONG ulKind;
     union {
@@ -81956,7 +81956,7 @@ typedef struct tagSTATPROPSETSTG {
 
 
 extern const GUID IID_IPropertyStorage;
-# 518 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/propidl.h" 3
+# 518 "C:/tdm64/x86_64-w64-mingw32/include/propidl.h" 3
 typedef struct IPropertyStorageVtbl {
    
 
@@ -82039,11 +82039,11 @@ typedef struct IPropertyStorageVtbl {
 struct IPropertyStorage {
     IPropertyStorageVtbl* lpVtbl;
 };
-# 683 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/propidl.h" 3
+# 683 "C:/tdm64/x86_64-w64-mingw32/include/propidl.h" 3
 typedef IPropertySetStorage *LPPROPERTYSETSTORAGE;
 
 extern const GUID IID_IPropertySetStorage;
-# 713 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/propidl.h" 3
+# 713 "C:/tdm64/x86_64-w64-mingw32/include/propidl.h" 3
 typedef struct IPropertySetStorageVtbl {
    
 
@@ -82088,11 +82088,11 @@ typedef struct IPropertySetStorageVtbl {
 struct IPropertySetStorage {
     IPropertySetStorageVtbl* lpVtbl;
 };
-# 808 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/propidl.h" 3
+# 808 "C:/tdm64/x86_64-w64-mingw32/include/propidl.h" 3
 typedef IEnumSTATPROPSTG *LPENUMSTATPROPSTG;
 
 extern const GUID IID_IEnumSTATPROPSTG;
-# 834 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/propidl.h" 3
+# 834 "C:/tdm64/x86_64-w64-mingw32/include/propidl.h" 3
 typedef struct IEnumSTATPROPSTGVtbl {
    
 
@@ -82132,7 +82132,7 @@ typedef struct IEnumSTATPROPSTGVtbl {
 struct IEnumSTATPROPSTG {
     IEnumSTATPROPSTGVtbl* lpVtbl;
 };
-# 914 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/propidl.h" 3
+# 914 "C:/tdm64/x86_64-w64-mingw32/include/propidl.h" 3
 HRESULT IEnumSTATPROPSTG_RemoteNext_Proxy(
     IEnumSTATPROPSTG* This,
     ULONG celt,
@@ -82153,11 +82153,11 @@ HRESULT IEnumSTATPROPSTG_Next_Stub(
     ULONG celt,
     STATPROPSTG *rgelt,
     ULONG *pceltFetched);
-# 944 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/propidl.h" 3
+# 944 "C:/tdm64/x86_64-w64-mingw32/include/propidl.h" 3
 typedef IEnumSTATPROPSETSTG *LPENUMSTATPROPSETSTG;
 
 extern const GUID IID_IEnumSTATPROPSETSTG;
-# 970 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/propidl.h" 3
+# 970 "C:/tdm64/x86_64-w64-mingw32/include/propidl.h" 3
 typedef struct IEnumSTATPROPSETSTGVtbl {
    
 
@@ -82197,7 +82197,7 @@ typedef struct IEnumSTATPROPSETSTGVtbl {
 struct IEnumSTATPROPSETSTG {
     IEnumSTATPROPSETSTGVtbl* lpVtbl;
 };
-# 1050 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/propidl.h" 3
+# 1050 "C:/tdm64/x86_64-w64-mingw32/include/propidl.h" 3
 HRESULT IEnumSTATPROPSETSTG_RemoteNext_Proxy(
     IEnumSTATPROPSETSTG* This,
     ULONG celt,
@@ -82227,7 +82227,7 @@ typedef IPropertyStorage *LPPROPERTYSTORAGE;
   extern __attribute__((dllimport)) HRESULT PropVariantCopy(PROPVARIANT *pvarDest,const PROPVARIANT *pvarSrc);
   extern __attribute__((dllimport)) HRESULT PropVariantClear(PROPVARIANT *pvar);
   extern __attribute__((dllimport)) HRESULT FreePropVariantArray(ULONG cVariants, PROPVARIANT *rgvars);
-# 1088 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/propidl.h" 3
+# 1088 "C:/tdm64/x86_64-w64-mingw32/include/propidl.h" 3
   extern __attribute__((dllimport)) HRESULT StgCreatePropStg(IUnknown *pUnk, const IID *const fmtid, const CLSID *pclsid, DWORD grfFlags, DWORD dwReserved, IPropertyStorage **ppPropStg);
   extern __attribute__((dllimport)) HRESULT StgOpenPropStg(IUnknown *pUnk, const IID *const fmtid, DWORD grfFlags, DWORD dwReserved, IPropertyStorage **ppPropStg);
   extern __attribute__((dllimport)) HRESULT StgCreatePropSetStg(IStorage *pStorage, DWORD dwReserved, IPropertySetStorage **ppPropSetStg);
@@ -82249,7 +82249,7 @@ typedef struct tagSERIALIZEDPROPERTYVALUE {
 
 
 extern SERIALIZEDPROPERTYVALUE * StgConvertVariantToProperty(const PROPVARIANT *pvar, USHORT CodePage, SERIALIZEDPROPERTYVALUE *pprop, ULONG *pcb, PROPID pid, BOOLEAN fReserved, ULONG *pcIndirect);
-# 1119 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/propidl.h" 3
+# 1119 "C:/tdm64/x86_64-w64-mingw32/include/propidl.h" 3
 ULONG BSTR_UserSize (ULONG *, ULONG, BSTR *);
 unsigned char * BSTR_UserMarshal (ULONG *, unsigned char *, BSTR *);
 unsigned char * BSTR_UserUnmarshal(ULONG *, unsigned char *, BSTR *);
@@ -82258,14 +82258,14 @@ ULONG LPSAFEARRAY_UserSize (ULONG *, ULONG, LPSAFEARRAY *);
 unsigned char * LPSAFEARRAY_UserMarshal (ULONG *, unsigned char *, LPSAFEARRAY *);
 unsigned char * LPSAFEARRAY_UserUnmarshal(ULONG *, unsigned char *, LPSAFEARRAY *);
 void LPSAFEARRAY_UserFree (ULONG *, LPSAFEARRAY *);
-# 165 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objbase.h" 2 3
+# 165 "C:/tdm64/x86_64-w64-mingw32/include/objbase.h" 2 3
 
 
 extern __attribute__((dllimport)) HRESULT CreateStdProgressIndicator (HWND hwndParent, LPCOLESTR pszTitle, IBindStatusCallback *pIbscCaller, IBindStatusCallback **ppIbsc);
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -82273,11 +82273,11 @@ extern __attribute__((dllimport)) HRESULT CreateStdProgressIndicator (HWND hwndP
 
 
 #pragma pack(pop)
-# 172 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/objbase.h" 2 3
-# 18 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleauto.h" 1 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleauto.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack8.h" 1 3
+# 172 "C:/tdm64/x86_64-w64-mingw32/include/objbase.h" 2 3
+# 18 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/oleauto.h" 1 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/oleauto.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack8.h" 1 3
 
 
 
@@ -82285,18 +82285,18 @@ extern __attribute__((dllimport)) HRESULT CreateStdProgressIndicator (HWND hwndP
 
 
 #pragma pack(push,8)
-# 11 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleauto.h" 2 3
-# 21 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleauto.h" 3
+# 11 "C:/tdm64/x86_64-w64-mingw32/include/oleauto.h" 2 3
+# 21 "C:/tdm64/x86_64-w64-mingw32/include/oleauto.h" 3
 extern const IID IID_StdOle;
-# 41 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleauto.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 1 3
+# 41 "C:/tdm64/x86_64-w64-mingw32/include/oleauto.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 1 3
 
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
@@ -82304,18 +82304,18 @@ extern const IID IID_StdOle;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 2 3
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 14 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h" 2 3
-# 42 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleauto.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 14 "C:/tdm64/x86_64-w64-mingw32/include/oaidl.h" 2 3
+# 42 "C:/tdm64/x86_64-w64-mingw32/include/oleauto.h" 2 3
 
 extern __attribute__((dllimport)) BSTR SysAllocString(const OLECHAR *);
 extern __attribute__((dllimport)) INT SysReAllocString(BSTR *,const OLECHAR *);
@@ -82364,10 +82364,10 @@ extern __attribute__((dllimport)) HRESULT VariantCopy(VARIANTARG *pvargDest,VARI
 extern __attribute__((dllimport)) HRESULT VariantCopyInd(VARIANT *pvarDest,VARIANTARG *pvargSrc);
 extern __attribute__((dllimport)) HRESULT VariantChangeType(VARIANTARG *pvargDest,VARIANTARG *pvarSrc,USHORT wFlags,VARTYPE vt);
 extern __attribute__((dllimport)) HRESULT VariantChangeTypeEx(VARIANTARG *pvargDest,VARIANTARG *pvarSrc,LCID lcid,USHORT wFlags,VARTYPE vt);
-# 100 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleauto.h" 3
+# 100 "C:/tdm64/x86_64-w64-mingw32/include/oleauto.h" 3
 extern __attribute__((dllimport)) HRESULT VectorFromBstr (BSTR bstr,SAFEARRAY **ppsa);
 extern __attribute__((dllimport)) HRESULT BstrFromVector (SAFEARRAY *psa,BSTR *pbstr);
-# 121 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleauto.h" 3
+# 121 "C:/tdm64/x86_64-w64-mingw32/include/oleauto.h" 3
 extern __attribute__((dllimport)) HRESULT VarUI1FromI2(SHORT sIn,BYTE *pbOut);
 extern __attribute__((dllimport)) HRESULT VarUI1FromI4(LONG lIn,BYTE *pbOut);
 extern __attribute__((dllimport)) HRESULT VarUI1FromI8(LONG64 i64In,BYTE *pbOut);
@@ -82602,7 +82602,7 @@ extern __attribute__((dllimport)) HRESULT VarDecFromUI8(ULONG64 ui64In,DECIMAL *
 
 extern __attribute__((dllimport)) HRESULT VarI4FromI8(LONG64 i64In,LONG *plOut);
 extern __attribute__((dllimport)) HRESULT VarI4FromUI8(ULONG64 ui64In,LONG *plOut);
-# 422 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleauto.h" 3
+# 422 "C:/tdm64/x86_64-w64-mingw32/include/oleauto.h" 3
 typedef struct {
   INT cDig;
   ULONG dwInFlags;
@@ -82611,7 +82611,7 @@ typedef struct {
   INT nBaseShift;
   INT nPwr10;
 } NUMPARSE;
-# 462 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleauto.h" 3
+# 462 "C:/tdm64/x86_64-w64-mingw32/include/oleauto.h" 3
 extern __attribute__((dllimport)) HRESULT VarParseNumFromStr(OLECHAR *strIn,LCID lcid,ULONG dwFlags,NUMPARSE *pnumprs,BYTE *rgbDig);
 extern __attribute__((dllimport)) HRESULT VarNumFromParseNum(NUMPARSE *pnumprs,BYTE *rgbDig,ULONG dwVtBits,VARIANT *pvar);
 extern HRESULT VarAdd(LPVARIANT pvarLeft,LPVARIANT pvarRight,LPVARIANT pvarResult);
@@ -82669,7 +82669,7 @@ extern HRESULT VarBstrCmp(BSTR bstrLeft,BSTR bstrRight,LCID lcid,ULONG dwFlags);
 extern HRESULT VarR8Pow(double dblLeft,double dblRight,double *pdblResult);
 extern HRESULT VarR4CmpR8(float fltLeft,double dblRight);
 extern HRESULT VarR8Round(double dblIn,int cDecimals,double *pdblResult);
-# 527 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleauto.h" 3
+# 527 "C:/tdm64/x86_64-w64-mingw32/include/oleauto.h" 3
 typedef struct {
   SYSTEMTIME st;
   USHORT wDayOfYear;
@@ -82697,7 +82697,7 @@ typedef ITypeLib *LPTYPELIB;
 
 typedef LONG DISPID;
 typedef DISPID MEMBERID;
-# 566 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleauto.h" 3
+# 566 "C:/tdm64/x86_64-w64-mingw32/include/oleauto.h" 3
 typedef ITypeInfo *LPTYPEINFO;
 
 
@@ -82784,8 +82784,8 @@ extern __attribute__((dllimport)) HRESULT GetRecordInfoFromTypeInfo(ITypeInfo *p
 extern __attribute__((dllimport)) HRESULT GetRecordInfoFromGuids(const GUID *const rGuidTypeLib,ULONG uVerMajor,ULONG uVerMinor,LCID lcid,const GUID *const rGuidTypeInfo,IRecordInfo **ppRecInfo);
 extern __attribute__((dllimport)) ULONG OaBuildVersion(void);
 extern __attribute__((dllimport)) void ClearCustData(LPCUSTDATA pCustData);
-# 730 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleauto.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 730 "C:/tdm64/x86_64-w64-mingw32/include/oleauto.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -82793,17 +82793,17 @@ extern __attribute__((dllimport)) void ClearCustData(LPCUSTDATA pCustData);
 
 
 #pragma pack(pop)
-# 731 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleauto.h" 2 3
-# 19 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 2 3
-# 38 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 1 3
+# 731 "C:/tdm64/x86_64-w64-mingw32/include/oleauto.h" 2 3
+# 19 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 2 3
+# 38 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 1 3
 
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 1 3
 
 
 
@@ -82811,18 +82811,18 @@ extern __attribute__((dllimport)) void ClearCustData(LPCUSTDATA pCustData);
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h" 2 3
-# 8 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/rpc.h" 2 3
+# 8 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/rpcndr.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 2 3
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 14 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h" 2 3
-# 39 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 14 "C:/tdm64/x86_64-w64-mingw32/include/oleidl.h" 2 3
+# 39 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 2 3
 
 
 extern __attribute__((dllimport)) DWORD OleBuildVersion (void);
@@ -82930,7 +82930,7 @@ extern __attribute__((dllimport)) HRESULT OleConvertIStorageToOLESTREAMEx (LPSTO
 extern __attribute__((dllimport)) HRESULT OleConvertOLESTREAMToIStorageEx (LPOLESTREAM polestm, LPSTORAGE pstg, CLIPFORMAT *pcfFormat, LONG *plwWidth, LONG *plHeight, DWORD *pdwSize, LPSTGMEDIUM pmedium);
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -82938,11 +82938,11 @@ extern __attribute__((dllimport)) HRESULT OleConvertOLESTREAMToIStorageEx (LPOLE
 
 
 #pragma pack(pop)
-# 147 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 2 3
-# 14 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h" 2 3
-# 11 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winscard.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 1 3
-# 12 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 3
+# 147 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 2 3
+# 14 "C:/tdm64/x86_64-w64-mingw32/include/wtypes.h" 2 3
+# 11 "C:/tdm64/x86_64-w64-mingw32/include/winscard.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 1 3
+# 12 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 3
 extern const GUID GUID_DEVINTERFACE_DISK;
 extern const GUID GUID_DEVINTERFACE_CDROM;
 extern const GUID GUID_DEVINTERFACE_PARTITION;
@@ -82955,7 +82955,7 @@ extern const GUID GUID_DEVINTERFACE_CDCHANGER;
 extern const GUID GUID_DEVINTERFACE_STORAGEPORT;
 extern const GUID GUID_DEVINTERFACE_COMPORT;
 extern const GUID GUID_DEVINTERFACE_SERENUM_BUS_ENUMERATOR;
-# 194 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 3
+# 194 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 3
 typedef struct _STORAGE_READ_CAPACITY {
   ULONG Version;
   ULONG Size;
@@ -82963,7 +82963,7 @@ typedef struct _STORAGE_READ_CAPACITY {
   LARGE_INTEGER NumberOfBlocks;
   LARGE_INTEGER DiskLength;
 } STORAGE_READ_CAPACITY, *PSTORAGE_READ_CAPACITY;
-# 231 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 3
+# 231 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 3
   typedef struct _STORAGE_HOTPLUG_INFO {
     DWORD Size;
     BOOLEAN MediaRemovable;
@@ -83009,7 +83009,7 @@ typedef struct _STORAGE_READ_CAPACITY {
     BYTE CompressionRatioReads;
     BYTE CompressionRatioWrites;
   } TAPE_STATISTICS,*PTAPE_STATISTICS;
-# 284 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 3
+# 284 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 3
   typedef struct _TAPE_GET_STATISTICS {
     DWORD Operation;
   } TAPE_GET_STATISTICS,*PTAPE_GET_STATISTICS;
@@ -83083,7 +83083,7 @@ typedef struct _STORAGE_READ_CAPACITY {
     SAIT,
     VXATape
   } STORAGE_MEDIA_TYPE, *PSTORAGE_MEDIA_TYPE;
-# 366 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 3
+# 366 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 3
   typedef enum _STORAGE_BUS_TYPE {
     BusTypeUnknown = 0x00,
     BusTypeScsi = 0x1,
@@ -83094,7 +83094,7 @@ typedef struct _STORAGE_READ_CAPACITY {
     BusTypeFibre = 0x6,
     BusTypeUsb = 0x7,
     BusTypeRAID = 0x8,
-# 387 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 3
+# 387 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 3
     BusTypeMax,
     BusTypeMaxReserved = 0x7F
   } STORAGE_BUS_TYPE, *PSTORAGE_BUS_TYPE;
@@ -83144,7 +83144,7 @@ typedef struct _STORAGE_READ_CAPACITY {
     DWORD PredictFailure;
     BYTE VendorSpecific[512];
   } STORAGE_PREDICT_FAILURE,*PSTORAGE_PREDICT_FAILURE;
-# 525 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 3
+# 525 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 3
 typedef enum _MEDIA_TYPE {
   Unknown,F5_1Pt2_512,F3_1Pt44_512,F3_2Pt88_512,F3_20Pt8_512,F3_720_512,F5_360_512,F5_320_512,F5_320_1024,F5_180_512,F5_160_512,
   RemovableMedia,FixedMedia,F3_120M_512,F3_640_512,F5_640_512,F5_720_512,F3_1Pt2_512,F3_1Pt23_1024,F5_1Pt23_1024,F3_128Mb_512,
@@ -83215,7 +83215,7 @@ typedef struct _REASSIGN_BLOCKS {
   DWORD BlockNumber[1];
 } REASSIGN_BLOCKS,*PREASSIGN_BLOCKS;
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack1.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack1.h" 1 3
 
 
 
@@ -83223,13 +83223,13 @@ typedef struct _REASSIGN_BLOCKS {
 
 
 #pragma pack(push,1)
-# 596 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 2 3
+# 596 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 2 3
 typedef struct _REASSIGN_BLOCKS_EX {
   WORD Reserved;
   WORD Count;
   LARGE_INTEGER BlockNumber[1];
 } REASSIGN_BLOCKS_EX,*PREASSIGN_BLOCKS_EX;
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -83237,7 +83237,7 @@ typedef struct _REASSIGN_BLOCKS_EX {
 
 
 #pragma pack(pop)
-# 602 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 2 3
+# 602 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 2 3
 
 typedef enum _PARTITION_STYLE {
   PARTITION_STYLE_MBR,PARTITION_STYLE_GPT,PARTITION_STYLE_RAW
@@ -83249,7 +83249,7 @@ typedef struct _PARTITION_INFORMATION_GPT {
   DWORD64 Attributes;
   WCHAR Name [36];
 } PARTITION_INFORMATION_GPT,*PPARTITION_INFORMATION_GPT;
-# 621 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 3
+# 621 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 3
 typedef struct _PARTITION_INFORMATION_MBR {
   BYTE PartitionType;
   BOOLEAN BootIndicator;
@@ -83500,7 +83500,7 @@ typedef struct _BIN_RESULTS {
   BIN_COUNT BinCounts[1];
 } BIN_RESULTS,*PBIN_RESULTS;
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack1.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack1.h" 1 3
 
 
 
@@ -83508,7 +83508,7 @@ typedef struct _BIN_RESULTS {
 
 
 #pragma pack(push,1)
-# 872 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 2 3
+# 872 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 2 3
 typedef struct _GETVERSIONINPARAMS {
   BYTE bVersion;
   BYTE bRevision;
@@ -83517,7 +83517,7 @@ typedef struct _GETVERSIONINPARAMS {
   DWORD fCapabilities;
   DWORD dwReserved[4];
 } GETVERSIONINPARAMS,*PGETVERSIONINPARAMS,*LPGETVERSIONINPARAMS;
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -83525,13 +83525,13 @@ typedef struct _GETVERSIONINPARAMS {
 
 
 #pragma pack(pop)
-# 881 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 2 3
+# 881 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 2 3
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack1.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack1.h" 1 3
 
 
 
@@ -83539,7 +83539,7 @@ typedef struct _GETVERSIONINPARAMS {
 
 
 #pragma pack(push,1)
-# 887 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 2 3
+# 887 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 2 3
 typedef struct _IDEREGS {
   BYTE bFeaturesReg;
   BYTE bSectorCountReg;
@@ -83550,7 +83550,7 @@ typedef struct _IDEREGS {
   BYTE bCommandReg;
   BYTE bReserved;
 } IDEREGS,*PIDEREGS,*LPIDEREGS;
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -83558,9 +83558,9 @@ typedef struct _IDEREGS {
 
 
 #pragma pack(pop)
-# 898 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 2 3
-# 906 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack1.h" 1 3
+# 898 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 2 3
+# 906 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack1.h" 1 3
 
 
 
@@ -83568,7 +83568,7 @@ typedef struct _IDEREGS {
 
 
 #pragma pack(push,1)
-# 907 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 2 3
+# 907 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 2 3
 typedef struct _SENDCMDINPARAMS {
   DWORD cBufferSize;
   IDEREGS irDriveRegs;
@@ -83577,7 +83577,7 @@ typedef struct _SENDCMDINPARAMS {
   DWORD dwReserved[4];
   BYTE bBuffer[1];
 } SENDCMDINPARAMS,*PSENDCMDINPARAMS,*LPSENDCMDINPARAMS;
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -83585,9 +83585,9 @@ typedef struct _SENDCMDINPARAMS {
 
 
 #pragma pack(pop)
-# 916 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 2 3
+# 916 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 2 3
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack1.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack1.h" 1 3
 
 
 
@@ -83595,14 +83595,14 @@ typedef struct _SENDCMDINPARAMS {
 
 
 #pragma pack(push,1)
-# 918 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 2 3
+# 918 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 2 3
 typedef struct _DRIVERSTATUS {
   BYTE bDriverError;
   BYTE bIDEError;
   BYTE bReserved[2];
   DWORD dwReserved[2];
 } DRIVERSTATUS,*PDRIVERSTATUS,*LPDRIVERSTATUS;
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -83610,9 +83610,9 @@ typedef struct _DRIVERSTATUS {
 
 
 #pragma pack(pop)
-# 925 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 2 3
-# 945 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack1.h" 1 3
+# 925 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 2 3
+# 945 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack1.h" 1 3
 
 
 
@@ -83620,13 +83620,13 @@ typedef struct _DRIVERSTATUS {
 
 
 #pragma pack(push,1)
-# 946 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 2 3
+# 946 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 2 3
 typedef struct _SENDCMDOUTPARAMS {
   DWORD cBufferSize;
   DRIVERSTATUS DriverStatus;
   BYTE bBuffer[1];
 } SENDCMDOUTPARAMS,*PSENDCMDOUTPARAMS,*LPSENDCMDOUTPARAMS;
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -83634,8 +83634,8 @@ typedef struct _SENDCMDOUTPARAMS {
 
 
 #pragma pack(pop)
-# 952 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 2 3
-# 994 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 3
+# 952 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 2 3
+# 994 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 3
 typedef enum _ELEMENT_TYPE {
   AllElements,ChangerTransport,ChangerSlot,ChangerIEPort,ChangerDrive,ChangerDoor,ChangerKeypad,ChangerMaxElement
 } ELEMENT_TYPE,*PELEMENT_TYPE;
@@ -83649,7 +83649,7 @@ typedef struct _CHANGER_ELEMENT_LIST {
   CHANGER_ELEMENT Element;
   DWORD NumberOfElements;
 } CHANGER_ELEMENT_LIST ,*PCHANGER_ELEMENT_LIST;
-# 1070 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 3
+# 1070 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 3
 typedef struct _GET_CHANGER_PARAMETERS {
   DWORD Size;
   WORD NumberTransportElements;
@@ -83730,7 +83730,7 @@ typedef struct _CHANGER_ELEMENT_STATUS_EX {
   BYTE ProductIdentification[16];
   BYTE SerialNumber[32];
 } CHANGER_ELEMENT_STATUS_EX,*PCHANGER_ELEMENT_STATUS_EX;
-# 1177 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 3
+# 1177 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 3
 typedef struct _CHANGER_INITIALIZE_ELEMENT_STATUS {
   CHANGER_ELEMENT_LIST ElementList;
   BOOLEAN BarCodeScan;
@@ -83768,13 +83768,13 @@ typedef struct _READ_ELEMENT_ADDRESS_INFO {
   DWORD NumberOfElements;
   CHANGER_ELEMENT_STATUS ElementStatus[1];
 } READ_ELEMENT_ADDRESS_INFO,*PREAD_ELEMENT_ADDRESS_INFO;
-# 1231 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 3
+# 1231 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 3
 typedef enum _CHANGER_DEVICE_PROBLEM_TYPE {
   DeviceProblemNone,DeviceProblemHardware,DeviceProblemCHMError,DeviceProblemDoorOpen,DeviceProblemCalibrationError,DeviceProblemTargetFailure,
   DeviceProblemCHMMoveError,DeviceProblemCHMZeroError,DeviceProblemCartridgeInsertError,DeviceProblemPositionError,DeviceProblemSensorError,
   DeviceProblemCartridgeEjectError,DeviceProblemGripperError,DeviceProblemDriveError
 } CHANGER_DEVICE_PROBLEM_TYPE,*PCHANGER_DEVICE_PROBLEM_TYPE;
-# 1335 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 3
+# 1335 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 3
 typedef struct _PATHNAME_BUFFER {
   DWORD PathNameLength;
   WCHAR Name[1];
@@ -83904,7 +83904,7 @@ typedef struct {
   WORD FileNameOffset;
   WCHAR FileName[1];
 } USN_RECORD,*PUSN_RECORD;
-# 1490 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 3
+# 1490 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 3
 typedef struct {
   DWORDLONG UsnJournalID;
   USN FirstUsn;
@@ -83939,7 +83939,7 @@ typedef struct {
   DWORD HandleInfo;
 
 } MARK_HANDLE_INFO32,*PMARK_HANDLE_INFO32;
-# 1536 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 3
+# 1536 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 3
 typedef struct {
   ACCESS_MASK DesiredAccess;
   DWORD SecurityIds[1];
@@ -84109,7 +84109,7 @@ typedef struct _ENCRYPTION_BUFFER {
   DWORD EncryptionOperation;
   BYTE Private[1];
 } ENCRYPTION_BUFFER,*PENCRYPTION_BUFFER;
-# 1713 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 3
+# 1713 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 3
 typedef struct _DECRYPTION_STATUS_BUFFER {
   BOOLEAN NoEncryptedStreams;
 } DECRYPTION_STATUS_BUFFER,*PDECRYPTION_STATUS_BUFFER;
@@ -84225,7 +84225,7 @@ typedef struct _STORAGE_DEVICE_ID_DESCRIPTOR {
 typedef struct _VOLUME_GET_GPT_ATTRIBUTES_INFORMATION {
   ULONGLONG GptAttributes;
 } VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION;
-# 2344 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h" 3
+# 2344 "C:/tdm64/x86_64-w64-mingw32/include/winioctl.h" 3
 typedef struct _DISK_EXTENT {
   DWORD DiskNumber;
   LARGE_INTEGER StartingOffset;
@@ -84236,11 +84236,11 @@ typedef struct _VOLUME_DISK_EXTENTS {
   DWORD NumberOfDiskExtents;
   DISK_EXTENT Extents[1];
 } VOLUME_DISK_EXTENTS,*PVOLUME_DISK_EXTENTS;
-# 12 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winscard.h" 2 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winsmcrd.h" 1 3
-# 27 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winsmcrd.h" 3
+# 12 "C:/tdm64/x86_64-w64-mingw32/include/winscard.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/winsmcrd.h" 1 3
+# 27 "C:/tdm64/x86_64-w64-mingw32/include/winsmcrd.h" 3
   typedef WORD UWORD;
-# 161 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winsmcrd.h" 3
+# 161 "C:/tdm64/x86_64-w64-mingw32/include/winsmcrd.h" 3
   typedef struct _SCARD_IO_REQUEST {
     DWORD dwProtocol;
     DWORD cbPciLength;
@@ -84267,10 +84267,10 @@ typedef struct _VOLUME_DISK_EXTENTS {
     SCARD_IO_REQUEST ioRequest;
   } SCARD_T1_REQUEST;
   typedef SCARD_T1_REQUEST *PSCARD_T1_REQUEST,*LPSCARD_T1_REQUEST;
-# 13 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winscard.h" 2 3
-# 23 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winscard.h" 3
+# 13 "C:/tdm64/x86_64-w64-mingw32/include/winscard.h" 2 3
+# 23 "C:/tdm64/x86_64-w64-mingw32/include/winscard.h" 3
   typedef const BYTE *LPCBYTE;
-# 37 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winscard.h" 3
+# 37 "C:/tdm64/x86_64-w64-mingw32/include/winscard.h" 3
   __attribute__((dllimport)) extern const SCARD_IO_REQUEST g_rgSCardT0Pci,g_rgSCardT1Pci,g_rgSCardRawPci;
 
 
@@ -84290,7 +84290,7 @@ typedef struct _VOLUME_DISK_EXTENTS {
   extern LONG SCardEstablishContext(DWORD dwScope,LPCVOID pvReserved1,LPCVOID pvReserved2,LPSCARDCONTEXT phContext);
   extern LONG SCardReleaseContext(SCARDCONTEXT hContext);
   extern LONG SCardIsValidContext(SCARDCONTEXT hContext);
-# 81 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winscard.h" 3
+# 81 "C:/tdm64/x86_64-w64-mingw32/include/winscard.h" 3
   extern LONG SCardListReaderGroupsA(SCARDCONTEXT hContext,LPSTR mszGroups,LPDWORD pcchGroups);
   extern LONG SCardListReaderGroupsW(SCARDCONTEXT hContext,LPWSTR mszGroups,LPDWORD pcchGroups);
   extern LONG SCardListReadersA(SCARDCONTEXT hContext,LPCSTR mszGroups,LPSTR mszReaders,LPDWORD pcchReaders);
@@ -84350,7 +84350,7 @@ typedef struct _VOLUME_DISK_EXTENTS {
   typedef SCARD_READERSTATEA SCARD_READERSTATE;
   typedef PSCARD_READERSTATEA PSCARD_READERSTATE;
   typedef LPSCARD_READERSTATEA LPSCARD_READERSTATE;
-# 167 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winscard.h" 3
+# 167 "C:/tdm64/x86_64-w64-mingw32/include/winscard.h" 3
   extern LONG SCardLocateCardsA(SCARDCONTEXT hContext,LPCSTR mszCards,LPSCARD_READERSTATEA rgReaderStates,DWORD cReaders);
   extern LONG SCardLocateCardsW(SCARDCONTEXT hContext,LPCWSTR mszCards,LPSCARD_READERSTATEW rgReaderStates,DWORD cReaders);
 
@@ -84365,7 +84365,7 @@ typedef struct _VOLUME_DISK_EXTENTS {
   extern LONG SCardGetStatusChangeA(SCARDCONTEXT hContext,DWORD dwTimeout,LPSCARD_READERSTATEA rgReaderStates,DWORD cReaders);
   extern LONG SCardGetStatusChangeW(SCARDCONTEXT hContext,DWORD dwTimeout,LPSCARD_READERSTATEW rgReaderStates,DWORD cReaders);
   extern LONG SCardCancel(SCARDCONTEXT hContext);
-# 191 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winscard.h" 3
+# 191 "C:/tdm64/x86_64-w64-mingw32/include/winscard.h" 3
   extern LONG SCardConnectA(SCARDCONTEXT hContext,LPCSTR szReader,DWORD dwShareMode,DWORD dwPreferredProtocols,LPSCARDHANDLE phCard,LPDWORD pdwActiveProtocol);
   extern LONG SCardConnectW(SCARDCONTEXT hContext,LPCWSTR szReader,DWORD dwShareMode,DWORD dwPreferredProtocols,LPSCARDHANDLE phCard,LPDWORD pdwActiveProtocol);
   extern LONG SCardReconnect(SCARDHANDLE hCard,DWORD dwShareMode,DWORD dwPreferredProtocols,DWORD dwInitialization,LPDWORD pdwActiveProtocol);
@@ -84383,7 +84383,7 @@ typedef struct _VOLUME_DISK_EXTENTS {
 
 
   extern LONG SCardSetAttrib(SCARDHANDLE hCard,DWORD dwAttrId,LPCBYTE pbAttr,DWORD cbAttrLen);
-# 220 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winscard.h" 3
+# 220 "C:/tdm64/x86_64-w64-mingw32/include/winscard.h" 3
   typedef SCARDHANDLE ( *LPOCNCONNPROCA) (SCARDCONTEXT,LPSTR,LPSTR,PVOID);
   typedef SCARDHANDLE ( *LPOCNCONNPROCW) (SCARDCONTEXT,LPWSTR,LPWSTR,PVOID);
   typedef WINBOOL ( *LPOCNCHKPROC) (SCARDCONTEXT,SCARDHANDLE,PVOID);
@@ -84470,7 +84470,7 @@ typedef struct _VOLUME_DISK_EXTENTS {
   typedef OPENCARDNAME_EXA OPENCARDNAME_EX;
   typedef POPENCARDNAME_EXA POPENCARDNAME_EX;
   typedef LPOPENCARDNAME_EXA LPOPENCARDNAME_EX;
-# 316 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winscard.h" 3
+# 316 "C:/tdm64/x86_64-w64-mingw32/include/winscard.h" 3
   extern LONG SCardUIDlgSelectCardA(LPOPENCARDNAME_EXA);
   extern LONG SCardUIDlgSelectCardW(LPOPENCARDNAME_EXW);
 
@@ -84529,20 +84529,20 @@ typedef struct _VOLUME_DISK_EXTENTS {
   typedef OPENCARDNAMEA OPENCARDNAME;
   typedef POPENCARDNAMEA POPENCARDNAME;
   typedef LPOPENCARDNAMEA LPOPENCARDNAME;
-# 384 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winscard.h" 3
+# 384 "C:/tdm64/x86_64-w64-mingw32/include/winscard.h" 3
   extern LONG GetOpenCardNameA(LPOPENCARDNAMEA);
   extern LONG GetOpenCardNameW(LPOPENCARDNAMEW);
   extern LONG SCardDlgExtendedError(void);
-# 98 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 98 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winspool.h" 1 3
-# 12 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winspool.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/prsht.h" 1 3
-# 30 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/prsht.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/pshpack8.h" 1 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/winspool.h" 1 3
+# 12 "C:/tdm64/x86_64-w64-mingw32/include/winspool.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/prsht.h" 1 3
+# 30 "C:/tdm64/x86_64-w64-mingw32/include/prsht.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/pshpack8.h" 1 3
 
 
 
@@ -84550,8 +84550,8 @@ typedef struct _VOLUME_DISK_EXTENTS {
 
 
 #pragma pack(push,8)
-# 31 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/prsht.h" 2 3
-# 49 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/prsht.h" 3
+# 31 "C:/tdm64/x86_64-w64-mingw32/include/prsht.h" 2 3
+# 49 "C:/tdm64/x86_64-w64-mingw32/include/prsht.h" 3
   struct _PSP;
   struct _PROPSHEETPAGEA;
   struct _PROPSHEETPAGEW;
@@ -84559,9 +84559,9 @@ typedef struct _VOLUME_DISK_EXTENTS {
   typedef struct _PSP *HPROPSHEETPAGE;
   typedef UINT ( *LPFNPSPCALLBACKA)(HWND hwnd,UINT uMsg,struct _PROPSHEETPAGEA *ppsp);
   typedef UINT ( *LPFNPSPCALLBACKW)(HWND hwnd,UINT uMsg,struct _PROPSHEETPAGEW *ppsp);
-# 86 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/prsht.h" 3
+# 86 "C:/tdm64/x86_64-w64-mingw32/include/prsht.h" 3
   typedef LPCDLGTEMPLATE PROPSHEETPAGE_RESOURCE;
-# 121 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/prsht.h" 3
+# 121 "C:/tdm64/x86_64-w64-mingw32/include/prsht.h" 3
   typedef struct _PROPSHEETPAGEA_V1 {
     DWORD dwSize,dwFlags; HINSTANCE hInstance; __extension__ union { LPCSTR pszTemplate; PROPSHEETPAGE_RESOURCE pResource; } ; __extension__ union { HICON hIcon; LPCSTR pszIcon; } ; LPCSTR pszTitle; DLGPROC pfnDlgProc; LPARAM lParam; LPFNPSPCALLBACKA pfnCallback; UINT *pcRefParent;
   } PROPSHEETPAGEA_V1,*LPPROPSHEETPAGEA_V1;
@@ -84621,7 +84621,7 @@ typedef struct _VOLUME_DISK_EXTENTS {
   typedef LPPROPSHEETPAGEW_V3 LPPROPSHEETPAGEW;
   typedef LPCPROPSHEETPAGEA_V3 LPCPROPSHEETPAGEA;
   typedef LPCPROPSHEETPAGEW_V3 LPCPROPSHEETPAGEW;
-# 227 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/prsht.h" 3
+# 227 "C:/tdm64/x86_64-w64-mingw32/include/prsht.h" 3
   typedef int ( *PFNPROPSHEETCALLBACK)(HWND,UINT,LPARAM);
 
 
@@ -84695,7 +84695,7 @@ typedef struct _VOLUME_DISK_EXTENTS {
   } PROPSHEETHEADERW,*LPPROPSHEETHEADERW;
 
   typedef const PROPSHEETHEADERW *LPCPROPSHEETHEADERW;
-# 312 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/prsht.h" 3
+# 312 "C:/tdm64/x86_64-w64-mingw32/include/prsht.h" 3
   __attribute__((dllimport)) HPROPSHEETPAGE CreatePropertySheetPageA(LPCPROPSHEETPAGEA constPropSheetPagePointer);
   __attribute__((dllimport)) HPROPSHEETPAGE CreatePropertySheetPageW(LPCPROPSHEETPAGEW constPropSheetPagePointer);
   __attribute__((dllimport)) WINBOOL DestroyPropertySheetPage(HPROPSHEETPAGE);
@@ -84712,8 +84712,8 @@ typedef struct _VOLUME_DISK_EXTENTS {
     NMHDR hdr;
     LPARAM lParam;
   } PSHNOTIFY,*LPPSHNOTIFY;
-# 484 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/prsht.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/poppack.h" 1 3
+# 484 "C:/tdm64/x86_64-w64-mingw32/include/prsht.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/poppack.h" 1 3
 
 
 
@@ -84721,8 +84721,8 @@ typedef struct _VOLUME_DISK_EXTENTS {
 
 
 #pragma pack(pop)
-# 485 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/prsht.h" 2 3
-# 13 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winspool.h" 2 3
+# 485 "C:/tdm64/x86_64-w64-mingw32/include/prsht.h" 2 3
+# 13 "C:/tdm64/x86_64-w64-mingw32/include/winspool.h" 2 3
 
 
 
@@ -84886,7 +84886,7 @@ typedef struct _VOLUME_DISK_EXTENTS {
   typedef PRINTER_INFO_9A PRINTER_INFO_9;
   typedef PPRINTER_INFO_9A PPRINTER_INFO_9;
   typedef LPPRINTER_INFO_9A LPPRINTER_INFO_9;
-# 232 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winspool.h" 3
+# 232 "C:/tdm64/x86_64-w64-mingw32/include/winspool.h" 3
   typedef struct _JOB_INFO_1A {
     DWORD JobId;
     LPSTR pPrinterName;
@@ -84984,7 +84984,7 @@ typedef struct _VOLUME_DISK_EXTENTS {
     DWORD NextJobId;
     DWORD Reserved;
   } JOB_INFO_3,*PJOB_INFO_3,*LPJOB_INFO_3;
-# 354 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winspool.h" 3
+# 354 "C:/tdm64/x86_64-w64-mingw32/include/winspool.h" 3
   typedef struct _ADDJOB_INFO_1A {
     LPSTR Path;
     DWORD JobId;
@@ -85166,7 +85166,7 @@ typedef struct _VOLUME_DISK_EXTENTS {
   typedef DRIVER_INFO_6A DRIVER_INFO_6;
   typedef PDRIVER_INFO_6A PDRIVER_INFO_6;
   typedef LPDRIVER_INFO_6A LPDRIVER_INFO_6;
-# 549 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winspool.h" 3
+# 549 "C:/tdm64/x86_64-w64-mingw32/include/winspool.h" 3
   typedef struct _DOC_INFO_1A {
     LPSTR pDocName;
     LPSTR pOutputFile;
@@ -85321,7 +85321,7 @@ typedef struct _VOLUME_DISK_EXTENTS {
   typedef PORT_INFO_3A PORT_INFO_3;
   typedef PPORT_INFO_3A PPORT_INFO_3;
   typedef LPPORT_INFO_3A LPPORT_INFO_3;
-# 721 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winspool.h" 3
+# 721 "C:/tdm64/x86_64-w64-mingw32/include/winspool.h" 3
   typedef struct _MONITOR_INFO_1A{
     LPSTR pName;
   } MONITOR_INFO_1A,*PMONITOR_INFO_1A,*LPMONITOR_INFO_1A;
@@ -85402,7 +85402,7 @@ typedef struct _VOLUME_DISK_EXTENTS {
 
   WINBOOL EnumPrintersA(DWORD Flags,LPSTR Name,DWORD Level,LPBYTE pPrinterEnum,DWORD cbBuf,LPDWORD pcbNeeded,LPDWORD pcReturned);
   WINBOOL EnumPrintersW(DWORD Flags,LPWSTR Name,DWORD Level,LPBYTE pPrinterEnum,DWORD cbBuf,LPDWORD pcbNeeded,LPDWORD pcReturned);
-# 863 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winspool.h" 3
+# 863 "C:/tdm64/x86_64-w64-mingw32/include/winspool.h" 3
   WINBOOL OpenPrinterA(LPSTR pPrinterName,LPHANDLE phPrinter,LPPRINTER_DEFAULTSA pDefault);
   WINBOOL OpenPrinterW(LPWSTR pPrinterName,LPHANDLE phPrinter,LPPRINTER_DEFAULTSW pDefault);
   WINBOOL ResetPrinterA(HANDLE hPrinter,LPPRINTER_DEFAULTSA pDefault);
@@ -85482,7 +85482,7 @@ typedef struct _VOLUME_DISK_EXTENTS {
   DWORD DeletePrinterDataExW(HANDLE hPrinter,LPCWSTR pKeyName,LPCWSTR pValueName);
   DWORD DeletePrinterKeyA(HANDLE hPrinter,LPCSTR pKeyName);
   DWORD DeletePrinterKeyW(HANDLE hPrinter,LPCWSTR pKeyName);
-# 999 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winspool.h" 3
+# 999 "C:/tdm64/x86_64-w64-mingw32/include/winspool.h" 3
   typedef struct _PRINTER_NOTIFY_OPTIONS_TYPE {
     WORD Type;
     WORD Reserved0;
@@ -85575,16 +85575,16 @@ typedef struct _VOLUME_DISK_EXTENTS {
   typedef enum {
     BIDI_NULL = 0,BIDI_INT = 1,BIDI_FLOAT = 2,BIDI_BOOL = 3,BIDI_STRING = 4,BIDI_TEXT = 5,BIDI_ENUM = 6,BIDI_BLOB = 7
   } BIDI_TYPE;
-# 1105 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winspool.h" 3
+# 1105 "C:/tdm64/x86_64-w64-mingw32/include/winspool.h" 3
   DWORD WaitForPrinterChange(HANDLE hPrinter,DWORD Flags);
   HANDLE FindFirstPrinterChangeNotification(HANDLE hPrinter,DWORD fdwFlags,DWORD fdwOptions,LPVOID pPrinterNotifyOptions);
   WINBOOL FindNextPrinterChangeNotification(HANDLE hChange,PDWORD pdwChange,LPVOID pPrinterNotifyOptions,LPVOID *ppPrinterNotifyInfo);
   WINBOOL FreePrinterNotifyInfo (PPRINTER_NOTIFY_INFO pPrinterNotifyInfo);
   WINBOOL FindClosePrinterChangeNotification(HANDLE hChange);
-# 1158 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winspool.h" 3
+# 1158 "C:/tdm64/x86_64-w64-mingw32/include/winspool.h" 3
   DWORD PrinterMessageBoxA(HANDLE hPrinter,DWORD Error,HWND hWnd,LPSTR pText,LPSTR pCaption,DWORD dwType);
   DWORD PrinterMessageBoxW(HANDLE hPrinter,DWORD Error,HWND hWnd,LPWSTR pText,LPWSTR pCaption,DWORD dwType);
-# 1169 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winspool.h" 3
+# 1169 "C:/tdm64/x86_64-w64-mingw32/include/winspool.h" 3
   WINBOOL ClosePrinter(HANDLE hPrinter);
   WINBOOL AddFormA(HANDLE hPrinter,DWORD Level,LPBYTE pForm);
   WINBOOL AddFormW(HANDLE hPrinter,DWORD Level,LPBYTE pForm);
@@ -85664,18 +85664,18 @@ typedef struct _VOLUME_DISK_EXTENTS {
   WINBOOL DeletePrintProvidorW(LPWSTR pName,LPWSTR pEnvironment,LPWSTR pPrintProvidorName);
   WINBOOL IsValidDevmodeA (PDEVMODEA pDevmode,size_t DevmodeSize);
   WINBOOL IsValidDevmodeW (PDEVMODEW pDevmode,size_t DevmodeSize);
-# 103 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 103 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h" 1 3
-# 107 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/ole2.h" 1 3
+# 107 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/commdlg.h" 1 3
-# 14 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/commdlg.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/commdlg.h" 1 3
+# 14 "C:/tdm64/x86_64-w64-mingw32/include/commdlg.h" 3
 extern const GUID IID_IPrintDialogCallback;
 extern const GUID IID_IPrintDialogServices;
-# 46 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/commdlg.h" 3
+# 46 "C:/tdm64/x86_64-w64-mingw32/include/commdlg.h" 3
   typedef UINT_PTR ( *LPOFNHOOKPROC) (HWND,UINT,WPARAM,LPARAM);
 
 
@@ -85801,7 +85801,7 @@ extern const GUID IID_IPrintDialogServices;
 
   __attribute__((dllimport)) short GetFileTitleA(LPCSTR,LPSTR,WORD);
   __attribute__((dllimport)) short GetFileTitleW(LPCWSTR,LPWSTR,WORD);
-# 205 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/commdlg.h" 3
+# 205 "C:/tdm64/x86_64-w64-mingw32/include/commdlg.h" 3
   typedef UINT_PTR ( *LPCCHOOKPROC) (HWND,UINT,WPARAM,LPARAM);
 
   typedef struct _OFNOTIFYA {
@@ -85835,7 +85835,7 @@ extern const GUID IID_IPrintDialogServices;
 
   typedef OFNOTIFYEXA OFNOTIFYEX;
   typedef LPOFNOTIFYEXA LPOFNOTIFYEX;
-# 281 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/commdlg.h" 3
+# 281 "C:/tdm64/x86_64-w64-mingw32/include/commdlg.h" 3
   typedef struct tagCHOOSECOLORA {
     DWORD lStructSize;
     HWND hwndOwner;
@@ -85864,7 +85864,7 @@ extern const GUID IID_IPrintDialogServices;
 
   __attribute__((dllimport)) WINBOOL ChooseColorA(LPCHOOSECOLORA);
   __attribute__((dllimport)) WINBOOL ChooseColorW(LPCHOOSECOLORW);
-# 322 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/commdlg.h" 3
+# 322 "C:/tdm64/x86_64-w64-mingw32/include/commdlg.h" 3
   typedef UINT_PTR ( *LPFRHOOKPROC) (HWND,UINT,WPARAM,LPARAM);
 
   typedef struct tagFINDREPLACEA {
@@ -85897,7 +85897,7 @@ extern const GUID IID_IPrintDialogServices;
 
   typedef FINDREPLACEA FINDREPLACE;
   typedef LPFINDREPLACEA LPFINDREPLACE;
-# 377 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/commdlg.h" 3
+# 377 "C:/tdm64/x86_64-w64-mingw32/include/commdlg.h" 3
   __attribute__((dllimport)) HWND FindTextA(LPFINDREPLACEA);
   __attribute__((dllimport)) HWND FindTextW(LPFINDREPLACEW);
 
@@ -85953,7 +85953,7 @@ extern const GUID IID_IPrintDialogServices;
 
   __attribute__((dllimport)) WINBOOL ChooseFontA(LPCHOOSEFONTA);
   __attribute__((dllimport)) WINBOOL ChooseFontW(LPCHOOSEFONTW);
-# 516 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/commdlg.h" 3
+# 516 "C:/tdm64/x86_64-w64-mingw32/include/commdlg.h" 3
   typedef UINT_PTR ( *LPPRINTHOOKPROC) (HWND,UINT,WPARAM,LPARAM);
   typedef UINT_PTR ( *LPSETUPHOOKPROC) (HWND,UINT,WPARAM,LPARAM);
 
@@ -86095,7 +86095,7 @@ extern const GUID IID_IPrintDialogServices;
 
   __attribute__((dllimport)) HRESULT PrintDlgExA(LPPRINTDLGEXA);
   __attribute__((dllimport)) HRESULT PrintDlgExW(LPPRINTDLGEXW);
-# 697 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/commdlg.h" 3
+# 697 "C:/tdm64/x86_64-w64-mingw32/include/commdlg.h" 3
   typedef struct tagDEVNAMES {
     WORD wDriverOffset;
     WORD wDeviceOffset;
@@ -86106,7 +86106,7 @@ extern const GUID IID_IPrintDialogServices;
 
 
   __attribute__((dllimport)) DWORD CommDlgExtendedError(void);
-# 716 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/commdlg.h" 3
+# 716 "C:/tdm64/x86_64-w64-mingw32/include/commdlg.h" 3
   typedef UINT_PTR ( *LPPAGEPAINTHOOK)(HWND,UINT,WPARAM,LPARAM);
   typedef UINT_PTR ( *LPPAGESETUPHOOK)(HWND,UINT,WPARAM,LPARAM);
 
@@ -86149,14 +86149,14 @@ extern const GUID IID_IPrintDialogServices;
 
   __attribute__((dllimport)) WINBOOL PageSetupDlgA(LPPAGESETUPDLGA);
   __attribute__((dllimport)) WINBOOL PageSetupDlgW(LPPAGESETUPDLGW);
-# 109 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 109 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
 
 
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stralign.h" 1 3
-# 49 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stralign.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/stralign.h" 1 3
+# 49 "C:/tdm64/x86_64-w64-mingw32/include/stralign.h" 3
   LPUWSTR uaw_CharUpperW(LPUWSTR String);
   int uaw_lstrcmpW(PCUWSTR String1,PCUWSTR String2);
   int uaw_lstrcmpiW(PCUWSTR String1,PCUWSTR String2);
@@ -86168,7 +86168,7 @@ extern const GUID IID_IPrintDialogServices;
   PUWSTR __attribute__((__cdecl__)) uaw_wcsrchr(PCUWSTR String,WCHAR Character);
 
   LPUWSTR ua_CharUpperW(LPUWSTR String);
-# 69 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stralign.h" 3
+# 69 "C:/tdm64/x86_64-w64-mingw32/include/stralign.h" 3
   int ua_lstrcmpW(LPCUWSTR String1,LPCUWSTR String2);
 
 
@@ -86176,7 +86176,7 @@ extern const GUID IID_IPrintDialogServices;
 
 
   int ua_lstrlenW(LPCUWSTR String);
-# 105 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stralign.h" 3
+# 105 "C:/tdm64/x86_64-w64-mingw32/include/stralign.h" 3
   typedef WCHAR *PUWSTR_C;
 
 
@@ -86190,15 +86190,15 @@ extern const GUID IID_IPrintDialogServices;
 
   PUWSTR ua_wcscpy(PUWSTR Destination,PCUWSTR Source);
   size_t ua_wcslen(PCUWSTR String);
-# 150 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stralign.h" 3
+# 150 "C:/tdm64/x86_64-w64-mingw32/include/stralign.h" 3
   int ua_wcsicmp(LPCUWSTR String1,LPCUWSTR String2);
-# 205 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stralign.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/stralign_s.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/stralign_s.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stralign.h" 1 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/stralign_s.h" 2 3
-# 206 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/stralign.h" 2 3
-# 115 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 205 "C:/tdm64/x86_64-w64-mingw32/include/stralign.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/sec_api/stralign_s.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/sec_api/stralign_s.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/stralign.h" 1 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/sec_api/stralign_s.h" 2 3
+# 206 "C:/tdm64/x86_64-w64-mingw32/include/stralign.h" 2 3
+# 115 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
 
 
 
@@ -86206,11 +86206,11 @@ extern const GUID IID_IPrintDialogServices;
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winsvc.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winsvc.h" 3
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h" 1 3
-# 10 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winsvc.h" 2 3
-# 95 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winsvc.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/winsvc.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/winsvc.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/_mingw.h" 1 3
+# 10 "C:/tdm64/x86_64-w64-mingw32/include/winsvc.h" 2 3
+# 95 "C:/tdm64/x86_64-w64-mingw32/include/winsvc.h" 3
   typedef struct _SERVICE_DESCRIPTIONA {
     LPSTR lpDescription;
   } SERVICE_DESCRIPTIONA,*LPSERVICE_DESCRIPTIONA;
@@ -86379,7 +86379,7 @@ extern const GUID IID_IPrintDialogServices;
 
   typedef void ( *LPHANDLER_FUNCTION)(DWORD dwControl);
   typedef DWORD ( *LPHANDLER_FUNCTION_EX)(DWORD dwControl,DWORD dwEventType,LPVOID lpEventData,LPVOID lpContext);
-# 282 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/winsvc.h" 3
+# 282 "C:/tdm64/x86_64-w64-mingw32/include/winsvc.h" 3
   __attribute__((dllimport)) WINBOOL ChangeServiceConfigA(SC_HANDLE hService,DWORD dwServiceType,DWORD dwStartType,DWORD dwErrorControl,LPCSTR lpBinaryPathName,LPCSTR lpLoadOrderGroup,LPDWORD lpdwTagId,LPCSTR lpDependencies,LPCSTR lpServiceStartName,LPCSTR lpPassword,LPCSTR lpDisplayName);
   __attribute__((dllimport)) WINBOOL ChangeServiceConfigW(SC_HANDLE hService,DWORD dwServiceType,DWORD dwStartType,DWORD dwErrorControl,LPCWSTR lpBinaryPathName,LPCWSTR lpLoadOrderGroup,LPDWORD lpdwTagId,LPCWSTR lpDependencies,LPCWSTR lpServiceStartName,LPCWSTR lpPassword,LPCWSTR lpDisplayName);
   __attribute__((dllimport)) WINBOOL ChangeServiceConfig2A(SC_HANDLE hService,DWORD dwInfoLevel,LPVOID lpInfo);
@@ -86425,12 +86425,12 @@ extern const GUID IID_IPrintDialogServices;
   __attribute__((dllimport)) WINBOOL StartServiceA(SC_HANDLE hService,DWORD dwNumServiceArgs,LPCSTR *lpServiceArgVectors);
   __attribute__((dllimport)) WINBOOL StartServiceW(SC_HANDLE hService,DWORD dwNumServiceArgs,LPCWSTR *lpServiceArgVectors);
   __attribute__((dllimport)) WINBOOL UnlockServiceDatabase(SC_LOCK ScLock);
-# 123 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 123 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mcx.h" 1 3
-# 9 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/mcx.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/mcx.h" 1 3
+# 9 "C:/tdm64/x86_64-w64-mingw32/include/mcx.h" 3
 typedef struct _MODEMDEVCAPS {
   DWORD dwActualSize;
   DWORD dwRequiredSize;
@@ -86468,12 +86468,12 @@ typedef struct _MODEMSETTINGS {
   DWORD dwNegotiatedDCERate;
   BYTE abVariablePortion [1];
 } MODEMSETTINGS,*PMODEMSETTINGS,*LPMODEMSETTINGS;
-# 127 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 127 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
 
 
 
-# 1 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/imm.h" 1 3
-# 18 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/imm.h" 3
+# 1 "C:/tdm64/x86_64-w64-mingw32/include/imm.h" 1 3
+# 18 "C:/tdm64/x86_64-w64-mingw32/include/imm.h" 3
   struct HIMC__ { int unused; }; typedef struct HIMC__ *HIMC;
   struct HIMCC__ { int unused; }; typedef struct HIMCC__ *HIMCC;
 
@@ -86589,7 +86589,7 @@ typedef struct _MODEMSETTINGS {
   } IMECHARPOSITION,*PIMECHARPOSITION,*NPIMECHARPOSITION,*LPIMECHARPOSITION;
 
   typedef WINBOOL ( *IMCENUMPROC)(HIMC,LPARAM);
-# 143 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/imm.h" 3
+# 143 "C:/tdm64/x86_64-w64-mingw32/include/imm.h" 3
   HKL ImmInstallIMEA(LPCSTR lpszIMEFileName,LPCSTR lpszLayoutText);
   HKL ImmInstallIMEW(LPCWSTR lpszIMEFileName,LPCWSTR lpszLayoutText);
   HWND ImmGetDefaultIMEWnd(HWND);
@@ -86634,7 +86634,7 @@ typedef struct _MODEMSETTINGS {
 
   typedef int ( *REGISTERWORDENUMPROCA)(LPCSTR,DWORD,LPCSTR,LPVOID);
   typedef int ( *REGISTERWORDENUMPROCW)(LPCWSTR,DWORD,LPCWSTR,LPVOID);
-# 199 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/imm.h" 3
+# 199 "C:/tdm64/x86_64-w64-mingw32/include/imm.h" 3
   WINBOOL ImmConfigureIMEA(HKL,HWND,DWORD,LPVOID);
   WINBOOL ImmConfigureIMEW(HKL,HWND,DWORD,LPVOID);
   LRESULT ImmEscapeA(HKL,HIMC,UINT,LPVOID);
@@ -86664,7 +86664,7 @@ typedef struct _MODEMSETTINGS {
   DWORD ImmGetImeMenuItemsA(HIMC,DWORD,DWORD,LPIMEMENUITEMINFOA,LPIMEMENUITEMINFOA,DWORD);
   DWORD ImmGetImeMenuItemsW(HIMC,DWORD,DWORD,LPIMEMENUITEMINFOW,LPIMEMENUITEMINFOW,DWORD);
   WINBOOL ImmDisableTextFrameService(DWORD idThread);
-# 131 "C:/TDM-GCC-64/x86_64-w64-mingw32/include/Windows.h" 2 3
+# 131 "C:/tdm64/x86_64-w64-mingw32/include/Windows.h" 2 3
 # 43 "colors.h" 2
 
 # 43 "colors.h"
@@ -88018,18 +88018,27 @@ ArrayList *createArrayList(position _size, void * _value){
 void push_back_a(ArrayList *self, void * _data){
 # 43 "array-list.c"
     debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:lred}void #{FG:cyan}push_back_a#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p, #{FG:lyellow}void#{FG:white} *_data = %p)" , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 43, self->Array, _data);
+    if (_data == 
+# 44 "array-list.c" 3 4
+                ((void *)0) 
+# 44 "array-list.c"
+                     || self == 
+# 44 "array-list.c" 3 4
+                                ((void *)0)
+# 44 "array-list.c"
+                                    ) return;
     if (!self->Size){
         self->Size = self->Capacity = 1;
 
-        do { self->Array = (void**)malloc(self->Capacity * sizeof(void*)); debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:red}[#{FG:yellow}MALLOC#{FG:red}]#{FG:lred}  #{FG:white}(#{FG:lred}%s#{FG:white}*)#{FG:cyan}malloc#{FG:white}(%d) #{FG:lgreen}Variable#{FG:white}: %s, #{FG:lgreen}Tipo#{FG:white}: %s, #{FG:lgreen}Puntero#{FG:white}: %p" , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 47,"void*", self->Capacity * sizeof(void*), "self->Array", "void*", self->Array); } while (0);
+        do { self->Array = (void**)malloc(self->Capacity * sizeof(void*)); debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:red}[#{FG:yellow}MALLOC#{FG:red}]#{FG:lred}  #{FG:white}(#{FG:lred}%s#{FG:white}*)#{FG:cyan}malloc#{FG:white}(%d) #{FG:lgreen}Variable#{FG:white}: %s, #{FG:lgreen}Tipo#{FG:white}: %s, #{FG:lgreen}Puntero#{FG:white}: %p" , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 48,"void*", self->Capacity * sizeof(void*), "self->Array", "void*", self->Array); } while (0);
 
         self->Array[0] = _data;
     } else if (self->Size == self->Capacity){
         self->Capacity *= 2;
-        debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:red}[#{FG:yellow}push_back_a#{FG:red}] #{FG:white}Capacity update to: #{FG:lgreen}%zu#{FG:white}." , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 52, self->Capacity);
+        debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:red}[#{FG:yellow}push_back_a#{FG:red}] #{FG:white}Capacity update to: #{FG:lgreen}%zu#{FG:white}." , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 53, self->Capacity);
 
         void **ptr_new;
-        do { ptr_new = (void**)malloc(self->Capacity * sizeof(void*)); debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:red}[#{FG:yellow}MALLOC#{FG:red}]#{FG:lred}  #{FG:white}(#{FG:lred}%s#{FG:white}*)#{FG:cyan}malloc#{FG:white}(%d) #{FG:lgreen}Variable#{FG:white}: %s, #{FG:lgreen}Tipo#{FG:white}: %s, #{FG:lgreen}Puntero#{FG:white}: %p" , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 55,"void*", self->Capacity * sizeof(void*), "ptr_new", "void*", ptr_new); } while (0);
+        do { ptr_new = (void**)malloc(self->Capacity * sizeof(void*)); debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:red}[#{FG:yellow}MALLOC#{FG:red}]#{FG:lred}  #{FG:white}(#{FG:lred}%s#{FG:white}*)#{FG:cyan}malloc#{FG:white}(%d) #{FG:lgreen}Variable#{FG:white}: %s, #{FG:lgreen}Tipo#{FG:white}: %s, #{FG:lgreen}Puntero#{FG:white}: %p" , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 56,"void*", self->Capacity * sizeof(void*), "ptr_new", "void*", ptr_new); } while (0);
 
         for(register position i = 0; i < self->Size; i++) ptr_new[i] = self->Array[i];
 
@@ -88066,10 +88075,10 @@ void pop_back_a(ArrayList *self){
 
 
 
-    debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:lred}void #{FG:cyan}pop_back_a#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p)" , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 92, self->Array);
+    debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:lred}void #{FG:cyan}pop_back_a#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p)" , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 93, self->Array);
     if(!self->Size) return;
     self->Array[--self->Size] = 0;
-    debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:red}[#{FG:yellow}pop_back_a#{FG:red}] #{FG:white}Delete element: #{FG:lgreen}%zu#{FG:white}." , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 95, self->Size);
+    debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:red}[#{FG:yellow}pop_back_a#{FG:red}] #{FG:white}Delete element: #{FG:lgreen}%zu#{FG:white}." , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 96, self->Size);
 }
 
 void *front(ArrayList *self){
@@ -88079,17 +88088,17 @@ void *front(ArrayList *self){
 
 
 
-    debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:lred}void #{FG:white}*front#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p)" , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 105, self->Array);
-    debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:lred}void #{FG:white}*#{FG:cyan}front#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;" , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 106, (self->Size != 0) ? self->Array[0] : 
-# 106 "array-list.c" 3 4
+    debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:lred}void #{FG:white}*front#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p)" , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 106, self->Array);
+    debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:lred}void #{FG:white}*#{FG:cyan}front#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;" , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 107, (self->Size != 0) ? self->Array[0] : 
+# 107 "array-list.c" 3 4
    ((void *)0)
-# 106 "array-list.c"
+# 107 "array-list.c"
    );
     if(self->Size) return self->Array[0];
     else return 
-# 108 "array-list.c" 3 4
+# 109 "array-list.c" 3 4
                ((void *)0)
-# 108 "array-list.c"
+# 109 "array-list.c"
                    ;
 }
 
@@ -88100,17 +88109,21 @@ void *back_a(ArrayList *self){
 
 
 
-    debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:lred}void #{FG:white}*#{FG:cyan}back_a#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p)" , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 118, self->Array);
-    debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:lred}void #{FG:white}*#{FG:cyan}back_a#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;" , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 119, (self->Size != 0) ? self->Array[self->Size -1] : 
-# 119 "array-list.c" 3 4
+    debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:lred}void #{FG:white}*#{FG:cyan}back_a#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p)" , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 119, self->Array);
+    debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:lred}void #{FG:white}*#{FG:cyan}back_a#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;" , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 120, (self->Size != 0) ? self->Array[self->Size -1] : 
+# 120 "array-list.c" 3 4
    ((void *)0)
-# 119 "array-list.c"
+# 120 "array-list.c"
    );
-    if(self->Size) return self->Array[self->Size -1];
-    else return 
+    if(self != 
 # 121 "array-list.c" 3 4
-               ((void *)0)
+              ((void *)0) 
 # 121 "array-list.c"
+                   && self->Size) return self->Array[self->Size -1];
+    else return 
+# 122 "array-list.c" 3 4
+               ((void *)0)
+# 122 "array-list.c"
                    ;
 }
 
@@ -88122,15 +88135,15 @@ void shrink_to_fit(ArrayList *self){
 
 
 
-    debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:lred}void #{FG:white}*#{FG:cyan}shrink_to_fit#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p)" , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 132, self->Array);
+    debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:lred}void #{FG:white}*#{FG:cyan}shrink_to_fit#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p)" , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 133, self->Array);
     if (!self->Size && self->Size == self->Capacity) return;
 
 
     void **ptr_new;
-    do { ptr_new = (void**)malloc(self->Size * sizeof(void*)); debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:red}[#{FG:yellow}MALLOC#{FG:red}]#{FG:lred}  #{FG:white}(#{FG:lred}%s#{FG:white}*)#{FG:cyan}malloc#{FG:white}(%d) #{FG:lgreen}Variable#{FG:white}: %s, #{FG:lgreen}Tipo#{FG:white}: %s, #{FG:lgreen}Puntero#{FG:white}: %p" , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 137,"void*", self->Size * sizeof(void*), "ptr_new", "void*", ptr_new); } while (0);
+    do { ptr_new = (void**)malloc(self->Size * sizeof(void*)); debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:red}[#{FG:yellow}MALLOC#{FG:red}]#{FG:lred}  #{FG:white}(#{FG:lred}%s#{FG:white}*)#{FG:cyan}malloc#{FG:white}(%d) #{FG:lgreen}Variable#{FG:white}: %s, #{FG:lgreen}Tipo#{FG:white}: %s, #{FG:lgreen}Puntero#{FG:white}: %p" , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 138,"void*", self->Size * sizeof(void*), "ptr_new", "void*", ptr_new); } while (0);
     for(position i = 0; i < self->Size; i++) ptr_new[i] = self->Array[i];
 
-    debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:red}[#{FG:yellow}shrink_to_fit#{FG:red}] #{FG:white}old capacity: #{FG:lgreen}%zu#{FG:white}, new capacity: #{FG:lgreen}%zu#{FG:white}." , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 140, self->Capacity, self->Size);
+    debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:red}[#{FG:yellow}shrink_to_fit#{FG:red}] #{FG:white}old capacity: #{FG:lgreen}%zu#{FG:white}, new capacity: #{FG:lgreen}%zu#{FG:white}." , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 141, self->Capacity, self->Size);
 
     free(self->Array);
     self->Array = ptr_new;
@@ -88146,14 +88159,14 @@ void *Destroy(ArrayList *self){
 
 
 
-    debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:lred}void #{FG:white}*#{FG:cyan}Destroy#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p)" , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 156, self->Array);
+    debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:lred}void #{FG:white}*#{FG:cyan}Destroy#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p)" , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 157, self->Array);
     free(self->Array);
     self->Array = 
-# 158 "array-list.c" 3 4
+# 159 "array-list.c" 3 4
                  ((void *)0)
-# 158 "array-list.c"
+# 159 "array-list.c"
                      ;
-    debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:lred}void #{FG:white}*#{FG:cyan}Destroy#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;" , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 159, self->Array);
+    debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:lred}void #{FG:white}*#{FG:cyan}Destroy#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;" , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 160, self->Array);
     return self->Array;
 }
 
@@ -88164,7 +88177,7 @@ void forEach(ArrayList *self){
 
 
 
-    debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:lred}void #{FG:cyan}forEach#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p)" , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 170, self->Array);
+    debug_print(DEBUG_LEVEL_INFO, "#{FG:lgreen}[#{FG:lpurple}%s#{FG:reset}:#{FG:cyan}%s#{FG:reset}:#{FG:red}%d#{FG:green}]#{BG:reset} " "#{FG:lred}void #{FG:cyan}forEach#{FG:white}(#{FG:lyellow}ArrayList #{FG:white}*self = %p)" , get_level_debug(DEBUG_LEVEL_INFO), "array-list.c", 171, self->Array);
     if(!self->Size) return;
     printf("Vector info\n\n");
     for (position i = 0; i < self->Size; i++){

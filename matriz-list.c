@@ -14,7 +14,6 @@ position calcularPosicionVector(const dimensiones *dimensiones_, const position 
 
     return posicion;
 }
-
 Matriz *createMatriz(dimensiones dimensionesMatriz, ...)
 {
     // crea una matriz multidimensional
@@ -24,6 +23,15 @@ Matriz *createMatriz(dimensiones dimensionesMatriz, ...)
     Matriz *my_matriz = newMatriz();
 
     va_list copy1;
+    va_copy(copy1, args);
+
+    // numero de argumentos que tiene la funcion:
+    position n_args = 0;
+    while (va_arg(copy1, position))
+    {
+        n_args++;
+    }
+
     va_copy(copy1, args);
     // calcular la cantidad de elementos para la matriz:
     position totalElements = get_size_va_list(dimensionesMatriz, copy1);
