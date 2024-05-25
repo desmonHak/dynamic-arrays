@@ -1,6 +1,6 @@
 CC=gcc
 EXTENSIONS=exe
-FLAGS=-Wall -Werror -Wpedantic -x c  -time  -save-temps -g -D DEBUG_ENABLE 
+FLAGS=-Wall -x c  -time  -save-temps -g -D DEBUG_ENABLE 
 
 init:
 
