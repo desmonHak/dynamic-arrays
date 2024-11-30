@@ -40,7 +40,8 @@ void __destructor_time_contador__(){
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:white} El programa tardo #{FG:red}%.6f#{FG:white} segundos en ejecutarse.\n#{FG:reset}", tiempo_total);
     #else
     printf_color("#{FG:white} El programa tardo #{FG:red}%.6f#{FG:white} segundos en ejecutarse.\n#{FG:reset}", tiempo_total);
-    #endif}
+    #endif
+}
 #endif
 
 #endif
