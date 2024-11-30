@@ -2,7 +2,7 @@
 #define DEBUG_ENABLE
 #endif
 
-#include "../time_code.h"
+#include "../DebugLibC/time_code.h"
 #include "../matriz-list.h"
 
 // -Wall -Werror -Wpedantic -x c  -time  -save-temps -g

@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
-#include "debug_c.h"
+#include "./DebugLibC/debug_c.h"
 
 #ifndef push_back
 #define push_back(array, ...) _Generic((array), \

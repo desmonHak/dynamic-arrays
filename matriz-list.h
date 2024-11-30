@@ -1,7 +1,7 @@
 #ifndef __MATRIZ_LIST_H__
 #define __MATRIZ_LIST_H__
 
-#include "debug_c.h"
+#include "./DebugLibC/debug_c.h"
 #include "array-list.h"
 #include <stdarg.h>
 #include <math.h>

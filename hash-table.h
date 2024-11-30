@@ -7,7 +7,7 @@
 #include <stdint.h>
 #include <string.h>
 #include <time.h>
-#include "debug_c.h"
+#include "./DebugLibC/debug_c.h"
 
 typedef struct Entry {
     char* key;
