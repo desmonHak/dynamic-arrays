@@ -1,4 +1,4 @@
-# dynamic-arrays
+# structs data C
 
 ----
 
