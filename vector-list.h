@@ -24,26 +24,27 @@ typedef struct
 #ifdef push_back
 #undef push_back
 #define push_back(array, ...) _Generic((array), \
-    ArrayList*: push_back_a,                      \
+    ArrayList*: push_back_a,                    \
+    LinkedList*: push_back_v,                   \
     default: push_back_a)(array,__VA_ARGS__)
 
 #endif
 #ifdef pop_back
 #undef pop_back
 #define pop_back(list) _Generic((list), \
-    ArrayList*: pop_back_a,                      \
+    ArrayList*: pop_back_a,             \
     LinkedList*: pop_back_v)(list)
 #endif
 #ifdef size
 #undef size
 #define size(list) _Generic((list), \
-    ArrayList*: size_a,                      \
+    ArrayList*: size_a,             \
     LinkedList*: size_v)(list)
 #endif
 
 #ifndef back
 #define back(list) _Generic((list), \
-    ArrayList*: back_a,                      \
+    ArrayList*: back_a,             \
     LinkedList*: back_v)(list)
 #endif
 

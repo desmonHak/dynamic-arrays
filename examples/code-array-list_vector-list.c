@@ -3,7 +3,7 @@
 #endif
 
 #define __VECTOR_LIST_DEBBUG__
-#include "vector-list.h"
+#include "../vector-list.h"
 
 int main(){
 
