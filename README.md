@@ -17,5 +17,4 @@ Estas implementaciones hacen uso de la cabecera `colors.h` la cual puede situar 
 
 `colors.h` tiene una implementacion de una funcion llamada `printf_color` la cual permite mostrar texto de forma mas estetica con solores ANSI, lo cual es mas comodo al usar las cabeceras `time_code.h` y `debug_c.h` para realizar debugging. De las dos anteriormente mencionadas, la primera permite cronometrar cuanto se tarda en finalizar el programa desde que inicia hasta que finalizar, la segunda permite mostrar informacion de debug personalizada.
 
-
 ----
