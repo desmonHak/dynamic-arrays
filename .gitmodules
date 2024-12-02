@@ -1,3 +1,4 @@
 [submodule "DebugLibC"]
 	path = DebugLibC
 	url = https://github.com/desmonHak/DebugLibC.git
+	branch = main
