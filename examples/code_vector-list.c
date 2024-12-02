@@ -41,10 +41,10 @@ int main()
         while (current != NULL)
         {
             int *data = (int *)current->data;
-            printf("%d ", *data);
+            printf_color("%d ", *data);
             current = current->next;
         }
-        printf("\n");
+        printf_color("\n");
     }
 
     // Liberar la memoria de la matriz y sus elementos
@@ -77,37 +77,37 @@ int main()
     insertNode(list, n4);
     insertNode(list, n5);
 
-    printf("%d\n", get_element(int, list, 0));
-    printf("%f\n", get_element(float, list, 1));
-    printf("%c\n", get_element(char, list, 2));
+    printf_color("%d\n", get_element(int, list, 0));
+    printf_color("%f\n", get_element(float, list, 1));
+    printf_color("%c\n", get_element(char, list, 2));
 
-    printf("Lista enlazada: ");
+    printf_color("Lista enlazada: ");
     printLinkedList(list);
 
     deleteNodeID(list, 1);
     deleteNodeID(list, 4);
 
-    printf("Lista enlazada despues de eliminar nodos: ");
+    printf_color("Lista enlazada despues de eliminar nodos: ");
     printLinkedList(list);
 
-    printf("pop_back: %d\n", pop_back(list));
+    printf_color("pop_back: %d\n", pop_back(list));
     printLinkedList(list);
 
-    printf("push_back: %d\n", push_back(list, n1));
+    printf_color("push_back: %d\n", push_back(list, n1));
     printLinkedList(list);
 
     position na = push_back(list, n1);
-    printf("push_back: %d\n", na);
+    printf_color("push_back: %d\n", na);
     printLinkedList(list);
 
-    printf("posicion: %d\n", get_position(get_node(list, na)));
+    printf_color("posicion: %d\n", get_position(get_node(list, na)));
 
-    printf("push_back: %d\n", push_back(list, n1));
+    printf_color("push_back: %d\n", push_back(list, n1));
     printLinkedList(list);
 
     Node *my_last_node = get_last_node(list);
     exists(list,my_last_node);
-    printf("last position: %zu\n", get_last_position(list));
+    printf_color("last position: %zu\n", get_last_position(list));
     void *my_data = get_last(list);
     deleteNode(list, my_last_node);
 
@@ -134,7 +134,7 @@ int main()
     insertNode(list, n5);
     insertNode(list, n5);
     insertNode(list, n5);
-    printf("size del vector: %d\n", size_v(list));
+    printf_color("size del vector: %d\n", size_v(list));
     freeLinkedList(list);
     printLinkedList(list);
 

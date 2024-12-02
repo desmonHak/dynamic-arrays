@@ -710,7 +710,7 @@ void printLinkedList(LinkedList *list)
         printf_color("#{FG:red}%zu ", current->id); // Imprimir el ID del nodo
         current = current->next;
     }
-    printf("\n");
+    printf_color("\n");
 }
 
 void freeLinkedList(LinkedList *list)

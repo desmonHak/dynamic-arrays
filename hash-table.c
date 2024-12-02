@@ -62,7 +62,7 @@ void put(HashTable* hashTable, const char* key, void* value) {
     #endif
 
     size_t index = hash(key, hashTable->capacity);
-    //printf("put: %zu\n", index);
+    //printf_color("put: %zu\n", index);
 
     //Entry* entry = (Entry*)malloc(sizeof(Entry));
     Entry* entry;
@@ -159,7 +159,7 @@ void printHashTable(HashTable* hashTable) {
     for (size_t i = 0; i < hashTable->capacity; i++) {
         Entry* entry = hashTable->table[i];
         while (entry != NULL) {
-            printf("Key: %s, Value: %p\n", entry->key, entry->value);
+            printf_color("Key: %s, Value: %p\n", entry->key, entry->value);
             entry = entry->next;
         }
     }

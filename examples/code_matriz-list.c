@@ -43,24 +43,24 @@ int main()
 
     // f(arr1, a, b, c) -> (a * y*x) % (z*y*x) + (b * x) % (y * x) + c % x
     
-    (void)printf("arr1[%u] = %d; %d\n",((0 * 4*5 ) % (2*4*5) + (3 * 5) % (4*5) + 4 % 5) , *(((0 * 4*5 ) % (2*4*5) + (3 * 5) % (4*5) + 4 % 5) +arr1),0);
-    (void)printf("arr1[%u] = %d; %d\n",((0 * 4*5 ) % (2*4*5) + (3 * 5) % (4*5) + 4 % 5) , arr1[((0 * 4*5 ) % (2*4*5) + (3 * 5) % (4*5) + 4 % 5)],0);
+    (void)printf_color("arr1[%u] = %d; %d\n",((0 * 4*5 ) % (2*4*5) + (3 * 5) % (4*5) + 4 % 5) , *(((0 * 4*5 ) % (2*4*5) + (3 * 5) % (4*5) + 4 % 5) +arr1),0);
+    (void)printf_color("arr1[%u] = %d; %d\n",((0 * 4*5 ) % (2*4*5) + (3 * 5) % (4*5) + 4 % 5) , arr1[((0 * 4*5 ) % (2*4*5) + (3 * 5) % (4*5) + 4 % 5)],0);
 //% 4*5,% 5, malloc(( (1 * 4*5) + ((3 * 5) ) + 4 ) * sizeof(int))
     // crear una matriz tridimensional de 5x5x5
     Matriz *my_matriz = createMatriz(4, 5, 5, 5, 5);
     //Matriz *my_matriz = createMatriz(3, 5, 5, 5);
 
 
-    (void)printf("get_size_total_calc: %zu\n", get_size_total_calc(4, 5, 5, 5, 5));
-    (void)printf("get_size_matriz: %zu\n", get_size_matriz(my_matriz));
+    (void)printf_color("get_size_total_calc: %zu\n", get_size_total_calc(4, 5, 5, 5, 5));
+    (void)printf_color("get_size_matriz: %zu\n", get_size_matriz(my_matriz));
     //forEach(my_matriz->dimensiones_matriz);
     //forEach(my_matriz->list);
     void *ptr = front(my_matriz->list);
     if (!ptr){
-        printf("El front del vector es %zu\n", *((position *)(my_matriz->list->Array)));
-        printf("El front del vector es %zu\n", get_val(position, ptr));
+        printf_color("El front del vector es %zu\n", *((position *)(my_matriz->list->Array)));
+        printf_color("El front del vector es %zu\n", get_val(position, ptr));
     } else {
-        printf("El front del vector es NULL, %p\n", (void *)my_matriz->list);
+        printf_color("El front del vector es NULL, %p\n", (void *)my_matriz->list);
     }
     
     my_matriz = freeMatriz(my_matriz);

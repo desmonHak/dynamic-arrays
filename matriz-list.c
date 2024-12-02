@@ -35,7 +35,7 @@ Matriz *createMatriz(dimensiones dimensionesMatriz, ...)
     va_copy(copy1, args);
     // calcular la cantidad de elementos para la matriz:
     position totalElements = get_size_va_list(dimensionesMatriz, copy1);
-    printf("\ntotalElements: %p == %zu\n ", (void*)totalElements, totalElements);
+    printf_color("\ntotalElements: %p == %zu\n ", (void*)totalElements, totalElements);
 
     va_copy(copy1, args);
     my_matriz->dimensiones_matriz = dimensiones_matriz_va_list(dimensionesMatriz, copy1);
@@ -47,15 +47,15 @@ Matriz *createMatriz(dimensiones dimensionesMatriz, ...)
     };
 
     /*for(position i = 0; i < totalElements; i++){
-        printf("createArrayList: \n ");
+        printf_color("createArrayList: \n ");
         ArrayList *a = createArrayList(totalElements, NULL);
-        printf("totalElements: %p\n ", a);
+        printf_color("totalElements: %p\n ", a);
         
         get_element(void*, my_matriz->list, (void*)a);
-        printf("s: %p\n ", a);
+        printf_color("s: %p\n ", a);
     }*/
 
-    printf("totalElements: %zu\n ", totalElements);
+    printf_color("totalElements: %zu\n ", totalElements);
 
     va_end(copy1);
     va_end(args);
@@ -86,7 +86,7 @@ dimensiones get_size_va_list(dimensiones dimensionesMatriz, va_list args)
     {
         position num = va_arg(args, position);
         totalElements *= num;
-        printf("(%zu), ", num);
+        printf_color("(%zu), ", num);
     }
     return totalElements;
 }

@@ -21,22 +21,22 @@ int main(){
     push_back_v(list, n1);
     push_back_v(list, n2);
 
-    printf("El front del vector es %s\n", get_val(char*, front(array)));
-    printf("El back del vector es %lld\n", get_val(long long, back(array)));
+    printf_color("El front del vector es %s\n", get_val(char*, front(array)));
+    printf_color("El back del vector es %lld\n", get_val(long long, back(array)));
 
-    printf("%s\n", get_element(char*, list, 0));
-    printf("%lld\n", get_element(long long, list, 1));
+    printf_color("%s\n", get_element(char*, list, 0));
+    printf_color("%lld\n", get_element(long long, list, 1));
 
-    printf("size vector-list: %zu\n", size(list));
-    printf("size array-list: %zu\n", size(array));
+    printf_color("size vector-list: %zu\n", size(list));
+    printf_color("size array-list: %zu\n", size(array));
 
     pop_back(list);
-    printf("size vector-list: %zu\n", size(list));
-    printf("size array-list: %zu\n", size(array));
+    printf_color("size vector-list: %zu\n", size(list));
+    printf_color("size array-list: %zu\n", size(array));
 
     pop_back(array);
-    printf("size vector-list: %zu\n", size(list));
-    printf("size array-list: %zu\n", size(array));
+    printf_color("size vector-list: %zu\n", size(list));
+    printf_color("size array-list: %zu\n", size(array));
 
     Destroy(array);
 

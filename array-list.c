@@ -31,7 +31,7 @@ ArrayList *createArrayList(position _size, void * _value){
     if (self->Array == NULL) DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}createArrayList#{FG:red}] #{FG:lred}Error malloc#{FG:white}: Error alloc #{FG:lgreen}%zu#{FG:white} bytes#{FG:lgreen}#{FG:white}.\n", self->Capacity * sizeof(void*));
 
     for(position i = 0; i < _size; i++){
-        //printf("aaa %p %d", self->Array, self->Capacity*sizeof(void*));
+        //printf_color("aaa %p %d", self->Array, self->Capacity*sizeof(void*));
         self->Array[i] = _value;
     }
     return self;
@@ -229,11 +229,11 @@ void forEach(ArrayList *self){
      * 
      */
     if(!self && !self->Size) return;
-    printf("Vector info\n\n");
+    printf_color("Vector info\n\n");
     for (position i = 0; i < self->Size; i++){
         printf_color("\t #{FG:lred}%ld#{FG:lwhite}. #{FG:lcyan}%zu\n", i , get_val(size_t, self->Array[i]));
     }
-    printf("\n-----\n");
+    printf_color("\n-----\n");
 }
 
 #endif

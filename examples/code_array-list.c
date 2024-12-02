@@ -29,32 +29,32 @@ int main(){
     //pop(&array);
 
     /*for (position i = 0; i < size(&array);i++){
-        printf("\t%zu\n", array.Array[i]);
+        printf_color("\t%zu\n", array.Array[i]);
     }*/
 
 
-    printf("El front del vector es %s\n", get_val(char*, front(array)));
+    printf_color("El front del vector es %s\n", get_val(char*, front(array)));
     void *ptr = back(array);
     if (ptr != NULL){
         
-        printf("El back del vector es %zu\n", get_val(size_t, ptr));
+        printf_color("El back del vector es %zu\n", get_val(size_t, ptr));
     }
 
-    printf("Antes del shrinking\n");
-    printf("El size del vector es %zu\n", size(array));
-    printf("El capacity del vector es %zu\n", capacity(array));
+    printf_color("Antes del shrinking\n");
+    printf_color("El size del vector es %zu\n", size(array));
+    printf_color("El capacity del vector es %zu\n", capacity(array));
 
     shrink_to_fit(array);
 
-    printf("Despues del shrinking\n");
-    printf("El size del vector es %zu\n", size(array));
-    printf("El capacity del vector es %zu\n", capacity(array));
+    printf_color("Despues del shrinking\n");
+    printf_color("El size del vector es %zu\n", size(array));
+    printf_color("El capacity del vector es %zu\n", capacity(array));
 
     element_def_asg(long long, n7, 89LL)
     push_back(array, n7);
-    printf("Despues del push_back\n");
-    printf("El size del vector es %zu\n", size(array));
-    printf("El capacity del vector es %zu\n", capacity(array));
+    printf_color("Despues del push_back\n");
+    printf_color("El size del vector es %zu\n", size(array));
+    printf_color("El capacity del vector es %zu\n", capacity(array));
     
     forEach(array);
 
@@ -63,6 +63,6 @@ int main(){
 
     Destroy(array);
 
-    printf("\n");
+    printf_color("\n");
 
 }

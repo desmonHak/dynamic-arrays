@@ -23,7 +23,7 @@ int main() {
         unsigned char key[2];
         key[0] = 'A' + i% 'Z'; // Assuming the keys are 'A' to 'J'
         key[1] = '\0';
-        //printf("%s\n", key);
+        //printf_color("%s\n", key);
 
         put(hashTable, (const char *)key, val);
         debug_set_level(DEBUG_LEVEL_INFO);
@@ -31,17 +31,17 @@ int main() {
     }
 
     // Get values
-    printf("Value for key 'key1': %d\n", *(int*)get(hashTable, (const char *)"key1"));
-    printf("Value for key 'key2': %d\n", *(int*)get(hashTable, (const char *)"key2"));
-    printf("Value for key 'key3': %d\n", *(int*)get(hashTable, (const char *)"key3"));
+    printf_color("Value for key 'key1': %d\n", *(int*)get(hashTable, (const char *)"key1"));
+    printf_color("Value for key 'key2': %d\n", *(int*)get(hashTable, (const char *)"key2"));
+    printf_color("Value for key 'key3': %d\n", *(int*)get(hashTable, (const char *)"key3"));
 
     // Print hash table
-    printf("Hash Table:\n");
+    printf_color("Hash Table:\n");
     printHashTable(hashTable);
 
     // Print size and capacity
-    printf("Size: %zu\n", hashTable->size);
-    printf("Capacity: %zu\n", hashTable->capacity);
+    printf_color("Size: %zu\n", hashTable->size);
+    printf_color("Capacity: %zu\n", hashTable->capacity);
 
     // Free memory
     freeHashTable(hashTable);
