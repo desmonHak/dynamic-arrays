@@ -2,3 +2,8 @@
 	path = DebugLibC
 	url = https://github.com/desmonHak/DebugLibC.git
 	branch = main
+
+[submodule "colors-C-C-plus-plus"]
+    path = DebugLibC/colors-C-C-plus-plus
+    url = https://github.com/desmonHak/colors-C-C-plus-plus.git
+    branch = main
