@@ -23,6 +23,7 @@ void __attribute__((constructor)) __constructor_array_dinamic__()
     table_matriz_->head = NULL;
     table_matriz_->lastId = 0; // al crearse la lista la posicion incial es 0
 }
+#ifndef DISABLE__destructor_array_dinamic__
 void __attribute__((destructor)) __destructor_array_dinamic__()
 {
     #ifdef DEBUG_ENABLE
@@ -76,6 +77,7 @@ void __attribute__((destructor)) __destructor_array_dinamic__()
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}__destructor_array_dinamic__#{FG:red}] #{FG:white} Tabla de vectores liberada exitosamente. \n");
 #endif
 }
+#endif
 
 void free_all_vector()
 {
@@ -661,7 +663,7 @@ void clear(LinkedList *list)
     list->lastId = 0; // Restablecer el valor de lastId a 0
 }
 
-const position size_v(LinkedList *list)
+const position size_v(register LinkedList *list)
 {
     #ifdef DEBUG_ENABLE
         DEBUG_PRINT(DEBUG_LEVEL_INFO,
@@ -679,8 +681,8 @@ const position size_v(LinkedList *list)
     }
 
     DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}const position #{FG:cyan}size_v#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list = %p)\n", list);
-    size_t count = 0;
-    Node *current = list->head;
+    register size_t count = 0;
+    register Node *current = list->head;
     while (current != NULL)
     {
         count++;

@@ -2,7 +2,7 @@
 #define __HASH_TABLE_c__
 
 #include "hash-table.h"
-unsigned long hash(const char* str, size_t size) {
+unsigned long hash(register const char* str, register size_t size) {
     #ifdef DEBUG_ENABLE
         DEBUG_PRINT(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(unsigned long, hash)
@@ -11,8 +11,9 @@ unsigned long hash(const char* str, size_t size) {
             END_TYPE_FUNC_DBG,
             str, size);
     #endif
-    size_t hash = 0x1505;
-    int c;
+    register size_t hash = 0x1505;
+
+    register int c;
     while ((c = *str++)) { 
         hash = ((hash << 5) + hash) + c; /* hash * 33 + c  djb2 hash algorithm */
     }
@@ -113,7 +114,7 @@ void put(HashTable* hashTable, const char* key, void* value) {
 }
 
 
-void* get(HashTable* hashTable, const char* key) {
+void* get(HashTable* hashTable, register const char* key) {
     #ifdef DEBUG_ENABLE
         DEBUG_PRINT(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(void*, get)
@@ -131,7 +132,7 @@ void* get(HashTable* hashTable, const char* key) {
 
     size_t index = hash(key, hashTable->capacity);
 
-    Entry* entry = hashTable->table[index];
+    register Entry* entry = hashTable->table[index];
     while (entry != NULL) {
         if (strcmp(entry->key, key) == 0) {
             return entry->value;
