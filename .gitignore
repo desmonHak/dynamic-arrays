@@ -6,3 +6,7 @@
 *.o
 .vscode
 *.json
+*.out
+*grpof*
+gmon.*
+error_log.txt
