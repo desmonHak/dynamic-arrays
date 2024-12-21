@@ -115,7 +115,7 @@ void deleteNode(LinkedList *list, Node *node);
  * @param list Lista enlazada.
  * @param ID   ID del nodo a eliminar.
  */
-void deleteNodeID(LinkedList *list, const position ID);
+int deleteNodeID(LinkedList *list, const position ID);
 
 /**
  * Actualiza los IDs de los nodos en la lista enlazada después de eliminar un nodo.

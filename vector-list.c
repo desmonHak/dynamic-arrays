@@ -83,9 +83,6 @@ void free_all_vector()
             );
     /*  Esta función se encarga de liberar los vectores almacenados en table_matriz_ */
     DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:cyan}free_all_vector#{FG:white}()\n");
-#ifdef __VECTOR_LIST_DEBBUG__
-    DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}free_all_vector#{FG:red}] #{FG:white} liberando. \n");
-#endif
 
     // Liberar los vectores almacenados en table_matriz_
     Node *current = table_matriz_->head;
@@ -94,19 +91,19 @@ void free_all_vector()
         Node *next = current->next;
         LinkedList *vector = (LinkedList *)current->data;
 
-        if (vector != NULL)
-        {
-            /* Eliminar el nodo de la tabla de vectores */
-            deleteNodeID(table_matriz_, current->id); // Eliminar el nodo de la tabla de vectores
-
-            if (vector->head != NULL)
-            {
-                /* Liberar el vector */
-                freeLinkedList(vector); // Liberar el vector
+        if (vector != NULL){
+            #ifdef __VECTOR_LIST_DEBBUG__
+                printLinkedList(vector);
+            #endif
+            if (deleteNodeID(vector, size_v(vector)-1) == -1) {
+                freeLinkedList(vector);
+                current->data = NULL;
             }
         }
-
-        current = next;
+        #ifdef __VECTOR_LIST_DEBBUG__
+            printLinkedList(table_matriz_);
+        #endif
+        deleteNodeID(table_matriz_, size_v(table_matriz_)-1);
     }
 #ifdef __VECTOR_LIST_DEBBUG__
     DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}free_all_vector#{FG:red}] #{FG:white} vectores liberados. \n");
@@ -387,7 +384,7 @@ void deleteNode(LinkedList *list, Node *node)
     }
 }*/
 
-void deleteNodeID(LinkedList *list, const position ID)
+int deleteNodeID(LinkedList *list, const position ID)
 {
 
         DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO,
@@ -399,10 +396,10 @@ void deleteNodeID(LinkedList *list, const position ID)
 
     if (list == NULL || list->head == NULL)
     {
-#ifdef __VECTOR_LIST_DEBBUG__
-        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}deleteNodeID#{FG:red}] #{FG:white} La lista esta vacia.\n");
-#endif
-        return;
+        #ifdef __VECTOR_LIST_DEBBUG__
+                DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}deleteNodeID#{FG:red}] #{FG:white} La lista esta vacia.\n");
+        #endif
+        return -1;
     }
 
     // Comprobar si el nodo a eliminar es el primer nodo de la lista
@@ -418,7 +415,7 @@ void deleteNodeID(LinkedList *list, const position ID)
         free(temp);
         // Actualizar los IDs de los nodos en la lista
         updateIds(list);
-        return;
+        return 0;
     }
 
     // Buscar el nodo a eliminar en la lista
@@ -456,12 +453,14 @@ void deleteNodeID(LinkedList *list, const position ID)
         free(current);
         // Actualizar los IDs de los nodos en la lista
         updateIds(list);
+        return 0;
     }
     else
     {
-#ifdef __VECTOR_LIST_DEBBUG__
-        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}deleteNodeID#{FG:red}] #{FG:white} El nodo con ID #{FG:lgreen}%d#{FG:white} no se encontro en la lista.\n", ID);
-#endif
+        #ifdef __VECTOR_LIST_DEBBUG__
+            DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}deleteNodeID#{FG:red}] #{FG:white} El nodo con ID #{FG:lgreen}%d#{FG:white} no se encontro en la lista.\n", ID);
+        #endif
+        return -1;
     }
 }
 void updateIds(LinkedList *list)
