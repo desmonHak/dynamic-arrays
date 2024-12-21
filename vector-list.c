@@ -5,12 +5,10 @@
 
 void __attribute__((constructor)) __constructor_array_dinamic__()
 {
-    #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(void __attribute__((constructor)) , __constructor_array_dinamic__)
             END_TYPE_FUNC_DBG
             );
-    #endif
     /*
      *
      *  Esta función es un constructor que se ejecutará automáticamente antes de que se inicie la ejecución
@@ -26,12 +24,10 @@ void __attribute__((constructor)) __constructor_array_dinamic__()
 #ifndef DISABLE__destructor_array_dinamic__
 void __attribute__((destructor)) __destructor_array_dinamic__()
 {
-    #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(void __attribute__((destructor)) , __destructor_array_dinamic__)
             END_TYPE_FUNC_DBG
             );
-    #endif
     /*
      *
      *  Esta función es un destructor que se ejecutará automáticamente al finalizar
@@ -74,23 +70,21 @@ void __attribute__((destructor)) __destructor_array_dinamic__()
     // Liberar table_matriz_ en sí
     freeLinkedList(table_matriz_); // Liberar la tabla de vectores
 #ifdef __VECTOR_LIST_DEBBUG__
-    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}__destructor_array_dinamic__#{FG:red}] #{FG:white} Tabla de vectores liberada exitosamente. \n");
+    DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}__destructor_array_dinamic__#{FG:red}] #{FG:white} Tabla de vectores liberada exitosamente. \n");
 #endif
 }
 #endif
 
 void free_all_vector()
 {
-    #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(void , free_all_vector)
             END_TYPE_FUNC_DBG
             );
-    #endif
     /*  Esta función se encarga de liberar los vectores almacenados en table_matriz_ */
-    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:cyan}free_all_vector#{FG:white}()\n");
+    DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:cyan}free_all_vector#{FG:white}()\n");
 #ifdef __VECTOR_LIST_DEBBUG__
-    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}free_all_vector#{FG:red}] #{FG:white} liberando. \n");
+    DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}free_all_vector#{FG:red}] #{FG:white} liberando. \n");
 #endif
 
     // Liberar los vectores almacenados en table_matriz_
@@ -115,23 +109,21 @@ void free_all_vector()
         current = next;
     }
 #ifdef __VECTOR_LIST_DEBBUG__
-    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}free_all_vector#{FG:red}] #{FG:white} vectores liberados. \n");
+    DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}free_all_vector#{FG:red}] #{FG:white} vectores liberados. \n");
 #endif
 }
 
 Node *get_node(LinkedList *list, const position pos)
 {
-    #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(Node * , get_node)
                 TYPE_DATA_DBG(LinkedList *, "list = %p")
                 TYPE_DATA_DBG(const position, "pos = %d")
             END_TYPE_FUNC_DBG,
             list, pos);
-    #endif
     if (list == NULL || pos < 0)
     {
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}get_node#{FG:red}] #{FG:white} Lista invalida o posicion invalida \n");
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}get_node#{FG:red}] #{FG:white} Lista invalida o posicion invalida \n");
         return NULL; // Lista inválida o posición inválida
     }
 
@@ -145,25 +137,22 @@ Node *get_node(LinkedList *list, const position pos)
 
 const position get_position(Node *node)
 {
-    #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(const position , get_position)
                 TYPE_DATA_DBG(Node *, "node = %p")
             END_TYPE_FUNC_DBG,
             node);
-    #endif
     if (node == NULL) return -1; // Nodo nulo, posición inválida
     return node->id;
 }
 
 LinkedList *createLinkedList()
 {
-    #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(LinkedList * , createLinkedList)
             END_TYPE_FUNC_DBG
             );
-    #endif
+
     // Crear una nueva lista enlazada
     // LinkedList *list = (LinkedList *)malloc(sizeof(LinkedList));
     LinkedList *list;
@@ -174,7 +163,7 @@ LinkedList *createLinkedList()
     // Insertar una referencia de la lista en la tabla de registros
     insertNode(table_matriz_, list);
 #ifdef __VECTOR_LIST_DEBBUG__
-    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}createLinkedList#{FG:red}] #{FG:white} Registro de vectores reservados en run time (table_matriz_): \n");
+    DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}createLinkedList#{FG:red}] #{FG:white} Registro de vectores reservados en run time (table_matriz_): \n");
     printLinkedList(table_matriz_);
 #endif
 
@@ -183,14 +172,13 @@ LinkedList *createLinkedList()
 
 void *get_element_v(LinkedList *list, const position ID)
 {
-    #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(void * , get_element_v)
                 TYPE_DATA_DBG(LinkedList *, "list = %p")
                 TYPE_DATA_DBG(const position, "ID = %u")
             END_TYPE_FUNC_DBG,
             list, ID);
-    #endif
+
     // Buscar el elemento en la lista enlazada con el ID especificado
     if (list == NULL) return NULL;
 
@@ -200,7 +188,7 @@ void *get_element_v(LinkedList *list, const position ID)
         if (current->id == ID)
         {
             // El ID coincide, devolver el puntero de datos del nodo actual
-            DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*#{FG:cyan}get_element_v#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list, #{FG:lyellow}const position #{FG:white}ID#{FG:white}) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p\n;", current->data);
+            DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*#{FG:cyan}get_element_v#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list, #{FG:lyellow}const position #{FG:white}ID#{FG:white}) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p\n;", current->data);
             return current->data;
         }
         current = current->next; // Avanzar al siguiente nodo
@@ -210,14 +198,12 @@ void *get_element_v(LinkedList *list, const position ID)
 
 void insertNode(LinkedList *list, void *data)
 {
-    #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(void  , insertNode)
                 TYPE_DATA_DBG(LinkedList *, "list = %p")
                 TYPE_DATA_DBG(void *, "data = %u")
             END_TYPE_FUNC_DBG,
             list, data);
-    #endif
     if (list == NULL || data == NULL) return;
     // Crear un nuevo nodo
     // Node *newNode = (Node *)malloc(sizeof(Node));
@@ -226,7 +212,7 @@ void insertNode(LinkedList *list, void *data)
 
     // Asignar un ID único al nodo
     newNode->id = list->lastId++;
-    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}insertNode#{FG:red}] #{FG:white}Data insert in node with ID: #{FG:lgreen}%zu#{FG:white}.\n", newNode->id);
+    DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}insertNode#{FG:red}] #{FG:white}Data insert in node with ID: #{FG:lgreen}%zu#{FG:white}.\n", newNode->id);
 
     newNode->data = data; // Asignar el puntero de datos al nodo
     newNode->next = NULL; // Establecer el puntero next del nodo como NULL
@@ -250,14 +236,14 @@ void insertNode(LinkedList *list, void *data)
 }
 bool existsID(LinkedList *list, const position ID)
 {
-    #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(bool  , existsID)
                 TYPE_DATA_DBG(LinkedList *, "list = %p")
                 TYPE_DATA_DBG(const position, "ID = %u")
             END_TYPE_FUNC_DBG,
             list, ID);
-    #endif
+
     /*
      *
      *  Comprueba si existe una lista que tenga el ID especificado
@@ -282,14 +268,13 @@ bool existsID(LinkedList *list, const position ID)
 
 bool exists(LinkedList *list, Node *node)
 {
-    #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(bool  , exists)
                 TYPE_DATA_DBG(LinkedList *, "list = %p")
                 TYPE_DATA_DBG(Node *, "node = %p")
             END_TYPE_FUNC_DBG,
             list, node);
-    #endif    
+
     if (list == NULL || node == NULL) return false;
 
     Node *current = list->head; // Inicializar el puntero current al primer nodo de la lista
@@ -302,32 +287,32 @@ bool exists(LinkedList *list, Node *node)
         if (current == node)
         {
             // Si se encuentra el nodo, retornar true
-            DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred} bool#{FG:cyan} exists#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list, #{FG:lyellow}Node #{FG:white}node) #{FG:lred}-> #{FG:lgreen}return #{FG:white}true\n");
+            DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:lred} bool#{FG:cyan} exists#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list, #{FG:lyellow}Node #{FG:white}node) #{FG:lred}-> #{FG:lgreen}return #{FG:white}true\n");
             return true;
         }
         // Avanzar al siguiente nodo
         current = current->next;
     }
     // Si no se encuentra el nodo, retornar false
-    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}bool #{FG:cyan}exists#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list, #{FG:lyellow}Node #{FG:white}node) #{FG:lred}-> #{FG:lgreen}return #{FG:white}false\n");
+    DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:lred}bool #{FG:cyan}exists#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list, #{FG:lyellow}Node #{FG:white}node) #{FG:lred}-> #{FG:lgreen}return #{FG:white}false\n");
     return false;
 }
 
 void deleteNode(LinkedList *list, Node *node)
 {
-    #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(void , deleteNode)
                 TYPE_DATA_DBG(LinkedList *, "list = %p")
                 TYPE_DATA_DBG(Node *, "node = %p")
             END_TYPE_FUNC_DBG,
             list, node);
-    #endif   
-    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:cyan}deleteNode#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list = %p, #{FG:lyellow}Node* #{FG:white}node = %p#{FG:white})\n", list, node);
+
+    DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:cyan}deleteNode#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list = %p, #{FG:lyellow}Node* #{FG:white}node = %p#{FG:white})\n", list, node);
     // Comprobar si la lista o el nodo son nulos
     if (list == NULL || list->head == NULL || node == NULL)
     {
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}deleteNode#{FG:red}] #{FG:white} La lista o el nodo son nulos. \n");
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}deleteNode#{FG:red}] #{FG:white} La lista o el nodo son nulos. \n");
         // Si la lista o el nodo son nulos, retornar sin hacer nada
         return;
     }
@@ -338,7 +323,7 @@ void deleteNode(LinkedList *list, Node *node)
         // Actualizar el puntero head para eliminar el primer nodo
         list->head = list->head->next;
         // Liberar la memoria del nodo eliminado
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}deleteNode#{FG:red}] #{FG:white} nodo encontrado \n");
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}deleteNode#{FG:red}] #{FG:white} nodo encontrado \n");
         free(node);
         // Actualizar los IDs de los nodos en la lista
         updateIds(list);
@@ -368,7 +353,7 @@ void deleteNode(LinkedList *list, Node *node)
     else
     {
         // Si el nodo no se encontró en la lista, mostrar un mensaje de error
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}deleteNode#{FG:red}] #{FG:white} El nodo no se encontro en la lista. \n");
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}deleteNode#{FG:red}] #{FG:white} El nodo no se encontro en la lista. \n");
     }
 }
 
@@ -376,7 +361,7 @@ void deleteNode(LinkedList *list, Node *node)
 {
     Node *current = list->head;
     Node *previous = NULL;
-    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:cyan}deleteNodeID#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list = %p, #{FG:lyellow}const position #{FG:white}ID = %zu#{FG:white})", list, ID);
+    DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:cyan}deleteNodeID#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list = %p, #{FG:lyellow}const position #{FG:white}ID = %zu#{FG:white})", list, ID);
 
     while (current != NULL)
     {
@@ -391,7 +376,7 @@ void deleteNode(LinkedList *list, Node *node)
             {
                 list->head = current->next;
             }
-            DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}deleteNodeID#{FG:red}] #{FG:white} ID: #{FG:lgreen}%zu#{FG:white}, encontrado ", ID);
+            DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}deleteNodeID#{FG:red}] #{FG:white} ID: #{FG:lgreen}%zu#{FG:white}, encontrado ", ID);
             free(current);
             updateIds(list);
             return;
@@ -404,18 +389,18 @@ void deleteNode(LinkedList *list, Node *node)
 
 void deleteNodeID(LinkedList *list, const position ID)
 {
-    #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(void , deleteNodeID)
                 TYPE_DATA_DBG(LinkedList *, "list = %p")
                 TYPE_DATA_DBG(const position, "ID = %u")
             END_TYPE_FUNC_DBG,
             list, ID);
-    #endif 
+
     if (list == NULL || list->head == NULL)
     {
 #ifdef __VECTOR_LIST_DEBBUG__
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}deleteNodeID#{FG:red}] #{FG:white} La lista esta vacia.\n");
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}deleteNodeID#{FG:red}] #{FG:white} La lista esta vacia.\n");
 #endif
         return;
     }
@@ -427,7 +412,7 @@ void deleteNodeID(LinkedList *list, const position ID)
         Node *temp = list->head;
         // Actualizar el puntero head para eliminar el primer nodo
         list->head = list->head->next;
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}deleteNodeID#{FG:red}] #{FG:white} ID: #{FG:lgreen}%zu#{FG:white}, encontrado\n", ID);
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}deleteNodeID#{FG:red}] #{FG:white} ID: #{FG:lgreen}%zu#{FG:white}, encontrado\n", ID);
         // free(temp->data);  // Liberar el contenido del nodo
         // Liberar la memoria del nodo eliminado
         free(temp);
@@ -454,7 +439,7 @@ void deleteNodeID(LinkedList *list, const position ID)
             {
                 Node *temp = current;
                 current->head = list->head->next;
-                DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}deleteNodeID#{FG:red}] #{FG:white} ID: #{FG:lgreen}%zu#{FG:white}, encontrado ", ID);
+                DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}deleteNodeID#{FG:red}] #{FG:white} ID: #{FG:lgreen}%zu#{FG:white}, encontrado ", ID);
                 // free(temp->data);  // Liberar el contenido del nodo
                 free(temp);
                 updateIds(list);
@@ -475,19 +460,19 @@ void deleteNodeID(LinkedList *list, const position ID)
     else
     {
 #ifdef __VECTOR_LIST_DEBBUG__
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}deleteNodeID#{FG:red}] #{FG:white} El nodo con ID #{FG:lgreen}%d#{FG:white} no se encontro en la lista.\n", ID);
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}deleteNodeID#{FG:red}] #{FG:white} El nodo con ID #{FG:lgreen}%d#{FG:white} no se encontro en la lista.\n", ID);
 #endif
     }
 }
 void updateIds(LinkedList *list)
 {
-    #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(void , updateIds)
                 TYPE_DATA_DBG(LinkedList *, "list = %p")
             END_TYPE_FUNC_DBG,
             list);
-    #endif 
+
     if (list == NULL) return;
 
     // Establecer el primer nodo como el nodo actual
@@ -506,7 +491,7 @@ void updateIds(LinkedList *list)
 
 /*void updateIds(LinkedList *list)
 {
-    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:cyan}deleteNodeID#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list = %p#{FG:white})", list);
+    DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:cyan}deleteNodeID#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list = %p#{FG:white})", list);
     Node *current = list->head;
     position newId = 0;
 
@@ -522,17 +507,17 @@ void updateIds(LinkedList *list)
 
 const position pop_back_v(LinkedList *list)
 {
-    #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(const position , pop_back_v)
                 TYPE_DATA_DBG(LinkedList *, "list = %p")
             END_TYPE_FUNC_DBG,
             list);
-    #endif 
+
     // Comprobar si la lista está vacía
     if (list == NULL || list->head == NULL)
     {
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}pop_back_v#{FG:red}] #{FG:white} La lista esta vacia.\n");
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}pop_back_v#{FG:red}] #{FG:white} La lista esta vacia.\n");
         // La lista está vacía, retornar -1
         return -1;
     }
@@ -547,7 +532,7 @@ const position pop_back_v(LinkedList *list)
         list->head = NULL;
         // Restablecer el valor de lastId a 0
         list->lastId = 0;
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}const position #{FG:cyan}pop_back_v#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;\n", id);
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:lred}const position #{FG:cyan}pop_back_v#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;\n", id);
         // Retornar el ID del nodo eliminado
         return id;
     }
@@ -567,7 +552,7 @@ const position pop_back_v(LinkedList *list)
         current->next = NULL;
         // Actualizar los IDs después de eliminar el nodo
         updateIds(list); 
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}const position #{FG:cyan}pop_back_v#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;\n", id);
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:lred}const position #{FG:cyan}pop_back_v#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;\n", id);
         // Retornar el ID del nodo eliminado
         return id;
     }
@@ -575,19 +560,19 @@ const position pop_back_v(LinkedList *list)
 
 const position push_back_v(LinkedList *list, void *data)
 {
-    #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(const position , push_back_v)
                 TYPE_DATA_DBG(LinkedList *, "list = %p")
                 TYPE_DATA_DBG(void *, "data = %p")
             END_TYPE_FUNC_DBG,
             list, data);
-    #endif 
+
     // Comprobar si la lista o los datos son inválidos
     if (list == NULL || data == NULL)
     {
         // La lista es inválida o los datos no son válidos, retornar -1
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}push_back_v#{FG:red}] #{FG:white} La lista es invalida o data no es valido. \n");
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}push_back_v#{FG:red}] #{FG:white} La lista es invalida o data no es valido. \n");
         return -1;
     }
 
@@ -616,41 +601,41 @@ const position push_back_v(LinkedList *list, void *data)
         // Enlazar el nuevo nodo al final de la lista
         current->next = newNode;
     }
-    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}const position #{FG:cyan}push_back_v#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list, #{FG:lyellow}void* #{FG:white}node) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;\n", newNode->id);
+    DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:lred}const position #{FG:cyan}push_back_v#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list, #{FG:lyellow}void* #{FG:white}node) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;\n", newNode->id);
     // Retornar el ID del nuevo nodo agregado
     return newNode->id;
 }
 
 bool empty(LinkedList *list)
 {
-    #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(bool , empty)
                 TYPE_DATA_DBG(LinkedList *, "list = %p")
             END_TYPE_FUNC_DBG,
             list);
-    #endif 
+
     // Comprobar si la lista es inválida
     if (list == NULL)
     {
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}bool #{FG:cyan}empty#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list) #{FG:lred}-> #{FG:lgreen}return #{FG:white}false\n");
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}empty#{FG:red}] #{FG:white} La lista es invalida.\n");
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:lred}bool #{FG:cyan}empty#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list) #{FG:lred}-> #{FG:lgreen}return #{FG:white}false\n");
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}empty#{FG:red}] #{FG:white} La lista es invalida.\n");
         return false;
     }
     // Comprobar si la lista está vacía
-    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}bool #{FG:cyan}empty#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%s\n", list->head == NULL ? "false" : "true");
+    DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:lred}bool #{FG:cyan}empty#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%s\n", list->head == NULL ? "false" : "true");
     return (list->head == NULL);
 }
 
 void clear(LinkedList *list)
 {
-    #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(void , clear)
                 TYPE_DATA_DBG(LinkedList *, "list = %p")
             END_TYPE_FUNC_DBG,
             list);
-    #endif 
+
     if (list == NULL) return;
     Node *current = list->head;
     while (current != NULL)
@@ -665,22 +650,22 @@ void clear(LinkedList *list)
 
 const position size_v(register LinkedList *list)
 {
-    #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(const position , size_v)
                 TYPE_DATA_DBG(LinkedList *, "list = %p")
             END_TYPE_FUNC_DBG,
             list);
-    #endif 
+
     // Comprobar si la lista es inválida
     if (list == NULL)
     {
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}const position #{FG:cyan}size_v#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list) #{FG:lred}-> #{FG:lgreen}return #{FG:white}-1\n");
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}size_v#{FG:red}] #{FG:white} La lista es inválida. \n");
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:lred}const position #{FG:cyan}size_v#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list) #{FG:lred}-> #{FG:lgreen}return #{FG:white}-1\n");
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}size_v#{FG:red}] #{FG:white} La lista es inválida. \n");
         return -1;
     }
 
-    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}const position #{FG:cyan}size_v#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list = %p)\n", list);
+    DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:lred}const position #{FG:cyan}size_v#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list = %p)\n", list);
     register size_t count = 0;
     register Node *current = list->head;
     while (current != NULL)
@@ -688,22 +673,22 @@ const position size_v(register LinkedList *list)
         count++;
         current = current->next;
     }
-    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}const position #{FG:cyan}size_v#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;\n", count);
+    DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:lred}const position #{FG:cyan}size_v#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;\n", count);
     return count;
 }
 
 void printLinkedList(LinkedList *list)
 {
-    #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(void , printLinkedList)
                 TYPE_DATA_DBG(LinkedList *, "list = %p")
             END_TYPE_FUNC_DBG,
             list);
-    #endif 
+
     if (list == NULL)
     {
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}printLinkedList#{FG:red}] La lista no es valida#{FG:white} \n ");
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}printLinkedList#{FG:red}] La lista no es valida#{FG:white} \n ");
         return;
     }
     Node *current = list->head;
@@ -717,21 +702,21 @@ void printLinkedList(LinkedList *list)
 
 void freeLinkedList(LinkedList *list)
 {
-    #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(void , freeLinkedList)
                 TYPE_DATA_DBG(LinkedList *, "list = %p")
             END_TYPE_FUNC_DBG,
             list);
-    #endif 
+
 #ifdef __VECTOR_LIST_DEBBUG__
-    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}freeLinkedList#{FG:red}] #{FG:white} Registro de vectores reservados en run time (table_matriz_): \n");
+    DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}freeLinkedList#{FG:red}] #{FG:white} Registro de vectores reservados en run time (table_matriz_): \n");
     printLinkedList(table_matriz_);
 #endif
 
     if (list == NULL)
     {
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}freeLinkedList#{FG:red}] #{FG:white} Lista invalida \n");
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}freeLinkedList#{FG:red}] #{FG:white} Lista invalida \n");
         return;
     }
 
@@ -739,7 +724,7 @@ void freeLinkedList(LinkedList *list)
     while (current != NULL)
     {
 #ifdef __VECTOR_LIST_DEBBUG__
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}freeLinkedList#{FG:red}] #{FG:white} freeLinkedList: %zu\n ", current->id);
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}freeLinkedList#{FG:red}] #{FG:white} freeLinkedList: %zu\n ", current->id);
 #endif
         Node *temp = current;
         current = current->next;
@@ -753,17 +738,17 @@ void freeLinkedList(LinkedList *list)
 }
 Node *get_last_node(LinkedList *list)
 {
-    #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(Node * , get_last_node)
                 TYPE_DATA_DBG(LinkedList *, "list = %p")
             END_TYPE_FUNC_DBG,
             list);
-    #endif 
+
     if (list == NULL || list->head == NULL)
     {
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}get_last_node#{FG:red}] #{FG:white}Lista vacia\n");
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}Node #{FG:white}*#{FG:cyan}get_last_node#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;\n", NULL);
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:red}[#{FG:yellow}get_last_node#{FG:red}] #{FG:white}Lista vacia\n");
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:lred}Node #{FG:white}*#{FG:cyan}get_last_node#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;\n", NULL);
         return NULL; // Lista vacía
     }
 
@@ -772,52 +757,52 @@ Node *get_last_node(LinkedList *list)
     {
         current = current->next;
     }
-    DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}Node #{FG:white}*#{FG:cyan}get_last_node#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;\n", current);
+    DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:lred}Node #{FG:white}*#{FG:cyan}get_last_node#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;\n", current);
     return current;
 }
 
 void *get_last(LinkedList *list)
 {
-    #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(void * , get_last)
                 TYPE_DATA_DBG(LinkedList *, "list = %p")
             END_TYPE_FUNC_DBG,
             list);
-    #endif 
+
     if (list == NULL) return NULL;
     Node *lastNode = get_last_node(list);
     if (lastNode != NULL)
     {
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*#{FG:cyan}get_last#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;\n", lastNode->data);
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*#{FG:cyan}get_last#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;\n", lastNode->data);
         return lastNode->data;
     }
     else
     {
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*#{FG:cyan}get_last#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;\n", NULL);
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:lred}void #{FG:white}*#{FG:cyan}get_last#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%p;\n", NULL);
         return NULL;
     }
 }
 
 const position get_last_position(LinkedList *list)
 {
-    #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(const position , get_last_position)
                 TYPE_DATA_DBG(LinkedList *, "list = %p")
             END_TYPE_FUNC_DBG,
             list);
-    #endif 
+
     if (list == NULL) return 0;
     Node *lastNode = get_last_node(list);
     if (lastNode != NULL)
     {
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}const position #{FG:cyan}get_last#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%zu;\n", lastNode->id);
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:lred}const position #{FG:cyan}get_last#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%zu;\n", lastNode->id);
         return lastNode->id;
     }
     else
     {
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "#{FG:lred}const position #{FG:cyan}get_last#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%zu;\n", -1);
+        DEBUG_PRINT_VECTOR_LIST(DEBUG_LEVEL_INFO, "#{FG:lred}const position #{FG:cyan}get_last#{FG:white}(#{FG:lyellow}LinkedList  #{FG:white}*list) #{FG:lred}-> #{FG:lgreen}return #{FG:white}%zu;\n", -1);
         return -1; // Lista vacía
     }
 }

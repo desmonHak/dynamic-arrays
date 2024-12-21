@@ -9,6 +9,12 @@
 #include <time.h>
 #include "./DebugLibC/debug_c.h"
 
+#if defined(DEBUG_ENABLE) && defined(DEBUG_HASH_TABLE)
+#define DEBUG_PRINT_HASH_TABLE DEBUG_PRINT
+#else
+#define DEBUG_PRINT_HASH_TABLE
+#endif
+
 typedef struct Entry {
     char* key;
     void* value;

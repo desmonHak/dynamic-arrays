@@ -4,7 +4,7 @@
 #include "hash-table.h"
 unsigned long hash(register const char* str, register size_t size) {
     #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+        DEBUG_PRINT_HASH_TABLE(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(unsigned long, hash)
                 TYPE_DATA_DBG(const char*, "str = %s")
                 TYPE_DATA_DBG(size_t, "size = %zu")
@@ -23,7 +23,7 @@ unsigned long hash(register const char* str, register size_t size) {
 
 HashTable* createHashTable(size_t size) {
     #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+        DEBUG_PRINT_HASH_TABLE(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(HashTable*, createHashTable)
                 TYPE_DATA_DBG(size_t, "size = %zu")
             END_TYPE_FUNC_DBG,
@@ -42,7 +42,7 @@ HashTable* createHashTable(size_t size) {
 void put(HashTable* hashTable, const char* key, void* value) {
     if ((key == value) || (key == (const char*)NULL) || (hashTable == NULL)) {
         #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_WARNING,
+        DEBUG_PRINT_HASH_TABLE(DEBUG_LEVEL_WARNING,
             INIT_TYPE_FUNC_DBG(void, put)
                 TYPE_DATA_DBG(HashTable*, "hashTable = %p")
                 TYPE_DATA_DBG(const char*, "key = %s")
@@ -53,7 +53,7 @@ void put(HashTable* hashTable, const char* key, void* value) {
         return;
     }
     #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+        DEBUG_PRINT_HASH_TABLE(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(void, put)
                 TYPE_DATA_DBG(HashTable*, "hashTable = %p")
                 TYPE_DATA_DBG(const char*, "key = %s")
@@ -116,7 +116,7 @@ void put(HashTable* hashTable, const char* key, void* value) {
 
 void* get(HashTable* hashTable, register const char* key) {
     #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+        DEBUG_PRINT_HASH_TABLE(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(void*, get)
                 TYPE_DATA_DBG(HashTable*, "hashTable = %p")
                 TYPE_DATA_DBG(const char*, "key = %s")
@@ -126,7 +126,7 @@ void* get(HashTable* hashTable, register const char* key) {
     #ifdef __ERROR_H__ 
     if (hashTable == NULL){
         debug_set_level(DEBUG_LEVEL_WARNING);
-        DEBUG_PRINT(DEBUG_LEVEL_WARNING, "get(HashTable* hashTable = %p, const char* key = NULL(%p))\n", hashTable, key);
+        DEBUG_PRINT_HASH_TABLE(DEBUG_LEVEL_WARNING, "get(HashTable* hashTable = %p, const char* key = NULL(%p))\n", hashTable, key);
     }
     #endif
 
@@ -146,7 +146,7 @@ void* get(HashTable* hashTable, register const char* key) {
 void printHashTable(HashTable* hashTable) {
 
     #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+        DEBUG_PRINT_HASH_TABLE(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(void, printHashTable)
                 TYPE_DATA_DBG(HashTable*, "hashTable = %p")
             END_TYPE_FUNC_DBG,
@@ -154,7 +154,7 @@ void printHashTable(HashTable* hashTable) {
 
     if (hashTable == NULL){
         debug_set_level(DEBUG_LEVEL_INFO);
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "printHashTable: NULL(%p)\n", hashTable);
+        DEBUG_PRINT_HASH_TABLE(DEBUG_LEVEL_INFO, "printHashTable: NULL(%p)\n", hashTable);
     }
     #endif
     for (size_t i = 0; i < hashTable->capacity; i++) {
@@ -168,7 +168,7 @@ void printHashTable(HashTable* hashTable) {
 
 void freeHashTable(HashTable* hashTable) {
     #ifdef DEBUG_ENABLE
-        DEBUG_PRINT(DEBUG_LEVEL_INFO,
+        DEBUG_PRINT_HASH_TABLE(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(void, freeHashTable)
                 TYPE_DATA_DBG(HashTable*, "hashTable = %p")
             END_TYPE_FUNC_DBG,
@@ -176,7 +176,7 @@ void freeHashTable(HashTable* hashTable) {
 
     if (hashTable == NULL){
         debug_set_level(DEBUG_LEVEL_INFO);
-        DEBUG_PRINT(DEBUG_LEVEL_INFO, "freeHashTable: NULL(%p)\n", hashTable);
+        DEBUG_PRINT_HASH_TABLE(DEBUG_LEVEL_INFO, "freeHashTable: NULL(%p)\n", hashTable);
     }
     #endif
     for (size_t i = 0; i < hashTable->size; i++) {
