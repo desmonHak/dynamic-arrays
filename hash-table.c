@@ -165,8 +165,11 @@ void printHashTable(HashTable* hashTable) {
         }
     }
 }
-
-void freeHashTable(HashTable* hashTable) {
+/*
+    Función para liberar una HashTable, solo libera las entradas de la tabla de hash y su clave,
+    los valores asociados a cada entrada deben ser liberados por el programador.
+*/
+void freeHashTable_struct(HashTable* hashTable) {
     #ifdef DEBUG_ENABLE
         DEBUG_PRINT_HASH_TABLE(DEBUG_LEVEL_INFO,
             INIT_TYPE_FUNC_DBG(void, freeHashTable)
@@ -189,6 +192,31 @@ void freeHashTable(HashTable* hashTable) {
         }
         hashTable->table[i] = NULL; // Set the table slot to NULL after freeing entries
     }
+}
+
+/*
+    Función para liberar una HashTable con valores dinámicos usando un callback,
+    permite eliminar todos los valores de la tabla hash via callback
+*/
+void freeHashTable_all(HashTable* hashTable, void (*freeValue)(void*)) {
+    if (hashTable == NULL) return;
+
+    for (size_t i = 0; i < hashTable->capacity; i++) {
+        Entry* entry = hashTable->table[i];
+        while (entry != NULL) {
+            Entry* temp = entry;
+            entry = entry->next;
+            free(temp->key);
+            if (freeValue != NULL && temp->value != NULL) {
+                freeValue(temp->value);
+            }
+            free(temp);
+        }
+    }
+
+    free(hashTable->table);
+    free(hashTable);
+    printf("HashTable con valores dinámicos liberada.\n");
 }
 
 #endif

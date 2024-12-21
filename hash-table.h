@@ -32,7 +32,15 @@ unsigned long hash(const char* str, size_t size);
 void *get(HashTable *hashTable, const char *key);
 void put(HashTable *hashTable, const char *key, void *value);
 void printHashTable(HashTable *hashTable);
-void freeHashTable(HashTable *hashTable);
+void freeHashTable_struct(HashTable *hashTable);
+void freeHashTable_all(HashTable* hashTable, void (*freeValue)(void*));
+
+// Macro para detectar número de argumentos
+#define GET_MACRO(_1, _2, NAME, ...) NAME
+#ifndef freeHashTable
+#define freeHashTable(...) GET_MACRO(__VA_ARGS__, freeHashTable_all, freeHashTable_struct)(__VA_ARGS__)
+#endif
+
 
 #include "hash-table.c"
 #endif
